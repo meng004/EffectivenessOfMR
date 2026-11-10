@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Toy test payload only: approximate half-lives (s), two disconnected decay chains. -->
+<depletion_chain>
+  <nuclide name="I135" half_life="23688.0" decay_modes="1" reactions="0">
+    <decay type="beta-" target="Xe135" branching_ratio="1.0"/>
+  </nuclide>
+  <nuclide name="Xe135" half_life="32904.0" decay_modes="1" reactions="0">
+    <decay type="beta-" target="Cs135" branching_ratio="1.0"/>
+  </nuclide>
+  <nuclide name="Cs135" decay_modes="0" reactions="0"/>
+  <nuclide name="Sr90" half_life="908523000.0" decay_modes="1" reactions="0">
+    <decay type="beta-" target="Y90" branching_ratio="1.0"/>
+  </nuclide>
+  <nuclide name="Y90" half_life="230400.0" decay_modes="1" reactions="0">
+    <decay type="beta-" target="Zr90" branching_ratio="1.0"/>
+  </nuclide>
+  <nuclide name="Zr90" decay_modes="0" reactions="0"/>
+</depletion_chain>
