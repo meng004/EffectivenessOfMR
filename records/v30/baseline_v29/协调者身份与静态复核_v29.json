@@ -1,0 +1,15 @@
+{
+  "scope": "协调者独立静态字节/文本对照；不是重新运行科学证据或形式化证明检查",
+  "baseline_sha256": "3b2941c279a8d8945a71be97f9d4679fbdb95c11b0b2096f106e70d46c31ecb1",
+  "manuscript_sha256": "6d45b9a106bfb665939b0269a3f571e513230839ce764fab51d623d684139d70",
+  "display_formulas_count": 17,
+  "display_formulas_ordered_exact": true,
+  "references_count": 43,
+  "references_exact": true,
+  "appendix_E_exact": true,
+  "baseline_copy_count": 33,
+  "baseline_copy_byte_identical": true,
+  "replacement_characters": 0,
+  "science_executed": false,
+  "notes": "20保护科学表与100项静态结果见编辑者检查；独立复审另作实质评判，不能用字符串存在代替语义检查。"
+}

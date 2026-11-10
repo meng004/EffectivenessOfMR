@@ -1,0 +1,52 @@
+{
+  "scope": "Root independent text/hash checks only; no SUT or scientific artifact code executed.",
+  "baseline_sha256": "6d45b9a106bfb665939b0269a3f571e513230839ce764fab51d623d684139d70",
+  "manuscript_sha256": "451fa78c9a88746db961aadc4ee99f8ee1f32cc13d902e8afe8442dfd283c73d",
+  "display_formulas": {
+    "counts": [
+      17,
+      17
+    ],
+    "multiset_identical": true
+  },
+  "inline_dollar_formulas": {
+    "counts": [
+      19,
+      19
+    ],
+    "multiset_identical": true
+  },
+  "baseline_files": {
+    "count": 49,
+    "same_path_set": true,
+    "all_sha_identical": true
+  },
+  "required_headings": true,
+  "formal_propositions": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "corollary_1": true,
+  "editorial_phrase_scan": {
+    "该例依次回答": 0,
+    "贯穿例": 0,
+    "贯彻例": 0,
+    "本文要预测的对象": 0,
+    "主论证链": 0,
+    "回收至贡献": 0,
+    "本轮润色": 0
+  },
+  "static_report": true,
+  "exact_unified_diff": true,
+  "termination_clarification": {
+    "lines": [
+      165,
+      1027
+    ],
+    "finite_termination_or_convergence_claimed": false
+  },
+  "final_chars": 84290,
+  "final_diff_lines": 965
+}

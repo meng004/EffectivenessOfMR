@@ -1,0 +1,41 @@
+{
+  "schema": "v30-reference-notes/1.0",
+  "scope": "No new reading or metadata verification. Notes are inherited historical reading scope.",
+  "migrations": [
+    {
+      "id": 22,
+      "baseline_reference": "[22] Xiaoyuan Xie, Zhiyi Zhang, Tsong Yueh Chen, Yang Liu, Pak-Lok Poon, Baowen Xu. METTLE: A METamorphic Testing Approach to Assessing and Validating Unsupervised Machine Learning Systems. IEEE Transactions on Reliability 69(4):1293–1322, 2020. https://doi.org/10.1109/TR.2020.2972266 （定向核读作者稿arXiv:1807.10453v4，非终版逐字核验。）",
+      "final_reference": "[22] Xiaoyuan Xie, Zhiyi Zhang, Tsong Yueh Chen, Yang Liu, Pak-Lok Poon, Baowen Xu. METTLE: A METamorphic Testing Approach to Assessing and Validating Unsupervised Machine Learning Systems. IEEE Transactions on Reliability 69(4):1293–1322, 2020. https://doi.org/10.1109/TR.2020.2972266 （参考版本：作者稿arXiv:1807.10453v4。）",
+      "moved_reading_note": "（定向核读作者稿arXiv:1807.10453v4，非终版逐字核验。）",
+      "reason": "阅读过程移入来源记录；作者题名出版元数据DOI/URL及实际版本不变"
+    },
+    {
+      "id": 24,
+      "baseline_reference": "[24] Chang-ai Sun, An Fu, Pak-Lok Poon, Xiaoyuan Xie, Huai Liu, Tsong Yueh Chen. METRIC+: A Metamorphic Relation Identification Technique Based on Input Plus Output Domains. IEEE Transactions on Software Engineering 47(9):1764–1785, 2021. https://doi.org/10.1109/TSE.2019.2934848 （官方Journal First扩展摘要及独立检索转交的全文§2.1／§6.7定位；非本写作对话全文核验。）",
+      "final_reference": "[24] Chang-ai Sun, An Fu, Pak-Lok Poon, Xiaoyuan Xie, Huai Liu, Tsong Yueh Chen. METRIC+: A Metamorphic Relation Identification Technique Based on Input Plus Output Domains. IEEE Transactions on Software Engineering 47(9):1764–1785, 2021. https://doi.org/10.1109/TSE.2019.2934848",
+      "moved_reading_note": "（官方Journal First扩展摘要及独立检索转交的全文§2.1／§6.7定位；非本写作对话全文核验。）",
+      "reason": "阅读过程移入来源记录；作者题名出版元数据DOI/URL及实际版本不变"
+    },
+    {
+      "id": 25,
+      "baseline_reference": "[25] Zhi Quan Zhou, Liqun Sun, Tsong Yueh Chen, Dave Towey. Metamorphic Relations for Enhancing System Understanding and Use. IEEE Transactions on Software Engineering 46(10):1120–1154, 2020. https://doi.org/10.1109/TSE.2018.2876433 （摘要、官方Journal First及机构索引范围；全文未取得。）",
+      "final_reference": "[25] Zhi Quan Zhou, Liqun Sun, Tsong Yueh Chen, Dave Towey. Metamorphic Relations for Enhancing System Understanding and Use. IEEE Transactions on Software Engineering 46(10):1120–1154, 2020. https://doi.org/10.1109/TSE.2018.2876433",
+      "moved_reading_note": "（摘要、官方Journal First及机构索引范围；全文未取得。）",
+      "reason": "阅读过程移入来源记录；作者题名出版元数据DOI/URL及实际版本不变"
+    },
+    {
+      "id": 42,
+      "baseline_reference": "[42] OpenMC Documentation. Depletion. Methods, Chapter 10. https://docs.openmc.org/en/stable/methods/depletion.html （本轮读取§10.1—10.3；软件背景，不认证本文冻结运行身份。）",
+      "final_reference": "[42] OpenMC Documentation. Depletion. Methods, Chapter 10. https://docs.openmc.org/en/stable/methods/depletion.html",
+      "moved_reading_note": "（本轮读取§10.1—10.3；软件背景，不认证本文冻结运行身份。）",
+      "reason": "阅读过程移入来源记录；作者题名出版元数据DOI/URL及实际版本不变"
+    },
+    {
+      "id": 43,
+      "baseline_reference": "[43] OpenMOC Documentation. Method of Characteristics. https://mit-crpg.github.io/OpenMOC/methods/method_of_characteristics.html （本轮读取§2.1—2.4；一般方法背景，本文固定源案例的无裂变子问题另定。）",
+      "final_reference": "[43] OpenMOC Documentation. Method of Characteristics. https://mit-crpg.github.io/OpenMOC/methods/method_of_characteristics.html",
+      "moved_reading_note": "（本轮读取§2.1—2.4；一般方法背景，本文固定源案例的无裂变子问题另定。）",
+      "reason": "阅读过程移入来源记录；作者题名出版元数据DOI/URL及实际版本不变"
+    }
+  ]
+}

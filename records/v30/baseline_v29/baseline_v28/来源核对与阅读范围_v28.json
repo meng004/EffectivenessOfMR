@@ -1,0 +1,164 @@
+{
+  "schema": "v28-sources/1.0",
+  "date": "2026-11-08",
+  "baseline": {
+    "library_file_id": "libfile_fde3_f-e8848e3b79c88191bd9a5aab751c09b5_0494671ff73c819189f74404b3b983a5",
+    "version": 0,
+    "sha256": "a2e9a36f5f28f87fe5229ae2fadc1434dbe26818d0c2446c1aeb2f4213f92c39"
+  },
+  "window": {
+    "start": "2023-11-08",
+    "end": "2026-11-08",
+    "rule": "Distinguish formal publication within the window from first public release within the window."
+  },
+  "team_policy": "Meng Li and Shiyu Yan are author-team members per user. These names cannot count as independent literature. No overlap with the supplied team names in four new author lists does not prove absence of all collaboration or institutional ties.",
+  "literature": [
+    {
+      "key": "GenMorph",
+      "authors": [
+        "Jon Ayerdi",
+        "Valerio Terragni",
+        "Gunel Jahangirova",
+        "Aitor Arrieta",
+        "Paolo Tonella"
+      ],
+      "title": "GenMorph: Automatically Generating Metamorphic Relations via Genetic Programming",
+      "venue": "IEEE Transactions on Software Engineering",
+      "year": 2024,
+      "volume": 50,
+      "issue": 7,
+      "pages": "1888–1900",
+      "doi": "10.1109/TSE.2024.3407840",
+      "first_public": "2023-12-23",
+      "formal_issue_date_from_institution": "2024-07-31",
+      "primary_sources": [
+        "https://arxiv.org/abs/2312.15302",
+        "https://valerio-terragni.github.io/assets/pdf/ayerdi-tse-2024.pdf",
+        "https://kclpure.kcl.ac.uk/portal/en/publications/genmorph-automatically-generating-metamorphic-relations-via-genet/"
+      ],
+      "root_read": "Author-PDF title/abstract, targeted §2 implementation-vs-intention caveat and §7 filtering including Randoop/OASIs, selected §8 RQ descriptions; arXiv history and author institution metadata. Not full paper or artifact reproduction.",
+      "parent_research_read_reported": "Targeted full-text §2/3/6–8/10 (reported by parent; not counted as root full read).",
+      "use": "Acknowledge existing FP/FN objectives and empirical counterexample filtering; distinguish relation-specific discrete target/observation/error reasoning without claiming prior work ignored validity."
+    },
+    {
+      "key": "MR-Scout",
+      "authors": [
+        "Congying Xu",
+        "Valerio Terragni",
+        "Hengcheng Zhu",
+        "Jiarong Wu",
+        "Shing-Chi Cheung"
+      ],
+      "title": "MR-Scout: Automated Synthesis of Metamorphic Relations from Existing Test Cases",
+      "venue": "ACM Transactions on Software Engineering and Methodology",
+      "year": 2024,
+      "volume": 33,
+      "issue": 6,
+      "article": 150,
+      "pages": "1–28",
+      "doi": "10.1145/3656340",
+      "first_public": "2023-04-15",
+      "formal_published": "2024-06-29",
+      "primary_sources": [
+        "https://doi.org/10.1145/3656340",
+        "https://arxiv.org/abs/2304.07548"
+      ],
+      "root_read": "Publisher search-expanded full-text excerpts §3.3 and §5.3, metadata and arXiv submission history. Direct DOI open HTTP403. No whole-paper or artifact reproduction claim.",
+      "parent_research_read_reported": "Targeted §3.3/5.3.",
+      "use": "Prior-test synthesis, input-validity proxies and empirical filtering; not all-domain semantic proof. Formal publication is recent, first public release is outside the rolling window. Hengcheng Zhu is not Hong Zhu."
+    },
+    {
+      "key": "MARS",
+      "authors": [
+        "Clay Stevens",
+        "Katherine Kjeer",
+        "Ryan Richard",
+        "Edward Valeev",
+        "Myra B. Cohen"
+      ],
+      "title": "Model Assisted Refinement of Metamorphic Relations for Scientific Software",
+      "venue": "ICSE 2025 New Ideas and Emerging Results (NIER)",
+      "year": 2025,
+      "doi": "10.1109/ICSE-NIER66352.2025.00012",
+      "presentation_date": "2025-04-30",
+      "first_public": "Not independently established by this coordinator",
+      "primary_sources": [
+        "https://faculty.sites.iastate.edu/mcohen/files/inline-files/MARS_2025_pre-print.pdf",
+        "https://conf.researchr.org/details/icse-2025/icse-2025-nier/22/Model-Assisted-Refinement-of-Metamorphic-Relations-for-Scientific-Software",
+        "https://dl.acm.org/doi/10.1109/ICSE-NIER66352.2025.00012"
+      ],
+      "root_read": "Author-PDF title/abstract and §II including true/false/unknown trace semantics; beginning of §III; official program track and author list; publisher DOI search metadata. Not complete experiment audit.",
+      "parent_research_read_reported": "Targeted §II–III.",
+      "use": "Domain-guided trace/Z3 refinement is a relevant scientific-software neighbor. NIER vision/exploratory paper, not a full research-track study. Its unknown means missing qualifying distinct traces, not our numerical certification unknown."
+    },
+    {
+      "key": "Trenches",
+      "authors": [
+        "Alexis Marsh",
+        "Myra B. Cohen",
+        "Robert W. Cottingham"
+      ],
+      "title": "A Tale from the Trenches: Applying Metamorphic and Differential Testing to Bioinformatics Software",
+      "venue": "ICST 2025 Industry Track",
+      "year": 2025,
+      "doi": "10.1109/ICST62969.2025.10988959",
+      "presentation_date": "2025-04-04",
+      "first_public": "Not independently established by this coordinator",
+      "primary_sources": [
+        "https://faculty.sites.iastate.edu/mcohen/files/inline-files/icst25ind-id37-p-9a938dcf65-121456-preprint_0.pdf",
+        "https://conf.researchr.org/details/icst-2025/icst-2025-industry/12/A-Tale-from-the-Trenches-Applying-Metamorphic-and-Differential-Testing-to-Bioinforma",
+        "https://ieeexplore.ieee.org/document/10988959/"
+      ],
+      "root_read": "Author-PDF title/abstract, §I and §II motivating model/data/precision mismatch passages; official Industry track and IEEE search metadata. Not full twelve-page audit.",
+      "parent_research_read_reported": "Targeted abstract/§I–II.",
+      "use": "Scientific testing needs model/data/solver/observation alignment; distinguish case-study experience from our conditional proofs. Do not label as main research track."
+    }
+  ],
+  "domain_primary_sources": [
+    {
+      "url": "https://docs.openmc.org/en/stable/methods/depletion.html",
+      "read": "Sections10.1–10.3 in official current documentation",
+      "use": "Production-loss meaning; density-dependent full A versus frozen substep; IPF matrix exponential; data/chain assembly background only, not proof of historical run version or database."
+    },
+    {
+      "url": "https://mit-crpg.github.io/OpenMOC/methods/method_of_characteristics.html",
+      "read": "Opening approximation list and §§2.1–2.4",
+      "use": "Transport/energy/angle/flat-source approximations and scalar-flux meaning. Official general eigenvalue equation not substituted for nonfission fixed-source cases."
+    }
+  ],
+  "access_limits": [
+    {
+      "url": "https://onix-documentation.readthedocs.io/en/latest/theory.html",
+      "status": "Tool inaccessible; not used as evidence"
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1109/TSE.2024.3407840",
+      "status": "Direct403; author PDF and author-institution record used"
+    },
+    {
+      "url": "https://doi.org/10.1145/3656340",
+      "status": "Direct403; publisher search-extracted text and arXiv record read"
+    }
+  ],
+  "prior_reports": [
+    {
+      "key": "A",
+      "path": "prior_reports/燃耗MR识别报告A_基于元模式与MR族.md",
+      "library_file_id": "libfile_89100a6dcac481919a0c3717b74e7d3a",
+      "version": 0,
+      "bytes": 53368,
+      "sha256": "b4cdd988686a2864cb5d3d401fcbc6577661eeb00816f1fd2e8b8f3b689f53c8",
+      "read": "Root read lines18–165 and418–499, plus heading/keyword scan across report. Not validation of its reported experiments."
+    },
+    {
+      "key": "B",
+      "path": "prior_reports/燃耗MR识别报告B_基于方程与离散算法性质.md",
+      "library_file_id": "libfile_e94d116d1d2081919a478aa778d42dff",
+      "version": 0,
+      "bytes": 48372,
+      "sha256": "467a030243e17379e487dce7242e2890a8a9475cec0d1c51ed7fe8cb3971b258",
+      "read": "Root read lines17–100; heading/keyword scan across report. Not validation of reported experiments or database counts."
+    }
+  ],
+  "negative_search_limit": "Parent search did not find a completely same-topic independent top SE main-track/journal paper first released after2023-11-08 specifically on numerical-PDE MR discrete validity; this is search scope, not a claim of nonexistence. No priority exclusion is inferred."
+}

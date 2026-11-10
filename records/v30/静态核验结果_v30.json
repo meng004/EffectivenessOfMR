@@ -1,0 +1,961 @@
+{
+  "schema": "v30-static/1.0",
+  "manuscript_sha256": "451fa78c9a88746db961aadc4ee99f8ee1f32cc13d902e8afe8442dfd283c73d",
+  "checker_sha256": "e1a21c126a2a0bc35826b1913ea6210718b7fa61e9da15244ccde3ad2c5e776b",
+  "passed": 190,
+  "total": 190,
+  "all_passed": true,
+  "scope": "New standard-library text/hash comparison only. Does not prove scientific equivalence, capture identity, theorem validity or experiment reproduction.",
+  "checks": [
+    {
+      "check": "baseline_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_count_17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_multiset_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_1_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_2_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_3_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_4_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_5_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_6_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_7_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_8_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_9_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_10_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_11_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_12_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_13_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_14_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_15_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_16_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_17_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "inline_math_multiset_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_count_43",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_1_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_2_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_3_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_4_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_5_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_6_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_7_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_8_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_9_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_10_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_11_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_12_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_13_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_14_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_15_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_16_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_17_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_18_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_19_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_20_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_21_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_22_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_23_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_24_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_25_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_26_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_27_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_28_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_29_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_30_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_31_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_32_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_33_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_34_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_35_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_36_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_37_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_38_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_39_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_40_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_41_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_42_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_43_metadata_and_note_mapping",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_note_migration_file",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "RQ_verbatim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_1_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_1_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_2_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_2_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_3_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_3_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_4_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_4_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_5_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_5_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_6_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_6_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_7_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_7_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_8_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_8_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_9_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_9_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_10_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_10_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_11_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_11_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_12_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_12_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_13_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_13_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_14_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_14_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_15_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_15_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_16_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_16_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_17_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_17_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_18_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_18_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_19_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_19_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_20_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_20_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_21_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_21_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_22_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_22_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_23_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_23_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_24_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_24_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_25_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_25_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_26_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_26_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_27_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_27_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_28_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_28_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_29_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_29_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_30_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_30_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_31_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_31_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_32_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_32_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_33_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_33_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_34_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_34_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_35_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_35_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_36_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_36_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_37_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_37_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_38_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_38_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_39_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_39_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_40_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_40_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_41_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_41_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_42_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_42_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_43_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_43_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_44_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_44_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_45_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_45_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "table_46_mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "table_46_numbers",
+      "passed": true,
+      "detail": "Numeric-token comparison supports review; it is not semantic proof."
+    },
+    {
+      "check": "numeric_inventory_retained_or_reading_note_moved",
+      "passed": true,
+      "detail": "Existence inventory only; numeric semantics require manual review. Reading-note tokens are separately traceable."
+    },
+    {
+      "check": "chapter_2_3_exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "chapter_2_4_exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "execution_error_distinguished",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "violation_is_real",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_main_drafting_label_贯穿例",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_main_drafting_label_依次回答",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_main_drafting_label_本文要预测的对象",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_main_drafting_label_本轮",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_main_drafting_label_叙事重组",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_main_drafting_label_卡K1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_main_drafting_label_主稿",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "proposition_1_one_formal_statement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "proposition_1_appendix_proof",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "proposition_2_one_formal_statement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "proposition_2_appendix_proof",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "proposition_3_one_formal_statement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "proposition_3_appendix_proof",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "proposition_4_one_formal_statement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "proposition_4_appendix_proof",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "corollary_one",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "proof_map_exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "formal_restatements_registered",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_control_char_artifacts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "diff_exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "heading_registry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "length_registry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "main_section_targets",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "execution_scope_record",
+      "passed": true,
+      "detail": "Recorded activity scope; no process instrumentation."
+    }
+  ]
+}

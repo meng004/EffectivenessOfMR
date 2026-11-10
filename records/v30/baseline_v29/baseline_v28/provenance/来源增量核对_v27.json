@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-08",
+  "baseline_sha256": "ce36cacdec5e658aa1290363d65bd4d1e43e9e3080cea1afd4c90c395f53da18",
+  "guidelines": {
+    "TSE": {
+      "url": "https://www.computer.org/digital-library/journals/ts/cfp-ieee-transactions-on-software-engineering",
+      "scope": "Official search content; direct HTTP403 and browser CloudFront block; complete author guidelines not obtained"
+    },
+    "TOSEM": {
+      "url": "https://dl.acm.org/journal/tosem/author-guidelines",
+      "scope": "Official search snippet; HTTP403; browser security check followed by one reload and Cloudflare denial; stopped"
+    },
+    "conclusion": "No full official basis to certify presence or absence of mandated scientific-section sequence; user structure is editorial choice."
+  },
+  "literature": [
+    {
+      "ref": 7,
+      "url": "https://link.springer.com/article/10.1007/s10208-022-09590-8",
+      "read": "Publisher abstract, bibliographic record, reference list",
+      "use": "Functional equivariance and observable evolution, no general MR guarantee",
+      "not_read": "Full article"
+    },
+    {
+      "ref": 9,
+      "url": "https://numdam.org/articles/10.1051/m2an/2022042/",
+      "read": "Abstract and bibliographic record",
+      "use": "Specific positivity-preserving methods exploiting graph Laplacian structure; not certification of CRAM positivity",
+      "not_read": "Full article this round"
+    },
+    {
+      "url": "https://link.springer.com/book/10.1007/3-540-30666-8",
+      "front_matter": "https://link.springer.com/content/pdf/bfm:978-3-540-30666-5/1",
+      "read": "Publisher book description/metadata, title page, prefaces and contents of official front matter",
+      "canonical_authors_from_title_page": [
+        "Ernst Hairer",
+        "Christian Lubich",
+        "Gerhard Wanner"
+      ],
+      "title": "Geometric Numerical Integration: Structure-Preserving Algorithms for Ordinary Differential Equations",
+      "edition": 2,
+      "year": 2006,
+      "series_volume": 31,
+      "doi": "10.1007/3-540-30666-8",
+      "use": "Background on preserving specific geometric properties and error analysis; not universal MR validity or program certificate",
+      "not_read": "Full book",
+      "ref": 35
+    }
+  ],
+  "prior_audits": "v26 source records retained as prior round, not reclassified as full rereads",
+  "continuity_lookup": "Personal context unavailable; no unobserved prior bibliography inferred",
+  "coordinator_static_checks": {
+    "inventory_source_members": 22,
+    "all_member_sha256_match": true,
+    "code_read": [
+      "E1 core.py25-28,worker43-48,82",
+      "C1 worker64-77",
+      "M1 m1.cpp19,33",
+      "M2 m2_three.cpp30-37",
+      "M3 m3_three.cpp27-36"
+    ],
+    "result": "Changes confirmed in adapters/research drivers; no production kernel mutant population inferred.",
+    "exact_small_arithmetic": {
+      "M2_14q3_equals_11q1_minus_2q2": true,
+      "M3_first_three_component_minor": "87/128",
+      "method": "Exact Fraction arithmetic on declared source vectors; no SUT or package code execution."
+    }
+  },
+  "upstream_retrieval": {
+    "files": [
+      {
+        "path": "upstream/mr_valid_contract_inventory_stage3_20261106.json",
+        "library_file_id": "libfile_fde3_f-6c31a825d8d08191a1091e2269c1f83e_0494671ff73c819189f74404b3b983a5",
+        "library_version": 0,
+        "sha256": "638828dc8eec441f82434a403efcdf4b03e81450d8dbafe880b11cd1a482b2f9",
+        "bytes": 230730
+      },
+      {
+        "path": "upstream/mr_finite15_adjudication_and_evidence_20261106.json",
+        "library_file_id": "libfile_fde3_f-a098e569222c8191854bdf44d3f47910_0494671ff73c819189f74404b3b983a5",
+        "library_version": 0,
+        "sha256": "5f6942e26f3af389708da3d82b3698140849b044c8e437ecb75ea94b1c4d409d",
+        "bytes": 167555
+      },
+      {
+        "path": "upstream/independent-finite15-dedup-and-evidence-review.json",
+        "library_file_id": "libfile_fde3_f-46b6be611e308191a652a1a0e34d5f43_0494671ff73c819189f74404b3b983a5",
+        "library_version": 0,
+        "sha256": "1d48cd5ff96a9497f5402717ce8cc51327a6f356b80e48f9f5b009806b16a3ad",
+        "bytes": 64793
+      }
+    ],
+    "read_scope": "Coordinator: targeted status, count rationale, precedence, empirical-mapping and selected contract source fields; verifier: targeted source/contract mapping and structural pair-table checks. Not a fresh proof of 105 pair arguments or rerun of 73 historical checks.",
+    "status": "Later independent report conditionally accepts fixed-universe 15 classes and 9 maximal groups; earlier pending fields are historical. No fresh automatic MR discovery trace established.",
+    "separate_gap": "These three contract JSONs are distinct from still-unavailable MOC author-derived transcription, checking code and checking results."
+  }
+}

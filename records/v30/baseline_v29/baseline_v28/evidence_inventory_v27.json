@@ -1,0 +1,890 @@
+{
+  "schema": "v27-evidence-inventory/1.0",
+  "date": "2026-11-08",
+  "reviewer": "independent targeted verifier; delegated astra high configuration; not human expert",
+  "baseline": {
+    "path": "/workspace/scratch/1b8ef74e4707/revision_v26/delivery/结构MR有效范围与能力边界_修订稿_v26.md",
+    "library_id": "libfile_fde3_f-aafb59daef348191bd7b0b145083c862_0494671ff73c819189f74404b3b983a5",
+    "library_version": 0,
+    "sha256": "ce36cacdec5e658aa1290363d65bd4d1e43e9e3080cea1afd4c90c395f53da18",
+    "library_fetch_this_round": false
+  },
+  "archive": {
+    "path": "/workspace/scratch/1b8ef74e4707/revision_v26/delivery/evidence/v25_N1_final_review_package.zip",
+    "sha256": "45dc02cb2223aa5f5bc9bb2622f289b251a1e190fe9ae145a05464171c3ec15e"
+  },
+  "scope": {
+    "read_only_scientific_inputs": true,
+    "SUT_executed": false,
+    "package_scientific_code_executed": false,
+    "certificate_regenerated": false,
+    "target_distance_recomputed": false,
+    "STOP_preserved": true,
+    "main_manuscript_modified": false,
+    "counts": "logical roster arithmetic and static code/contract inspection; not proof of runtime/capture authenticity"
+  },
+  "sources": {
+    "contracts": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "contracts/mr15_user_review_20261106.md",
+      "lines": null,
+      "sha256": "47ba9fb4621b057983e193a728c0589c88a59aa335dabcffde8483e28f504f16"
+    },
+    "e1_core": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "phase27_pilot/package/core.py",
+      "lines": [
+        5,
+        9,
+        23,
+        28,
+        67,
+        76
+      ],
+      "nested": "supplementary/cram/e1_original.zip",
+      "sha256": "f063bdcd365d8b32a17a8349b5b5c5a32b64649725416a483605c46613f555b9"
+    },
+    "e1_worker": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "phase27_pilot/package/worker.py",
+      "lines": [
+        43,
+        48,
+        60,
+        89
+      ],
+      "nested": "supplementary/cram/e1_original.zip",
+      "sha256": "d87d15ca1fb88c18fb8831c035115ae994f32f38811150bd24837a6e97f15033"
+    },
+    "e1_release": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "phase27_pilot/control/release.json",
+      "lines": null,
+      "nested": "supplementary/cram/e1_original.zip",
+      "sha256": "df8788c30ba569ea4c0a81f010a949213ca0f2ec7dbb8404b78f6691c5203bbe"
+    },
+    "e1_execution": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "phase27_pilot/e1_execution_receipt.json",
+      "lines": null,
+      "nested": "supplementary/cram/e1_original.zip",
+      "sha256": "70ba5ca7cd5b8a69ef992935e8cb481ff20539e0ea8406fbde5cc97e75561167"
+    },
+    "c1_worker": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "worker.py",
+      "lines": [
+        49,
+        77
+      ],
+      "nested": "supplementary/cram/c1_original.zip",
+      "sha256": "4c08d4dad5be1ac4f47d05271fdf5de8c3e8aeb15e383c604117faea595a8879"
+    },
+    "c1_run": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "run_source.py",
+      "lines": [
+        8,
+        23
+      ],
+      "nested": "supplementary/cram/c1_original.zip",
+      "sha256": "ed11199b6d10768688c59980cce835b711b7fbf0c1d9081f6dbf036a97ca7cef"
+    },
+    "c1_freeze": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "freeze.json",
+      "lines": null,
+      "nested": "supplementary/cram/c1_original.zip",
+      "sha256": "3636b69e8f3bef1ab700e96ef39dfed0f1c949e181d11ddfff02373f26ec7973"
+    },
+    "c1_preflight_code": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "target_preflight.py",
+      "lines": [
+        27,
+        36
+      ],
+      "nested": "supplementary/cram/c1_original.zip",
+      "sha256": "f9c30eb9bb3ed30c443796dec94a37117f6520ac637a23383833ee3d59db92d8"
+    },
+    "c1_preflight_saved": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "target-preflight-final.json",
+      "lines": null,
+      "nested": "supplementary/cram/c1_original.zip",
+      "sha256": "531ce0cd377ec7ce9ee0a08d9321405d19b0ab5143c5a621cd111666c546e636"
+    },
+    "m1_driver": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "original/m1/openmoc-m1-new/m1.cpp",
+      "lines": [
+        19,
+        33,
+        34
+      ],
+      "nested": "M1-M3-existing-raw-evidence-slice.tar.gz",
+      "sha256": "6202edfaa218d93b4a023a8fff9412e3a98e7211509240e4dc6a44f35f3b7682"
+    },
+    "m1_basis_driver": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "original/m1/openmoc-m1-basis/m1_basis.cpp",
+      "lines": [
+        19,
+        33,
+        34
+      ],
+      "nested": "M1-M3-existing-raw-evidence-slice.tar.gz",
+      "sha256": "aeb2c888cef3b35ce3c0a31fa73dd46746a2f6aa569c6fb4636a033adf8fcac8"
+    },
+    "m1_contract": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "original/m1/openmoc-m1-sup-followup/contract.md",
+      "lines": null,
+      "nested": "M1-M3-existing-raw-evidence-slice.tar.gz",
+      "sha256": "b0d003f43c6b50d1fef94f875487e477957907028d5650b417cbaadaf465147a"
+    },
+    "m1_round2_plan": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "original/m1/openmoc-m1-basis/stage-round2/plan.json",
+      "lines": null,
+      "nested": "M1-M3-existing-raw-evidence-slice.tar.gz",
+      "sha256": "2fc07e4a18c420a302732d49b07dabd100d2c778455e491ccbd89497c2c778d2"
+    },
+    "m2_driver": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "original/m2/openmoc-m2-three-source-impl/m2_three.cpp",
+      "lines": [
+        25,
+        36,
+        46,
+        47
+      ],
+      "nested": "M1-M3-existing-raw-evidence-slice.tar.gz",
+      "sha256": "939befb012b33f7545e762e27be3104f42f654a1cfe7fc4ef7d44d5b0920b8c5"
+    },
+    "m2_contract": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "original/m2/openmoc-m2-five-endpoints/contract.md",
+      "lines": [
+        3,
+        17
+      ],
+      "nested": "M1-M3-existing-raw-evidence-slice.tar.gz",
+      "sha256": "0975d4d96b65267f95a6f6dce25d3331d1b201a2da98ec762e1a8bfa888b73c0"
+    },
+    "m2_run_contract": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "original/m2/openmoc-m2-five-endpoints/batches/q1-r2/contract.json",
+      "lines": null,
+      "nested": "M1-M3-existing-raw-evidence-slice.tar.gz",
+      "sha256": "2b19eb38cb17b6ffd40ca683b80bb53b47e3dbb5c5d8a48ca03d5b6f7f5c6d2b"
+    },
+    "m2_reservation": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "original/m2/openmoc-m2-five-endpoints/batches/q1-r2/H_s/reservation.json",
+      "lines": null,
+      "nested": "M1-M3-existing-raw-evidence-slice.tar.gz",
+      "sha256": "49b48f1582d5312fc4b63e7556f6357a4070bc32b6659b201b8ef75c787d35c7"
+    },
+    "m3_driver": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "original/m3/openmoc-m3-implementation/m3_three.cpp",
+      "lines": [
+        25,
+        35,
+        45,
+        46
+      ],
+      "nested": "M1-M3-existing-raw-evidence-slice.tar.gz",
+      "sha256": "2a1b341a5de40120e93b21c4c559814b5184051160ad0e7141103e24e18e14d0"
+    },
+    "m3_contract": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "original/m3/openmoc-m3-implementation/contract.md",
+      "lines": [
+        7,
+        50
+      ],
+      "nested": "M1-M3-existing-raw-evidence-slice.tar.gz",
+      "sha256": "266bd8b0c819e90f7f5600a0170d8cf11b24c4927cae3b0a5e22015a12791070"
+    },
+    "m3_run_contract": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "original/m3/openmoc-m3-implementation/batches/q1-r1/contract.json",
+      "lines": null,
+      "nested": "M1-M3-existing-raw-evidence-slice.tar.gz",
+      "sha256": "9d4f8fb451df48af2a18b9fa5ce84ce9ca66f4c8a1c87585befef21f7b23b004"
+    },
+    "m3_reservation": {
+      "outer": "v25_N1_final_review_package.zip",
+      "member": "original/m3/openmoc-m3-implementation/batches/q1-r1/H_s/reservation.json",
+      "lines": null,
+      "nested": "M1-M3-existing-raw-evidence-slice.tar.gz",
+      "sha256": "99c77fa4bd2f488412b69d9876c4ae1e568b8e41759e7202d72f79586c6bc0f2"
+    }
+  },
+  "prediction_objects": [
+    {
+      "id": "P1",
+      "name": "exact_discrete_relation_preservation_or_defect",
+      "obligation": "fixed equation/domain and exact numerical scheme; prove preservation or bound D_h",
+      "do_not_infer": "continuous relation alone guarantees implementation equality"
+    },
+    {
+      "id": "P2",
+      "name": "program_threshold_qualification",
+      "obligation": "same residual/normalization/norm; D_h+E_h<=tau; errors include readout/comparison/transfer as applicable",
+      "do_not_infer": "unknown bounds are violated conditions or actual rejection"
+    },
+    {
+      "id": "P3",
+      "name": "specified_fault_visibility",
+      "obligation": "known work object, activation, noncancelled signal L and E_m; L>tau+E_m; independent output-error witness for blind spot",
+      "do_not_infer": "nonzero field defect guarantees rejection or pass guarantees correctness"
+    }
+  ],
+  "mr_counts": {
+    "catalogue": 15,
+    "burnup_contracts": 11,
+    "transport_contracts": 4,
+    "maximal_specialization_groups": 9,
+    "scope_classifications": 6,
+    "scope_classifications_are_not_MR_count": true,
+    "instantiated_contract_ids_main_results": [
+      "D03",
+      "D10",
+      "T01",
+      "T02"
+    ],
+    "instantiated_id_count": 4,
+    "full_contract_domains_empirically_certified": false,
+    "new_NOETHER_Translate_execution_evidence_present": false,
+    "prior_source": "NOETHER [1]/fixed IBT[14] provide candidate structure/MetaPattern/family premise; current 15-card contract list is a separate restricted catalogue, not an automatic mining run",
+    "upstream_retrieved_this_round": true,
+    "upstream_location": "upstream/; separately added without altering original scientific ZIP",
+    "latest_count_status": "Later independent-finite15 review signs restricted 15 whole-domain contract classes and 9 maximal groups; earlier candidate/pending fields remain historical."
+  },
+  "mr_contracts": [
+    {
+      "id": "D01",
+      "name": "完整初态及源同比缩放",
+      "structure_family": "线性齐次性",
+      "evidence_status": "未取得本合同域对应完整实测"
+    },
+    {
+      "id": "D02",
+      "name": "完整输入三端叠加",
+      "structure_family": "线性叠加",
+      "evidence_status": "未取得燃耗三端实测；输运SUP不可替代"
+    },
+    {
+      "id": "D03",
+      "name": "不可达坐标零响应",
+      "structure_family": "依赖图/不变子空间",
+      "evidence_status": "E1/C1有限无源三状态及五状态经验特化"
+    },
+    {
+      "id": "D04",
+      "name": "固定模型交换对称",
+      "structure_family": "固定算子交换/对称",
+      "evidence_status": "未取得对应实测；同步重编号不是此合同"
+    },
+    {
+      "id": "D06",
+      "name": "自伴双激励",
+      "structure_family": "自伴/互易",
+      "evidence_status": "未取得真实双激励证据"
+    },
+    {
+      "id": "D07",
+      "name": "无源正向伴随对偶",
+      "structure_family": "转置/对偶",
+      "evidence_status": "未取得真实伴随运行"
+    },
+    {
+      "id": "D08",
+      "name": "含源伴随对偶",
+      "structure_family": "Green/Duhamel对偶",
+      "evidence_status": "未取得轨迹及独立源积分运行"
+    },
+    {
+      "id": "D10",
+      "name": "正路径响应下界",
+      "structure_family": "正系统/路径序",
+      "evidence_status": "E1 H/EZ18对原P断言；C1三条件27对原P断言"
+    },
+    {
+      "id": "D14",
+      "name": "可逆正单项式编码",
+      "structure_family": "共轭/线性交织",
+      "evidence_status": "未取得本合同完整实测"
+    },
+    {
+      "id": "D16",
+      "name": "外定绝对历史重启",
+      "structure_family": "演化族/组合",
+      "evidence_status": "真实三端/转接未执行"
+    },
+    {
+      "id": "D18",
+      "name": "自治无源半群",
+      "structure_family": "自治演化半群",
+      "evidence_status": "有离线目标缺陷；无真实两半步程序链"
+    },
+    {
+      "id": "T01",
+      "name": "完整输运尺度幅度协变",
+      "structure_family": "连续尺度/等变",
+      "evidence_status": "M1/M2/M3有限区域/分群尺度特化；非完整角场认证"
+    },
+    {
+      "id": "T02",
+      "name": "完整源三端叠加",
+      "structure_family": "固定线性解算子",
+      "evidence_status": "M1/M2有限区域真实三端；M3无SUP"
+    },
+    {
+      "id": "T04",
+      "name": "偶宇称互易",
+      "structure_family": "强自伴化/互易",
+      "evidence_status": "未取得对应运行"
+    },
+    {
+      "id": "T05",
+      "name": "含入流伴随Green对偶",
+      "structure_family": "Green恒等式/对偶",
+      "evidence_status": "未取得完整伴随/边界迹运行"
+    }
+  ],
+  "mutation_counting": {
+    "primary_cohorts": [
+      "E1",
+      "C1",
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "primitive_operator_classes": 5,
+    "placement_modes": 6,
+    "batch_specific_mutant_configurations": 8,
+    "production_kernel_source_mutants_verified_in_primary_cohorts": 0,
+    "historical_source_mutant_count": "unverified; zero above does not assert no historical source mutation ever occurred",
+    "include_B_MULTI": "adds one routing configuration, giving9 configured instances only if explicit expanded scope; not extra primitive class",
+    "do_not_count": "healthy control, input amplitudes, deterministic repeats, output coordinates or M3 differing sweep count as independent mutants"
+  },
+  "mutations": [
+    {
+      "id": "routing",
+      "operator_class": "routing_redistribution",
+      "transform": "A[2,1]:1→3/4; A[3,1]:0→1/4 (数学1-based)",
+      "structure_effect": "新增1→3可达路径，减少1→2权；保留非负非对角和原列和",
+      "placements": [
+        "E1:e1_core:26;e1_worker:43-48,82",
+        "C1:c1_worker:64-77"
+      ],
+      "implementation_instances_primary": 2,
+      "kind": "external_working_matrix_adapter",
+      "production_kernel_source_modified": false,
+      "parameter": "epsilon=1/4",
+      "claim": "指定工作对象负控，不是自然缺陷"
+    },
+    {
+      "id": "common_2A",
+      "operator_class": "common_generator_multiplier",
+      "transform": "A_work=2*A_declared，两端共用",
+      "structure_effect": "保持零图；改变时间尺度与声明正确目标",
+      "placements": [
+        "E1:e1_core:27;e1_worker:43-48,82",
+        "C1:c1_worker:68-77"
+      ],
+      "implementation_instances_primary": 2,
+      "kind": "external_working_matrix_adapter",
+      "production_kernel_source_modified": false,
+      "parameter": "factor=2"
+    },
+    {
+      "id": "common_q2",
+      "operator_class": "external_source_multiplier",
+      "transform": "q_s和q_f均乘2",
+      "structure_effect": "共同线性源错误仍保持尺度关系",
+      "placements": [
+        "M1:m1_driver:19,33;round2 plan C_s/C_f"
+      ],
+      "implementation_instances_primary": 1,
+      "kind": "research_driver_source_setter",
+      "production_kernel_source_modified": false,
+      "parameter": "factor=2 on both ends"
+    },
+    {
+      "id": "follow_q2",
+      "operator_class": "external_source_multiplier",
+      "transform": "仅follow端q_f乘2",
+      "structure_effect": "破坏两端源映射；作用后信号分离才保证拒绝",
+      "placements": [
+        "M1:m1_driver:19,33;round2 plan U_s/U_f"
+      ],
+      "implementation_instances_primary": 1,
+      "kind": "research_driver_source_setter",
+      "production_kernel_source_modified": false,
+      "parameter": "factor=2 on follow only"
+    },
+    {
+      "id": "omit_scatter_scale",
+      "operator_class": "scatter_scale_omission",
+      "transform": "N_f中Σ_s=(0.3,0.8)，声明应为(0.15,0.4)",
+      "structure_effect": "几何c=2而散射核未除2",
+      "placements": [
+        "M2:m2_driver:34-36"
+      ],
+      "implementation_instances_primary": 1,
+      "kind": "research_driver_material_adapter",
+      "production_kernel_source_modified": false,
+      "parameter": "scale=2; preserve unscaled scattering"
+    },
+    {
+      "id": "delete_downscatter",
+      "operator_class": "cross_group_coupling_deletion",
+      "transform": "两区work_s[origin=1,destination=2]=0；声明为c=2后的0.15/0.1",
+      "structure_effect": "删除1→2群耦合；群2可见，群1不受该单向块作用",
+      "placements": [
+        "M3:m3_driver:30-35"
+      ],
+      "implementation_instances_primary": 1,
+      "kind": "research_driver_material_adapter",
+      "production_kernel_source_modified": false,
+      "parameter": "two off-diagonal elements deleted"
+    }
+  ],
+  "cohorts": [
+    {
+      "id": "E1",
+      "program": "ONIX CRAM16 PFD kernel",
+      "equation": "n_dot=A n; frozen stage, b=0",
+      "domain_class": "purpose_built_linear_algebra_mechanism_example",
+      "physical_depletion_frontend_or_nuclear_data_binding": false,
+      "model_count": 1,
+      "states": 3,
+      "source_pairs": [
+        [
+          "e3",
+          "e3+e1"
+        ],
+        [
+          "e2+2e3",
+          "e2+2e3+e1/2"
+        ],
+        [
+          "e2",
+          "e2+2e1"
+        ]
+      ],
+      "delta_direction_rank": 1,
+      "conditions": [
+        "H",
+        "EZ",
+        "ET"
+      ],
+      "deterministic_repeats": 3,
+      "source_calls": 27,
+      "follow_calls": 27,
+      "total_calls": 54,
+      "pairs": 27,
+      "Z_original_comparisons": 27,
+      "P_original_asserted_comparisons": 18,
+      "P_original_condition_scope": [
+        "H",
+        "EZ"
+      ],
+      "P_ET": "saved reading only; no original P assertion in core.py:74",
+      "W": "single-end correct-target witness; not MR",
+      "posthoc_unified_P_comparisons": 27,
+      "scientific_fault_classes": 2,
+      "evidence": [
+        "e1_core",
+        "e1_worker",
+        "e1_release",
+        "e1_execution"
+      ]
+    },
+    {
+      "id": "C1",
+      "program": "OpenMC 0.15.3 IPF16 depletion kernel",
+      "equation": "n_dot=A n; frozen stage, b=0",
+      "domain_class": "same_purpose_built_linear_algebra_model_as_E1",
+      "physical_depletion_frontend_or_nuclear_data_binding": false,
+      "model_count": 1,
+      "states": 3,
+      "source_pairs": "same S1-S3 as E1; distinct q rational target",
+      "delta_direction_rank": 1,
+      "conditions": [
+        "H",
+        "EZ",
+        "ET"
+      ],
+      "deterministic_repeats": 3,
+      "source_calls": 27,
+      "follow_calls": 27,
+      "total_calls": 54,
+      "pairs": 27,
+      "Z_original_comparisons": 27,
+      "P_original_asserted_comparisons": 27,
+      "P_rule": "P>=0.3*a-2H for H/EZ/ET",
+      "W_rule": "healthy W<=H; EZ/ET W>1e-3; target q, not r",
+      "posthoc_unified_P_comparisons": 27,
+      "scientific_fault_classes": 2,
+      "not_tested": "OpenMC Monte Carlo transport",
+      "evidence": [
+        "c1_worker",
+        "c1_run",
+        "c1_freeze",
+        "c1_preflight_code",
+        "c1_preflight_saved"
+      ]
+    },
+    {
+      "id": "M1",
+      "program": "OpenMOC pure-absorption fixed-source finite observation",
+      "equation": "Omega.grad psi+Sigma_t psi=q; K=0",
+      "domain_class": "idealized_physically_admissible_transport_case_not_measured_plant_validation",
+      "physical_model_count": 1,
+      "regions": 2,
+      "groups": 1,
+      "total_source_count": 1,
+      "total_source": [
+        "1",
+        "1/4"
+      ],
+      "total_source_rank": 1,
+      "basis_sources": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "basis_rank": 2,
+      "rank_note": "拆源基不算两个新的总源工况",
+      "calls": 24,
+      "call_decomposition": "6 pilot + 2 posthoc A/B + 8 round1 + 8 round2",
+      "base_side_role_calls": 15,
+      "follow_side_role_calls": 9,
+      "scale_comparison_instances": 9,
+      "SUP_three_end_groups": 3,
+      "SUP_timing": "pilot group retrospective; rounds1/2 fixed followup protocol",
+      "reuse": "each group H_s shared with SUP; C/U do not become independent MR classes",
+      "deterministic_repeat_note": "pilot plus two confirmation rounds; not 3 independent physical cases",
+      "evidence": [
+        "m1_driver",
+        "m1_basis_driver",
+        "m1_contract",
+        "m1_round2_plan"
+      ],
+      "qualification": "target component enclosure/independent rho missing; all guarantee/W claims conditional"
+    },
+    {
+      "id": "M2",
+      "program": "OpenMOC single-group two-region scattering feedback",
+      "equation": "fixed-source linear transport with diagonal self-scatter",
+      "domain_class": "idealized_physically_admissible_transport_case_not_measured_plant_validation",
+      "physical_model_count": 1,
+      "total_source_count": 3,
+      "sources": [
+        [
+          "1/2",
+          "1"
+        ],
+        [
+          "1",
+          "1/4"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "source_rank": 2,
+      "source_dependence": "14*q3=11*q1-2*q2",
+      "deterministic_repeats": 3,
+      "groups": 9,
+      "role_positions": 45,
+      "base_side_role_positions": 27,
+      "follow_side_role_positions": 18,
+      "new_calls": 43,
+      "reused_calls": 2,
+      "reuse": "q1 first mixed group reuses historical H_s/H_f; 3 new A_s/B_s/N_f; remaining8 groups all5new",
+      "healthy_scale_comparisons": 9,
+      "negative_comparisons": 9,
+      "SUP_three_end_groups": 9,
+      "sharing": "H_s shared among healthy scale, N_f negative, and SUP; comparisons not independent tests",
+      "evidence": [
+        "m2_driver",
+        "m2_contract",
+        "m2_run_contract",
+        "m2_reservation"
+      ]
+    },
+    {
+      "id": "M3",
+      "program": "OpenMOC two-group two-region downscatter no fission",
+      "equation": "fixed-source multigroup linear transport; group1→2 lower-block coupling",
+      "domain_class": "idealized_physically_admissible_transport_case_not_measured_plant_validation",
+      "physical_model_count": 1,
+      "total_source_count": 3,
+      "sources": [
+        [
+          "1",
+          "1/8",
+          "1/4",
+          "3/4"
+        ],
+        [
+          "1/4",
+          "1",
+          "3/4",
+          "1/8"
+        ],
+        [
+          "3/4",
+          "1/4",
+          "1",
+          "1/2"
+        ]
+      ],
+      "source_rank": 3,
+      "rank_witness_reported": "3x3 minor 87/128; not recomputed this round",
+      "deterministic_repeats": 3,
+      "groups": 9,
+      "total_calls": 27,
+      "base_calls": 9,
+      "follow_or_negative_calls": 18,
+      "healthy_scale_comparisons": 9,
+      "negative_comparisons": 9,
+      "SUP_three_end_groups": 0,
+      "sharing": "each H_s shared by H_f and N_f comparisons",
+      "evidence": [
+        "m3_driver",
+        "m3_contract",
+        "m3_run_contract",
+        "m3_reservation"
+      ]
+    },
+    {
+      "id": "B-MULTI",
+      "program": "ONIX PFD path reported in manuscript",
+      "domain_class": "purpose_built_5state_Metzler_example",
+      "physical_depletion_frontend_or_nuclear_data_binding": false,
+      "states": 5,
+      "source_calls": 2,
+      "follow_calls": 2,
+      "total_calls": 4,
+      "pairs": 2,
+      "delta_direction_rank": 1,
+      "mutation": "same routing primitive on 5-state matrix; extra configured instance, not new primitive class",
+      "evidence_status": "v26 full explicit model and historical audits read; no complete multipath raw archive located among current outer ZIP archive members",
+      "strict_reference_interval": false
+    },
+    {
+      "id": "legacy_F1_EZ_ET",
+      "calls_reported": {
+        "F1": 5,
+        "EZ": 3,
+        "ET": 2
+      },
+      "evidence_status": "small healthy/EZ/ET review slice exists; complete original source-mutation variants not located in this audit",
+      "not_counted_as_primary_source_mutants": true
+    },
+    {
+      "id": "prior_six_call_batch",
+      "calls_reported": 6,
+      "note": "separate from E1 54; external matrix adapter according to v26; not merged"
+    },
+    {
+      "id": "semigroup",
+      "contract": "D18",
+      "real_program_three_end_chain_completed": false,
+      "evidence": "saved offline exact rational target analysis + error-propagation formula; no real transfer chain"
+    },
+    {
+      "id": "E5",
+      "coarse_only": true,
+      "fine_output_present": false,
+      "completed_coarse_fine_MR": false
+    }
+  ],
+  "timing": [
+    {
+      "scope": "Theorems1-4",
+      "classification": "logical_conditional_prediction_not_timestamped_experiment",
+      "rule": "validity derives from stated hypotheses; sufficient conditions must not be rewritten as necessary"
+    },
+    {
+      "scope": "historical F1/EZ/ET common threshold; epsilon interval",
+      "classification": "retrospective_same_threshold_analysis_and_analytic_interval",
+      "claim_limit": "only epsilon=1/4 saved point; no interval sweep or external preregistration"
+    },
+    {
+      "scope": "E1",
+      "classification": "frozen_contract_rule_and_saved_prestart_binding",
+      "sources": [
+        "e1_release",
+        "e1_execution",
+        "e1_core"
+      ],
+      "time_evidence": "execution receipt prestart manifest hash / start_requested_utc / completed cases; source defines predetermined assertions",
+      "limit": "not external immutable preregistration; actual per-end certificate E produced postrun; scientific-plan Library source not re-fetched"
+    },
+    {
+      "scope": "C1",
+      "classification": "frozen_prediction/evaluation_code_bound_to_worker",
+      "sources": [
+        "c1_freeze",
+        "c1_run",
+        "c1_preflight_code",
+        "c1_preflight_saved"
+      ],
+      "limit": "static freeze binding supports stated protocol; target-preflight result itself has no independently authenticated timestamp; do not claim all full chronology audited"
+    },
+    {
+      "scope": "E1/C1 unified P/W",
+      "classification": "explicit_posthoc",
+      "limit": "does not replace differing original rules"
+    },
+    {
+      "scope": "M1 pilot and A/B",
+      "classification": "exploratory_pilot_plus_posthoc_SUP",
+      "sources": [
+        "m1_contract"
+      ]
+    },
+    {
+      "scope": "M1 rounds1/2",
+      "classification": "frozen_followup_design_informed_by_pilot",
+      "sources": [
+        "m1_contract",
+        "m1_round2_plan"
+      ],
+      "limit": "new rounds use their own postrun E/D; not fresh independent model or blind first prediction"
+    },
+    {
+      "scope": "M2 q1 first mixed",
+      "classification": "retrospective_cross_contract_combination",
+      "sources": [
+        "m2_contract"
+      ],
+      "limit": "2 historical healthy outputs reused; not 5 prospective new outputs"
+    },
+    {
+      "scope": "M2 remaining8 groups and M3",
+      "classification": "fixed_contracts_and_before_identity_records; numeric qualification_postrun",
+      "sources": [
+        "m2_contract",
+        "m2_run_contract",
+        "m2_reservation",
+        "m3_contract",
+        "m3_run_contract",
+        "m3_reservation"
+      ],
+      "limit": "raw saved protocol/read-before hashes read; not all historical event timestamps or reviewer identities authenticated; runtime numeric E/D/L computed after capture"
+    },
+    {
+      "scope": "v26 and v27 static analysis",
+      "classification": "retrospective_synthesis",
+      "limit": "new explanation is not new predictive accuracy experiment"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "G1",
+      "gap": "No fresh per-program automatic structure→MetaPattern→MR extraction trace",
+      "handling": "publish a labelled manually specialized mapping; retrieve original extraction records if claiming completed identification experiment"
+    },
+    {
+      "id": "G2",
+      "gap": "No verified production-kernel mutation population in main cohorts",
+      "handling": "describe adapters/material construction honestly; additional source mutation campaign requires new explicit protocol and authorization"
+    },
+    {
+      "id": "G3",
+      "gap": "Burnup examples lack real isotope/nuclear-data/assembly binding",
+      "handling": "call mathematical mechanism cases; domain-valid physical depletion benchmark needed only for expanded physical-front-end claims"
+    },
+    {
+      "id": "G4",
+      "gap": "M1 target enclosure chain missing",
+      "handling": "keep conditional interpretation; any reconstruction is future authorized work"
+    },
+    {
+      "id": "G5",
+      "gap": "No held-out population evaluation of prediction validity",
+      "handling": "report conditional soundness and case consistency; do not infer sensitivity/specificity/calibration from repeats"
+    },
+    {
+      "id": "G6",
+      "gap": "Real semigroup chain, E5 fine end, full MOC components and SciML not executed/closed",
+      "handling": "future only; retain STOP"
+    },
+    {
+      "id": "G7",
+      "gap": "MOC author-derived transcript/check-code/check-result files remain unavailable; distinct from the three newly retrieved upstream contract JSONs",
+      "evidence": "Original ZIP 材料审计历史.md:97; secondary/INDEX.txt:9,68,139,141",
+      "handling": "Do not close this gap when adding upstream/; raw scientific members and independently saved checks remain separate sources."
+    }
+  ],
+  "upstream_sources": {
+    "mr_valid_contract_inventory_stage3_20261106.json": {
+      "path": "upstream/mr_valid_contract_inventory_stage3_20261106.json",
+      "bytes": 230730,
+      "sha256": "638828dc8eec441f82434a403efcdf4b03e81450d8dbafe880b11cd1a482b2f9",
+      "library_version_reported_by_coordinator": 0,
+      "retrieved_by": "coordinator",
+      "verified_by_this_reviewer": "local byte hash and targeted JSON field reading; no Library fetch by this reviewer"
+    },
+    "mr_finite15_adjudication_and_evidence_20261106.json": {
+      "path": "upstream/mr_finite15_adjudication_and_evidence_20261106.json",
+      "bytes": 167555,
+      "sha256": "5f6942e26f3af389708da3d82b3698140849b044c8e437ecb75ea94b1c4d409d",
+      "library_version_reported_by_coordinator": 0,
+      "retrieved_by": "coordinator",
+      "verified_by_this_reviewer": "local byte hash and targeted JSON field reading; no Library fetch by this reviewer"
+    },
+    "independent-finite15-dedup-and-evidence-review.json": {
+      "path": "upstream/independent-finite15-dedup-and-evidence-review.json",
+      "bytes": 64793,
+      "sha256": "1d48cd5ff96a9497f5402717ce8cc51327a6f356b80e48f9f5b009806b16a3ad",
+      "library_version_reported_by_coordinator": 0,
+      "retrieved_by": "coordinator",
+      "verified_by_this_reviewer": "local byte hash and targeted JSON field reading; no Library fetch by this reviewer"
+    }
+  },
+  "upstream_audit": {
+    "read_scope": [
+      "stage3 status/boundaries/correction/counting/source identities/statistics/engineering summary",
+      "15 selected contract IDs, names, available maps/predicates and source keys",
+      "15 selected_source_evidence source-line/review-crosswalk/open-item entries",
+      "adjudication baseline/count/identity/normalization/safeguards/specialization graph/coverage gaps/empirical summary",
+      "independent review decision/materials/finite-count reasoning/template count/empirical mapping/unverified scope/execution statement"
+    ],
+    "structural_checks": {
+      "nodes": 15,
+      "pair_rows": 105,
+      "distinct_unordered_pairs": 105,
+      "all_15_choose_2_present": true,
+      "relation_counts": {
+        "distinct": 84,
+        "strict_specialization": 7,
+        "projection_or_overlap": 14
+      },
+      "review_pair_ids_match_adjudication": true
+    },
+    "not_done": [
+      "independent reproof of all 105 pair certificates",
+      "reexecution of 73 historical checks",
+      "automatic Translate execution or registration-trace verification",
+      "historical SUT recertification"
+    ],
+    "mapping_status": "REG3 card source-line and review-chain mappings are now traceable; no explicit NOETHER/MetaPattern/Translate component registration found by whole-JSON keyword scan and selected-source reading; do not infer a new automatic identification run."
+  }
+}

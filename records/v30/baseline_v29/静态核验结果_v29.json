@@ -1,0 +1,511 @@
+{
+  "schema": "v29-static-check/1.0",
+  "manuscript_sha256": "6d45b9a106bfb665939b0269a3f571e513230839ce764fab51d623d684139d70",
+  "checker_sha256": "170470af3b7d9d4889fc736ff01da5a80d65904dc20e15b0421aa8f5f49e6dde",
+  "scope": "New standard-library text/hash checks only; no SUT, archive scripts, scientific recomputation, or certificate regeneration. Existence tests do not establish scientific correctness.",
+  "passed": 100,
+  "total": 100,
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "baseline_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manuscript_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "plan_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "display_formula_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F01_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F02_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F03_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F04_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F05_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F06_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F07_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F08_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F09_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F10_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F11_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F12_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F13_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F14_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F15_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F16_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V28F17_verbatim_order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T01_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T02_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T03_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T04_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T05_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T06_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T07_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T08_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T09_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T10_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T11_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T12_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T13_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T14_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T15_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T16_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T17_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T18_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T19_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "T20_data_table_preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "protected_table_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "references_count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_1_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_2_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_3_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_4_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_5_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_6_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_7_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_8_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_9_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_10_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_11_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_12_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_13_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_14_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_15_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_16_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_17_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_18_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_19_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_20_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_21_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_22_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_23_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_24_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_25_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_26_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_27_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_28_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_29_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_30_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_31_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_32_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_33_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_34_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_35_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_36_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_37_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_38_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_39_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_40_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_41_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_42_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reference_43_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "heading_registry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "main_numeric_section_targets",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "unified_diff_exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "main_character_counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "execution_boundary_record",
+      "passed": true,
+      "detail": "Declared scope; does not instrument a running process."
+    },
+    {
+      "check": "gap_hypothesis_chain",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "reuse_products",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "shared_target_premises",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "complement_boundaries",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserved_evidence_limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "corrected_citation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_literal_newline_artifacts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_stale_current_file_names",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "original_scientific_archive_identity",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

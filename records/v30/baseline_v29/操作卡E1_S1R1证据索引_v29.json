@@ -1,0 +1,221 @@
+{
+  "archive": "baseline_v28/evidence/v25_N1_final_review_package.zip",
+  "archive_sha256": "45dc02cb2223aa5f5bc9bb2622f289b251a1e190fe9ae145a05464171c3ec15e",
+  "nested": "supplementary/cram/e1_original.zip",
+  "nested_sha256": "acf042869a908f1e26c0c77b4658a06ea754b48fb4d2c3ed871df22a6da12b71",
+  "sources": [
+    {
+      "member": "phase27_pilot/package/coefficients.json",
+      "sha256": "ff6213f17b36a07a9ea974895b34d5f4b52cb65f654313c591d8fe2a6576fc4c",
+      "selected_saved_fields": {},
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-H-S1-R1-pair.json",
+      "sha256": "a73f991d4a95d81c375cd605c9c427a75bf89548128e6324e7c040a3a9953426",
+      "selected_saved_fields": {
+        "variant": "H",
+        "source_id": 1,
+        "repeat_id": 1,
+        "Z": "0",
+        "P": "9007199254740963/18014398509481984",
+        "tau_Z": "1/50000000",
+        "reference_error_witness": false,
+        "identity_certified": false
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-H-S1-R1-1/input.json",
+      "sha256": "80a8da350a952989eede4abff4f0d682d76bce27a936b6d54110fcdde43f5551",
+      "selected_saved_fields": {
+        "case_id": "C-H-S1-R1-1"
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-H-S1-R1-1/output.json",
+      "sha256": "f5f2c50eaae9d49ce3f00b118d60ebfc6f76e807334ef628ceb6c2aa6d9b3b20",
+      "selected_saved_fields": {},
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-H-S1-R1-1/analysis/certificate.json",
+      "sha256": "f369c24b4bafbacdf194e5e750139f39c8682bf30189ead24e459498b334a994",
+      "selected_saved_fields": {
+        "case_id": "C-H-S1-R1-1",
+        "variant": "H",
+        "within_H": true,
+        "reference_rejects": false,
+        "qualification": "CONDITIONAL_NUMERIC_BOUND_ONLY",
+        "identity_certified": false
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-H-S1-R1-2/input.json",
+      "sha256": "ebbea45f5fb5d2b064d33cdbeac44d5ea7bc6236384f80ab31cb951fa7e0077a",
+      "selected_saved_fields": {
+        "case_id": "C-H-S1-R1-2"
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-H-S1-R1-2/output.json",
+      "sha256": "36743ed2807b956f3c6df8b4d8b83c10d8de2a8f066320bfe6aa929ed86efbb3",
+      "selected_saved_fields": {},
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-H-S1-R1-2/analysis/certificate.json",
+      "sha256": "ce32bbe751cfc5eaa8ab32820fb9cff92d559e9594e1f7845ec43e5f3dab429e",
+      "selected_saved_fields": {
+        "case_id": "C-H-S1-R1-2",
+        "variant": "H",
+        "within_H": true,
+        "reference_rejects": false,
+        "qualification": "CONDITIONAL_NUMERIC_BOUND_ONLY",
+        "identity_certified": false
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-EZ-S1-R1-pair.json",
+      "sha256": "73f927e4a47124606c38403277fb6028453a67b4d7ec743390548bfd6544d131",
+      "selected_saved_fields": {
+        "variant": "EZ",
+        "source_id": 1,
+        "repeat_id": 1,
+        "Z": "1125899906842617/9007199254740992",
+        "P": "3377699720527857/9007199254740992",
+        "tau_Z": "1/50000000",
+        "reference_error_witness": true,
+        "identity_certified": false
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-EZ-S1-R1-1/input.json",
+      "sha256": "67e1a47610efaacb6b13b2d6b90dc97c408cda98f1fd9a83357b7f9d4a7f3151",
+      "selected_saved_fields": {
+        "case_id": "C-EZ-S1-R1-1"
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-EZ-S1-R1-1/output.json",
+      "sha256": "f5f2c50eaae9d49ce3f00b118d60ebfc6f76e807334ef628ceb6c2aa6d9b3b20",
+      "selected_saved_fields": {},
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-EZ-S1-R1-1/analysis/certificate.json",
+      "sha256": "10463f624110e54e899c3ec7313bd5ed3d7877ad982e3f1f834ed8f98bf06242",
+      "selected_saved_fields": {
+        "case_id": "C-EZ-S1-R1-1",
+        "variant": "EZ",
+        "within_H": true,
+        "reference_rejects": false,
+        "qualification": "CONDITIONAL_NUMERIC_BOUND_ONLY",
+        "identity_certified": false
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-EZ-S1-R1-2/input.json",
+      "sha256": "ea87c4ac3e4a68a8a6617cfeaa8e091eede8a1023498eea67ce61488b26e6852",
+      "selected_saved_fields": {
+        "case_id": "C-EZ-S1-R1-2"
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-EZ-S1-R1-2/output.json",
+      "sha256": "b7ff21341b8425aa7e695e82383859b496e229dba99ffb6baa77d20068bd4ba5",
+      "selected_saved_fields": {},
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-EZ-S1-R1-2/analysis/certificate.json",
+      "sha256": "004f9089da53ef977541d18ac949c8aa0bf8d720b5cd1977f86e505caf26edb9",
+      "selected_saved_fields": {
+        "case_id": "C-EZ-S1-R1-2",
+        "variant": "EZ",
+        "within_H": true,
+        "reference_rejects": true,
+        "qualification": "CONDITIONAL_NUMERIC_BOUND_ONLY",
+        "identity_certified": false
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-ET-S1-R1-pair.json",
+      "sha256": "e9b387c845b8943c4fffdca70a179c2021cd5cef2d32aaecc49ee2729d15e57b",
+      "selected_saved_fields": {
+        "variant": "ET",
+        "source_id": 1,
+        "repeat_id": 1,
+        "Z": "0",
+        "P": "3377699720527859/4503599627370496",
+        "tau_Z": "1/50000000",
+        "reference_error_witness": true,
+        "identity_certified": false
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-ET-S1-R1-1/input.json",
+      "sha256": "d1a5c8b577417b5c72e51233505d42ebef0f427871b642bc88b8413dea59d78a",
+      "selected_saved_fields": {
+        "case_id": "C-ET-S1-R1-1"
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-ET-S1-R1-1/output.json",
+      "sha256": "f5f2c50eaae9d49ce3f00b118d60ebfc6f76e807334ef628ceb6c2aa6d9b3b20",
+      "selected_saved_fields": {},
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-ET-S1-R1-1/analysis/certificate.json",
+      "sha256": "41c0f40ef00b54aa367db29ee62959bf3b3d57e426d06532129f1f076b1f5a15",
+      "selected_saved_fields": {
+        "case_id": "C-ET-S1-R1-1",
+        "variant": "ET",
+        "within_H": true,
+        "reference_rejects": false,
+        "qualification": "CONDITIONAL_NUMERIC_BOUND_ONLY",
+        "identity_certified": false
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-ET-S1-R1-2/input.json",
+      "sha256": "d76858108303f84935d834a98010d3672f6259728741be4852131de1855e5928",
+      "selected_saved_fields": {
+        "case_id": "C-ET-S1-R1-2"
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-ET-S1-R1-2/output.json",
+      "sha256": "042b33cb3c50fc15d7e054a61e995409d1a736469b814acc4fb464af3eefd853",
+      "selected_saved_fields": {},
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    },
+    {
+      "member": "phase27_pilot/results/pilot-s1s3-r1r3/C-ET-S1-R1-2/analysis/certificate.json",
+      "sha256": "8af023a08a3c6a1f6037a924d9b9d0e18e2d008a8e7b5bfac8caf0b6d91e9c55",
+      "selected_saved_fields": {
+        "case_id": "C-ET-S1-R1-2",
+        "variant": "ET",
+        "within_H": true,
+        "reference_rejects": true,
+        "qualification": "CONDITIONAL_NUMERIC_BOUND_ONLY",
+        "identity_certified": false
+      },
+      "method": "JSON字节读取和哈希；没有执行包代码、重算数值或重生成证书"
+    }
+  ]
+}

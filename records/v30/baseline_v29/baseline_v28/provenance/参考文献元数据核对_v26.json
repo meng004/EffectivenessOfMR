@@ -1,0 +1,2797 @@
+{
+  "scope": "逐条公开DOI书目元数据核验；不代表逐条全文或内容正确性认证",
+  "records": [
+    {
+      "ref": 3,
+      "manuscript_entry": "Meng Li et al. A Lightweight Verification Method Based on Metamorphic Relation for Nuclear Power Software. Frontiers in Energy Research 10:788753, 2022. https://doi.org/10.3389/fenrg.2022.788753",
+      "doi": "10.3389/fenrg.2022.788753",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.3389%2Ffenrg.2022.788753",
+      "metadata": {
+        "DOI": "10.3389/fenrg.2022.788753",
+        "title": [
+          "A Lightweight Verification Method Based on Metamorphic Relation for Nuclear Power Software"
+        ],
+        "author": [
+          {
+            "given": "Meng",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xiaohua",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shiyu",
+            "family": "Yan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jie",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yusheng",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jun",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Frontiers in Energy Research"
+        ],
+        "volume": "10",
+        "issue": null,
+        "page": null,
+        "article-number": "788753",
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              4
+            ]
+          ]
+        },
+        "published-print": null,
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              2,
+              4
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "ref": 4,
+      "manuscript_entry": "Meng Li, Lijun Wang, Shiyu Yan, Xiaohua Yang, Jie Liu, Yapin Wan. Metamorphic Relations Identification on Chebyshev Rational Approximation Method in the Nuclide Depletion Calculation Program. IEEE QRS-C, 2020, 1–6. https://doi.org/10.1109/QRS-C51114.2020.00013",
+      "doi": "10.1109/QRS-C51114.2020.00013",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1109%2FQRS-C51114.2020.00013",
+      "metadata": {
+        "DOI": "10.1109/qrs-c51114.2020.00013",
+        "title": [
+          "Metamorphic Relations Identification on Chebyshev Rational Approximation Method in the Nuclide Depletion Calculation Program"
+        ],
+        "author": [
+          {
+            "given": "Meng",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Lijun",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shiyu",
+            "family": "Yan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xiaohua",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jie",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yapin",
+            "family": "Wan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "2020 IEEE 20th International Conference on Software Quality, Reliability and Security Companion (QRS-C)"
+        ],
+        "volume": null,
+        "issue": null,
+        "page": "1-6",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              12
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 5,
+      "manuscript_entry": "Shiyu Yan, Hong Zhu. Metamorphic Testing on Scientific Programs for Solving Second-Order Elliptic Differential Equations. Software Testing, Verification and Reliability 35(1):e1912, 2025. https://doi.org/10.1002/stvr.1912",
+      "doi": "10.1002/stvr.1912",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1002%2Fstvr.1912",
+      "metadata": {
+        "DOI": "10.1002/stvr.1912",
+        "title": [
+          "Metamorphic Testing on Scientific Programs for Solving Second‐Order Elliptic Differential Equations"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-7626-5185",
+            "authenticated-orcid": false,
+            "given": "Shiyu",
+            "family": "Yan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer University of South China  Hunan China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9393-5005",
+            "authenticated-orcid": false,
+            "given": "Hong",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Engineering, Computing and Mathematics Oxford Brookes University  Oxford UK"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Software Testing, Verification and Reliability"
+        ],
+        "volume": "35",
+        "issue": "1",
+        "page": null,
+        "article-number": "e1912",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              22
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              22
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "ref": 6,
+      "manuscript_entry": "Quang-Hung Luu, Man F. Lau, Sebastian P. H. Ng, Tsong Yueh Chen. Testing Multiple Linear Regression Systems with Metamorphic Testing. Journal of Systems and Software 182:111062, 2021. https://doi.org/10.1016/j.jss.2021.111062",
+      "doi": "10.1016/j.jss.2021.111062",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.jss.2021.111062",
+      "metadata": {
+        "DOI": "10.1016/j.jss.2021.111062",
+        "title": [
+          "Testing multiple linear regression systems with metamorphic testing"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-7771-9836",
+            "authenticated-orcid": false,
+            "given": "Quang-Hung",
+            "family": "Luu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Man F.",
+            "family": "Lau",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2074-6673",
+            "authenticated-orcid": false,
+            "given": "Sebastian P.H.",
+            "family": "Ng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tsong Yueh",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Systems and Software"
+        ],
+        "volume": "182",
+        "issue": null,
+        "page": "111062",
+        "article-number": "111062",
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 7,
+      "manuscript_entry": "Robert I. McLachlan, Ari Stern. Functional equivariance and conservation laws in numerical integration. Foundations of Computational Mathematics 24(1):149–177, 2024. https://doi.org/10.1007/s10208-022-09590-8",
+      "doi": "10.1007/s10208-022-09590-8",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1007%2Fs10208-022-09590-8",
+      "metadata": {
+        "DOI": "10.1007/s10208-022-09590-8",
+        "title": [
+          "Functional Equivariance and Conservation Laws in Numerical Integration"
+        ],
+        "author": [
+          {
+            "given": "Robert I.",
+            "family": "McLachlan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ari",
+            "family": "Stern",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Foundations of Computational Mathematics"
+        ],
+        "volume": "24",
+        "issue": "1",
+        "page": "149-177",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              20
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              20
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "ref": 8,
+      "manuscript_entry": "Olin Calvin, Sebastian Schunert, Barry Ganapol. Global error analysis of the Chebyshev rational approximation method. Annals of Nuclear Energy 150:107828, 2021. https://doi.org/10.1016/j.anucene.2020.107828",
+      "doi": "10.1016/j.anucene.2020.107828",
+      "status": "metadata_retrieved_after_rate_limit",
+      "error": "HTTP Error 429: Too Many Requests",
+      "first_attempt_error": "HTTP Error 429: Too Many Requests",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.anucene.2020.107828",
+      "metadata": {
+        "DOI": "10.1016/j.anucene.2020.107828",
+        "title": [
+          "Global error analysis of the Chebyshev rational approximation method"
+        ],
+        "author": [
+          {
+            "given": "Olin",
+            "family": "Calvin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sebastian",
+            "family": "Schunert",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Barry",
+            "family": "Ganapol",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Annals of Nuclear Energy"
+        ],
+        "volume": "150",
+        "issue": null,
+        "page": "107828",
+        "article-number": "107828",
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              1
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 9,
+      "manuscript_entry": "Sergio Blanes, Arieh Iserles, Shev Macnamara. Positivity-preserving methods for ordinary differential equations. ESAIM: Mathematical Modelling and Numerical Analysis 56:1843–1870, 2022. https://doi.org/10.1051/m2an/2022042",
+      "doi": "10.1051/m2an/2022042",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1051%2Fm2an%2F2022042",
+      "metadata": {
+        "DOI": "10.1051/m2an/2022042",
+        "title": [
+          "Positivity-preserving methods for ordinary differential equations"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5819-8898",
+            "authenticated-orcid": false,
+            "given": "Sergio",
+            "family": "Blanes",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Arieh",
+            "family": "Iserles",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shev",
+            "family": "Macnamara",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "ESAIM: Mathematical Modelling and Numerical Analysis"
+        ],
+        "volume": "56",
+        "issue": "6",
+        "page": "1843-1870",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              11
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              8,
+              12
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "ref": 10,
+      "manuscript_entry": "Paolo Santesso, Maria Elena Valcher. On the zero pattern properties and asymptotic behavior of continuous-time positive system trajectories. Linear Algebra and its Applications 425:283–302, 2007. https://doi.org/10.1016/j.laa.2007.01.014",
+      "doi": "10.1016/j.laa.2007.01.014",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.laa.2007.01.014",
+      "metadata": {
+        "DOI": "10.1016/j.laa.2007.01.014",
+        "title": [
+          "On the zero pattern properties and asymptotic behavior of continuous-time positive system trajectories"
+        ],
+        "author": [
+          {
+            "given": "Paolo",
+            "family": "Santesso",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Maria Elena",
+            "family": "Valcher",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Linear Algebra and its Applications"
+        ],
+        "volume": "425",
+        "issue": "2-3",
+        "page": "283-302",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2007,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2007,
+              9
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 11,
+      "manuscript_entry": "K.-H. Huang and J. A. Abraham. Algorithm-Based Fault Tolerance for Matrix Operations. IEEE Transactions on Computers 33(6):518–528, 1984. https://doi.org/10.1109/TC.1984.1676475",
+      "doi": "10.1109/TC.1984.1676475",
+      "status": "metadata_retrieved_after_rate_limit",
+      "error": "HTTP Error 429: Too Many Requests",
+      "first_attempt_error": "HTTP Error 429: Too Many Requests",
+      "source": "https://api.crossref.org/works/10.1109%2FTC.1984.1676475",
+      "metadata": {
+        "DOI": "10.1109/tc.1984.1676475",
+        "title": [
+          "Algorithm-Based Fault Tolerance for Matrix Operations"
+        ],
+        "author": [
+          {
+            "family": "Kuang-Hua Huang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jacob A.",
+            "family": "Abraham",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Computers"
+        ],
+        "volume": "C-33",
+        "issue": "6",
+        "page": "518-528",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              1984,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1984,
+              6
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 12,
+      "manuscript_entry": "Maria Elena Valcher, Paolo Santesso. Reachability properties of single-input continuous-time positive switched systems. IEEE Transactions on Automatic Control 55(5):1117–1130, 2010. https://doi.org/10.1109/TAC.2010.2045442",
+      "doi": "10.1109/TAC.2010.2045442",
+      "status": "metadata_retrieved_after_rate_limit",
+      "error": "HTTP Error 429: Too Many Requests",
+      "first_attempt_error": "HTTP Error 429: Too Many Requests",
+      "source": "https://api.crossref.org/works/10.1109%2FTAC.2010.2045442",
+      "metadata": {
+        "DOI": "10.1109/tac.2010.2045442",
+        "title": [
+          "Reachability Properties of Single-Input Continuous-Time Positive Switched Systems"
+        ],
+        "author": [
+          {
+            "given": "Maria Elena",
+            "family": "Valcher",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Paolo",
+            "family": "Santesso",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Automatic Control"
+        ],
+        "volume": "55",
+        "issue": "5",
+        "page": "1117-1130",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              5
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 15,
+      "manuscript_entry": "Maria Pusa. Higher-Order Chebyshev Rational Approximation Method and Application to Burnup Equations. Nuclear Science and Engineering 182(3):297–318, 2016. https://doi.org/10.13182/NSE15-26",
+      "doi": "10.13182/NSE15-26",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.13182%2FNSE15-26",
+      "metadata": {
+        "DOI": "10.13182/nse15-26",
+        "title": [
+          "Higher-Order Chebyshev Rational Approximation Method and Application to Burnup Equations"
+        ],
+        "author": [
+          {
+            "given": "Pusa",
+            "family": "Maria",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "VTT Technical Research Centre of Finland, P.O. Box 1000, FI-02044 VTT, Finland"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nuclear Science and Engineering"
+        ],
+        "volume": "182",
+        "issue": "3",
+        "page": "297-318",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              3
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              22
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "ref": 16,
+      "manuscript_entry": "Huai Liu, Fei-Ching Kuo, Dave Towey, Tsong Yueh Chen. How Effectively Does Metamorphic Testing Alleviate the Oracle Problem? IEEE Transactions on Software Engineering 40(1):4–22, 2014. https://doi.org/10.1109/TSE.2013.46",
+      "doi": "10.1109/TSE.2013.46",
+      "status": "metadata_retrieved_after_rate_limit",
+      "error": "HTTP Error 429: Too Many Requests",
+      "first_attempt_error": "HTTP Error 429: Too Many Requests",
+      "source": "https://api.crossref.org/works/10.1109%2FTSE.2013.46",
+      "metadata": {
+        "DOI": "10.1109/tse.2013.46",
+        "title": [
+          "How Effectively Does Metamorphic Testing Alleviate the Oracle Problem?"
+        ],
+        "author": [
+          {
+            "given": "Huai",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fei-Ching",
+            "family": "Kuo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dave",
+            "family": "Towey",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tsong Yueh",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Software Engineering"
+        ],
+        "volume": "40",
+        "issue": "1",
+        "page": "4-22",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              1
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 17,
+      "manuscript_entry": "Kun Qiu, Zheng Zheng, Tsong Yueh Chen, Pak-Lok Poon. Theoretical and Empirical Analyses of the Effectiveness of Metamorphic Relation Composition. IEEE Transactions on Software Engineering 48(3):1001–1017, 2022. https://doi.org/10.1109/TSE.2020.3009698",
+      "doi": "10.1109/TSE.2020.3009698",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1109%2FTSE.2020.3009698",
+      "metadata": {
+        "DOI": "10.1109/tse.2020.3009698",
+        "title": [
+          "Theoretical and Empirical Analyses of the Effectiveness of Metamorphic Relation Composition"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-4121-3665",
+            "authenticated-orcid": false,
+            "given": "Kun",
+            "family": "Qiu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Automation Science and Electrical Engineering, Beihang University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7922-9067",
+            "authenticated-orcid": false,
+            "given": "Zheng",
+            "family": "Zheng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Automation Science and Electrical Engineering, Beihang University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3578-0994",
+            "authenticated-orcid": false,
+            "given": "Tsong Yueh",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Software Engineering, Swinburne University of Technology, Hawthorn, VIC, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2840-2418",
+            "authenticated-orcid": false,
+            "given": "Pak-Lok",
+            "family": "Poon",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Engineering and Technology, Central Queensland University, Melbourne, VIC, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Software Engineering"
+        ],
+        "volume": "48",
+        "issue": "3",
+        "page": "1001-1017",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              1
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 18,
+      "manuscript_entry": "Meng Li, Lijun Wang, Wei Yue, Bei Liu, Jiawei Liu, Zixi Liu, Shiyu Yan, Xiaohua Yang. Metamorphic testing of the NUIT code based on burnup time. Annals of Nuclear Energy 153:108027, 2021. https://doi.org/10.1016/j.anucene.2020.108027",
+      "doi": "10.1016/j.anucene.2020.108027",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.anucene.2020.108027",
+      "metadata": {
+        "DOI": "10.1016/j.anucene.2020.108027",
+        "title": [
+          "Metamorphic testing of the NUIT code based on burnup time"
+        ],
+        "author": [
+          {
+            "given": "Meng",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lijun",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wei",
+            "family": "Yue",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bei",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiawei",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zixi",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shiyu",
+            "family": "Yan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiaohua",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Annals of Nuclear Energy"
+        ],
+        "volume": "153",
+        "issue": null,
+        "page": "108027",
+        "article-number": "108027",
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              4
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 19,
+      "manuscript_entry": "Jipu Wang et al. Code Verification and Solution Verification framework in pin-resolved neutron transport code MPACT. Annals of Nuclear Energy 178:109365, 2022. https://doi.org/10.1016/j.anucene.2022.109365",
+      "doi": "10.1016/j.anucene.2022.109365",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.anucene.2022.109365",
+      "metadata": {
+        "DOI": "10.1016/j.anucene.2022.109365",
+        "title": [
+          "Code Verification and Solution Verification framework in pin-resolved neutron transport code MPACT"
+        ],
+        "author": [
+          {
+            "given": "Jipu",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "William R.",
+            "family": "Martin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Thomas J.",
+            "family": "Downar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Brendan",
+            "family": "Kochunas",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Nathan C.",
+            "family": "Andrews",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Lindsay",
+            "family": "Gilkey",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Erik D.",
+            "family": "Walker",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Benjamin S.",
+            "family": "Collins",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Martin",
+            "family": "Pilch",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Annals of Nuclear Energy"
+        ],
+        "volume": "178",
+        "issue": null,
+        "page": "109365",
+        "article-number": "109365",
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 20,
+      "manuscript_entry": "Yin Zhao, Meng Li, Ke Zhang, Xiaohua Yang, Jie Liu, Shiyu Yan. Verification of multi-scale coupling program for high temperature gas-cooled reactor based on metamorphic testing. Annals of Nuclear Energy 226:111846, 2026. https://doi.org/10.1016/j.anucene.2025.111846",
+      "doi": "10.1016/j.anucene.2025.111846",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.anucene.2025.111846",
+      "metadata": {
+        "DOI": "10.1016/j.anucene.2025.111846",
+        "title": [
+          "Verification of multi-scale coupling program for high temperature gas-cooled reactor based on metamorphic testing"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0001-7214-6223",
+            "authenticated-orcid": false,
+            "given": "Yin",
+            "family": "Zhao",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1074-1502",
+            "authenticated-orcid": false,
+            "given": "Meng",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ke",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2977-1787",
+            "authenticated-orcid": false,
+            "given": "Xiaohua",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jie",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7626-5185",
+            "authenticated-orcid": false,
+            "given": "Shiyu",
+            "family": "Yan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Annals of Nuclear Energy"
+        ],
+        "volume": "226",
+        "issue": null,
+        "page": "111846",
+        "article-number": "111846",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              2
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 21,
+      "manuscript_entry": "Xiaoyuan Xie, Joshua W. K. Ho, Christian Murphy, Gail Kaiser, Baowen Xu, Tsong Yueh Chen. Testing and validating machine learning classifiers by metamorphic testing. Journal of Systems and Software 84(4):544–558, 2011. https://doi.org/10.1016/j.jss.2010.11.920",
+      "doi": "10.1016/j.jss.2010.11.920",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.jss.2010.11.920",
+      "metadata": {
+        "DOI": "10.1016/j.jss.2010.11.920",
+        "title": [
+          "Testing and validating machine learning classifiers by metamorphic testing"
+        ],
+        "author": [
+          {
+            "given": "Xiaoyuan",
+            "family": "Xie",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Joshua W.K.",
+            "family": "Ho",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Christian",
+            "family": "Murphy",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gail",
+            "family": "Kaiser",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Baowen",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tsong Yueh",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Systems and Software"
+        ],
+        "volume": "84",
+        "issue": "4",
+        "page": "544-558",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              4
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 22,
+      "manuscript_entry": "Xiaoyuan Xie, Zhiyi Zhang, Tsong Yueh Chen, Yang Liu, Pak-Lok Poon, Baowen Xu. METTLE: A METamorphic Testing Approach to Assessing and Validating Unsupervised Machine Learning Systems. IEEE Transactions on Reliability 69(4):1293–1322, 2020. https://doi.org/10.1109/TR.2020.2972266 （定向核读作者稿arXiv:1807.10453v4，非终版逐字核验。）",
+      "doi": "10.1109/TR.2020.2972266",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1109%2FTR.2020.2972266",
+      "metadata": {
+        "DOI": "10.1109/tr.2020.2972266",
+        "title": [
+          "METTLE: A METamorphic Testing Approach to Assessing and Validating Unsupervised Machine Learning Systems"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2828-7165",
+            "authenticated-orcid": false,
+            "given": "Xiaoyuan",
+            "family": "Xie",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0029-0912",
+            "authenticated-orcid": false,
+            "given": "Zhiyi",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3578-0994",
+            "authenticated-orcid": false,
+            "given": "Tsong Yueh",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7300-9215",
+            "authenticated-orcid": false,
+            "given": "Yang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2840-2418",
+            "authenticated-orcid": false,
+            "given": "Pak-Lok",
+            "family": "Poon",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7743-1296",
+            "authenticated-orcid": false,
+            "given": "Baowen",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Reliability"
+        ],
+        "volume": "69",
+        "issue": "4",
+        "page": "1293-1322",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              12
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 23,
+      "manuscript_entry": "Tsong Yueh Chen, T. H. Tse. New Visions on Metamorphic Testing after a Quarter of a Century of Inception. ESEC/FSE 2021:1487–1490. https://doi.org/10.1145/3468264.3473136",
+      "doi": "10.1145/3468264.3473136",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1145%2F3468264.3473136",
+      "metadata": {
+        "DOI": "10.1145/3468264.3473136",
+        "title": [
+          "New visions on metamorphic testing after a quarter of a century of inception"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3578-0994",
+            "authenticated-orcid": false,
+            "given": "Tsong Yueh",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Swinburne University of Technology, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0460-8377",
+            "authenticated-orcid": false,
+            "given": "T. H.",
+            "family": "Tse",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Hong Kong, Hong Kong"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Proceedings of the 29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
+        ],
+        "volume": null,
+        "issue": null,
+        "page": "1487-1490",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              8,
+              18
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              8,
+              20
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              8,
+              18
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "ref": 24,
+      "manuscript_entry": "Chang-ai Sun, An Fu, Pak-Lok Poon, Xiaoyuan Xie, Huai Liu, Tsong Yueh Chen. METRIC+: A Metamorphic Relation Identification Technique Based on Input Plus Output Domains. IEEE Transactions on Software Engineering 47(9):1764–1785, 2021. https://doi.org/10.1109/TSE.2019.2934848 （官方Journal First扩展摘要及独立检索转交的全文§2.1／§6.7定位；非本写作对话全文核验。）",
+      "doi": "10.1109/TSE.2019.2934848",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1109%2FTSE.2019.2934848",
+      "metadata": {
+        "DOI": "10.1109/tse.2019.2934848",
+        "title": [
+          "METRIC+: A Metamorphic Relation Identification Technique Based on Input plus Output Domains"
+        ],
+        "author": [
+          {
+            "given": "Chang-Ai",
+            "family": "Sun",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "An",
+            "family": "Fu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Pak-Lok",
+            "family": "Poon",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiaoyuan",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Huai",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tsong Yueh",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Software Engineering"
+        ],
+        "volume": null,
+        "issue": null,
+        "page": "1-1",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 25,
+      "manuscript_entry": "Zhi Quan Zhou, Liqun Sun, Tsong Yueh Chen, Dave Towey. Metamorphic Relations for Enhancing System Understanding and Use. IEEE Transactions on Software Engineering, pp.1120–1154, 2020. https://doi.org/10.1109/TSE.2018.2876433 （摘要、官方Journal First及机构索引范围；全文未取得。）",
+      "doi": "10.1109/TSE.2018.2876433",
+      "status": "metadata_retrieved_after_rate_limit",
+      "error": "HTTP Error 429: Too Many Requests",
+      "first_attempt_error": "HTTP Error 429: Too Many Requests",
+      "source": "https://api.crossref.org/works/10.1109%2FTSE.2018.2876433",
+      "metadata": {
+        "DOI": "10.1109/tse.2018.2876433",
+        "title": [
+          "Metamorphic Relations for Enhancing System Understanding and Use"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-1769-9367",
+            "authenticated-orcid": false,
+            "given": "Zhi Quan",
+            "family": "Zhou",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Institute of Cybersecurity and Cryptology, School of Computing and Information Technology, University of Wollongong, Wollongong, NSW, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7445-5532",
+            "authenticated-orcid": false,
+            "given": "Liqun",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Cybersecurity and Cryptology, School of Computing and Information Technology, University of Wollongong, Wollongong, NSW, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3578-0994",
+            "authenticated-orcid": false,
+            "given": "Tsong Yueh",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Software Engineering, Swinburne University of Technology, Hawthorn, VIC, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0877-4353",
+            "authenticated-orcid": false,
+            "given": "Dave",
+            "family": "Towey",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, University of Nottingham Ningbo China, Ningbo, Zhejiang, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Software Engineering"
+        ],
+        "volume": "46",
+        "issue": "10",
+        "page": "1120-1154",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              1
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 26,
+      "manuscript_entry": "C. A. R. Hoare. An Axiomatic Basis for Computer Programming. Communications of the ACM, 1969. https://doi.org/10.1145/363235.363259",
+      "doi": "10.1145/363235.363259",
+      "status": "metadata_retrieved_after_rate_limit",
+      "error": "HTTP Error 429: Too Many Requests",
+      "first_attempt_error": "HTTP Error 429: Too Many Requests",
+      "source": "https://api.crossref.org/works/10.1145%2F363235.363259",
+      "metadata": {
+        "DOI": "10.1145/363235.363259",
+        "title": [
+          "An axiomatic basis for computer programming"
+        ],
+        "author": [
+          {
+            "given": "C. A. R.",
+            "family": "Hoare",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Queen's Univ. of Belfast, Northern Ireland"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Communications of the ACM"
+        ],
+        "volume": "12",
+        "issue": "10",
+        "page": "576-580",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              1969,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1969,
+              10
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              1969,
+              10
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "ref": 27,
+      "manuscript_entry": "Michael D. Ernst, Jake Cockrell, William G. Griswold, David Notkin. Dynamically Discovering Likely Program Invariants to Support Program Evolution. IEEE Transactions on Software Engineering 27(2):99–123, 2001. https://doi.org/10.1109/32.908957",
+      "doi": "10.1109/32.908957",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1109%2F32.908957",
+      "metadata": {
+        "DOI": "10.1109/32.908957",
+        "title": [
+          "Dynamically discovering likely program invariants to support program evolution"
+        ],
+        "author": [
+          {
+            "given": "M.D.",
+            "family": "Ernst",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Dept. of Electr. Eng. & Comput. Sci., MIT, Cambridge, MA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J.",
+            "family": "Cockrell",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "W.G.",
+            "family": "Griswold",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "D.",
+            "family": "Notkin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Software Engineering"
+        ],
+        "volume": "27",
+        "issue": "2",
+        "page": "99-123",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2001,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2001,
+              2
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 28,
+      "manuscript_entry": "Michael R. Clarkson, Fred B. Schneider. Hyperproperties. Journal of Computer Security 18:1157–1210, 2010. https://doi.org/10.3233/JCS-2009-0393",
+      "doi": "10.3233/JCS-2009-0393",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.3233%2FJCS-2009-0393",
+      "metadata": {
+        "DOI": "10.3233/jcs-2009-0393",
+        "title": [
+          "Hyperproperties"
+        ],
+        "author": [
+          {
+            "given": "Michael R.",
+            "family": "Clarkson",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, Cornell University, Ithaca, NY, USA. E-mails: clarkson@cs.cornell.edu, fbs@cs.cornell.edu"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fred B.",
+            "family": "Schneider",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, Cornell University, Ithaca, NY, USA. E-mails: clarkson@cs.cornell.edu, fbs@cs.cornell.edu"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Computer Security"
+        ],
+        "volume": "18",
+        "issue": "6",
+        "page": "1157-1210",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              9,
+              20
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              9,
+              20
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 29,
+      "manuscript_entry": "Peter Reichert, Kai Ma, Marvin Höge, Fabrizio Fenicia, Marco Baity-Jesi, Dapeng Feng, Chaopeng Shen. Metamorphic testing of machine learning and conceptual hydrologic models. Hydrology and Earth System Sciences 28:2505–2529, 2024. https://doi.org/10.5194/hess-28-2505-2024",
+      "doi": "10.5194/hess-28-2505-2024",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.5194%2Fhess-28-2505-2024",
+      "metadata": {
+        "DOI": "10.5194/hess-28-2505-2024",
+        "title": [
+          "Metamorphic testing of machine learning and conceptual hydrologic models"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-7832-4257",
+            "authenticated-orcid": false,
+            "given": "Peter",
+            "family": "Reichert",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/00pc48d59",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Swiss Federal Institute of Aquatic Science and Technology (Dübendorf, Switzerland)"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              },
+              {
+                "role": "corresponding-author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kai",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4619-2178",
+            "authenticated-orcid": false,
+            "given": "Marvin",
+            "family": "Höge",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8065-6004",
+            "authenticated-orcid": false,
+            "given": "Fabrizio",
+            "family": "Fenicia",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8723-906X",
+            "authenticated-orcid": false,
+            "given": "Marco",
+            "family": "Baity-Jesi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dapeng",
+            "family": "Feng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0685-1901",
+            "authenticated-orcid": false,
+            "given": "Chaopeng",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Hydrology and Earth System Sciences"
+        ],
+        "volume": "28",
+        "issue": "11",
+        "page": "2505-2529",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              13
+            ]
+          ]
+        },
+        "published-print": null,
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              13
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "ref": 31,
+      "doi": "10.1016/j.anucene.2020.107903",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.anucene.2020.107903",
+      "metadata": {
+        "DOI": "10.1016/j.anucene.2020.107903",
+        "title": [
+          "ONIX: An open-source depletion code"
+        ],
+        "author": [
+          {
+            "given": "J.",
+            "family": "de Troullioud de Lanversin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "M.",
+            "family": "Kütt",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "A.",
+            "family": "Glaser",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Annals of Nuclear Energy"
+        ],
+        "volume": "151",
+        "issue": null,
+        "page": "107903",
+        "article-number": "107903",
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              2
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 32,
+      "doi": "10.1016/j.anucene.2014.07.048",
+      "status": "metadata_retrieved",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.anucene.2014.07.048",
+      "metadata": {
+        "DOI": "10.1016/j.anucene.2014.07.048",
+        "title": [
+          "OpenMC: A state-of-the-art Monte Carlo code for research and development"
+        ],
+        "author": [
+          {
+            "given": "Paul K.",
+            "family": "Romano",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nicholas E.",
+            "family": "Horelik",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bryan R.",
+            "family": "Herman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Adam G.",
+            "family": "Nelson",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Benoit",
+            "family": "Forget",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kord",
+            "family": "Smith",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Annals of Nuclear Energy"
+        ],
+        "volume": "82",
+        "issue": null,
+        "page": "90-97",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              8
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 33,
+      "doi": "10.1016/j.anucene.2020.107989",
+      "status": "metadata_retrieved_after_rate_limit",
+      "error": "HTTP Error 429: Too Many Requests",
+      "first_attempt_error": "HTTP Error 429: Too Many Requests",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.anucene.2020.107989",
+      "metadata": {
+        "DOI": "10.1016/j.anucene.2020.107989",
+        "title": [
+          "Depletion capabilities in the OpenMC Monte Carlo particle transport code"
+        ],
+        "author": [
+          {
+            "given": "Paul K.",
+            "family": "Romano",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Colin J.",
+            "family": "Josey",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andrew E.",
+            "family": "Johnson",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jingang",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Annals of Nuclear Energy"
+        ],
+        "volume": "152",
+        "issue": null,
+        "page": "107989",
+        "article-number": "107989",
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    },
+    {
+      "ref": 34,
+      "doi": "10.1016/j.anucene.2013.12.012",
+      "status": "metadata_retrieved_after_rate_limit",
+      "error": "HTTP Error 429: Too Many Requests",
+      "first_attempt_error": "HTTP Error 429: Too Many Requests",
+      "source": "https://api.crossref.org/works/10.1016%2Fj.anucene.2013.12.012",
+      "metadata": {
+        "DOI": "10.1016/j.anucene.2013.12.012",
+        "title": [
+          "The OpenMOC method of characteristics neutral particle transport code"
+        ],
+        "author": [
+          {
+            "given": "William",
+            "family": "Boyd",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Samuel",
+            "family": "Shaner",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lulu",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Benoit",
+            "family": "Forget",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kord",
+            "family": "Smith",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Annals of Nuclear Energy"
+        ],
+        "volume": "68",
+        "issue": null,
+        "page": "43-52",
+        "article-number": null,
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              6
+            ]
+          ]
+        },
+        "published-online": null
+      }
+    }
+  ],
+  "non_doi_references": {
+    "1": "arXiv2605.17390v1前轮已核",
+    "2": "arXiv2606.17529v1前轮已核",
+    "13": "arXiv2605.17437v2前轮已核",
+    "14": "固定commit GitHub路径本轮访问成功，核对文件位置，非整仓认证",
+    "30": "JMLR官网题名作者22(290):1–76,2021及摘要本轮核对"
+  }
+}

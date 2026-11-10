@@ -1,0 +1,480 @@
+{
+  "schema": "v28-static-verification/1.0",
+  "all_passed": true,
+  "passed": 93,
+  "total": 93,
+  "manuscript": "结构MR离散后有效性预测_修订稿_v28.md",
+  "manuscript_sha256": "3b2941c279a8d8945a71be97f9d4679fbdb95c11b0b2096f106e70d46c31ecb1",
+  "checker_sha256": "7cbb3edb9942ea6aabdae504eb17cb29e618f1220c823372a1d0155631ba32b1",
+  "scope": "Static text/metadata only: 17 formula bytes, 13 data tables after explicit section-reference migration, original bibliography, selected scientific number tokens, new metadata, navigation and diff. Not proof validity, interval/certificate regeneration, source-PDF verification, SUT identity or prospective evaluation.",
+  "checks": [
+    {
+      "name": "baseline_sha",
+      "passed": true,
+      "detail": "a2e9a36f5f28f87fe5229ae2fadc1434dbe26818d0c2446c1aeb2f4213f92c39"
+    },
+    {
+      "name": "manuscript_sha",
+      "passed": true,
+      "detail": "3b2941c279a8d8945a71be97f9d4679fbdb95c11b0b2096f106e70d46c31ecb1"
+    },
+    {
+      "name": "original_scientific_zip_sha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exactly_17_display_equations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F01_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F02_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F03_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F04_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F05_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F06_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F07_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F08_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F09_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F10_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F11_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F12_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F13_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F14_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F15_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F16_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "V27F17_verbatim_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T01_data_table_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T02_data_table_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T03_data_table_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T04_data_table_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T05_data_table_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T06_data_table_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T07_data_table_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T08_data_table_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T09_data_table_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T10_data_table_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T11_data_table_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T12_data_table_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T13_data_table_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_scientific_number_tokens_retained",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "original_reference_1_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_2_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_3_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_4_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_5_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_6_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_7_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_8_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_9_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_10_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_11_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_12_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_13_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_14_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_15_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_16_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_17_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_18_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_19_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_20_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_21_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_22_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_23_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_24_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_25_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_26_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_27_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_28_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_29_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_30_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_31_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_32_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_33_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_34_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_reference_35_verbatim",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "new_reference_36_metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "new_reference_37_metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "new_reference_38_metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "new_reference_39_metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prior_report_燃耗MR识别报告A_基于元模式与MR族.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prior_report_燃耗MR识别报告B_基于方程与离散算法性质.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "43_references_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "heading_registry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "main_internal_numeric_targets_exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "technical_appendix_targets_exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "proposition_1_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "proposition_2_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "proposition_3_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "proposition_4_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "new_induction_provenance",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "boundary_source_and_database",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "three_numerical_standards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "retained_qualification",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "recent_neighbors_scope",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "current_navigation",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "unified_diff_current",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "main_text_character_measure",
+      "passed": true,
+      "detail": {
+        "v27": 45154,
+        "v28": 35364
+      }
+    },
+    {
+      "name": "execution_boundary_false",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "schema": "v27-section-migration/1.0",
+  "baseline": "provenance/结构MR有效范围与能力边界_修订稿_v26.md",
+  "baseline_sha256": "ce36cacdec5e658aa1290363d65bd4d1e43e9e3080cea1afd4c90c395f53da18",
+  "draft": "结构MR离散后有效性预测_重构稿_v27.md",
+  "draft_sha256": "a2e9a36f5f28f87fe5229ae2fadc1434dbe26818d0c2446c1aeb2f4213f92c39",
+  "section_moves": [
+    {
+      "v26_anchor": "## 4 燃耗：零结构与正路径信号",
+      "v26_end": "## 5 固定源输运：尺度关系与观察可见性",
+      "v26_start_line": 256,
+      "v27_target": "§3.5与§3.7.2",
+      "operation": "move_and_cross_reference_update",
+      "source_sha256": "f1ab22acfd70a744916fa8b8148514c39a59fc92d984eb508e9e181ecd3b7f35"
+    },
+    {
+      "v26_anchor": "## 5 固定源输运：尺度关系与观察可见性",
+      "v26_end": "## 6 保存案例分析与经验对照",
+      "v26_start_line": 336,
+      "v27_target": "§3.6",
+      "operation": "move_and_cross_reference_update",
+      "source_sha256": "d2d2c4e14faf477bc5e1e642aa4f4296b1228307dce74c58bc4cf1bcac0ab727"
+    },
+    {
+      "v26_anchor": "### 3.2 数值裁决合同",
+      "v26_end": "### 3.3 已建立关系基础的限定覆盖",
+      "v26_start_line": 164,
+      "v27_target": "§3.7.1",
+      "operation": "move_and_cross_reference_update",
+      "source_sha256": "816351af91cab38710d28406387df49879a4e437e6f28b878c0f1397f28a3ebb"
+    },
+    {
+      "v26_anchor": "#### 五状态多路径的具体合同",
+      "v26_end": "### 6.2 冻结CRAM的条件区间与保存点核算",
+      "v26_start_line": 468,
+      "v27_target": "§4.7.2",
+      "operation": "move_and_cross_reference_update",
+      "source_sha256": "954967e5e5ebbf36852c4f055d34977693c266522f11277252c819eabf716ef1"
+    },
+    {
+      "v26_anchor": "#### E1 三组不同初值的三轮扩展",
+      "v26_end": "### 6.4 固定源MOC：尺度、叠加与源／核负控",
+      "v26_start_line": 516,
+      "v27_target": "§4.8.2",
+      "operation": "move_and_cross_reference_update",
+      "source_sha256": "e148ab681f7173a59041133ea6c4b99a12f7b3a3695d87a20ad249d291a7b012"
+    },
+    {
+      "v26_anchor": "## 2 相关工作与研究位置",
+      "v26_end": "## 3 分析范围与数值比较口径",
+      "v26_start_line": 42,
+      "v27_target": "§6（引用来源章节保持）",
+      "operation": "move_and_cross_reference_update",
+      "source_sha256": "0257e106fa20240f48196abdb752ed4b016a92b46c2a0f2d6a490ff3beb2e9c4"
+    },
+    {
+      "v26_anchor": "### 3.3 已建立关系基础的限定覆盖",
+      "v26_end": "### 3.4 有限MR合同与证据状态",
+      "v26_start_line": 195,
+      "v27_target": "附录A",
+      "operation": "move_and_cross_reference_update",
+      "source_sha256": "f8738829c966971106ed313f0bb4a5e254c14c1f7db2c8be7d1f33627f693842"
+    },
+    {
+      "v26_anchor": "### 3.4 有限MR合同与证据状态",
+      "v26_end": "## 4 燃耗：零结构与正路径信号",
+      "v26_start_line": 242,
+      "v27_target": "附录B",
+      "operation": "move_and_cross_reference_update",
+      "source_sha256": "e03f5348975af7e840a803db95b7dd9ae28659f00441ec0a4a3bd9087f0fd008"
+    },
+    {
+      "v26_anchor": "### 有限15合同的自含范围索引",
+      "v26_end": "### 材料入口与实际状态",
+      "v26_start_line": 794,
+      "v27_target": "附录B.1",
+      "operation": "move_and_cross_reference_update",
+      "source_sha256": "91dc0feaf2240a9afb3dce04c07bcda73dd80a52f3d8e976f12e8704094db176"
+    }
+  ],
+  "internal_subsection_mapping": {
+    "§6.0": "§4.4",
+    "§6.1": "§4.7",
+    "§6.2": "§4.8.1",
+    "§6.3": "§4.8.2",
+    "§6.4": "§4.8.3",
+    "§4.1": "§3.5.1",
+    "§4.2": "§3.5.2",
+    "§4.3": "§3.5.3",
+    "§4.4": "§3.7.2",
+    "§5.1": "§3.6.1",
+    "§5.2": "§3.6.2",
+    "§3.1": "§3.3",
+    "§3.2": "§3.7.1",
+    "§3.3": "附录A",
+    "§3.4": "附录B",
+    "§7.1": "§5.1",
+    "§7.2": "§5.2",
+    "§7.3": "§5.1",
+    "§7.4": "§5.3"
+  },
+  "source_reference_policy": "不能全局替换§编号；引用文献和原材料章节按上下文保留。",
+  "formula_mapping": [
+    {
+      "v26_formula_id": "F01",
+      "v26_formula": "$$E_h=\\|J_f\\|e_f+\\|OJ_s\\|e_s+e_{\\rm cmp},$$",
+      "v27_expected_formula": "$$E_h=\\|J_f\\|e_f+\\|OJ_s\\|e_s+e_{\\rm cmp},$$",
+      "v27_display_indices": [
+        10
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F02",
+      "v26_formula": "$$D_h+E_h\\le\\tau<L-E_m.$$",
+      "v27_expected_formula": "$$D_h+E_h\\le\\tau<L-E_m.$$",
+      "v27_display_indices": [
+        11
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F03",
+      "v26_formula": "$$n(t_f)=U(t_f,\\tau)n(\\tau)+\\int_\\tau^{t_f}U(t_f,s)b(s)\\,ds.$$",
+      "v27_expected_formula": "$$n(t_f)=U(t_f,\\tau)n(\\tau)+\\int_\\tau^{t_f}U(t_f,s)b(s)\\,ds.$$",
+      "v27_display_indices": [
+        16
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F04",
+      "v26_formula": "$$P_2P_1=P_1P_2,\\qquad P_2d_1+d_2=P_1d_2+d_1.$$",
+      "v27_expected_formula": "$$P_2P_1=P_1P_2,\\qquad P_2d_1+d_2=P_1d_2+d_1.$$",
+      "v27_display_indices": [
+        17
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F05",
+      "v26_formula": "$$\\dot n=A n+b(t),\\qquad n(0)=u,$$",
+      "v27_expected_formula": "$$\\dot n=A n+b(t),\\qquad n(0)=u,$$",
+      "v27_display_indices": [
+        1
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F06",
+      "v26_formula": "$$[e^{tA}]_{\\mathcal S_{\\rm obs},\\mathcal S_{\\rm in}}=0,\\qquad n_f(t)|_{\\mathcal S_{\\rm obs}}=n_s(t)|_{\\mathcal S_{\\rm obs}}.$$",
+      "v27_expected_formula": "$$[e^{tA}]_{\\mathcal S_{\\rm obs},\\mathcal S_{\\rm in}}=0,\\qquad n_f(t)|_{\\mathcal S_{\\rm obs}}=n_s(t)|_{\\mathcal S_{\\rm obs}}.$$",
+      "v27_display_indices": [
+        2
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F07",
+      "v26_formula": "$$[e^{TA_1}]_{ij}\\ge\\ell=e^{-\\beta T}T^mW/m!>0.$$",
+      "v27_expected_formula": "$$[e^{TA_1}]_{ij}\\ge\\ell=e^{-\\beta T}T^m\\omega_\\pi/m!>0.$$",
+      "v27_display_indices": [
+        3
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F08",
+      "v26_formula": "$$d_h=w^\\top[r(TA)-I]u=[r(0)-1]w^\\top u.$$",
+      "v27_expected_formula": "$$d_h=w^\\top[r(TA)-I]u=[r(0)-1]w^\\top u.$$",
+      "v27_display_indices": [
+        4
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F09",
+      "v26_formula": "$$d_h=(B^2-C)u,\\qquad \\Delta=\\|d_h\\|_\\infty.$$",
+      "v27_expected_formula": "$$d_h=(R_{\\rm half}^2-R_{\\rm full})u,\\qquad \\Delta=\\|d_h\\|_\\infty.$$",
+      "v27_display_indices": [
+        12
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F10",
+      "v26_formula": "$$\\|\\widehat R-d_h\\|_\\infty\\le\\|B\\|_\\infty(e_1+e_{\\rm tr})+e_2+e_F+e_{\\rm obs}=E_{\\rm comp}.$$",
+      "v27_expected_formula": "$$\\|\\widehat R-d_h\\|_\\infty\\le\\|R_{\\rm half}\\|_\\infty(e_1+e_{\\rm tr})+e_2+e_F+e_{\\rm obs}=E_{\\rm comp}.$$",
+      "v27_display_indices": [
+        13
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F11",
+      "v26_formula": "$$\\psi'(c\\mathbf r,\\Omega,g)=\\psi(\\mathbf r,\\Omega,g).$$",
+      "v27_expected_formula": "$$\\psi'(c\\mathbf r,\\Omega,g)=\\psi(\\mathbf r,\\Omega,g).$$",
+      "v27_display_indices": [
+        5
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F12",
+      "v26_formula": "$$\\psi_{out}=e^{-\\Sigma\\ell}\\psi_{in}+\\frac{q_{tot}}\\Sigma(1-e^{-\\Sigma\\ell}).$$",
+      "v27_expected_formula": "$$\\psi_{out}=e^{-\\Sigma\\ell}\\psi_{in}+\\frac{q_{tot}}\\Sigma(1-e^{-\\Sigma\\ell}).$$",
+      "v27_display_indices": [
+        6
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F13",
+      "v26_formula": "$$F_f S_c=S_c F_s,\\qquad x_s=F_sx_s \\Longrightarrow x_f=S_cx_s.$$",
+      "v27_expected_formula": "$$F_f S_c=S_c F_s,\\qquad x_s=F_sx_s \\Longrightarrow x_f=S_cx_s.$$",
+      "v27_display_indices": [
+        7
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F14",
+      "v26_formula": "$$\\eta=b_f-Vb_s,\\quad K=D_fU-VD_s,\\quad\\Gamma=J_fU-OJ_s.$$",
+      "v27_expected_formula": "$$\\eta=b_f-Vb_s,\\quad K=D_fU-VD_s,\\quad\\Gamma=J_fU-OJ_s.$$",
+      "v27_display_indices": [
+        8
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F15",
+      "v26_formula": "$$R=J_fy_f-OJ_sy_s=J_fD_f^{-1}(\\eta-Ky_s)+\\Gamma y_s.$$",
+      "v27_expected_formula": "$$R=J_fy_f-OJ_sy_s=J_fD_f^{-1}(\\eta-Ky_s)+\\Gamma y_s.$$",
+      "v27_display_indices": [
+        9
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F16",
+      "v26_formula": "$$A_0=\\begin{pmatrix}-3&0&0&0&0\\\\1&-1&0&0&0\\\\2&0&-3&0&0\\\\0&1&3&0&0\\\\0&0&0&0&0\\end{pmatrix}.$$",
+      "v27_expected_formula": "$$A_0=\\begin{pmatrix}-3&0&0&0&0\\\\1&-1&0&0&0\\\\2&0&-3&0&0\\\\0&1&3&0&0\\\\0&0&0&0&0\\end{pmatrix}.$$",
+      "v27_display_indices": [
+        14
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    },
+    {
+      "v26_formula_id": "F17",
+      "v26_formula": "$$\\epsilon\\in(4H/D,\\ 1-b_{lower}/D],$$",
+      "v27_expected_formula": "$$\\epsilon\\in(4H/D,\\ 1-b_{lower}/D],$$",
+      "v27_display_indices": [
+        15
+      ],
+      "preserved_up_to_declared_symbol_rename": true
+    }
+  ],
+  "symbol_renames": [
+    {
+      "old": "W in proposition 2 path product",
+      "new": "omega_pi",
+      "scope": "path product only; output witness W unchanged"
+    },
+    {
+      "old": "B/C in semigroup",
+      "new": "R_half/R_full",
+      "scope": "semigroup only; original data fields unchanged"
+    },
+    {
+      "old": "q(z),q(TA) IPF function",
+      "new": "q_IPF(z),q_IPF(TA)",
+      "scope": "function notation only; transport source and stored fields unchanged"
+    },
+    {
+      "old": "rho as target interval width",
+      "new": "rho_int",
+      "scope": "manuscript prose only; predicate rho and shift residual rho_j unchanged; original rho fields unchanged"
+    },
+    {
+      "old": "C as MOC angular normalization",
+      "new": "C_Omega",
+      "scope": "mathematical label only; original snapshot C unchanged"
+    }
+  ],
+  "execution_boundary": {
+    "SUT": false,
+    "package_scientific_scripts": false,
+    "certificate_regeneration": false,
+    "STOP_changed": false
+  },
+  "v27_headings": [
+    {
+      "line": 1,
+      "heading": "# 方程结构蜕变关系的离散后有效性预测：条件、方法与验证边界"
+    },
+    {
+      "line": 3,
+      "heading": "## 摘要"
+    },
+    {
+      "line": 13,
+      "heading": "## 1 引言"
+    },
+    {
+      "line": 29,
+      "heading": "## 2 动机：连续结构为何不足以决定程序判据"
+    },
+    {
+      "line": 31,
+      "heading": "### 2.1 正确离散可能触发不适当的关系拒绝"
+    },
+    {
+      "line": 35,
+      "heading": "### 2.2 输出错误仍可能保持结构关系"
+    },
+    {
+      "line": 39,
+      "heading": "### 2.3 本文要预测的对象"
+    },
+    {
+      "line": 43,
+      "heading": "## 3 研究假设与方法"
+    },
+    {
+      "line": 45,
+      "heading": "### 3.1 形式化对象与统一符号"
+    },
+    {
+      "line": 71,
+      "heading": "### 3.2 工作前提与可考察研究论断"
+    },
+    {
+      "line": 83,
+      "heading": "### 3.3 判断信息、使用模式与证据取得"
+    },
+    {
+      "line": 120,
+      "heading": "### 3.4 条件预测流程与记录"
+    },
+    {
+      "line": 136,
+      "heading": "#### D03填写例"
+    },
+    {
+      "line": 152,
+      "heading": "### 3.5 预测规则一：燃耗零结构与正路径"
+    },
+    {
+      "line": 160,
+      "heading": "#### 3.5.1 零响应及有理保持"
+    },
+    {
+      "line": 175,
+      "heading": "#### 3.5.2 正路径信号的额外资格"
+    },
+    {
+      "line": 189,
+      "heading": "#### 3.5.3 守恒投影与归一化缺陷"
+    },
+    {
+      "line": 201,
+      "heading": "### 3.6 预测规则二：固定源尺度与观察"
+    },
+    {
+      "line": 203,
+      "heading": "#### 3.6.1 连续和理想MOC充分条件"
+    },
+    {
+      "line": 229,
+      "heading": "##### 从理想更新到保存程序证据的静态连接"
+    },
+    {
+      "line": 242,
+      "heading": "#### 3.6.2 源、算子与观察缺陷"
+    },
+    {
+      "line": 256,
+      "heading": "### 3.7 程序判据与时间组合"
+    },
+    {
+      "line": 258,
+      "heading": "#### 3.7.1 数值裁决合同"
+    },
+    {
+      "line": 289,
+      "heading": "#### 3.7.2 半群候选：目标非零与有限精度分离的边界"
+    },
+    {
+      "line": 320,
+      "heading": "## 4 实验方案与结果"
+    },
+    {
+      "line": 322,
+      "heading": "### 4.1 研究问题"
+    },
+    {
+      "line": 330,
+      "heading": "### 4.2 实验对象：方程、离散算法与实际入口"
+    },
+    {
+      "line": 340,
+      "heading": "### 4.3 评价指标与分析单位"
+    },
+    {
+      "line": 354,
+      "heading": "### 4.4 实验设计、预测时序与比较方法"
+    },
+    {
+      "line": 376,
+      "heading": "### 4.5 方程结构、元模式／MR族与候选清单"
+    },
+    {
+      "line": 390,
+      "heading": "### 4.6 变异算子、植入位置与工作变体"
+    },
+    {
+      "line": 404,
+      "heading": "### 4.7 领域模型与测试用例"
+    },
+    {
+      "line": 406,
+      "heading": "#### 4.7.1 燃耗数学核的三状态模型与输入"
+    },
+    {
+      "line": 424,
+      "heading": "#### 4.7.2 五状态多路径模型与四场用例"
+    },
+    {
+      "line": 440,
+      "heading": "#### 4.7.3 OpenMOC简化物理输运模型"
+    },
+    {
+      "line": 458,
+      "heading": "### 4.8 条件预测与结果分析"
+    },
+    {
+      "line": 462,
+      "heading": "#### 4.8.1 PFD的条件区间与EZ保存点"
+    },
+    {
+      "line": 476,
+      "heading": "#### 4.8.2 E1与C1的机制对照"
+    },
+    {
+      "line": 511,
+      "heading": "#### 4.8.3 MOC尺度、叠加与源核对照"
+    },
+    {
+      "line": 553,
+      "heading": "#### 4.8.4 预测—证据—答案汇总"
+    },
+    {
+      "line": 566,
+      "heading": "## 5 结果讨论与有效性分析"
+    },
+    {
+      "line": 568,
+      "heading": "### 5.1 三个研究问题的答案"
+    },
+    {
+      "line": 576,
+      "heading": "### 5.2 结构理解、预测用途与取舍"
+    },
+    {
+      "line": 592,
+      "heading": "### 5.3 方法有效性与威胁"
+    },
+    {
+      "line": 606,
+      "heading": "## 6 相关工作与研究位置"
+    },
+    {
+      "line": 657,
+      "heading": "## 7 未来研究方向"
+    },
+    {
+      "line": 667,
+      "heading": "## 8 结论"
+    },
+    {
+      "line": 673,
+      "heading": "## 数据、材料与AI辅助声明"
+    },
+    {
+      "line": 679,
+      "heading": "## 参考文献"
+    },
+    {
+      "line": 751,
+      "heading": "## 附录A 关系基础的限定分类与证明"
+    },
+    {
+      "line": 798,
+      "heading": "## 附录B 有限MR合同与目录口径"
+    },
+    {
+      "line": 814,
+      "heading": "### B.1 有限15合同的自含范围索引"
+    },
+    {
+      "line": 838,
+      "heading": "## 附录C 历史批次、离线分析来源与未完成证据"
+    },
+    {
+      "line": 842,
+      "heading": "### C.1 早期CRAM及经验对照"
+    },
+    {
+      "line": 900,
+      "heading": "### C.2 先前六调用"
+    },
+    {
+      "line": 918,
+      "heading": "### C.3 半群离线来源及未完成批次"
+    },
+    {
+      "line": 926,
+      "heading": "## 附录D 当前材料导航与数值证据"
+    },
+    {
+      "line": 928,
+      "heading": "### 当前材料导航"
+    },
+    {
+      "line": 971,
+      "heading": "### 复核层级与实际完成范围"
+    },
+    {
+      "line": 975,
+      "heading": "### D.1 材料入口与实际状态"
+    }
+  ],
+  "complete_section_plan": [
+    {
+      "v26": "摘要/§1/§8",
+      "v27": "摘要/§1/§2/§8",
+      "operation": "rewrite framing; preserve scope"
+    },
+    {
+      "v26": "§2",
+      "v27": "§6",
+      "operation": "move; preserve source-study section references; add reference 35"
+    },
+    {
+      "v26": "§3.1",
+      "v27": "§3.3/§3.4",
+      "operation": "retain modes; formalize prediction procedure"
+    },
+    {
+      "v26": "§3.2",
+      "v27": "§3.7.1",
+      "operation": "move; preserve sufficient inequalities"
+    },
+    {
+      "v26": "§3.3/§3.4",
+      "v27": "Appendix A/B; §4.5 summary",
+      "operation": "move definitions and full contract scope"
+    },
+    {
+      "v26": "§4.1–4.3",
+      "v27": "§3.5.1–3.5.3",
+      "operation": "move; path W renamed omega_pi"
+    },
+    {
+      "v26": "§4.4",
+      "v27": "§3.7.2; Appendix C.3 provenance",
+      "operation": "move; local B/C renamed R_half/R_full"
+    },
+    {
+      "v26": "§5.1–5.2",
+      "v27": "§3.6.1–3.6.2",
+      "operation": "move full updating/observation conditions"
+    },
+    {
+      "v26": "§6.0–6.4",
+      "v27": "§4.1–4.8; Appendix C history",
+      "operation": "split design/inputs/results; retain scientific values"
+    },
+    {
+      "v26": "§7",
+      "v27": "§5/§7",
+      "operation": "separate discussion and future"
+    },
+    {
+      "v26": "material appendix",
+      "v27": "Appendix D",
+      "operation": "current navigation; original archive paths retained"
+    }
+  ],
+  "upstream_additions": [
+    {
+      "path": "upstream/independent-finite15-dedup-and-evidence-review.json",
+      "sha256": "1d48cd5ff96a9497f5402717ce8cc51327a6f356b80e48f9f5b009806b16a3ad"
+    },
+    {
+      "path": "upstream/mr_finite15_adjudication_and_evidence_20261106.json",
+      "sha256": "5f6942e26f3af389708da3d82b3698140849b044c8e437ecb75ea94b1c4d409d"
+    },
+    {
+      "path": "upstream/mr_valid_contract_inventory_stage3_20261106.json",
+      "sha256": "638828dc8eec441f82434a403efcdf4b03e81450d8dbafe880b11cd1a482b2f9"
+    }
+  ]
+}

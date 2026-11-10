@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-09",
+  "baseline": {
+    "file": "结构MR离散后有效性预测_修订稿_v28.md",
+    "sha256": "3b2941c279a8d8945a71be97f9d4679fbdb95c11b0b2096f106e70d46c31ecb1"
+  },
+  "root_read_scope": {
+    "baseline_lines": [
+      [
+        1,
+        213
+      ],
+      [
+        350,
+        401
+      ],
+      [
+        444,
+        598
+      ],
+      [
+        856,
+        1054
+      ]
+    ],
+    "note": "相邻/重叠区间合并；其余章节本轮仅定位检索及历史报告，不称逐字全文重读。原始科学包字节已恢复校验，本轮不重运行、不重生成科学证书。"
+  },
+  "fresh_primary_sources": [
+    {
+      "ref": 24,
+      "url": "https://ieeexplore.ieee.org/document/8807231/",
+      "doi": "10.1109/TSE.2019.2934848",
+      "depth": "本轮搜索返回的IEEE官方摘要与卷期/页码/在线日期；直接打开页面为JavaScript验证，未取得全文",
+      "used_for": "输入/输出域明确、方法产物与评价分开；不新增全文细节断言"
+    },
+    {
+      "ref": 17,
+      "url": "https://ieeexplore.ieee.org/abstract/document/9144441",
+      "doi": "10.1109/TSE.2020.3009698",
+      "depth": "本轮IEEE官方搜索返回摘要及元数据",
+      "used_for": "理论条件、经验论证与实际指导相连接"
+    },
+    {
+      "ref": 17,
+      "url": "https://2021.esec-fse.org/details/fse-2021-journal-first/28/An-Extended-Abstract-of-Theoretical-and-Empirical-Analyses-of-the-Effectiveness-of-",
+      "depth": "官方Journal First扩展摘要，已读取；非期刊全文重读",
+      "used_for": "可检查条件与可使用指导的写法，不从该摘要推出本稿数值保证"
+    },
+    {
+      "ref": 16,
+      "url": "https://ieeexplore.ieee.org/document/6613484/",
+      "depth": "仅官方搜索定位；本轮未读全文，不用于新增科学断言"
+    },
+    {
+      "ref": 25,
+      "url": "https://conf.researchr.org/track/icse-2019/icse-2019-Software-Engineering-in-Practice",
+      "depth": "本轮官方程序搜索定位Journal-First条目；不是内容审读，不据此新增内容断言"
+    }
+  ],
+  "historical_scope": "v28 来源核对与阅读范围 JSON、前作报告采用边界及附录F保留为历史记录；不改称本轮重新全文核验。父线程独立准备共性优点资料，收到后另记实际读取。",
+  "limits": [
+    "未声称列名作者参与本轮评审",
+    "未复核43篇参考全文",
+    "本轮是静态文字/数学一致性审查，不是新实验或独立前瞻预测评估",
+    "实际程序运行版本、核数据及身份缺口不得从软件官方文档补填"
+  ],
+  "fresh_saved_evidence_scope": {
+    "index": "操作卡E1_S1R1证据索引_v29.json",
+    "read": "E1 S1 R1 H/EZ/ET的六端input/output/certificate、三个pair和系数JSON；22件字节哈希，选读保存字段",
+    "not_done": "未执行包内程序、证书重算或新数值计算"
+  },
+  "root_v29_read_scope": "新增论证链、贡献与复用表、贯穿例与卡K1、结果回收、结论、引用纠正、材料导航及主要差分；公式/书目/附录E另作逐字比较。不是全稿全部既有证据重新审计。"
+}

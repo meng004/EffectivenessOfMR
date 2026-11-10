@@ -1,0 +1,541 @@
+{
+  "schema": "v29-migration/1.0",
+  "status": "candidate_pending_independent_review",
+  "baseline": "baseline_v28/结构MR离散后有效性预测_修订稿_v28.md",
+  "baseline_sha256": "3b2941c279a8d8945a71be97f9d4679fbdb95c11b0b2096f106e70d46c31ecb1",
+  "manuscript": "结构MR离散后有效性预测_修订稿_v29.md",
+  "manuscript_sha256": "6d45b9a106bfb665939b0269a3f571e513230839ce764fab51d623d684139d70",
+  "plan_sha256": "ec79de46856b69cc3d33060ce373c7f0be31e3f4b0fb898db0a2dbe9ebe50818",
+  "formula_mapping": [
+    {
+      "id": "V28F01",
+      "formula": "$$E_h=\\|J_f\\|e_f+\\|OJ_s\\|e_s+e_{\\rm cmp},$$",
+      "v29_display_index": 1
+    },
+    {
+      "id": "V28F02",
+      "formula": "$$D_h+E_h\\le\\tau<L-E_m.$$",
+      "v29_display_index": 2
+    },
+    {
+      "id": "V28F03",
+      "formula": "$$A_0=\\begin{pmatrix}-3&0&0&0&0\\\\1&-1&0&0&0\\\\2&0&-3&0&0\\\\0&1&3&0&0\\\\0&0&0&0&0\\end{pmatrix}.$$",
+      "v29_display_index": 3
+    },
+    {
+      "id": "V28F04",
+      "formula": "$$\\epsilon\\in(4H/D,\\ 1-b_{lower}/D],$$",
+      "v29_display_index": 4
+    },
+    {
+      "id": "V28F05",
+      "formula": "$$n(t_f)=U(t_f,\\tau)n(\\tau)+\\int_\\tau^{t_f}U(t_f,s)b(s)\\,ds.$$",
+      "v29_display_index": 5
+    },
+    {
+      "id": "V28F06",
+      "formula": "$$P_2P_1=P_1P_2,\\qquad P_2d_1+d_2=P_1d_2+d_1.$$",
+      "v29_display_index": 6
+    },
+    {
+      "id": "V28F07",
+      "formula": "$$\\dot n=A n+b(t),\\qquad n(0)=u,$$",
+      "v29_display_index": 7
+    },
+    {
+      "id": "V28F08",
+      "formula": "$$[e^{tA}]_{\\mathcal S_{\\rm obs},\\mathcal S_{\\rm in}}=0,\\qquad n_f(t)|_{\\mathcal S_{\\rm obs}}=n_s(t)|_{\\mathcal S_{\\rm obs}}.$$",
+      "v29_display_index": 8
+    },
+    {
+      "id": "V28F09",
+      "formula": "$$[e^{TA_1}]_{ij}\\ge\\ell=e^{-\\beta T}T^m\\omega_\\pi/m!>0.$$",
+      "v29_display_index": 9
+    },
+    {
+      "id": "V28F10",
+      "formula": "$$d_h=w^\\top[r(TA)-I]u=[r(0)-1]w^\\top u.$$",
+      "v29_display_index": 10
+    },
+    {
+      "id": "V28F11",
+      "formula": "$$\\psi'(c\\mathbf r,\\Omega,g)=\\psi(\\mathbf r,\\Omega,g).$$",
+      "v29_display_index": 11
+    },
+    {
+      "id": "V28F12",
+      "formula": "$$\\psi_{out}=e^{-\\Sigma\\ell}\\psi_{in}+\\frac{q_{tot}}\\Sigma(1-e^{-\\Sigma\\ell}).$$",
+      "v29_display_index": 12
+    },
+    {
+      "id": "V28F13",
+      "formula": "$$F_f S_c=S_c F_s,\\qquad x_s=F_sx_s \\Longrightarrow x_f=S_cx_s.$$",
+      "v29_display_index": 13
+    },
+    {
+      "id": "V28F14",
+      "formula": "$$\\eta=b_f-Vb_s,\\quad K=D_fU-VD_s,\\quad\\Gamma=J_fU-OJ_s.$$",
+      "v29_display_index": 14
+    },
+    {
+      "id": "V28F15",
+      "formula": "$$R=J_fy_f-OJ_sy_s=J_fD_f^{-1}(\\eta-Ky_s)+\\Gamma y_s.$$",
+      "v29_display_index": 15
+    },
+    {
+      "id": "V28F16",
+      "formula": "$$d_h=(R_{\\rm half}^2-R_{\\rm full})u,\\qquad \\Delta=\\|d_h\\|_\\infty.$$",
+      "v29_display_index": 16
+    },
+    {
+      "id": "V28F17",
+      "formula": "$$\\|\\widehat R-d_h\\|_\\infty\\le\\|R_{\\rm half}\\|_\\infty(e_1+e_{\\rm tr})+e_2+e_F+e_{\\rm obs}=E_{\\rm comp}.$$",
+      "v29_display_index": 17
+    }
+  ],
+  "protected_data_tables": [
+    {
+      "id": "T01",
+      "baseline_table": "| 程序 | 所求方程／算法背景 | 本文实际受测对象 | 与完整程序的边界 |\n|---|---|---|---|\n| ONIX[31] | 冻结燃耗系统n′=An+b；矩阵指数可由CRAM有理近似计算 | 无源PFD CRAM16数学核及外部工作矩阵适配；冻结系数r | 未覆盖核素数据库、核数据、库存反馈、完整装配前端及真实燃耗基准 |\n| OpenMC[32,33] | 粒子输运及燃耗能力；本文燃耗路径采用IPF CRAM | 保存0.15.3批次的IPF16核，q_IPF由冻结系数及因子顺序定义 | 本文C1不是蒙卡输运实验；官网默认方法不替代保存身份 |\n| OpenMOC[34] | 多群固定源输运，流项、总损失和产生核；轨迹段上的平源传播、源迭代与区域重构 | 两区单／两群、真空／周期边界的有限离散观察 | 未认证一般角场、全组件更新或工业装置精度；单段式见附录E.2.1 |\n"
+    },
+    {
+      "id": "T02",
+      "baseline_table": "| 指标／状态 | 操作定义 | 解释 |\n|---|---|---|\n| Z、P、SUP、尺度残差 | 按各MR的固定观察和真实执行图计算；Z通常取指定差的绝对值，P为有符号下界检查 | 不同观察不共用一个检出定义；D03拒绝与D10相容可同时出现 |\n| 健康保证裕量 | τ−(D_h+E_h) | 非负足以支持该健康合同相容；不证明程序全部正确 |\n| 指定拒绝裕量 | L−τ−E_m | 严格正足以拒绝该故障；界不分离不预测读数一定通过 |\n| 错误见证W | 到独立声明正确目标的距离或有效下界 | 与关系相容共同支撑指定盲区；参考新增信息不归作MR额外检出 |\n| 预测记录状态 | 离散保持／目标缺陷／未决，资格、读数与错误见证分别登记 | 缺证、前提失败、已有界不分离、真实冲突分别报告 |\n"
+    },
+    {
+      "id": "T03",
+      "baseline_table": "| 数值层次 | 当前保存合同 | 不能替代什么 |\n|---|---|---|\n| 求解停止 | MOC驱动收敛阈1e−8、max_iters=1000；具体端按实际保存执行解释 | 不是逐端E，也不是关系阈值τ |\n| 逐端资格cap | E1/C1的H=10⁻⁸；M1/M2允许E≤0.01；M3允许E≤0.001 | cap不是实算E，不是相对连续解或真实物理的总误差 |\n| 关系阈值 | Z使用2H；M1/M2尺度τ=0.04；M3尺度τ=0.01；P/SUP按各自合同 | 不能由迭代停止或小区间宽度推出通过；W的ω另列 |\n"
+    },
+    {
+      "id": "T04",
+      "baseline_table": "| 对照／时序 | 已保存的判据或分析 | 本文允许的表述 |\n|---|---|---|\n| E1／C1原批 | 各自原Z/P/W规则按批保留；E1原P断言只覆盖H/EZ的18对，C1原P覆盖三工作条件27对 | 分别核对原规则下的结果，ET保存P不补计为E1原P通过 |\n| E1／C1统一规则 | 两批共同P≥0.3a−2H及统一W规则是保存结果的事后复核 | 机制签名的回顾性对照，不称共同事前预测验证 |\n| 旧F1/EZ及历史MOC | F1/EZ同阈签名为事后复用；历史MOC六场阈值在健康可见后选择 | 保留原经验／条件等级，不被后批追认 |\n| M1 | 先导6端；A/B拆源及先导SUP事后增加；后续两轮保留各自合同 | 尺度与SUP时序分别记录；先导SUP不称事前验证 |\n| M2／M3 | M2首组为事后跨合同混合，余8组为完整五端组；M3保留固定工作对象与阈值。完整预测记录的独立前瞻评估未完成 | 保存案例与条件结论对应，不宣称总体预测性能 |\n| Euler／半群 | Euler是解析反例；CRAM半群为已保存离线目标／预算分析，真实重启三端未执行 | 支持分析性预测知识，无实际误报或程序必检实验声称 |\n"
+    },
+    {
+      "id": "T05",
+      "baseline_table": "| 设计行／MR与研究问题 | 领域模型与程序入口 | 输入／实际执行图及故障机制 | 关键假设与证据 | 结果分析位置及所答问题 |\n|---|---|---|---|---|\n| B-ZP：D03零响应、D10单侧路径；RQ1—3 | 冻结无源三状态A_N；ONIX PFD与OpenMC IPF16各有自己的r/q_IPF | S1—S3初值对，差方向秩1；健康、错路由A₁/₄、共同倍率2A_N；E1/C1各54调用＝27对，三轮重复 | 同一工作对象配对、支持图、无谱极点、共同零源；逐端E、Z/P及相对声明正确目标W；捕获／身份条件保留 | §4.8.1—4.8.2：零结构、指定新路径拒绝与保持结构错误；不比较算法优劣 |\n| B-MULTI：图零响应及汇合观察；RQ2—3 | 五状态无源多路径；冻结ONIX PFD | (A₀,u/v)、(A₁,u/v)共四端；新增1→5且减少1→2 | 节点5零观察与节点4汇合响应分开；高精度参考比较，未具严格区间／完整加载证据 | §4.7.2：超出两谱点例的经验特化；节点5信号只经新增直边 |\n| T-M1：T01尺度、T02源叠加；RQ2—3 | OpenMOC单群两区纯吸收 | 健康、共同源×2、单侧源×2尺度对；A/B/H_s真实三端；24端记录含先导与重复 | 冻结几何／源／有限观察；保存E/W和比较字段；**以保存目标包围有效为条件，目标包围链未独立闭合** | §4.8.3：关系保持错误与单侧破坏的对照；保证性数字均按M1条件解释 |\n| T-M2：T01尺度、T02叠加；RQ2—3 | OpenMOC单群两区散射反馈 | 三总源各三轮；45角色位置＝43新增端＋2复用；N_f漏散射缩放 | P与反馈解区间、收缩及行列式条件；源方向秩2；有限区域观察及共享信任 | §4.8.3：完整散射缩放条件和真实三端叠加的特化 |\n| T-M3：T01尺度及群观察；RQ2—3 | OpenMOC两群两区，1→2下散射、无裂变 | 三源各三轮共27端；H_s/H_f/N_f共享H_s；N_f去耦合 | 下块三角目标，完整h₁区间传入群2；源秩3；没有SUP三端 | §4.8.3：群别观察灵敏度与耦合负控；不扩为多群SUP |\n| B-SG：D18时间半群；RQ2 | 冻结CRAM有理目标的三／五状态分析 | 全步与两半步为候选执行图；现存仅离线精确目标分析，真实三端未执行 | 目标差、真实返回／转接预算公式及条件统一cap | 附录E.3：目标非零而当前界不保证分离；属于分析结果 |\n"
+    },
+    {
+      "id": "T06",
+      "baseline_table": "| 候选合同 | 程序／目标及测试实例 | 本次观察 | 实验及未覆盖范围 |\n|---|---|---|---|\n| D03／D10 | E1 PFD与C1 IPF各自冻结目标，S1—S3配对，H/EZ/ET | 零响应Z、路径P及另行正确目标W | 两条实现各54调用；源差秩1，含源及真实核素装配未覆盖 |\n| T01 | M1—M3简化两区固定源，健康与源／核负控 | 区域／分群尺度残差 | 仅有限投影，不认证完整角场合同 |\n| T02 | M1/M2的A、B及和源真实返回 | SUP及其三端预算 | 共享端按谱系计数；M3没有SUP执行图 |\n| D18分析候选 | 全步与两半步的冻结有理目标 | 精确目标缺陷及组合预算 | 仅离线分析，真实三端未执行，不计程序实验 |\n"
+    },
+    {
+      "id": "T07",
+      "baseline_table": "| 机制／施加方式 | 工作变换与影响 | 保存代码位置／层级 | 计数解释 |\n|---|---|---|---|\n| CRAM错路由EZ | 三状态1→2权从1减为3/4，1→3增为1/4；五状态对应增加1→5 | 所列位置只对应三状态：E1的core.py:26–27及worker.py:43–48、82；C1的worker.py:64–77，均在不可变数学核调用前适配工作矩阵。五状态按历史报告及附录C，未新核其完整源码 | 一个路由机制，按三／五状态及PFD/IPF实现分别实例化，不将幅度／轮次乘成独立故障 |\n| CRAM共同倍率ET | 工作矩阵2A_N，声明仍A_N；保留不可达零块 | 同一E1/C1适配层；PFD/IPF核本体保持不变 | 与EZ构成三状态两种机制；健康H不是变异体 |\n| MOC源倍率：共同／单侧 | M1的C_s/C_f共同工作源×2；U只对f端额外×2 | 原M1研究驱动m1.cpp:19、33的源setter | 一种源倍率操作、两种跨端施加方式；不是两种独立物理工况 |\n| MOC漏散射缩放 | M2 N_f未按尺度变换执行S÷2 | m2_three.cpp:34–36，研究驱动／材料构造层 | 一种指定负控；三源与三轮是输入和重复 |\n| MOC删除群耦合 | M3 N_f删除左右1→2耦合 | m3_three.cpp:30–35，研究驱动／材料构造层 | 一种指定负控；群1／群2观察不是两个新故障 |\n"
+    },
+    {
+      "id": "T08",
+      "baseline_table": "| 用例ID | 声明矩阵 | 初值 |\n|---|---|---|\n| HN1 | A_N | e₃ |\n| HN2 | A_N | e₃+e₁ |\n| HN3 | A_N | e₁ |\n| HB1 | A_B | (2,0)ᵀ |\n| HB2 | A_B | (1,1)ᵀ |\n"
+    },
+    {
+      "id": "T09",
+      "baseline_table": "| 批次 | 总截面／散射与源（以下源均为全角积分源） | 观察及目标约定 |\n|---|---|---|\n| M1 | [L,R]的Σ_t=(1,2)，无散射，q=(1,1/4)；C两端工作源×2，U仅F在健康尺度源上再×2 | 区域平均[L,R]；A=(1,0)、B=(0,1/4)，与H_s的真实总源返回比较 |\n| M2 | Σ_t=(1,2)，S=diag(0.3,0.8)；q1=(1/2,1)、q2=(1,1/4)、q3=(1/4,3/4)；N_f漏执行S÷2 | [L,R]，固定目标h=P(q+Sh)，P由冻结纯吸收传播／重构定义并保存为区间；A_s=(q_L,0)、B_s=(0,q_R) |\n| M3 | [L1,R1,L2,R2]的Σ_t=(1,1.5,2,2.5)；来源群为行、去向群为列，左S=[[0.2,0.3],[0,0.5]]、右S=[[0.4,0.2],[0,0.75]]；N_f去左右1→2耦合 | 同序区域／群均值；q1=(1,1/8,1/4,3/4)、q2=(1/4,1,3/4,1/8)、q3=(3/4,1/4,1,1/2)；下块三角参考将群1完整区间传给群2 |\n"
+    },
+    {
+      "id": "T10",
+      "baseline_table": "| 用例单位 | 源输入与后续／附加端的生成 | 实际数量及依赖 |\n|---|---|---|\n| M1 | 一个总源q=(1,1/4)；T01生成c=2尺度端，共同／单侧源倍率形成对照；T02用A=(1,0)、B=(0,1/4)与H_s组成三端 | 24端=先导6+事后A/B2+两轮各8；9个尺度比较及3个SUP组，先导SUP事后。拆源不新增独立物理工况 |\n| M2 | 三个总源各生成尺度H_f、漏缩放N_f及A_s/B_s拆源端，共享H_s | 45角色位置=43新增端+2复用端；9健康尺度、9负控比较及9SUP组；三源秩2 |\n| M3 | 三个总源各生成健康尺度H_f和去耦合N_f，共享H_s | 27端=9 H_s+18 H_f/N_f；18个比较共享9 H_s；源秩3，无SUP三端 |\n"
+    },
+    {
+      "id": "T11",
+      "baseline_table": "| 比较项目 | E1：PFD路径 | C1：IPF路径 |\n|---|---|---|\n| 精确工作目标 | 各工作矩阵的冻结r(TA)u | 各工作矩阵的冻结q_IPF(TA)u |\n| 保存输出误差证书 | 八个移位残差界加重组项 | 八个顺序因子的局部缺陷经各因子算子范数递推，最后计入α₀缩放及末次舍入 |\n| 统一cap | 每端E≤H=10⁻⁸ | 每端E≤H=10⁻⁸ |\n| 事前Z判据 | Z≤2H相容、Z>2H拒绝 | 相同Z阈值2H |\n| 事前P判据 | 对H/EZ检查P≥a b_lower−2H；b_lower为冻结T exp(−T)的有理下界 | 三种工作条件均检查P≥0.3a−2H；0.3由C1自身目标预检绑定 |\n| 正确参考W及判据 | 第二输入到声明正确r(TA_N)u_f的距离，与2H比较 | 第二输入到声明正确q_IPF(TA_N)u_f的距离；H要求W≤H，EZ/ET要求W>10⁻³ |\n"
+    },
+    {
+      "id": "T12",
+      "baseline_table": "| 批次与模型 | 实际求解及共享 | 已观察的正反对照 | 冻结阈值及证据范围 |\n|---|---|---|---|\n| M1：一个四角纯吸收、单群两区物理工况 | 24条端记录：6端先导、事后增加的A/B两端及两轮各8端。每轮H_s/H_f、C_s/C_f、U_s/U_f为尺度对；A/B/H_s为SUP三端，共享H_s | 健康及共同源×2的尺度残差约1.11e−16／2.22e−16；共同错误W约0.5721（M1条件）；单侧源×2的保存扣误差信号下界约0.5721181497>0.04（以保存目标包围有效为条件，包围链未独立复核）。round2 SUP实读残差约8.83e−10；保存充分界约4.64e−7（同一M1条件） | 每端E≤0.01、τ=0.04、ω=0.011。沿用保存比较，完整目标区间链未复核（E-M1）；先导SUP事后，两轮为确定性重复；不是三种不同物理工况 |\n| M2：单群两区散射反馈，三总源各三轮 | 九组共45个角色位置＝43新增端＋2复用端：q1首轮复用两历史健康端并补3端，其余八组共40新端。H_s/H_f健康尺度、H_s/N_f负控、A_s/B_s/H_s为SUP，共享H_s | 健康尺度残差0；漏散射缩放负控最小扣误差信号约0.32464>τ且W>ω。SUP充分界最大约6.38e−7 | 每端E≤0.01、ρ_int≤0.001、τ=0.04、ω=0.011；最大E约4.50e−7。三总源满足14q₃=11q₁−2q₂，仅两个线性独立方向 |\n| M3：两群两区、无裂变、1→2下散射 | 三源×三轮共九组27端，每组H_s/H_f/N_f。两组尺度比较共享H_s，未构造A/B/和三端 | 健康尺度充分界均<5.67e−7；去1→2耦合负控群2的扣误差信号最小约0.05661>τ且W>ω。q3负控少一次sweep时，群1差约1.2483e−10仍在预算内相容 | 每端E≤0.001、ρ_int≤0.0001、τ=0.01、ω=0.002。三源秩3，但只验证尺度及指定耦合负控；没有多群SUP、上散射或连续误差结论 |\n"
+    },
+    {
+      "id": "T13",
+      "baseline_table": "| 切片 | 健康残差／充分上界 | 负控残差／扣误差充分下界 | 目标与错误见证 |\n|---|---|---|---|\n| M1 round2 | 实读1/2⁵³；条件上界约4.44477e−7（M1条件） | 实读U约0.5721185942；条件下界约0.5721181497（M1条件） | 原比较保存D、L、各端E/W；U_f的E上端约4.44477e−7、W约0.5721183719（均以保存目标包围有效为条件，包围链未独立复核）；分量目标区间缺存 |\n| M2 q1-r2 | 0／约1.97900e−7 | 约0.5258345085／约0.5258341004 | H_s工作目标约(0.5205372749,0.6158205228)，N_f约(0.8634216125,1.1416549155)；N_f E上端约1.93380e−7，W下端约0.5258345861 |\n| M3 q1-r2 | 1/2⁵³／约5.66863e−7 | 群2约0.0916561756／约0.0916556387 | H_s工作目标约(0.6467861896,0.2560307417,0.2678603788,0.3654859364)；N_f后两分量约(0.1762041731,0.3280536183)，W_group2下端约0.0916561873 |\n"
+    },
+    {
+      "id": "T14",
+      "baseline_table": "| 预测对象 | 条件规则的预示 | 保存证据／分析结果 | 对RQ的回答及限制 |\n|---|---|---|---|\n| 健康D03／有理零块 | 支持与源条件成立且有理函数无谱极点时精确零块保持；适用E给健康相容 | E1/C1健康Z=0，各自E低于cap | RQ1给传递依据，RQ2提供特化对应；运行身份按保存条件解释 |\n| EZ新增路径 | 路径、γ、净源及故障误差分离时拒绝声明零响应；不要求P也拒绝 | 代表Z约0.125，P约0.375相容，W约0.125 | 支持同一故障在不同观察的不同判定；不是所有新增路径无条件可检 |\n| ET保持零结构 | 零响应仍可保持；W另判断输出是否错 | Z=0，代表W约0.25 | 指定盲区见证成立于该目标／观察；不扩为全MR盲区 |\n| MOC健康与负控 | 完整理想交织是算法充分条件；保存有限目标另有尺度／SUP预算 | M2/M3健康在各自预算内；漏散射／去耦合负控信号分离 | 支持有限投影的机制特化，不反推完整角场定理；M1保证性数字另带目标包围条件 |\n| 连续半群与离散目标 | 有理目标可有非零缺陷；真实链仍需转接及输出界 | 三状态Δ约3.28123×10⁻¹⁵，现cap下不保证分离；真实三端未执行 | RQ1/H2的分析性结果；无程序误拒／必检实验结果 |\n| 净源抵消、观察屏蔽 | 条件撤销可消除信号；字段非零不充分 | 附录E的解析反例及残差分解 | 解释失效机制而非新增程序样本 |\n"
+    },
+    {
+      "id": "T15",
+      "baseline_table": "| 证据行／结果 | 已支持的判断及对应结果表 | 科学信任条件与不可外推部分 |\n|---|---|---|\n| R-CRAM | §4.7.1与§4.8.1—4.8.2的健康、EZ、ET及E1/C1按各自r／q_IPF、原判据与保存界解释 | 捕获、observer及已知工作目标须可信；身份未全面认证，C1加载记录不等于全部共享库认证。目的输入／确定性重复无总体率；长路径、非正规放大、变化源与完整前端未获同等覆盖 |\n| R-MULTI | §4.7.2五状态汇合与不可达观察的经验特化 | 保存字节及参考比较不构成严格区间误差；一个汇合标量不验证每条路径 |\n| R-MOC | §4.8.3 M1—M3有限目标和区域／分群观察下的尺度、SUP及负控；各自范围见批次表 | M1缺完整分量区间／独立ρ_int；源码可读不证明历史调用；参考共享字段／装配路径，内部源消费、全角场交织及连续总误差未认证 |\n| R-HIST | 附录C.1的更早六场仅经验尺度／源变异观察 | 阈值在健康可见后选定，后续证书不追认其资格；私人连续参考为事后经验比较，不替代后续证书，不与新工况合并独立样本 |\n| R-SG | 附录E.3半群精确目标缺陷非零，当前组合预算不保证分离 | 属于已得出的条件分析结果；真实完整三端／转接未执行，故没有半群程序拒绝证据 |\n| R-E5 | E5只有健康粗端受限支持，细端超时且无输出 | 属于未完成证据，不支持粗细MR、聚合盲区、CRAM求解失败或三轮完成 |\n"
+    },
+    {
+      "id": "T16",
+      "baseline_table": "| 证书字段或检查 | 取值／范围 | 本文使用方式 |\n|---|---|---|\n| `qualification` | `BOUND_BELOW_CAP_IDENTITY_UNVERIFIED` | 数值界低于声明cap，运行身份未独立核实 |\n| `scope` | `conditional on actual capture fidelity and environment identity; not independently audited runtime` | 保留捕获真实性与环境身份假设 |\n| 保存材料复核 | 数值、参考、证书加和与直接目标距离 | 支持本文指定保存对象的条件比较；证书重生与完整执行复现另列 |\n"
+    },
+    {
+      "id": "T17",
+      "baseline_table": "| 材料 | 保存调用与核心观察 | 可用资格及限制 |\n|---|---|---|\n| F1健康 | 5调用、40个复移位求解；Z=0 | 保存正确目标数值界，在捕获真实与身份假设下支持健康相容 |\n| EZ错路由 | ε=1/4，3调用、24个复移位求解；Z约0.125 | 已知故障目标条件界；正确参考也拒绝；同阈签名是事后复用 |\n| ET（共同时间倍率2A） | 2调用、16个复移位求解；Z=0 | HN1不感染；HN2相对声明正确目标的第1/2分量差约−0.25/+0.25 |\n| 多路径 | 4调用；健康节点4/5配对差约0.691593/0，错路由约0.652170/0.0791844 | 非两谱点实例的经验特化，未具严格区间误差或完整加载证据 |\n"
+    },
+    {
+      "id": "T18",
+      "baseline_table": "| 检查ID／类别 | 输入及观察 | 比较规则 | 保存结果与证据 |\n|---|---|---|---|\n| C-Z／跨运行MR | HN1/HN2；Z | 相容Z≤2H，H=10⁻⁸ | 健康0；EZ约0.125拒绝；ET 0。条件保证与身份状态分开 |\n| C-P／跨运行单侧MR | HN1/HN2；P | P≥b_lower−2H | EZ约0.375，相容；其下界对象是声明图1→2 |\n| C-REF／单输入正确参考 | HN2；‖ŷ−r(TA_N)u‖∞ | 保存输出的事后同阈复核：与2H比较；原保存结果另保留 | EZ约0.125；ET约0.25，均分离。ET的第1/2分量是同一向量错误见证的两个坐标，不是两个独立故障 |\n| M-Z5／跨运行MR | 多路径u/v；节点5绝对差 | 原经验尺度10⁻³ | 健康0；故障约0.0791844；经验层级 |\n| 历史M0-SCALE／跨运行MR | 早期MOC的S/B；按cell配对的区域均值向量 | 原经验标尺10⁻⁵ | 健康/共同源差0；条件源差约(0.410123,0.197914)，完整资格UNKNOWN |\n"
+    },
+    {
+      "id": "T19",
+      "baseline_table": "| 工作组（各2调用） | E₁／E₂（约数） | Z／P（约数） | 第二输入W（约数） | 理论预测与结果 |\n|---|---|---|---|---|\n| 健康A_N | 2.424×10⁻¹³／2.804×10⁻¹³ | 0／0.5 | 8.542×10⁻¹⁵ | 零块保持及路径检查均相容 |\n| 错路由A₁/₄ | 2.424×10⁻¹³／4.018×10⁻¹³ | 0.125／0.375 | 0.125 | 新路径信号拒绝Z，P相容；正确参考也拒绝 |\n| 共同倍率2A_N | 2.424×10⁻¹³／2.431×10⁻¹³ | 0／0.75 | 0.25 | 零结构保持而第二输入输出错误；Z相容、正确参考拒绝 |\n"
+    },
+    {
+      "id": "T20",
+      "baseline_table": "| 原七步对应内容 | 本例填写内容与判断 |\n|---|---|\n| 1 对象／输入 | A_N=[[-1,0,0],[1,0,0],[0,0,0]]，T=6243314768165359/9007199254740992；u_s=e₃、u_f=e₃+e₁，两端净源均0；非负输入、冻结阶段 |\n| 2 候选／观察 | D03；扰动支持{1}，观察{3}，声明图1不可达3；观察差e₃ᵀ(y_f−y_s)，读数Z取其绝对值；配对和观察均非退化 |\n| 3 连续条件 | 同一响应矩阵、初值差及实际净源差支持满足命题1，故第三坐标差为0；不能只凭族名略去源核查 |\n| 4 离散目标 | 冻结PFD函数r及两侧谱无极点；相同且为零的离散源，精确目标r(TA_N)u；健康零块保持。系数、工作对象与输出入口见附录“EZ最小链” |\n| 5 界／判据 | 历史cap H=10⁻⁸，Z阈值2H；这是健康结果已知后的同阈复核。EZ两端保存界合计约4.8492874622×10⁻¹³，来自逐移位残差、逆界及重组项；坐标范数1、精确解码作差无另加比较误差，不把cap当成实算误差 |\n| 6 指定错误／见证 | 已知工作A₁/₄新增1→3；ℓ_lower约0.08664339757、γ_upper约2.6017273604×10⁻¹⁶，共同零源给δ_h=0，信号扣预算后仍超过阈值；保存Z约0.125。另以声明正确r(TA_N)u_f检出输出偏离；参考判据不同不等于装配／捕获全链独立 |\n| 7 输出／退出 | 健康Z=0；EZ拒绝声明零响应且正确参考拒绝；2A_N保持Z=0但正确参考距离约0.25。它们均保留捕获／身份条件。缺工作绑定、源处理、有效界或参考时，只报告已知读数及对应UNKNOWN，不取得必检保证或认证输出盲区；前提已确认不满足时不得调用相应命题；有适用界但不分离只撤销该界的充分保证 |\n"
+    }
+  ],
+  "original_references": {
+    "1": "[1] Meng Li, Xiaohua Yang, Jie Liu, Shiyu Yan. NOETHER: A Constructive Framework for Metamorphic Pattern Discovery from Operator Algebras. arXiv:2605.17390v1, 2026. https://arxiv.org/abs/2605.17390v1",
+    "2": "[2] Meng Li, Xiaohua Yang, Jie Liu, Shiyu Yan. Domain-Validity-Gated Metamorphic Testing of Scientific ML Surrogates. arXiv:2606.17529v1, 2026. https://arxiv.org/abs/2606.17529v1",
+    "3": "[3] Meng Li et al. A Lightweight Verification Method Based on Metamorphic Relation for Nuclear Power Software. Frontiers in Energy Research 10:788753, 2022. https://doi.org/10.3389/fenrg.2022.788753",
+    "4": "[4] Meng Li, Lijun Wang, Shiyu Yan, Xiaohua Yang, Jie Liu, Yapin Wan. Metamorphic Relations Identification on Chebyshev Rational Approximation Method in the Nuclide Depletion Calculation Program. IEEE QRS-C, 2020, 1–6. https://doi.org/10.1109/QRS-C51114.2020.00013",
+    "5": "[5] Shiyu Yan, Hong Zhu. Metamorphic Testing on Scientific Programs for Solving Second-Order Elliptic Differential Equations. Software Testing, Verification and Reliability 35(1):e1912, 2025. https://doi.org/10.1002/stvr.1912",
+    "6": "[6] Quang-Hung Luu, Man F. Lau, Sebastian P. H. Ng, Tsong Yueh Chen. Testing Multiple Linear Regression Systems with Metamorphic Testing. Journal of Systems and Software 182:111062, 2021. https://doi.org/10.1016/j.jss.2021.111062",
+    "7": "[7] Robert I. McLachlan, Ari Stern. Functional equivariance and conservation laws in numerical integration. Foundations of Computational Mathematics 24(1):149–177, 2024. https://doi.org/10.1007/s10208-022-09590-8",
+    "8": "[8] Olin Calvin, Sebastian Schunert, Barry Ganapol. Global error analysis of the Chebyshev rational approximation method. Annals of Nuclear Energy 150:107828, 2021. https://doi.org/10.1016/j.anucene.2020.107828",
+    "9": "[9] Sergio Blanes, Arieh Iserles, Shev Macnamara. Positivity-preserving methods for ordinary differential equations. ESAIM: Mathematical Modelling and Numerical Analysis 56:1843–1870, 2022. https://doi.org/10.1051/m2an/2022042",
+    "10": "[10] Paolo Santesso, Maria Elena Valcher. On the zero pattern properties and asymptotic behavior of continuous-time positive system trajectories. Linear Algebra and its Applications 425:283–302, 2007. https://doi.org/10.1016/j.laa.2007.01.014",
+    "11": "[11] K.-H. Huang and J. A. Abraham. Algorithm-Based Fault Tolerance for Matrix Operations. IEEE Transactions on Computers 33(6):518–528, 1984. https://doi.org/10.1109/TC.1984.1676475",
+    "12": "[12] Maria Elena Valcher, Paolo Santesso. Reachability properties of single-input continuous-time positive switched systems. IEEE Transactions on Automatic Control 55(5):1117–1130, 2010. https://doi.org/10.1109/TAC.2010.2045442",
+    "13": "[13] Meng Li, Xiaohua Yang, Jie Liu, Shiyu Yan. A semantic mutation metric for metamorphic relation adequacy in scientific computing programs. arXiv:2605.17437v2, 2026. https://arxiv.org/abs/2605.17437v2",
+    "14": "[14] meng004/P1-MetaPattern. Invariance-Blindness theorem source, fixed commit 6eafb90516ff2e1edeb6478816b60d4bf02d4539. `manuscript/theory/ibt_section_3_4.tex`, definitions `def:faithful`, theorem `thm:ibt`, remark `rem:ibt-scope`; local differential-oracle corollary. https://github.com/meng004/P1-MetaPattern/blob/6eafb90516ff2e1edeb6478816b60d4bf02d4539/manuscript/theory/ibt_section_3_4.tex （固定仓库源文件，不作为公开v1同名章节或另篇已发表论文。）",
+    "15": "[15] Maria Pusa. Higher-Order Chebyshev Rational Approximation Method and Application to Burnup Equations. Nuclear Science and Engineering 182(3):297–318, 2016. https://doi.org/10.13182/NSE15-26",
+    "16": "[16] Huai Liu, Fei-Ching Kuo, Dave Towey, Tsong Yueh Chen. How Effectively Does Metamorphic Testing Alleviate the Oracle Problem? IEEE Transactions on Software Engineering 40(1):4–22, 2014. https://doi.org/10.1109/TSE.2013.46",
+    "17": "[17] Kun Qiu, Zheng Zheng, Tsong Yueh Chen, Pak-Lok Poon. Theoretical and Empirical Analyses of the Effectiveness of Metamorphic Relation Composition. IEEE Transactions on Software Engineering 48(3):1001–1017, 2022. https://doi.org/10.1109/TSE.2020.3009698",
+    "18": "[18] Meng Li, Lijun Wang, Wei Yue, Bei Liu, Jiawei Liu, Zixi Liu, Shiyu Yan, Xiaohua Yang. Metamorphic testing of the NUIT code based on burnup time. Annals of Nuclear Energy 153:108027, 2021. https://doi.org/10.1016/j.anucene.2020.108027",
+    "19": "[19] Jipu Wang et al. Code Verification and Solution Verification framework in pin-resolved neutron transport code MPACT. Annals of Nuclear Energy 178:109365, 2022. https://doi.org/10.1016/j.anucene.2022.109365",
+    "20": "[20] Yin Zhao, Meng Li, Ke Zhang, Xiaohua Yang, Jie Liu, Shiyu Yan. Verification of multi-scale coupling program for high temperature gas-cooled reactor based on metamorphic testing. Annals of Nuclear Energy 226:111846, 2026. https://doi.org/10.1016/j.anucene.2025.111846",
+    "21": "[21] Xiaoyuan Xie, Joshua W. K. Ho, Christian Murphy, Gail Kaiser, Baowen Xu, Tsong Yueh Chen. Testing and validating machine learning classifiers by metamorphic testing. Journal of Systems and Software 84(4):544–558, 2011. https://doi.org/10.1016/j.jss.2010.11.920",
+    "22": "[22] Xiaoyuan Xie, Zhiyi Zhang, Tsong Yueh Chen, Yang Liu, Pak-Lok Poon, Baowen Xu. METTLE: A METamorphic Testing Approach to Assessing and Validating Unsupervised Machine Learning Systems. IEEE Transactions on Reliability 69(4):1293–1322, 2020. https://doi.org/10.1109/TR.2020.2972266 （定向核读作者稿arXiv:1807.10453v4，非终版逐字核验。）",
+    "23": "[23] Tsong Yueh Chen, T. H. Tse. New Visions on Metamorphic Testing after a Quarter of a Century of Inception. ESEC/FSE 2021:1487–1490. https://doi.org/10.1145/3468264.3473136",
+    "24": "[24] Chang-ai Sun, An Fu, Pak-Lok Poon, Xiaoyuan Xie, Huai Liu, Tsong Yueh Chen. METRIC+: A Metamorphic Relation Identification Technique Based on Input Plus Output Domains. IEEE Transactions on Software Engineering 47(9):1764–1785, 2021. https://doi.org/10.1109/TSE.2019.2934848 （官方Journal First扩展摘要及独立检索转交的全文§2.1／§6.7定位；非本写作对话全文核验。）",
+    "25": "[25] Zhi Quan Zhou, Liqun Sun, Tsong Yueh Chen, Dave Towey. Metamorphic Relations for Enhancing System Understanding and Use. IEEE Transactions on Software Engineering 46(10):1120–1154, 2020. https://doi.org/10.1109/TSE.2018.2876433 （摘要、官方Journal First及机构索引范围；全文未取得。）",
+    "26": "[26] C. A. R. Hoare. An Axiomatic Basis for Computer Programming. Communications of the ACM 12(10):576–580, 1969. https://doi.org/10.1145/363235.363259",
+    "27": "[27] Michael D. Ernst, Jake Cockrell, William G. Griswold, David Notkin. Dynamically Discovering Likely Program Invariants to Support Program Evolution. IEEE Transactions on Software Engineering 27(2):99–123, 2001. https://doi.org/10.1109/32.908957",
+    "28": "[28] Michael R. Clarkson, Fred B. Schneider. Hyperproperties. Journal of Computer Security 18:1157–1210, 2010. https://doi.org/10.3233/JCS-2009-0393",
+    "29": "[29] Peter Reichert, Kai Ma, Marvin Höge, Fabrizio Fenicia, Marco Baity-Jesi, Dapeng Feng, Chaopeng Shen. Metamorphic testing of machine learning and conceptual hydrologic models. Hydrology and Earth System Sciences 28:2505–2529, 2024. https://doi.org/10.5194/hess-28-2505-2024",
+    "30": "[30] Nikola Kovachki, Samuel Lanthaler, Siddhartha Mishra. On Universal Approximation and Error Bounds for Fourier Neural Operators. Journal of Machine Learning Research 22(290):1–76, 2021. https://jmlr.org/papers/v22/21-0806.html",
+    "31": "[31] J. de Troullioud de Lanversin, M. Kütt, A. Glaser. ONIX: An open-source depletion code. Annals of Nuclear Energy 151:107903, 2021. https://doi.org/10.1016/j.anucene.2020.107903",
+    "32": "[32] Paul K. Romano et al. OpenMC: A state-of-the-art Monte Carlo code for research and development. Annals of Nuclear Energy 82:90–97, 2015. https://doi.org/10.1016/j.anucene.2014.07.048",
+    "33": "[33] Paul K. Romano, Colin J. Josey, Andrew E. Johnson, Jingang Liang. Depletion capabilities in the OpenMC Monte Carlo particle transport code. Annals of Nuclear Energy 152:107989, 2021. https://doi.org/10.1016/j.anucene.2020.107989",
+    "34": "[34] William Boyd, Samuel Shaner, Lulu Li, Benoit Forget, Kord Smith. The OpenMOC method of characteristics neutral particle transport code. Annals of Nuclear Energy 68:43–52, 2014. https://doi.org/10.1016/j.anucene.2013.12.012",
+    "35": "[35] Ernst Hairer, Christian Lubich, Gerhard Wanner. Geometric Numerical Integration: Structure-Preserving Algorithms for Ordinary Differential Equations. 2nd ed., Springer Series in Computational Mathematics 31, Springer, 2006. https://doi.org/10.1007/3-540-30666-8",
+    "36": "[36] Jon Ayerdi, Valerio Terragni, Gunel Jahangirova, Aitor Arrieta, Paolo Tonella. GenMorph: Automatically Generating Metamorphic Relations via Genetic Programming. IEEE Transactions on Software Engineering 50(7):1888–1900, 2024. https://doi.org/10.1109/TSE.2024.3407840",
+    "37": "[37] Congying Xu, Valerio Terragni, Hengcheng Zhu, Jiarong Wu, Shing-Chi Cheung. MR-Scout: Automated Synthesis of Metamorphic Relations from Existing Test Cases. ACM Transactions on Software Engineering and Methodology 33(6), Article 150:1–28, 2024. https://doi.org/10.1145/3656340",
+    "38": "[38] Clay Stevens, Katherine Kjeer, Ryan Richard, Edward Valeev, Myra B. Cohen. Model Assisted Refinement of Metamorphic Relations for Scientific Software. ICSE 2025 New Ideas and Emerging Results (NIER), 2025. https://doi.org/10.1109/ICSE-NIER66352.2025.00012",
+    "39": "[39] Alexis Marsh, Myra B. Cohen, Robert W. Cottingham. A Tale from the Trenches: Applying Metamorphic and Differential Testing to Bioinformatics Software. ICST 2025 Industry Track, 2025. https://doi.org/10.1109/ICST62969.2025.10988959",
+    "40": "[40] 项目材料. 燃耗方程MR识别报告A：基于元模式与MR族. v1.0, 2026-10-29. 本包prior_reports/燃耗MR识别报告A_基于元模式与MR族.md. 方法来源，不作为外部出版物或本文新实验。",
+    "41": "[41] 项目材料. 燃耗方程MR识别报告B：基于方程与离散算法性质. v1.0, 2026-10-29. 本包prior_reports/燃耗MR识别报告B_基于方程与离散算法性质.md. 方法来源，原报告的数值／经验结论未移植。",
+    "42": "[42] OpenMC Documentation. Depletion. Methods, Chapter 10. https://docs.openmc.org/en/stable/methods/depletion.html （本轮读取§10.1—10.3；软件背景，不认证本文冻结运行身份。）",
+    "43": "[43] OpenMOC Documentation. Method of Characteristics. https://mit-crpg.github.io/OpenMOC/methods/method_of_characteristics.html （本轮读取§2.1—2.4；一般方法背景，本文固定源案例的无裂变子问题另定。）"
+  },
+  "headings": [
+    {
+      "line": 1,
+      "heading": "# 方程结构蜕变关系的离散后有效性预测：条件、方法与验证边界"
+    },
+    {
+      "line": 3,
+      "heading": "## 摘要"
+    },
+    {
+      "line": 13,
+      "heading": "## 1 引言"
+    },
+    {
+      "line": 31,
+      "heading": "## 2 程序与方程背景及研究动机"
+    },
+    {
+      "line": 33,
+      "heading": "### 2.1 从领域状态到程序返回"
+    },
+    {
+      "line": 46,
+      "heading": "### 2.2 数据、离散、误差与容差分别承担什么"
+    },
+    {
+      "line": 60,
+      "heading": "### 2.3 正确离散可能触发不适当的关系拒绝"
+    },
+    {
+      "line": 64,
+      "heading": "### 2.4 输出错误仍可能保持结构关系"
+    },
+    {
+      "line": 68,
+      "heading": "### 2.5 本文要预测的对象"
+    },
+    {
+      "line": 76,
+      "heading": "## 3 研究假设与方法"
+    },
+    {
+      "line": 78,
+      "heading": "### 3.1 形式化对象与统一符号"
+    },
+    {
+      "line": 104,
+      "heading": "### 3.2 应用结构与元模式启发诱导MR"
+    },
+    {
+      "line": 123,
+      "heading": "### 3.3 离散后有效性预测"
+    },
+    {
+      "line": 125,
+      "heading": "#### 3.3.1 工作前提与可考察研究论断"
+    },
+    {
+      "line": 139,
+      "heading": "#### 3.3.2 两条预测规则与验证决定"
+    },
+    {
+      "line": 147,
+      "heading": "#### 3.3.3 数值判据与未决状态"
+    },
+    {
+      "line": 182,
+      "heading": "### 3.4 从预测形成实验设计"
+    },
+    {
+      "line": 202,
+      "heading": "## 4 实验方案与结果"
+    },
+    {
+      "line": 204,
+      "heading": "### 4.1 研究问题"
+    },
+    {
+      "line": 220,
+      "heading": "### 4.2 实验对象：方程、离散算法与实际入口"
+    },
+    {
+      "line": 232,
+      "heading": "### 4.3 评价指标与分析单位"
+    },
+    {
+      "line": 256,
+      "heading": "### 4.4 实验设计、预测时序与比较方法"
+    },
+    {
+      "line": 278,
+      "heading": "### 4.5 从候选合同到本次测试实例"
+    },
+    {
+      "line": 289,
+      "heading": "### 4.6 变异算子、植入位置与工作变体"
+    },
+    {
+      "line": 303,
+      "heading": "### 4.7 领域模型与测试用例"
+    },
+    {
+      "line": 305,
+      "heading": "#### 4.7.1 燃耗数学核的三状态模型与输入"
+    },
+    {
+      "line": 323,
+      "heading": "#### 4.7.2 五状态多路径模型与四场用例"
+    },
+    {
+      "line": 339,
+      "heading": "#### 4.7.3 OpenMOC简化物理输运模型"
+    },
+    {
+      "line": 357,
+      "heading": "### 4.8 条件预测与结果分析"
+    },
+    {
+      "line": 361,
+      "heading": "#### 4.8.1 PFD的条件区间与EZ保存点"
+    },
+    {
+      "line": 375,
+      "heading": "#### 4.8.2 E1与C1的机制对照"
+    },
+    {
+      "line": 423,
+      "heading": "#### 4.8.3 MOC尺度、叠加与源核对照"
+    },
+    {
+      "line": 465,
+      "heading": "#### 4.8.4 预测—证据—答案汇总"
+    },
+    {
+      "line": 478,
+      "heading": "## 5 结果讨论与有效性分析"
+    },
+    {
+      "line": 480,
+      "heading": "### 5.1 三个研究问题的答案"
+    },
+    {
+      "line": 488,
+      "heading": "### 5.2 结构理解、预测用途与取舍"
+    },
+    {
+      "line": 504,
+      "heading": "#### 5.2.1 贡献具体是什么，其他研究者如何复用"
+    },
+    {
+      "line": 519,
+      "heading": "#### 5.2.2 贯穿例第5步：从漏检根因选择补充检查"
+    },
+    {
+      "line": 527,
+      "heading": "### 5.3 方法有效性与威胁"
+    },
+    {
+      "line": 541,
+      "heading": "## 6 相关工作与研究位置"
+    },
+    {
+      "line": 543,
+      "heading": "### 6.1 团队前作与外部近邻"
+    },
+    {
+      "line": 556,
+      "heading": "### 6.2 关系、领域语义与数值结构"
+    },
+    {
+      "line": 566,
+      "heading": "## 7 未来研究方向"
+    },
+    {
+      "line": 576,
+      "heading": "## 8 结论"
+    },
+    {
+      "line": 584,
+      "heading": "## 数据、材料与AI辅助声明"
+    },
+    {
+      "line": 590,
+      "heading": "## 参考文献"
+    },
+    {
+      "line": 678,
+      "heading": "## 附录A 关系基础的限定分类与证明"
+    },
+    {
+      "line": 725,
+      "heading": "## 附录B 有限MR合同与目录口径"
+    },
+    {
+      "line": 741,
+      "heading": "### B.1 有限15合同的自含范围索引"
+    },
+    {
+      "line": 765,
+      "heading": "## 附录C 历史批次、离线分析来源与未完成证据"
+    },
+    {
+      "line": 769,
+      "heading": "### C.1 早期CRAM及经验对照"
+    },
+    {
+      "line": 827,
+      "heading": "### C.2 先前六调用"
+    },
+    {
+      "line": 845,
+      "heading": "### C.3 半群离线来源及未完成批次"
+    },
+    {
+      "line": 853,
+      "heading": "## 附录D 当前材料导航与数值证据"
+    },
+    {
+      "line": 855,
+      "heading": "### 当前材料导航"
+    },
+    {
+      "line": 898,
+      "heading": "### 复核层级与实际完成范围"
+    },
+    {
+      "line": 902,
+      "heading": "### D.1 材料入口与实际状态"
+    },
+    {
+      "line": 906,
+      "heading": "## 附录E 条件预测的技术细节"
+    },
+    {
+      "line": 910,
+      "heading": "### E.1 燃耗零结构、正路径与归一化"
+    },
+    {
+      "line": 918,
+      "heading": "#### E.1.1 零响应及有理保持"
+    },
+    {
+      "line": 933,
+      "heading": "#### E.1.2 正路径信号的额外资格"
+    },
+    {
+      "line": 947,
+      "heading": "#### E.1.3 守恒投影与归一化缺陷"
+    },
+    {
+      "line": 959,
+      "heading": "### E.2 固定源尺度与观察"
+    },
+    {
+      "line": 961,
+      "heading": "#### E.2.1 连续和理想MOC充分条件"
+    },
+    {
+      "line": 987,
+      "heading": "##### 从理想更新到保存程序证据的静态连接"
+    },
+    {
+      "line": 1000,
+      "heading": "#### E.2.2 源、算子与观察缺陷"
+    },
+    {
+      "line": 1014,
+      "heading": "### E.3 半群精确目标与真实转接"
+    },
+    {
+      "line": 1045,
+      "heading": "### E.4 判断信息、使用模式与证据取得"
+    },
+    {
+      "line": 1082,
+      "heading": "#### D03填写例"
+    },
+    {
+      "line": 1098,
+      "heading": "## 附录F 识别来源与核读范围"
+    },
+    {
+      "line": 1100,
+      "heading": "### F.1 合同目录与识别来源登记"
+    },
+    {
+      "line": 1114,
+      "heading": "### F.2 本轮使用旧识别报告的边界"
+    },
+    {
+      "line": 1119,
+      "heading": "### F.3 既有来源的详细定位与核读边界"
+    }
+  ],
+  "main_text_size": {
+    "measure": "Unicode characters title through conclusion, before declarations, including tables/whitespace",
+    "v28": 35364,
+    "v29": 39916,
+    "delta": 4552
+  },
+  "changed_sections": [
+    "摘要/§1 G1–G3 and contributions Ⅰ–Ⅲ",
+    "§2.5 running example",
+    "§3.2–3.3 hypotheses/applicability/tolerance",
+    "§4.1 argument map",
+    "§4.8.2 filled C1/S1 card",
+    "§4.8.4 evidence recap",
+    "§5.1–5.2 reuse products/complement limits",
+    "§6.2 citation correction",
+    "§8 conclusion",
+    "Appendix D current navigation"
+  ],
+  "execution_boundary": {
+    "SUT": false,
+    "package_code": false,
+    "scientific_certificate_regeneration": false,
+    "STOP_changed": false
+  }
+}

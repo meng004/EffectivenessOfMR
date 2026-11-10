@@ -1,0 +1,1466 @@
+{
+  "title": "已接受15合同的有限域去重与历史实证映射：独立复审",
+  "date_utc": "2026-11-06",
+  "decision": {
+    "verdict": "受限通过；本轮可签认所选有限宇宙在既定全域合同身份口径内的15个等价类，以及现有已证特化图的9个极大节点覆盖组。",
+    "exact_finite_contract_class_count": 15,
+    "whole_domain_unknown_pair_count_under_frozen_policy": 0,
+    "proved_graph_maximal_node_count": 9,
+    "blocking_scientific_defects_found": [],
+    "required_preacceptance_repairs": [],
+    "scope": "只针对已接受第三阶段的15条冻结合同和所声明的保raw问题、目标、执行图、端角色、变换、观察与信息权限的无损共同适配；不适用于任意计算归约或任意抽象集合双射。",
+    "not_claimed": [
+      "15个独立定理",
+      "15项独立科学贡献或检测能力",
+      "9个不可约理论原理或全局最小模板",
+      "全部燃耗输运MR的完备数量",
+      "15条完整工程实测",
+      "总体检出率或统计独立样本"
+    ],
+    "global_effective_unique_MR_count": null,
+    "engineering_qualified_count": null,
+    "execution_permission": "没有新运行授权；本次未运行SUT、未重放数值传播器、未改冻结对象/STOP/预算。"
+  },
+  "materials": {
+    "full_json_library_id": "libfile_fde3_f-a098e569222c8191854bdf44d3f47910_0494671ff73c819189f74404b3b983a5",
+    "readable_library_id": "libfile_fde3_f-4925ac5e9c5c8191ba6e9332346e09fc_0494671ff73c819189f74404b3b983a5",
+    "author_validation_library_id": "libfile_fde3_f-cd3154f4ae8c81918f97e1a1fac50ae2_0494671ff73c819189f74404b3b983a5",
+    "actual_byte_identities": [
+      {
+        "filename": "mr_finite15_adjudication_and_evidence_20261106.json",
+        "bytes": 167555,
+        "sha256": "5f6942e26f3af389708da3d82b3698140849b044c8e437ecb75ea94b1c4d409d"
+      },
+      {
+        "filename": "mr_finite15_adjudication_and_evidence_20261106.txt",
+        "bytes": 29576,
+        "sha256": "bee7e09565583574379e8ac6c908344f4a8c56a9a3326e0ec79320d9f1987598"
+      },
+      {
+        "filename": "mr_finite15_adjudication_validation_20261106.json",
+        "bytes": 5290,
+        "sha256": "72b77cc9b8ac6c2898a09427a9d5ddba8350b7c2075535d5670a6bd2b82aef25"
+      }
+    ],
+    "accepted_baseline": {
+      "path": "/workspace/review45/mr_valid_contract_inventory_stage3_20261106.json",
+      "bytes": 230730,
+      "sha256": "638828dc8eec441f82434a403efcdf4b03e81450d8dbafe880b11cd1a482b2f9"
+    },
+    "read_scope": "完整JSON中的身份政策、全部规则/证明、105对表、严格图、5项实证主题、来源与缺口；可读稿270行；作者37项回执。对照本地已接受基线和前轮独立报告实际字节。",
+    "independent_verification": "73项本次结构/文件绑定/图与精确代数/保存报告数值检查全部通过；另对105对逐项评议并记录主区分证书。73是检查条目数，不是独立证明或运行数。",
+    "local_historical_audits_read": [
+      {
+        "path": "/workspace/review6/independent-round2-audit.json",
+        "sha256": "e2ac267d3c26dadf4c0285ec9340acd98041009fad0ecc30bc88d24cb97870c1"
+      },
+      {
+        "path": "/workspace/review17/independent-eight-groups-audit.json",
+        "sha256": "b72250281914698ce838a3289c943e30aaaa24b0e7c0b5347ae61415f419d783"
+      },
+      {
+        "path": "/workspace/review23/independent-m3-nine-groups-audit.json",
+        "sha256": "4da8f99276993c1b34a198d5e01136c0d6053af9c7a26e298b1e7c5dfd2da5ac"
+      }
+    ],
+    "library_historical_reports_read": [
+      {
+        "id": "libfile_fde3_f-2f6ba727047c8191acfb02f12dbfa367_0494671ff73c819189f74404b3b983a5",
+        "title": "E1 三源三轮执行结果",
+        "lines": 33,
+        "complete": true
+      },
+      {
+        "id": "libfile_fde3_f-7772b174494081919b792079a83f9132_0494671ff73c819189f74404b3b983a5",
+        "title": "C1 fresh-v1 report",
+        "lines": 19,
+        "complete": true
+      },
+      {
+        "id": "libfile_fde3_f-4a34f558d2ac819191d027d02c4afef3_0494671ff73c819189f74404b3b983a5",
+        "title": "实验方案v2.5定向独立复核",
+        "lines": 64,
+        "complete": true
+      }
+    ]
+  },
+  "finite_count_reasoning": {
+    "policy_not_redefined": "与第三阶段逐字段对照，primary_unit、数学键、工程键、equivalence、specialization、execution_definition和allowed_adapters均完全一致。T01/T02仍计完整场主谓词，D08仍采用最小所需观察；没有通过改域、加维数/软件/样本节点造数。",
+    "coverage": "105=C(15,2)个无序对恰好全覆盖且无重复；规则与证明引用可解析，所有对都给出了正面区分依据。84 distinct、7 strict_specialization、14 projection_or_overlap是双轴分类，不将后两种误作全域equivalent。",
+    "upper_bound": "集合恰有15个冻结节点，故类数不超过15。",
+    "lower_bound": "对105个不同节点对的允许适配障碍逐一接受，故这些节点两两不全域等价，类数不小于15。下界依赖具体不变量及保留的信息，不依赖“未找到equivalent边”。",
+    "candidate_return_semantics": "接受在合法固定输入下比较候选返回的检验义务。若只在已知正确解图上比真假，所有已证MR都为真，反而抹去测试谓词的差别。文中候选返回反例不声称为同输入健康解或真实SUT结果。",
+    "rank_caution": "秩指关系零集的独立约束余维或整个输入—观察双线性族的秩，不是字面等式个数、输出字段数或输入集合基数。将向量范数写成一个标量等式不会改变原零集余维，也不会使它成为一个线性交叉配对。",
+    "scientific_use": "该口径可重复操作，适合作为有限合同目录的去重和适用条件审计。它有意保留严格子域、变换作用和执行义务，因此不能衡量理论新颖性、检测强弱或工程覆盖率；若任意拆分合法域，目录数量可能增加而科学内容不增加。本次冻结15节点及政策防止了这种事后漂移。"
+  },
+  "proof_family_assessment": [
+    {
+      "family": "执行图",
+      "verdict": "接受",
+      "details": "44对由两端/三端不同直接区分；另4对虽同为三端，却有无真实prefix返回→suffix输入数据边不同。共用base不增删单条合同所需节点。"
+    },
+    {
+      "family": "线性等式、半空间与观察投影",
+      "verdict": "接受",
+      "details": "S2完整二维关系约束秩2；D06/D07/D08单配对秩1。共同二维D03例仅一项不可达观察，不靠三维名义区分。D10接受集具有内部，与真等式零集不同。可逆共同坐标不消除这些差别；特定投影非逆见证之外，另有全域不变量，未仅凭一个失败映射排除所有允许映射。"
+    },
+    {
+      "family": "作用、源/历史与对偶域",
+      "verdict": "接受",
+      "details": "cI、swap、diag(2,3)的共同共轭谱/阶不同；非零外源不能由固定可逆共同坐标变成零源。D03的二维两非零源端例阻断到零源或至少一端零源的对偶合同；消去特解、增广或混合两个求解不是本口径适配。"
+    },
+    {
+      "family": "D06/D07 Jordan阻碍",
+      "verdict": "接受",
+      "details": "A=[[-1,1],[0,-1]]满足Metzler且有非零平方零N=A+I，特征空间维1；任何相似都不能使其自伴。u=e2,v=e1,T=1时y=z=e^-1(1,1)与方程相容。这比仅称A非对称更有力。"
+    },
+    {
+      "family": "输运全场到终态",
+      "verdict": "接受",
+      "details": "固定单向纯吸收模型可取任意多个不同支持源，其解由L的单射性线性独立；完整响应无限秩。ψ=1与1+εx(1−x)有相同入口/出口但场不同；后者源1+ε(1−x−x²)>0于0<ε<1。出口投影确不可逆，L²体误差不控制出口迹。"
+    },
+    {
+      "family": "最小观察D08与T04/T05",
+      "verdict": "接受",
+      "details": "D06/D07/D08固定模型的B(v,x)经二维终态因子化，秩≤2。T05按位置排序的非零区间源q_j和权w_i产生正对角下三角配对矩阵，任意N都满秩；对角项为ℓ−1+exp(−ℓ)>0，无需正确解oracle生成权。T04用严格正独立f_i及g_j=2f_j得到正定Gram矩阵，亦任意N满秩。故只返回一个充分积分标量不能消除整个先验输入—观察族的区别。"
+    },
+    {
+      "family": "严格特化",
+      "verdict": "接受",
+      "details": "每条特化不但有受限映射，还具允许适配保持的全域反向障碍。D07→D08依赖零源及最小观察约定；T04→T05依赖E/Π/R、方程/边界图域和奇场恢复，Π非一般可逆。非零入流与有符号体权阻断T05整个域回到T04。"
+    },
+    {
+      "family": "14投影/重叠对",
+      "verdict": "接受",
+      "details": "已给的共线加法、向量到标量和共同纯吸收出口对应均仅在声明子域。涉及两项HOM/D14实例推三端叠加时没有冒充单条两端图；不把重叠传递作等价闭包。其余潜在共同域未穷尽，与已证全域不等价并不矛盾。"
+    }
+  ],
+  "template_count": {
+    "direct_edges": [
+      [
+        "S2-D01",
+        "S2-D14"
+      ],
+      [
+        "S2-D04",
+        "S2-D14"
+      ],
+      [
+        "S3-D06",
+        "S3-D07"
+      ],
+      [
+        "S3-D07",
+        "S3-D08"
+      ],
+      [
+        "S3-D18",
+        "S3-D16"
+      ],
+      [
+        "TR-T04",
+        "TR-T05"
+      ]
+    ],
+    "derived_edge": [
+      "S3-D06",
+      "S3-D08"
+    ],
+    "groups": [
+      {
+        "maximal_node": "S2-D14",
+        "covered_nodes": [
+          "S2-D01",
+          "S2-D04",
+          "S2-D14"
+        ],
+        "label": "完整表示/幅度/固定模型置换"
+      },
+      {
+        "maximal_node": "B3-D03",
+        "covered_nodes": [
+          "B3-D03"
+        ],
+        "label": "不可达零响应"
+      },
+      {
+        "maximal_node": "B3-D10",
+        "covered_nodes": [
+          "B3-D10"
+        ],
+        "label": "指定正路径下界"
+      },
+      {
+        "maximal_node": "S3-D02",
+        "covered_nodes": [
+          "S3-D02"
+        ],
+        "label": "ODE完整输入三端叠加"
+      },
+      {
+        "maximal_node": "S3-D08",
+        "covered_nodes": [
+          "S3-D06",
+          "S3-D07",
+          "S3-D08"
+        ],
+        "label": "ODE自伴/转置/含源对偶"
+      },
+      {
+        "maximal_node": "S3-D16",
+        "covered_nodes": [
+          "S3-D16",
+          "S3-D18"
+        ],
+        "label": "完整历史重启/自治半时特化"
+      },
+      {
+        "maximal_node": "TR-T01",
+        "covered_nodes": [
+          "TR-T01"
+        ],
+        "label": "输运尺度与幅度"
+      },
+      {
+        "maximal_node": "TR-T02",
+        "covered_nodes": [
+          "TR-T02"
+        ],
+        "label": "输运不同支持源三端叠加"
+      },
+      {
+        "maximal_node": "TR-T05",
+        "covered_nodes": [
+          "TR-T04",
+          "TR-T05"
+        ],
+        "label": "输运偶宇称互易/带入流伴随"
+      }
+    ],
+    "independent_recomputation": "6条直接边无环，闭包增加D06→D08，共7个严格特化对；9个无出边极大节点，其祖先覆盖恰好划分全部15节点。",
+    "interpretation": "9可称“当前已证严格特化图的极大节点覆盖组”，也可在已定义含义下简称模板组。不是所有可能包含关系下已证最小模板数；未来发现更多受限映射也不自动推翻15个全域身份类。",
+    "publication_advice": "正文按9组组织、子合同列适用条件；附录列15完整合同和105对证书，研究贡献按条件定理、可检出信号及盲区说明，避免把15或9当新颖性评分。"
+  },
+  "empirical_mapping_assessment": [
+    {
+      "batch": "E1/C1",
+      "verdict": "受限报告级映射相容；本次未重新认证原包或跨对话独审原文",
+      "matches": "直接读到E1 54调用/27配对/432移位记录及C1 54传播/27配对；零源、差幅1、1/2、2、Z/P/W近似读数及两批不同P/W规则与当前描述相容。三个差方向秩1，不是三条外源方向。",
+      "scientific_meaning": "EZ新增声明模型没有的1→3边，使声明Z规格拒绝；它不是D03在其全部实际工作图前提下的反例。EZ仍可满足P下界，ET保持Z而由独立正确目标W识别。W是参考错误见证，不增加MR或求解端。",
+      "limits": "E1 identity_certified=false、C1有限身份增强及旧H-u透明性边界保留。E1/C1精确有理目标r/q不同，事前P/W规则不能事后统一倒写。当前未直接取得E1_POSTREVIEW、C1_E1_INTEGRATION_REVIEW的完整原对话，以及readonly_comparison_result.json、target_comparison_verified.json；文中其逐项哈希数量与高精度末位仅作作者引用，未在本轮独立复算。"
+    },
+    {
+      "batch": "M1",
+      "verdict": "与本地保存的独立round2审计相符",
+      "matches": "八端不同记录PID；H/C残差约1.11e-16/2.22e-16，C的W约0.57211837194；U充分下界0.57211814970613683>0.04。116段中66段非binary64精确二倍，D约3.60799e-18；240次EISDIR。",
+      "limits": "24端总账、一个物理输入、先导SUP事后与两轮确认仍沿既有审查范围；区域投影不认证完整角场、getter不等于内部源缓冲读回、共同源错误不是自然缺陷。"
+    },
+    {
+      "batch": "M2",
+      "verdict": "与本地保存的40端整体独立审计相符",
+      "matches": "40新端/40不同记录PID/120阶段首领，加旧混合组的2个健康复用端及当时3新端；未倒写9组全新。最大E约4.502697591e-7，负控最小充分下界约0.3246399847；2030次EISDIR。独立代数核14q3=11q1−2q2，秩2。",
+      "limits": "单群反馈漏缩放人工负控；E是工作离散目标误差，W是声明正确目标错误见证；小rho不等于SUT精度。未重核当前机器实体、原trace和源缓冲。"
+    },
+    {
+      "batch": "M1/M2 SUP",
+      "verdict": "保留真实三端与共享H_s的受限投影映射",
+      "matches": "M1 round2残差8.827251742e-10，充分界4.63867376803e-7；M2充分界最大6.379992478e-7。H_s作为实际总源解与A/B比较，不是把A+B伪作第三返回。",
+      "limits": "健康相容不自动证明独立故障检出增量；M3无SUP，输运SUP不补燃耗D02实测；共享base不重复计端。"
+    },
+    {
+      "batch": "M3",
+      "verdict": "与本地保存的27端整体独立审计相符",
+      "matches": "27端/27不同记录PID/81阶段首领；三源秩3，3×3子式87/128。健康充分界<0.01，负控群2充分下界>0.01及W>0.002；q3负控少一次sweep，群1输出差1.248262604e-10并非全体逐位一致；1212次EISDIR。",
+      "limits": "仅两群两区下散射、有限区域群通量观察，仍无SUP/连续角空间误差/自然缺陷主张。三轮确定性重复不作为统计独立总体样本。"
+    }
+  ],
+  "unverified_scope_and_blockers": {
+    "counting_blockers": [],
+    "unavailable_fragment_files": "本次取得的是合并完整JSON/TXT与作者回执；没有取得3个独立生成片段，未独立核它们的散列/拼接历史。合并本内容和实际字节已核，不阻断该有限数学结论。",
+    "historical_scope": "本次读取保存的独审汇总及E1/C1运行报告，没有重新下载/重放E1/C1/M1/M2/M3全部原始证据或运行身份实体；不能把这次核对说成新一轮原包认证。",
+    "conversation_sources": "材料中的thread/turn/message定位不是本轮已读原文的替代物。查找target_comparison_verified.json的可用房间历史未获结果；未猜测附件ID或补造独审文本。",
+    "not_needed_for_current_count": "历史实证可复现交付与完整身份缺口不改变已独立证明的有限数学不等价；它们阻止的是更强运行/自然缺陷/完整程序覆盖主张。",
+    "future_unknowns": "原另27张D/T、18P、10U、5X以及全部潜在投影/包含关系仍按原处分；全领域数量和工程合格数不由本次15/9补齐。"
+  },
+  "minimum_next_step": [
+    "以该完整JSON散列、本报告和原15合同基线组成新的状态伴随：有限类数可由null更新为15；9保留“已证特化图极大覆盖组”限定，不改原冻结文件。",
+    "以9组模板和5个已有实证主题形成主文/附录索引，把实际端ID、共享H_s、工作与声明目标、事前阈值及证据等级并列。无需为这个计数结论追加SUT。",
+    "若要升级E1/C1独审引用或完整归档复现，应补确切独审文本及两个比较附件的可读持久入口；在此前保持报告级、条件身份措辞。",
+    "以后改变合法域、允许适配、目标或观察时要单独版本化并重新计算受影响的对；不能把本次15类迁移成新宇宙的自动总数。"
+  ],
+  "per_pair_assessment": [
+    {
+      "pair_id": "B3-D03|B3-D10",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "下界接受半空间有内部；对方非平凡等式接受集无相应环境内部，允许无损坐标不互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D03|S2-D01",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "共同二维实例的有限观察约束秩1与完整向量作用秩2不同；跨维仅辅助。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D03|S2-D04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "共同二维实例的有限观察约束秩1与完整向量作用秩2不同；跨维仅辅助。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D03|S2-D14",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "共同二维实例的有限观察约束秩1与完整向量作用秩2不同；跨维仅辅助。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D03|S3-D02",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D03|S3-D06",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "合法二维D03可有两非零raw外源端；另一合同至少一个动力端始终零源；三维raw域另有辅助障碍。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D03|S3-D07",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "合法二维D03可有两非零raw外源端；另一合同至少一个动力端始终零源；三维raw域另有辅助障碍。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D03|S3-D08",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "合法二维D03可有两非零raw外源端；另一合同至少一个动力端始终零源；三维raw域另有辅助障碍。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D03|S3-D16",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D03|S3-D18",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D03|TR-T01",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "完整输运场响应在固定合法模型无限秩，有限终态不能保raw角色无损承载；出口投影有明确非单射见证。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D03|TR-T02",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D03|TR-T04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "D03有限raw状态/局部不可达观察不能与输运无限体激励及完整场或真正伴随边界角色无损互换；任意有限n不允许输入编码成无限raw状态。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D03|TR-T05",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "D03有限raw状态/局部不可达观察不能与输运无限体激励及完整场或真正伴随边界角色无损互换；任意有限n不允许输入编码成无限raw状态。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D10|S2-D01",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "下界接受半空间有内部；对方非平凡等式接受集无相应环境内部，允许无损坐标不互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D10|S2-D04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "下界接受半空间有内部；对方非平凡等式接受集无相应环境内部，允许无损坐标不互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D10|S2-D14",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "下界接受半空间有内部；对方非平凡等式接受集无相应环境内部，允许无损坐标不互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D10|S3-D02",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D10|S3-D06",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "下界接受半空间有内部；对方非平凡等式接受集无相应环境内部，允许无损坐标不互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D10|S3-D07",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "下界接受半空间有内部；对方非平凡等式接受集无相应环境内部，允许无损坐标不互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D10|S3-D08",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "下界接受半空间有内部；对方非平凡等式接受集无相应环境内部，允许无损坐标不互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D10|S3-D16",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D10|S3-D18",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D10|TR-T01",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "下界接受半空间有内部；对方非平凡等式接受集无相应环境内部，允许无损坐标不互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D10|TR-T02",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D10|TR-T04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "下界接受半空间有内部；对方非平凡等式接受集无相应环境内部，允许无损坐标不互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "B3-D10|TR-T05",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "下界接受半空间有内部；对方非平凡等式接受集无相应环境内部，允许无损坐标不互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D01|S2-D04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "共同共轭保持作用谱及阶：cI与swap不能互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D01|S2-D14",
+      "relation_kind": "strict_specialization",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "E=cI子域可逆对应；父域diag(2,3)作用谱阻断全域共同共轭。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D01|S3-D02",
+      "relation_kind": "projection_or_overlap",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D01|S3-D06",
+      "relation_kind": "projection_or_overlap",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "完整二维输出关系余维2，对偶单标量关系余维1；子域单向投影不补全反向信息。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D01|S3-D07",
+      "relation_kind": "projection_or_overlap",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "完整二维输出关系余维2，对偶单标量关系余维1；子域单向投影不补全反向信息。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D01|S3-D08",
+      "relation_kind": "projection_or_overlap",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "完整二维输出关系余维2，对偶单标量关系余维1；子域单向投影不补全反向信息。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D01|S3-D16",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D01|S3-D18",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D01|TR-T01",
+      "relation_kind": "projection_or_overlap",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "完整输运场响应在固定合法模型无限秩，有限终态不能保raw角色无损承载；出口投影有明确非单射见证。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D01|TR-T02",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D01|TR-T04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "S2完整二维向量关系与输运单配对关系余维不同；输运体源/边界和初态角色也不能互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D01|TR-T05",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "S2完整二维向量关系与输运单配对关系余维不同；输运体源/边界和初态角色也不能互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D04|S2-D14",
+      "relation_kind": "strict_specialization",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "E=P且交换子域可逆对应；父域非均匀正对角作用谱不同。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D04|S3-D02",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D04|S3-D06",
+      "relation_kind": "projection_or_overlap",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "完整二维输出关系余维2，对偶单标量关系余维1；子域单向投影不补全反向信息。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D04|S3-D07",
+      "relation_kind": "projection_or_overlap",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "完整二维输出关系余维2，对偶单标量关系余维1；子域单向投影不补全反向信息。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D04|S3-D08",
+      "relation_kind": "projection_or_overlap",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "完整二维输出关系余维2，对偶单标量关系余维1；子域单向投影不补全反向信息。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D04|S3-D16",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D04|S3-D18",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D04|TR-T01",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "完整输运场响应在固定合法模型无限秩，有限终态不能保raw角色无损承载；出口投影有明确非单射见证。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D04|TR-T02",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D04|TR-T04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "S2完整二维向量关系与输运单配对关系余维不同；输运体源/边界和初态角色也不能互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D04|TR-T05",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "S2完整二维向量关系与输运单配对关系余维不同；输运体源/边界和初态角色也不能互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D14|S3-D02",
+      "relation_kind": "projection_or_overlap",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D14|S3-D06",
+      "relation_kind": "projection_or_overlap",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "完整二维输出关系余维2，对偶单标量关系余维1；子域单向投影不补全反向信息。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D14|S3-D07",
+      "relation_kind": "projection_or_overlap",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "完整二维输出关系余维2，对偶单标量关系余维1；子域单向投影不补全反向信息。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D14|S3-D08",
+      "relation_kind": "projection_or_overlap",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "完整二维输出关系余维2，对偶单标量关系余维1；子域单向投影不补全反向信息。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D14|S3-D16",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D14|S3-D18",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D14|TR-T01",
+      "relation_kind": "projection_or_overlap",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "完整输运场响应在固定合法模型无限秩，有限终态不能保raw角色无损承载；出口投影有明确非单射见证。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D14|TR-T02",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D14|TR-T04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "S2完整二维向量关系与输运单配对关系余维不同；输运体源/边界和初态角色也不能互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S2-D14|TR-T05",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "S2完整二维向量关系与输运单配对关系余维不同；输运体源/边界和初态角色也不能互换。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D02|S3-D06",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D02|S3-D07",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D02|S3-D08",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D02|S3-D16",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "同为三端但实际prefix返回→suffix输入数据边有无不同。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D02|S3-D18",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "同为三端但实际prefix返回→suffix输入数据边有无不同。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D02|TR-T01",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D02|TR-T02",
+      "relation_kind": "projection_or_overlap",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "完整输运场响应在固定合法模型无限秩，有限终态不能保raw角色无损承载；出口投影有明确非单射见证。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D02|TR-T04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D02|TR-T05",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D06|S3-D07",
+      "relation_kind": "strict_specialization",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "自伴子域可逆对应；D07缺陷Jordan块不能相似为自伴，完整有符号对偶域亦不同。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D06|S3-D08",
+      "relation_kind": "strict_specialization",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "组合特化可逆对应；非零源与缺陷Jordan实例提供全域不变量。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D06|S3-D16",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D06|S3-D18",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D06|TR-T01",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "T01完整场约束与有限对偶单标量不同。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D06|TR-T02",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D06|TR-T04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "固定raw模型、保持激励角色的双线性族：ODE经二维终态因子化；输运合法例可达任意N阶满秩，最小标量输出不消除此差异。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D06|TR-T05",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "固定raw模型、保持激励角色的双线性族：ODE经二维终态因子化；输运合法例可达任意N阶满秩，最小标量输出不消除此差异。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D07|S3-D08",
+      "relation_kind": "strict_specialization",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "最小观察、零源和时间反转给子域对应；父域非零L1源不被固定共同坐标消去。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D07|S3-D16",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D07|S3-D18",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D07|TR-T01",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "T01完整场约束与有限对偶单标量不同。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D07|TR-T02",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D07|TR-T04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "固定raw模型、保持激励角色的双线性族：ODE经二维终态因子化；输运合法例可达任意N阶满秩，最小标量输出不消除此差异。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D07|TR-T05",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "固定raw模型、保持激励角色的双线性族：ODE经二维终态因子化；输运合法例可达任意N阶满秩，最小标量输出不消除此差异。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D08|S3-D16",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D08|S3-D18",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D08|TR-T01",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "T01完整场约束与有限对偶单标量不同。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D08|TR-T02",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D08|TR-T04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "固定raw模型、保持激励角色的双线性族：ODE经二维终态因子化；输运合法例可达任意N阶满秩，最小标量输出不消除此差异。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D08|TR-T05",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "固定raw模型、保持激励角色的双线性族：ODE经二维终态因子化；输运合法例可达任意N阶满秩，最小标量输出不消除此差异。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D16|S3-D18",
+      "relation_kind": "strict_specialization",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "常A零源半时是子域；父域非零源/真正历史在固定共同坐标下不消失。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D16|TR-T01",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D16|TR-T02",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "同为三端但实际prefix返回→suffix输入数据边有无不同。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D16|TR-T04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D16|TR-T05",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D18|TR-T01",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D18|TR-T02",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "同为三端但实际prefix返回→suffix输入数据边有无不同。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D18|TR-T04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "S3-D18|TR-T05",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "TR-T01|TR-T02",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "TR-T01|TR-T04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "T01完整场零残差约束与T04/T05单一配对超平面不同；合法有符号核方向保留不可逆信息损失。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "TR-T01|TR-T05",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "T01完整场零残差约束与T04/T05单一配对超平面不同；合法有符号核方向保留不可逆信息损失。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "TR-T02|TR-T04",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "TR-T02|TR-T05",
+      "relation_kind": "distinct",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "执行图节点数不同；共同无损适配不增删求解。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    },
+    {
+      "pair_id": "TR-T04|TR-T05",
+      "relation_kind": "strict_specialization",
+      "verdict": "not_equivalent_under_frozen_policy",
+      "primary_certificate": "E/Π/R与图域恢复给受限响应对应；非零入流及完整有符号体权阻断全域逆映。",
+      "restricted_relation": "接受本行明确映射；不主张穷尽其他受限关系"
+    }
+  ],
+  "independent_checks": [
+    {
+      "name": "artifact identity .json",
+      "result": "PASS",
+      "evidence": {
+        "filename": "mr_finite15_adjudication_and_evidence_20261106.json",
+        "bytes": 167555,
+        "sha256": "5f6942e26f3af389708da3d82b3698140849b044c8e437ecb75ea94b1c4d409d"
+      }
+    },
+    {
+      "name": "artifact identity .txt",
+      "result": "PASS",
+      "evidence": {
+        "filename": "mr_finite15_adjudication_and_evidence_20261106.txt",
+        "bytes": 29576,
+        "sha256": "bee7e09565583574379e8ac6c908344f4a8c56a9a3326e0ec79320d9f1987598"
+      }
+    },
+    {
+      "name": "actual accepted baseline bytes",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "R6 accepted decision quoted correctly",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "exact original 15-node universe",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "identity policy retained primary_unit",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "identity policy retained mathematical_key",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "identity policy retained engineering_key",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "identity policy retained equivalence",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "identity policy retained specialization",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "identity policy retained execution_definition",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "identity policy retained allowed_adapters",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "105 unordered pairs exactly once",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "pair ID consistent",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "three pair labels",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "all rule references exist",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "all proof references exist",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "candidate numerical count consistent",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "no author claims prior count approval",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "global and engineering unknown",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "six direct edges, nine graph maxima",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "derived D06 to D08",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "nine groups partition 15",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "all coverage follows declared graph",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "strict pair labels equal closure",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "all supplied graph edges were accepted previously",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "readable pair identifiers",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "all empirical references exist",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "each pair independently assigned valid obstruction",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "Jordan block N squared",
+      "result": "PASS",
+      "evidence": {
+        "computed": "Matrix([[0, 0], [0, 0]])",
+        "expected": "Matrix([[0, 0], [0, 0]])"
+      }
+    },
+    {
+      "name": "Jordan eigenspace dimension one",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "Jordan propagator derivative",
+      "result": "PASS",
+      "evidence": {
+        "computed": "Matrix([[-exp(-t), -t*exp(-t) + exp(-t)], [0, -exp(-t)]])",
+        "expected": "Matrix([[-exp(-t), -t*exp(-t) + exp(-t)], [0, -exp(-t)]])"
+      }
+    },
+    {
+      "name": "Jordan forward at one",
+      "result": "PASS",
+      "evidence": {
+        "computed": "Matrix([[exp(-1)], [exp(-1)]])",
+        "expected": "Matrix([[exp(-1)], [exp(-1)]])"
+      }
+    },
+    {
+      "name": "Jordan adjoint at one",
+      "result": "PASS",
+      "evidence": {
+        "computed": "Matrix([[exp(-1)], [exp(-1)]])",
+        "expected": "Matrix([[exp(-1)], [exp(-1)]])"
+      }
+    },
+    {
+      "name": "action spectra distinguished",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "full vector acceptance codimension two",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "dual acceptance codimension one",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "source-free minimum D08 codimension one",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "2D Z source endpoint equation",
+      "result": "PASS",
+      "evidence": {
+        "computed": "Matrix([[0], [1]])",
+        "expected": "Matrix([[0], [1]])"
+      }
+    },
+    {
+      "name": "2D Z follower endpoint equation",
+      "result": "PASS",
+      "evidence": {
+        "computed": "Matrix([[0], [1]])",
+        "expected": "Matrix([[0], [1]])"
+      }
+    },
+    {
+      "name": "2D Z analytic endpoint pair",
+      "result": "PASS",
+      "evidence": {
+        "computed": "Matrix([[1], [0]])",
+        "expected": "Matrix([[1], [0]])"
+      }
+    },
+    {
+      "name": "HOM dual scalar holds",
+      "result": "PASS",
+      "evidence": {
+        "computed": "2",
+        "expected": "2"
+      }
+    },
+    {
+      "name": "HOM dual full vector fails",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "PERM dual scalar holds",
+      "result": "PASS",
+      "evidence": {
+        "computed": "1",
+        "expected": "1"
+      }
+    },
+    {
+      "name": "PERM dual full vector fails",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "representation dual scalar holds",
+      "result": "PASS",
+      "evidence": {
+        "computed": "3",
+        "expected": "3"
+      }
+    },
+    {
+      "name": "representation dual full vector fails",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "exit projection counterexample PDE",
+      "result": "PASS",
+      "evidence": {
+        "computed": "eps*x*(1 - x) - eps*x + eps*(1 - x) + 1",
+        "expected": "eps*(-x**2 - x + 1) + 1"
+      }
+    },
+    {
+      "name": "same entrance and exit perturbation",
+      "result": "PASS",
+      "evidence": {
+        "computed": "Matrix([[0], [0]])",
+        "expected": "Matrix([[0], [0]])"
+      }
+    },
+    {
+      "name": "nonzero field perturbation",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "source minimum on unit interval",
+      "result": "PASS",
+      "evidence": {
+        "computed": "1 - eps",
+        "expected": "1 - eps"
+      }
+    },
+    {
+      "name": "unbounded L2 exit trace witness",
+      "result": "PASS",
+      "evidence": {
+        "computed": "-n**2*(1 - 1/n)**3/3 + n**2/3 - n - (1 - 1/n)**2*(-n**2 + n) - (1 - 1/n)*(n**2 - 2*n + 1) + 1",
+        "expected": "1/(3*n)"
+      }
+    },
+    {
+      "name": "oracle-free diagonal transport pairing",
+      "result": "PASS",
+      "evidence": {
+        "computed": "ell - 1 + exp(-ell)",
+        "expected": "ell - 1 + exp(-ell)"
+      }
+    },
+    {
+      "name": "positive diagonal derivative",
+      "result": "PASS",
+      "evidence": {
+        "computed": "1 - exp(-ell)",
+        "expected": "1 - exp(-ell)"
+      }
+    },
+    {
+      "name": "oracle-free pairing starts at zero",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M1 eight distinct recorded endpoints",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M1 geometry/log limitations preserved",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M1 quoted sufficient margin",
+      "result": "PASS",
+      "evidence": "2288472598824547342092594138402630944385269841841809875284043474908427562989521/4000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "M1 SUP bounds match",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M2 historical new/reused accounting",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M2 log count",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M2 source relation",
+      "result": "PASS",
+      "evidence": {
+        "computed": "Matrix([[7/2], [21/2]])",
+        "expected": "Matrix([[7/2], [21/2]])"
+      }
+    },
+    {
+      "name": "M2 source rank two",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M2 maximum E",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M2 negative bound remains separated",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M2 SUP maximum sufficient bound",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M3 source rank three",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M3 stated minor exists",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M3 actual recorded accounting",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M3 logs and no remaining slots",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M3 q3 group1 finite-iteration difference",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "M3 healthy bound and negative separation",
+      "result": "PASS",
+      "evidence": null
+    },
+    {
+      "name": "E1 C1 difference directions rank-one matrix",
+      "result": "PASS",
+      "evidence": {
+        "computed": "1",
+        "expected": "1"
+      }
+    }
+  ],
+  "execution_statement": {
+    "SUT_calls": 0,
+    "numerical_propagation_calls": 0,
+    "new_experiments": 0,
+    "frozen_registry_edits": 0,
+    "STOP_edits": 0,
+    "budget_edits": 0,
+    "GO_issued": false
+  }
+}

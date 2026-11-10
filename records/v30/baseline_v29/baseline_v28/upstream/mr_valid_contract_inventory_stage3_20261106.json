@@ -1,0 +1,3769 @@
+{
+  "title": "有效 MR 有限清单：S2 受限结论与燃耗、输运实质扩展",
+  "version": "B3-20261106-review-candidate",
+  "date_utc": "2026-11-06",
+  "purpose": "先固化可逐条使用的条件 MR，给独立复审完整输入。扩展选域和映射接受前，不报合并有效总数。",
+  "status": "S2 原三合同受限接受；本批新增12合同的明确选域、跨批映射和工程边界待独立复审。",
+  "boundaries": {
+    "SUT_calls": 0,
+    "new_experiment_results": 0,
+    "original_registry_modified": false,
+    "prior_S2_files_modified": false,
+    "budgets_or_STOP_modified": false,
+    "what_was_done": "读取原卡及独审、条件证明与闭式见证、文档结构检查。未启动传播器、SUT、实验或半步捕获。"
+  },
+  "correction_closure": {
+    "title": "S2 受限接受状态与 E2 工程说明勘误",
+    "date_utc": "2026-11-06",
+    "status": "承接 R5 的受限接受；仅更正工程映射文字，不修改被冻结的 S2 三表或登记册 v3。",
+    "source_review": {
+      "library_file_id": "libfile_fde3_f-34331c37ccc88191ba7d3d12c6a505da_0494671ff73c819189f74404b3b983a5",
+      "thread_id": "01a1afe9-6ca2-763d-9736-5205a77360cc",
+      "turn_id": "01a1b26f-8184-73fe-9736-463a355a3589",
+      "read": "本次完整读取独审 JSON 和最终消息；未重新验证历史 SUT 原包。"
+    },
+    "accepted_scope": {
+      "scope": "S2-REPRESENTATION：二维实Metzler常矩阵、u>=0、b∈L1([0,T];R²_+)、有限正时间、完整精确连续终态、参数及变换预先给定。",
+      "equivalence_policy": "保持整个声明域、raw问题、端角色、变换作用、观察和预先信息的共同无损类型/记号适配；允许同域可逆等式改写，禁止限子域冒充全域、增删求解、正确目标oracle或任意计算归约。",
+      "contract_classes": 3,
+      "class_members": {
+        "EQ-S2-HOM": [
+          "S2-D01"
+        ],
+        "EQ-S2-SYM": [
+          "S2-D04"
+        ],
+        "EQ-S2-REP": [
+          "S2-D14"
+        ]
+      },
+      "chosen_parent_template": [
+        "S2-D14"
+      ],
+      "covered_nodes": 3,
+      "global_effective_unique_count": null,
+      "engineering_qualified_count": null,
+      "actual_experiment_count_added": 0,
+      "meaning": "3是该有限列表按声明全域合同语义的不同类；1是其选定父模板覆盖数。不能写作3条相互独立定理、3种独立检测能力、1次运行覆盖全部或完整MR清单总数。原稿的null/待审字段不回写，由本报告作为较晚受限结论伴随。"
+    },
+    "correction": {
+      "target": "S2-D14.engineering 及其可读稿中 E2 只覆盖置换子域的概括",
+      "replacement": "E2已审无源HOM和PERM的有限G2，分别对应标量cI与置换P子域；不覆盖一般正对角编码，也未产生E2实测。其K1/K2/K3维数为3/5/4，不能直接记作本次二维S2实例的工程资格。",
+      "precedence": "本说明及 R5 对相应工程概括优先于 v2 伴随稿；历史 source_contract 摘录保持原样。",
+      "why": "HOM 对应 cI，PERM 对应 P。二者均通过无源有限 G2，不是一般正对角资格；维数3/5/4与二维 S2 不同，且无 E2 实测。",
+      "consequence": "不改变 S2 已接受的3类/1父模板数学计数，不重开全三表，也不产生新增运行许可。"
+    },
+    "source_nonzero_clarification": "D01 外源非零可写为 ||b||_L1>0，而非每一点都为正。",
+    "next_work": "按同口径扩展有具体推导和实例的燃耗/输运合同，逐批处理联系，不相加各批计数。",
+    "no_sut": true,
+    "frozen_files_modified": false,
+    "stop_or_budget_modified": false
+  },
+  "counting_semantics": {
+    "primary_unit": "声明语义下的具体条件数学合同全域等价类；不是最小独立定理基。",
+    "mathematical_key": [
+      "精确目标层级",
+      "量词及合法域",
+      "执行图和端角色",
+      "输入变换",
+      "观察/解码和关系谓词",
+      "定理必需方法/界",
+      "预先可取得的信息权限"
+    ],
+    "engineering_key": [
+      "实际程序/版本/平台",
+      "参数与系数字节",
+      "实际 H/阈值/舍入",
+      "捕获身份",
+      "轮次/复用/预算"
+    ],
+    "equivalence": "必须给出双向、覆盖双方整个声明域、保持目标/端角色/变换作用/观察及先验信息的无损类型或记号适配。不允许删去前提、限子域、增删求解、引入未知正确解或任意计算归约后声称等价。",
+    "specialization": "全父域与严格子域不是同一等价类；子域内双向谓词等价只记为受限别名。仅 equivalent 才可求闭包，specialization 保留方向，overlap 不传递合并。",
+    "semantic_decision": "S2 继续只看二维原始系数 ODE。新增燃耗合同明确各自维数；输运合同明确函数空间、边界和配对。跨域共享线性或对偶原理不构成完整合同等价。",
+    "raw_domain_caution": "Metzler 不自动蕴含核素总量守恒；正对角相似变换可改变未加权列和。本稿不把原始数值合法性冒充核物理模型合法性。",
+    "unknown_rule": "只保留已接受 S2 的局部3类/1父模板结果；新批记录、跨批联系未裁决前，所有合并有效类数保持 null。列入原卡不等于独立贡献；排除选域不等于判假。",
+    "execution_definition": "至少两个分别实际计算的求解返回参与非平凡关系；允许声明的共享 base 和中间态依赖，不要求统计独立或不同进程。不得用复制/变换输出冒充新求解。理论合同规定这些端，未运行不影响条件定理资格。",
+    "allowed_adapters": [
+      "对所有问题和观察作同一个预先给定的无损类型/记号改写；参数重命名必须保持其合法集合和作用。",
+      "可在同一声明域内将可逆输出等式 E⁻¹y_f=y_s 改写为 y_f=E y_s；不改变执行图或信息。",
+      "全域等价映射须额外给出保持 raw 问题、端点角色及变换作用的证明；任意集合双射或任意程序归约不在本次口径内。",
+      "如果共同坐标变换被提出为适配，必须同时变换 A、u、b、观察，且保持已声明输入域和信息；作用矩阵谱不变。"
+    ],
+    "historical_mode_wording": "原卡或 R2 的“不另加独立模式”等语句保留为父模板/共享证明的历史口径；较晚 R4/R5 把全域合同类、父模板覆盖和独立定理分开。此次不以旧短语把特化强制union，也不把每条新记录自动记成新类。"
+  },
+  "accepted_prior_result": {
+    "scope": "S2-REPRESENTATION：二维实Metzler常矩阵、u>=0、b∈L1([0,T];R²_+)、有限正时间、完整精确连续终态、参数及变换预先给定。",
+    "equivalence_policy": "保持整个声明域、raw问题、端角色、变换作用、观察和预先信息的共同无损类型/记号适配；允许同域可逆等式改写，禁止限子域冒充全域、增删求解、正确目标oracle或任意计算归约。",
+    "contract_classes": 3,
+    "class_members": {
+      "EQ-S2-HOM": [
+        "S2-D01"
+      ],
+      "EQ-S2-SYM": [
+        "S2-D04"
+      ],
+      "EQ-S2-REP": [
+        "S2-D14"
+      ]
+    },
+    "chosen_parent_template": [
+      "S2-D14"
+    ],
+    "covered_nodes": 3,
+    "global_effective_unique_count": null,
+    "engineering_qualified_count": null,
+    "actual_experiment_count_added": 0,
+    "meaning": "3是该有限列表按声明全域合同语义的不同类；1是其选定父模板覆盖数。不能写作3条相互独立定理、3种独立检测能力、1次运行覆盖全部或完整MR清单总数。原稿的null/待审字段不回写，由本报告作为较晚受限结论伴随。"
+  },
+  "stages": [
+    {
+      "id": "S2",
+      "card_ids": [
+        "D01",
+        "D04",
+        "D14"
+      ],
+      "state": "R5 受限接受，不重开已通过数学证明",
+      "scope": "既定二维连续原始系数合同"
+    },
+    {
+      "id": "B3-ZP",
+      "card_ids": [
+        "D03",
+        "D10"
+      ],
+      "state": "本批正域合同和活跃谓词待独审",
+      "purpose": "直接保留零响应与正路径两项实质关系，承接有界历史证据但不升级运行身份"
+    },
+    {
+      "id": "B3-ODE",
+      "card_ids": [
+        "D02",
+        "D06",
+        "D07",
+        "D08",
+        "D16",
+        "D18"
+      ],
+      "state": "原卡条件定理已审，本批明示选域与映射待独审",
+      "purpose": "输入可加、双线性对偶、完整历史拼接"
+    },
+    {
+      "id": "B3-TRANSPORT",
+      "card_ids": [
+        "T01",
+        "T02",
+        "T04",
+        "T05"
+      ],
+      "state": "原卡条件定理已审，本批空间/边界映射待独审",
+      "purpose": "尺度、源可加、偶宇称互易、完整输运伴随"
+    }
+  ],
+  "sources": [
+    {
+      "key": "REG3",
+      "library_file_id": "libfile_fde3_f-eaae647c89cc8191968aeba09470091d_0494671ff73c819189f74404b3b983a5",
+      "title": "燃耗输运具体MR统一登记册_合并修订候选v3.md",
+      "read": "本次经 Library 文本接口完整读取 965 行，has_more=false。未在本次重新计算原始字节散列。",
+      "reported_sha256": "165da8db0c561554a586a0c79e63b2080823459898b9ba39a21d86ee4ecdbd56",
+      "hash_evidence": "散列由直接读取的 v3 定向复核报告提供，不冒称本次字节复验。"
+    },
+    {
+      "key": "R2",
+      "library_file_id": "libfile_fde3_f-470b123fb89c819191b832c5405f8e08_0494671ff73c819189f74404b3b983a5",
+      "title": "independent-mr-register-review-round2.json",
+      "read": "本次完整读取；含 42 张卡的逐项意见。",
+      "thread_id": "01a1afe9-6ca2-763d-9736-5205a77360cc",
+      "turn_id": "01a1b0f8-8cd4-779f-b092-f088969afea6",
+      "message_id": "msg_0a07137883476f0c016aedd2cbb6f487d28128b7fd61fa9e90"
+    },
+    {
+      "key": "R3",
+      "library_file_id": "libfile_fde3_f-c6189d7a84ac81919aeeac1c684b3e00_0494671ff73c819189f74404b3b983a5",
+      "title": "targeted-v3-review.json",
+      "read": "本次完整读取 74 行，has_more=false；它复核 v2→v3 三处变更，未变部分承接 R2。",
+      "thread_id": "01a1afe9-6ca2-763d-9736-5205a77360cc",
+      "turn_id": "01a1b101-5116-76e1-aaaa-f8bd3128822c",
+      "message_id": "msg_0a07137883476f0c016aedd3900abc87d2b03a4e49514181e6"
+    },
+    {
+      "key": "E2",
+      "library_file_id": "libfile_fde3_f-cc737f6fcf8c819191698d74aa28e333_0494671ff73c819189f74404b3b983a5",
+      "read": "本次直接读取独立对话的完整最终意见；未读取该 JSON 全文或重算证据包。",
+      "turn_id": "01a1b1f5-77e4-7283-aeee-536f61c4e91a",
+      "message_id": "msg_0a03bb921ac8f9fe016aee13744afc87d2ac40b3fa73b93c6b"
+    },
+    {
+      "key": "E3",
+      "library_file_id": "libfile_fde3_f-fbbc17e114b081918ae9845a67030729_0494671ff73c819189f74404b3b983a5",
+      "read": "本次直接读取独立对话的完整最终意见；未重算原包。",
+      "turn_id": "01a1b12f-a5b4-7754-a0d6-5467ae7d2ca4",
+      "message_id": "msg_04b5934fd5336376016aede0484d1887d2b4e05147cba888ef"
+    },
+    {
+      "key": "E5",
+      "library_file_id": "libfile_fde3_f-8fdb0af50d7c8191a19ac3f2b78558e1_0494671ff73c819189f74404b3b983a5",
+      "read": "本次直接读取独立对话的完整最终意见；未重算原包。",
+      "turn_id": "01a1b1de-234f-7135-a6c4-c269593dadf5",
+      "message_id": "msg_03e8617fd08bb312016aee0d02be7087d2b88b5fcc62d2392f"
+    },
+    {
+      "key": "PLAN25",
+      "library_file_id": "libfile_fde3_f-4a34f558d2ac819191d027d02c4afef3_0494671ff73c819189f74404b3b983a5",
+      "title": "实验方案v2_5定向独立复核_20261106.md",
+      "read": "本次经 Library 文本接口完整读取 64 行。它仅复核两项必修意见及 v2.4→v2.5 差异，未重审全部历史包。"
+    },
+    {
+      "key": "R4",
+      "library_file_id": "libfile_fde3_f-2e0252da937881918c5447d9c95e3cf1_0494671ff73c819189f74404b3b983a5",
+      "title": "independent-MR-status-and-counting-review.json",
+      "read": "本次完整读取 JSON 及独立对话最终结果。",
+      "thread_id": "01a1afe9-6ca2-763d-9736-5205a77360cc",
+      "turn_id": "01a1b260-49c2-7451-8a97-410d823d6e06",
+      "message_id": "msg_06d493ff6889210e016aee2edcfc8487d1bff846b06d53e328"
+    },
+    {
+      "key": "R5",
+      "library_file_id": "libfile_fde3_f-34331c37ccc88191ba7d3d12c6a505da_0494671ff73c819189f74404b3b983a5",
+      "title": "independent-S2-finite-subset-review.json",
+      "thread_id": "01a1afe9-6ca2-763d-9736-5205a77360cc",
+      "turn_id": "01a1b26f-8184-73fe-9736-463a355a3589",
+      "read": "已完整读取；接受有限 S2，并给 E2 工程说明小修。未据此扩大子集外数学/工程结论。"
+    }
+  ],
+  "prior_artifact_identity": {
+    "json": "mr_status_and_finite_subset_v2_20261106.json",
+    "json_sha256": "5e7ff052820c8b956837d18c5e1d1a73e9aa63188ac7b9e8f9550612700ac6e5",
+    "text": "mr_status_and_finite_subset_v2_20261106.txt",
+    "text_sha256": "68792191af7113757a6ce265c57c90983dc152d219085899c4d41aa3ba4a7e82",
+    "rule": "原文件不改；本阶段仅作伴随整合。冻结登记册原字节散列沿 R5，未在本次重新取得并散列原始字节。"
+  },
+  "tables": {
+    "selected_contracts": [
+      {
+        "id": "S2-D01",
+        "card_id": "D01",
+        "name": "二维完整初态外源齐次合同",
+        "equivalent_class_id": "EQ-S2-HOM",
+        "parent_ids": [
+          "S2-D14"
+        ],
+        "representative_id": "S2-D14",
+        "semantic_tags": [
+          "物理幅度变化可作为解释，但本次不进入计数主键"
+        ],
+        "parameters": "c>0，c≠1",
+        "input_map": "(A,u,b,T) ↦ (A,cu,cb,T)",
+        "predicate": "y_f=c y_s",
+        "observations": "两端完整终态；输出作用 cI。",
+        "extra_domain": "u≠0 或 b≠0（L¹ 的几乎处处意义），保证缩放后的问题实际改变。",
+        "proof": "c n_s 满足变换后初值问题，唯一性给 n_f=c n_s。",
+        "witness": {
+          "input": "A=−I₂，u=(1,2)ᵀ，b(t)=(1,1)ᵀ，T=ln 2，c=2。",
+          "outputs": "y_s=(1,3/2)ᵀ，y_f=(2,3)ᵀ。",
+          "derivation": "n(T)=e^(−T)u+(1−e^(−T))b=(u+b)/2；均为解析值，不是 SUT。",
+          "omission_counterexample": "若仅初态乘2而源不变，末态为(3/2,5/2)ᵀ，不等于2y_s；它是去条件反例。"
+        },
+        "source_keys": [
+          "REG3:D01",
+          "R2:D01",
+          "R3",
+          "R4:C5"
+        ],
+        "aliases": [
+          {
+            "name": "D14 在 E=cI 的限定域",
+            "mapping": "EAE⁻¹=A，Eu=cu，Eb=cb，E⁻¹y_f=y_s ⇔ y_f=c y_s",
+            "status": "限定域内双向谓词等价；不是 D01 与全域 D14 等价，不新增节点或类。"
+          }
+        ],
+        "engineering": "E2 只接受无源 HOM 的离线 G2，尚无 E2 实测/G3。它不覆盖此完整含源数学域；实际阈值按残差缩放另审。",
+        "domain": {
+          "dimension": 2,
+          "target": "固定有限时间的精确连续初值问题 n'(t)=A n(t)+b(t)，n(0)=u，观察完整 n(T)。",
+          "A": "实 2×2 Metzler 矩阵；本次不要求列和非正，也不声明核素物理装配合法。",
+          "u": "u∈R²_{≥0}",
+          "b": "b∈L¹([0,T];R²_{≥0})；函数相等、非零及变换后是否改变均按几乎处处意义；不随求解反馈重算 A。",
+          "T": "0<T<∞",
+          "existence": "常矩阵与可积外源给唯一绝对连续解。",
+          "nontriviality": "变换参数非恒等，且该输入的后续问题实际不同于源问题；退化固定点实例不用于见证。"
+        },
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "s",
+              "operation": "实际求解源问题",
+              "returns": "y_s=n_s(T)"
+            },
+            {
+              "id": "f",
+              "operation": "实际求解变换后的问题",
+              "returns": "y_f=n_f(T)"
+            }
+          ],
+          "dependency": "源/后续输入由事先声明的变换给定。运行时两次求解均须实际计算返回；可与另一个谓词共享已合格的源端 base，但同一 base 只计一次执行。",
+          "not_required": [
+            "统计独立",
+            "不同进程",
+            "不同程序"
+          ],
+          "forbidden": "不得由 y_s 的复制、缩放或置换冒充 y_f 的求解返回。",
+          "theory_vs_run": "这里规定理论执行图；数学命题可先成立，当前没有运行这些端。"
+        },
+        "math_status": "R5 在既定 S2 二维域受限接受",
+        "count_status": "R5 接受的 S2 三个全域合同类之一；不向扩展或全局外推",
+        "math_key": {
+          "target_layer": "continuous_exact_finite_time_linear_ODE",
+          "domain_ref": "COMMON-S2",
+          "execution_graph": "two_actual_returns_s_f",
+          "transform": "(A,u,b,T) ↦ (A,cu,cb,T)",
+          "observation": "两端完整终态；输出作用 cI。",
+          "predicate": "y_f=c y_s",
+          "information": "A,u,b,T 与变换参数预先给定；不得以待测输出拟合变换或借正确终态 oracle 构造第二输出。",
+          "extra_premises": "u≠0 或 b≠0（L¹ 的几乎处处意义），保证缩放后的问题实际改变。"
+        },
+        "engineering_key_fields": [
+          "程序与版本",
+          "具体输入字节",
+          "离散方法/系数字节",
+          "实际误差 H 和阈值",
+          "身份/捕获证据",
+          "轮次与复用账目"
+        ],
+        "review_state": {
+          "original_record": "v2 保留不回写；以下为本伴随稿的最新状态",
+          "status": "R5 在 S2 二维声明域与计数语义下受限接受",
+          "source": "R5",
+          "turn_id": "01a1b26f-8184-73fe-9736-463a355a3589"
+        },
+        "previous_record_status": {
+          "math_status": "继承 R2/R3/R4 已接受的条件命题，再作二维 Metzler 域限制；本批选域、计数与图尚待新的独审冻结。",
+          "count_status": "proposed_equivalence_class_not_final_certification"
+        },
+        "display_title": "二维完整初态外源齐次合同"
+      },
+      {
+        "id": "S2-D04",
+        "card_id": "D04",
+        "name": "二维固定模型交换置换合同",
+        "equivalent_class_id": "EQ-S2-SYM",
+        "parent_ids": [
+          "S2-D14"
+        ],
+        "representative_id": "S2-D14",
+        "semantic_tags": [
+          "固定 A 和 b 的对称初态变换"
+        ],
+        "parameters": "P=[[0,1],[1,0]]",
+        "input_map": "(A,u,b,T) ↦ (A,Pu,b,T)",
+        "predicate": "y_f=P y_s",
+        "observations": "两端完整终态；输出作用 P。",
+        "extra_domain": "PA=AP，Pb=b 在整个 [0,T] 几乎处处成立，Pu≠u。等价可构造域：A=[[a,q],[q,a]]，q≥0；b(t)=β(t)(1,1)ᵀ，β≥0且可积；u₁≠u₂。有限采样不是一般黑箱源恒等的证明。",
+        "proof": "P n_s 满足同 A、同 b、初态 Pu 的问题；唯一性给 n_f=P n_s。",
+        "witness": {
+          "input": "A=−I₂，u=(1,2)ᵀ，b(t)=(1,1)ᵀ，T=ln 2。",
+          "outputs": "y_s=(1,3/2)ᵀ，y_f=(3/2,1)ᵀ。",
+          "derivation": "同上显式解，P 与 A 交换且源对称。可与 S2-D01 理论示例共享同一个源问题。",
+          "omission_counterexample": "A=diag(−1,−2)，u=e₁，b=0，T=ln2，仅换初态到e₂：y_f=(0,1/4)ᵀ，而P y_s=(0,1/2)ᵀ。去 PA=AP 条件导致失配。"
+        },
+        "source_keys": [
+          "REG3:D04",
+          "REG3:D14",
+          "R2:D04",
+          "R4:relation_decisions D04→D14"
+        ],
+        "aliases": [
+          {
+            "name": "D14 在 E=P、PA=AP、Pb=b 的限定域",
+            "mapping": "PAP⁻¹=A，Pu 为新初态，Pb=b，P⁻¹y_f=y_s ⇔ y_f=P y_s。",
+            "status": "限定域内双向谓词等价；不是与全域 D14 等价。"
+          }
+        ],
+        "engineering": "E2 的同步置换一般同时改变 A，不自动形成本合同的固定模型实例；本次未核到新实测。",
+        "domain": {
+          "dimension": 2,
+          "target": "固定有限时间的精确连续初值问题 n'(t)=A n(t)+b(t)，n(0)=u，观察完整 n(T)。",
+          "A": "实 2×2 Metzler 矩阵；本次不要求列和非正，也不声明核素物理装配合法。",
+          "u": "u∈R²_{≥0}",
+          "b": "b∈L¹([0,T];R²_{≥0})；函数相等、非零及变换后是否改变均按几乎处处意义；不随求解反馈重算 A。",
+          "T": "0<T<∞",
+          "existence": "常矩阵与可积外源给唯一绝对连续解。",
+          "nontriviality": "变换参数非恒等，且该输入的后续问题实际不同于源问题；退化固定点实例不用于见证。"
+        },
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "s",
+              "operation": "实际求解源问题",
+              "returns": "y_s=n_s(T)"
+            },
+            {
+              "id": "f",
+              "operation": "实际求解变换后的问题",
+              "returns": "y_f=n_f(T)"
+            }
+          ],
+          "dependency": "源/后续输入由事先声明的变换给定。运行时两次求解均须实际计算返回；可与另一个谓词共享已合格的源端 base，但同一 base 只计一次执行。",
+          "not_required": [
+            "统计独立",
+            "不同进程",
+            "不同程序"
+          ],
+          "forbidden": "不得由 y_s 的复制、缩放或置换冒充 y_f 的求解返回。",
+          "theory_vs_run": "这里规定理论执行图；数学命题可先成立，当前没有运行这些端。"
+        },
+        "math_status": "R5 在既定 S2 二维域受限接受",
+        "count_status": "R5 接受的 S2 三个全域合同类之一；不向扩展或全局外推",
+        "math_key": {
+          "target_layer": "continuous_exact_finite_time_linear_ODE",
+          "domain_ref": "COMMON-S2",
+          "execution_graph": "two_actual_returns_s_f",
+          "transform": "(A,u,b,T) ↦ (A,Pu,b,T)",
+          "observation": "两端完整终态；输出作用 P。",
+          "predicate": "y_f=P y_s",
+          "information": "A,u,b,T 与变换参数预先给定；不得以待测输出拟合变换或借正确终态 oracle 构造第二输出。",
+          "extra_premises": "PA=AP，Pb=b 在整个 [0,T] 几乎处处成立，Pu≠u。等价可构造域：A=[[a,q],[q,a]]，q≥0；b(t)=β(t)(1,1)ᵀ，β≥0且可积；u₁≠u₂。有限采样不是一般黑箱源恒等的证明。"
+        },
+        "engineering_key_fields": [
+          "程序与版本",
+          "具体输入字节",
+          "离散方法/系数字节",
+          "实际误差 H 和阈值",
+          "身份/捕获证据",
+          "轮次与复用账目"
+        ],
+        "review_state": {
+          "original_record": "v2 保留不回写；以下为本伴随稿的最新状态",
+          "status": "R5 在 S2 二维声明域与计数语义下受限接受",
+          "source": "R5",
+          "turn_id": "01a1b26f-8184-73fe-9736-463a355a3589"
+        },
+        "previous_record_status": {
+          "math_status": "继承 R2/R3/R4 已接受的条件命题，再作二维 Metzler 域限制；本批选域、计数与图尚待新的独审冻结。",
+          "count_status": "proposed_equivalence_class_not_final_certification"
+        },
+        "display_title": "二维固定模型交换置换合同"
+      },
+      {
+        "id": "S2-D14",
+        "card_id": "D14",
+        "name": "二维完整可逆正单项式变换合同",
+        "equivalent_class_id": "EQ-S2-REP",
+        "parent_ids": [],
+        "representative_id": "S2-D14",
+        "semantic_tags": [
+          "可逆表示或单位编码；本次仅按原始系数数值关系计数"
+        ],
+        "parameters": "E=DP，D=diag(d₁,d₂)，d₁,d₂>0，P∈{I₂,swap}；E≠I₂。",
+        "input_map": "(A,u,b,T) ↦ (EAE⁻¹,Eu,Eb,T)",
+        "predicate": "E⁻¹y_f=y_s，等价 y_f=E y_s",
+        "observations": "保留完整状态和显式逆解码，不能仅取非可逆粗观察。",
+        "extra_domain": "新问题实际不同；E 和 E⁻¹ 保持非负锥。正单项式相似变换保持 Metzler，源/初态同步变换，T 不变。",
+        "proof": "E n_s 满足新方程、初值和源；唯一性给 n_f=E n_s。只证明此选定域，不声称所有表示/前端可执行。",
+        "witness": {
+          "input": "A=[[-1,0],[1,0]]，u=e₁，b=0，T=ln2，E=diag(2,3)。",
+          "outputs": "y_s=(1/2,1/2)ᵀ，A_f=[[-1,0],[3/2,0]]，u_f=(2,0)ᵀ，y_f=(1,3/2)ᵀ，E⁻¹y_f=y_s。",
+          "derivation": "原解为(e^(−t),1−e^(−t))ᵀ；变换后乘 E。A_f 是本次原始 Metzler 域合法输入，不能从该数值域推核素装配守恒。",
+          "omission_counterexample": "同 A 和 E，仅把 u 改为(2,0)ᵀ而不改 A，所得(1,1)ᵀ，经 E⁻¹解码为(1/2,1/3)ᵀ，失配。"
+        },
+        "source_keys": [
+          "REG3:D14",
+          "R2:D14",
+          "R3",
+          "R4:C5"
+        ],
+        "aliases": [],
+        "engineering": "E2已审无源HOM和PERM的有限G2，分别对应标量cI与置换P子域；不覆盖一般正对角编码，也未产生E2实测。其K1/K2/K3维数为3/5/4，不能直接记作本次二维S2实例的工程资格。",
+        "domain": {
+          "dimension": 2,
+          "target": "固定有限时间的精确连续初值问题 n'(t)=A n(t)+b(t)，n(0)=u，观察完整 n(T)。",
+          "A": "实 2×2 Metzler 矩阵；本次不要求列和非正，也不声明核素物理装配合法。",
+          "u": "u∈R²_{≥0}",
+          "b": "b∈L¹([0,T];R²_{≥0})；函数相等、非零及变换后是否改变均按几乎处处意义；不随求解反馈重算 A。",
+          "T": "0<T<∞",
+          "existence": "常矩阵与可积外源给唯一绝对连续解。",
+          "nontriviality": "变换参数非恒等，且该输入的后续问题实际不同于源问题；退化固定点实例不用于见证。"
+        },
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "s",
+              "operation": "实际求解源问题",
+              "returns": "y_s=n_s(T)"
+            },
+            {
+              "id": "f",
+              "operation": "实际求解变换后的问题",
+              "returns": "y_f=n_f(T)"
+            }
+          ],
+          "dependency": "源/后续输入由事先声明的变换给定。运行时两次求解均须实际计算返回；可与另一个谓词共享已合格的源端 base，但同一 base 只计一次执行。",
+          "not_required": [
+            "统计独立",
+            "不同进程",
+            "不同程序"
+          ],
+          "forbidden": "不得由 y_s 的复制、缩放或置换冒充 y_f 的求解返回。",
+          "theory_vs_run": "这里规定理论执行图；数学命题可先成立，当前没有运行这些端。"
+        },
+        "math_status": "R5 在既定 S2 二维域受限接受",
+        "count_status": "R5 接受的 S2 三个全域合同类之一；不向扩展或全局外推",
+        "math_key": {
+          "target_layer": "continuous_exact_finite_time_linear_ODE",
+          "domain_ref": "COMMON-S2",
+          "execution_graph": "two_actual_returns_s_f",
+          "transform": "(A,u,b,T) ↦ (EAE⁻¹,Eu,Eb,T)",
+          "observation": "保留完整状态和显式逆解码，不能仅取非可逆粗观察。",
+          "predicate": "E⁻¹y_f=y_s，等价 y_f=E y_s",
+          "information": "A,u,b,T 与变换参数预先给定；不得以待测输出拟合变换或借正确终态 oracle 构造第二输出。",
+          "extra_premises": "新问题实际不同；E 和 E⁻¹ 保持非负锥。正单项式相似变换保持 Metzler，源/初态同步变换，T 不变。"
+        },
+        "engineering_key_fields": [
+          "程序与版本",
+          "具体输入字节",
+          "离散方法/系数字节",
+          "实际误差 H 和阈值",
+          "身份/捕获证据",
+          "轮次与复用账目"
+        ],
+        "review_state": {
+          "original_record": "v2 保留不回写；以下为本伴随稿的最新状态",
+          "status": "R5 在 S2 二维声明域与计数语义下受限接受",
+          "source": "R5",
+          "turn_id": "01a1b26f-8184-73fe-9736-463a355a3589"
+        },
+        "previous_record_status": {
+          "math_status": "继承 R2/R3/R4 已接受的条件命题，再作二维 Metzler 域限制；本批选域、计数与图尚待新的独审冻结。",
+          "count_status": "proposed_equivalence_class_not_final_certification"
+        },
+        "display_title": "二维完整可逆正单项式变换合同"
+      },
+      {
+        "id": "B3-D03",
+        "card_id": "D03",
+        "title": "不可达观察零响应",
+        "scope": "有限维常系数原始 ODE；本批取 n≥2、A 为 Metzler、T>0、u_s/u_f≥0、b_s/b_f∈L¹非负。这是原卡更广不要求Metzler命题的正域特化。",
+        "domain": [
+          "两端同一实际工作 A、T；输入对实际不同。",
+          "Δu 和 Δb(t) 几乎处处支持在固定 J。",
+          "O 非空且从 J 不可达，路径包括长度0；图和支持在看输出前由已给模型/净状态源确定。"
+        ],
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "s",
+              "problem": "(A,u_s,b_s,T)",
+              "returns": "y_s"
+            },
+            {
+              "id": "f",
+              "problem": "(A,u_f,b_f,T)",
+              "returns": "y_f"
+            }
+          ],
+          "observations": "预定坐标集合 O 上的两返回差。",
+          "sharing": "同一两端可与 D10 的不同目标观察共享，不新增求解或独立样本。",
+          "actual_solve_count": 2
+        },
+        "transformation": "改变仅受 J 支持的初值和净源；保持 A/T；观察不可达 O。",
+        "predicate": "Π_O(y_f−y_s)=0。",
+        "derivation": "Δn(T)=exp(TA)Δu+∫₀ᵀexp((T−t)A)Δb(t)dt。A 的各次幂保持 J 的可达子空间，故所有路径到 O 的条目为0，指数和源积分的 O 观察均为0。",
+        "witness": {
+          "A": [
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "u_s": [
+            0,
+            0,
+            1
+          ],
+          "u_f": [
+            1,
+            0,
+            1
+          ],
+          "b": "0",
+          "T": "1",
+          "O": [
+            3
+          ],
+          "outputs": "y_s=(0,0,1)，y_f=(e^−1,1−e^−1,1)。",
+          "classification": "解析非退化输入例，非新SUT。"
+        },
+        "counterexample": {
+          "type": "撤销不可达前提",
+          "case": "将第一列改为(−1,1−ε,ε)，0<ε<1；两端第3分量差为 ε(1−e^−T)>0。",
+          "warning": "这是图/工作算子条件被改变，不是满足全部前提的连续 MR 被违反。"
+        },
+        "blindspot": "两端共同使用2A₀，O上的零关系仍保持，但其他状态偏离声明正确目标。错误见证另列，不能将其记为MR检出。",
+        "numerical_boundary": "同一无谱极点有理 r(TA) 保持图零块；含源离散仍须保持相同支持。实际浮点两端误差、读出/比较误差和阈值另核。",
+        "information_requirements": "需要正确的实际矩阵支持及实际净源支持；不需要完整终态数值真值或拟合消去权。",
+        "evidence": [
+          "REG3 D03",
+          "R2 D03",
+          "R4 D03及D03→D21",
+          "PLAN25 Z/P判据分流"
+        ],
+        "engineering_evidence": "历史 E1/C1 的 Z 机制证据及其身份限制保留；本次未重认证原包，不将这些执行直接当作本批所有参数/维数的工程资格。",
+        "theory_status": "条件数学命题先前受限接受；本批明确正域与跨批联系待独审。",
+        "latest_review_state": {
+          "inherited": "原卡的条件数学命题承接 R2/R3；不等于工程执行或独立性认证。",
+          "this_candidate": "本批具体合法域、最小观察、解析例及域映射有明示推导，尚待独立复审。",
+          "new_class_id": null,
+          "new_count_contribution": null
+        },
+        "source_anchor": {
+          "registry_card": "D03",
+          "evidence_table": "selected_source_evidence",
+          "review_scope": "REG3/R2/R3，活跃修正及新映射按本稿/R4/R5/PLAN25分层"
+        },
+        "display_title": "不可达观察零响应"
+      },
+      {
+        "id": "B3-D10",
+        "card_id": "D10",
+        "title": "指定正路径的两执行响应下界",
+        "scope": "有限维常系数正系统；n≥2、A Metzler、T>0、两端合法非负初态/外源。同实际A。",
+        "domain": [
+          "Δu=a e_j，a>0；固定 j→i 的正路径含 m≥1 条非对角边，边权乘积 W>0。",
+          "β≥max(0,max_k −A_kk)，从同一工作 A 取得；不能混声明图与工作图。",
+          "源差贡献 s_i=[∫₀ᵀe^{(T−t)A}(b_f−b_s)(t)dt]_i 有在看待测返回前取得的下界 s_i≥−δ，δ≥0。特别 b_f=b_s 时 δ=0，不需要源积分oracle。"
+        ],
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "s",
+              "problem": "(A,u_s,b_s,T)",
+              "returns": "y_s"
+            },
+            {
+              "id": "f",
+              "problem": "(A,u_s+a e_j,b_f,T)",
+              "returns": "y_f"
+            }
+          ],
+          "observations": "第 i 分量的实际两端差；它可以与 D03 的另一观察共享两个返回。",
+          "sharing": "Z 和 P 不能同时要求同一健康观察既不可达又有正路径；共用输出不共用逻辑前提。",
+          "actual_solve_count": 2
+        },
+        "transformation": "增加单一初态 a e_j，源差用独立下界约束；保持 A/T。",
+        "predicate": "(y_f−y_s)_i≥a e^{−βT} T^m W/m!−δ。",
+        "derivation": "B=A+βI≥0。exp(TA)=e^−βT ∑_k T^k B^k/k!；选取指定路径在第m项的正乘积W，其余项非负。乘初态幅度a，再加已知源贡献下界。",
+        "witness": {
+          "A": [
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "u_s": [
+            0,
+            0,
+            1
+          ],
+          "u_f": [
+            1,
+            0,
+            1
+          ],
+          "b": "0",
+          "T": "1",
+          "path": "1→2",
+          "beta": 1,
+          "W": 1,
+          "m": 1,
+          "outputs": "实际差 Δy₂=1−e^−1≥e^−1；同一两端在第3分量满足 D03。",
+          "classification": "解析值/不等式，非新程序输出。"
+        },
+        "counterexample": {
+          "type": "撤销源差下界或正确离散不保持，二者分开",
+          "source_case": "若 b_s(t)=e^−t e₂，b_f=0，则源差恰抵消初态的第2分量响应，Δy₂=0；不能仍套 δ=0。",
+          "discrete_case": "r(z)=1+z+z²/2，T=2，A₀²=−A₀，故 r(2A₀)=I，离散路径差为0。这是正确离散目标不保持连续下界，不是 CRAM 实测或一般实现缺陷。"
+        },
+        "blindspot": "共同错误仍可能产生足够正响应而满足该下界；满足P不是程序正确性证明。对指定零假设的分离不等于拒绝 P 本身。",
+        "active_overlay": {
+          "source": "PLAN25",
+          "mr_acceptance": "离散下界 L=a(ℓ−γ)−δ_h 与比较误差 E_m 给 P 相容验收 d_hat≥L−E_m。",
+          "separate_zero_test": "L>τ_Z+E_m 保证拒绝指定零响应候选，不是拒绝 D10-P。",
+          "negative_control": "若要保证某负控违反P，须另给其响应上界和阈值分离，不能只用健康下界。"
+        },
+        "numerical_boundary": "连续路径下界须经直接离散证明或元素误差γ及离散源下界转成实际目标下界；实际输出误差、阈值、身份与观察另核。",
+        "information_requirements": "需指定路径、正边权、移位β及源贡献下界。等源δ=0最小域只用模型结构，不要求完整正确终态。",
+        "evidence": [
+          "REG3 D10",
+          "R2 D10",
+          "PLAN25 D10定向修订",
+          "R4 D10"
+        ],
+        "engineering_evidence": "历史 E1/C1 P 与Z共用执行但使用不同观察/判据；本次未重验原包或扩大实际路径/参数资格。",
+        "theory_status": "条件数学命题先前受限接受；本批完整活跃谓词及边界待独审。",
+        "latest_review_state": {
+          "inherited": "原卡的条件数学命题承接 R2/R3；不等于工程执行或独立性认证。",
+          "this_candidate": "本批具体合法域、最小观察、解析例及域映射有明示推导，尚待独立复审。",
+          "new_class_id": null,
+          "new_count_contribution": null
+        },
+        "source_anchor": {
+          "registry_card": "D10",
+          "evidence_table": "selected_source_evidence",
+          "review_scope": "REG3/R2/R3，活跃修正及新映射按本稿/R4/R5/PLAN25分层"
+        },
+        "display_title": "指定正路径的两执行响应下界"
+      },
+      {
+        "id": "S3-D02",
+        "card_id": "D02",
+        "name": "全部初态外源三端叠加",
+        "source_lines": {
+          "start": 71,
+          "end": 86
+        },
+        "domain": {
+          "base": "C0/C1/C4/C6/C7",
+          "inputs": "x_i=(u_i,b_i)∈K×L¹([0,T];K)，i=1,2；x_i≠0且x_1≠x_2；两端固定同A,T；x_12=x_1+x_2。非负锥对加法闭合，因此三输入均合法且联合端不同于两单端。"
+        },
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "a",
+              "solve": "F_{A,b1,T}(u1)",
+              "return": "y1"
+            },
+            {
+              "id": "b",
+              "solve": "F_{A,b2,T}(u2)",
+              "return": "y2"
+            },
+            {
+              "id": "sum",
+              "solve": "F_{A,b1+b2,T}(u1+u2)",
+              "return": "y12"
+            }
+          ],
+          "actual_solve_count": 3,
+          "dependency_edges": [],
+          "input_edges": "a/b/sum由先验输入对生成，sum不使用y1+y2作返回。"
+        },
+        "input_transform": "(A,u1,b1,u2,b2,T)→同A,T下两个单端与一个完整输入相加端。",
+        "observation_and_predicate": {
+          "returns": "三端完整二维终态",
+          "predicate": "y12=y1+y2",
+          "residual": "R=y12−y1−y2"
+        },
+        "analytic_proof": [
+          "n1+n2为绝对连续函数，a.e.导数=A(n1+n2)+(b1+b2)，初值u1+u2；唯一性给n12=n1+n2。",
+          "非负与Metzler仅保证选域闭合，代数等式本身不靠正性。"
+        ],
+        "nondegenerate_legal_witness": {
+          "input": "A=−I₂，T=ln2，u1=e1，b1(t)=e2，u2=e2，b2(t)=2e1。",
+          "returns": "y1=(1/2,1/2)，y2=(1,1/2)，y12=(3/2,1)。",
+          "derivation": "exp(−T)=1/2，常源响应=(1−exp(−T))b；两个完整输入对非共线，源均非零。均为闭式解析值，没有运行求解器。"
+        },
+        "omission_counterexamples": [
+          {
+            "type": "遗漏全部源相加",
+            "example": "上述联合端若仅保留b1而遗漏b2，则输出(1/2,1)，与y1+y2=(3/2,1)相差−e1。",
+            "interpretation": "违反完整输入变换；不是合法D02合同的反例。"
+          }
+        ],
+        "blind_spots": [
+          "全部端共同使用错误但线性的算子/源映射仍可加；同一错误2A可通过。",
+          "只选u2=c u1、b2=c b1的共线例不能证明额外方向覆盖；本稿见证特意非共线。"
+        ],
+        "discrete_and_engineering_boundary": {
+          "exact_discrete": "若三端共享同一个线性输入映射F_h(u,b)=M_h u+K_h[b]，则精确离散可加；M_h可为无谱极点的r(TA)，但源响应也须线性。输入相关步长、阈值清零、归一化和数据依赖装配不自动满足。",
+          "error_budget": "若各返回相对同一精确连续或同一可加离散目标误差≤E1,E2,E12，则||R_hat||≤E12+E1+E2+Eobs。Eobs须含实际相加/比较误差。",
+          "shared_base": "可与S2或其他卡共享完全相同的a端；仍须有b、sum实际求解，HOM两端不自动完成三端叠加。"
+        },
+        "mathematical_boundary": [
+          "源域为整个闭时间段的L¹，不只是(0,T)上的局部可积。",
+          "不同A/T/输出解码的三返回不属于同一合同；没有“相加后重新归一化”的默认步骤。"
+        ],
+        "information_permissions": [
+          "构造u1+u2及b1+b2；读取三终态。",
+          "不需要正确终态、伴随轨迹或中间状态权限。"
+        ],
+        "parent_ids_proposed": [],
+        "equivalent_class_id": null,
+        "independent_count_contribution": null,
+        "math_key": {
+          "target_layer": "continuous_exact_2D_finite_time_linear_ODE",
+          "domain_ref": "S3-D02.domain",
+          "execution_ref": "S3-D02.execution_graph",
+          "transform_ref": "S3-D02.input_transform",
+          "observation_ref": "S3-D02.observation_and_predicate",
+          "information_ref": "S3-D02.information_permissions",
+          "necessary_numerical_method": "无；离散子合同若另行选入，其方法/界必须进入该子合同数学键。"
+        },
+        "engineering_key": [
+          "实际程序/入口/版本/平台与身份",
+          "参数和系数字节、源/历史表示",
+          "实际步序、H/阈值、浮点与观察预算",
+          "运行轮次、复用关系、既有授权与预算"
+        ],
+        "inherited_review": {
+          "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+          "round2_finding": "三执行可加成立；标量共线正例合法，但不能作为超出幅度方向的独立覆盖。",
+          "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+          "evidence": [
+            "REG3",
+            "R2",
+            "R3"
+          ],
+          "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+        },
+        "engineering_status": "本次0次SUT；未核新的运行证据。既有状态仅由S2V2继承，不能由本稿定理升级。",
+        "inherited_engineering_note": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "review_status": "本次选域、接口精化、跨批映射及计数处分待独审。",
+        "latest_review_state": {
+          "inherited": "原卡的条件数学命题承接 R2/R3；不等于工程执行或独立性认证。",
+          "this_candidate": "本批具体合法域、最小观察、解析例及域映射有明示推导，尚待独立复审。",
+          "new_class_id": null,
+          "new_count_contribution": null
+        },
+        "source_anchor": {
+          "registry_card": "D02",
+          "evidence_table": "selected_source_evidence",
+          "review_scope": "REG3/R2/R3，活跃修正及新映射按本稿/R4/R5/PLAN25分层"
+        },
+        "display_title": "全部初态外源三端叠加"
+      },
+      {
+        "id": "S3-D06",
+        "card_id": "D06",
+        "name": "同一欧氏自伴传播双激励",
+        "source_lines": {
+          "start": 139,
+          "end": 154
+        },
+        "domain": {
+          "base": "C0/C1/C3/C6/C7",
+          "restrictions": "A=Aᵀ；b=0；u,v∈K\\{0}且u≠v；0<T<∞。"
+        },
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "u",
+              "solve": "n_u′=A n_u，n_u(0)=u",
+              "return": "y_u=n_u(T)"
+            },
+            {
+              "id": "v",
+              "solve": "n_v′=A n_v，n_v(0)=v",
+              "return": "y_v=n_v(T)"
+            }
+          ],
+          "actual_solve_count": 2,
+          "dependency_edges": [],
+          "role": "两端均为同A的真实前向传播；第二端可以与D07的对偶端在自伴域重合。"
+        },
+        "input_transform": "(A,u,v,T)→同一A,T、零源下的u与v两激励。",
+        "observation_and_predicate": {
+          "returns": "两完整终态，使用预定交叉线性观察",
+          "predicate": "vᵀy_u=uᵀy_v",
+          "residual": "R=vᵀy_u−uᵀy_v"
+        },
+        "analytic_proof": [
+          "A=Aᵀ给exp(TA)=exp(TA)ᵀ，故vᵀexp(TA)u=uᵀexp(TA)v。",
+          "D07的Aᵀ端在此等于A端，且非负v可同时作第二原始状态。"
+        ],
+        "nondegenerate_legal_witness": {
+          "input": "A=[[-1,1],[1,-1]]，u=e1，v=e2，T=ln2。",
+          "returns": "y_u=(5/8,3/8)，y_v=(3/8,5/8)，两交叉值均3/8。",
+          "derivation": "exp(TA)=1/2[[1+exp(−2T),1−exp(−2T)],[1−exp(−2T),1+exp(−2T)]]。"
+        },
+        "omission_counterexamples": [
+          {
+            "type": "去自伴条件",
+            "example": "A=[[-1,0],[1,0]]，u=e1，v=e2，T=ln2；前向交叉值为1/2和0。A仍Metzler，例子合法但不属D06。"
+          },
+          {
+            "type": "把点态对称误作历史自伴",
+            "example": "依次执行时长1的A1=diag(−1,0)、A2=[[-1,1],[1,-1]]，两者都对称Metzler；完整U=exp(A2)exp(A1)一般不对称，u=e1,v=e2时交叉值为e^(−1)(1−e^(−2))/2和(1−e^(−2))/2。",
+            "interpretation": "D06只选常A；不能无条件扩到每时刻对称的历史。"
+          }
+        ],
+        "blind_spots": [
+          "把A换成另一个共同错误的对称矩阵仍互易。例如2A仍通过，但见证交叉值从3/8变为15/32。",
+          "单一交叉标量相等不恢复两终态向量关系；零耦合或正交观察可能完全无信号。"
+        ],
+        "discrete_and_engineering_boundary": {
+          "exact_discrete": "两端同一实系数r(TA)，参与谱无极点时r(TA)对称。不同方法只有证明同一矩阵函数或额外缺陷界才可直接比较。",
+          "error_budget": "欧氏下|R_hat|≤||v||₂ E_u+||u||₂ E_v+Eobs；观察权若本身有误差另计。",
+          "weighted_boundary": "加权内积W须W=Wᵀ>0且WA=AᵀW，观察须改成vᵀW y_u等；这不是当前未给W的欧氏合同。"
+        },
+        "mathematical_boundary": [
+          "不要求列和非正；不据对称性证明物理装配或总量守恒。",
+          "允许共线u,v，但非共线正例才提供非平凡互易见证。"
+        ],
+        "information_permissions": [
+          "事先给出A自伴证明/构造及u,v；读取两终态并取交叉配对。",
+          "无需全轨迹或源积分；不能从u端构造v端返回。"
+        ],
+        "parent_ids_proposed": [
+          "S3-D07"
+        ],
+        "equivalent_class_id": null,
+        "independent_count_contribution": null,
+        "math_key": {
+          "target_layer": "continuous_exact_2D_finite_time_linear_ODE",
+          "domain_ref": "S3-D06.domain",
+          "execution_ref": "S3-D06.execution_graph",
+          "transform_ref": "S3-D06.input_transform",
+          "observation_ref": "S3-D06.observation_and_predicate",
+          "information_ref": "S3-D06.information_permissions",
+          "necessary_numerical_method": "无；离散子合同若另行选入，其方法/界必须进入该子合同数学键。"
+        },
+        "engineering_key": [
+          "实际程序/入口/版本/平台与身份",
+          "参数和系数字节、源/历史表示",
+          "实际步序、H/阈值、浮点与观察预算",
+          "运行轮次、复用关系、既有授权与预算"
+        ],
+        "inherited_review": {
+          "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+          "round2_finding": "D07自伴子域；不另外加为独立数学合同。",
+          "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+          "evidence": [
+            "REG3",
+            "R2",
+            "R3"
+          ],
+          "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+        },
+        "engineering_status": "本次0次SUT；未核新的运行证据。既有状态仅由S2V2继承，不能由本稿定理升级。",
+        "inherited_engineering_note": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "review_status": "本次选域、接口精化、跨批映射及计数处分待独审。",
+        "latest_review_state": {
+          "inherited": "原卡的条件数学命题承接 R2/R3；不等于工程执行或独立性认证。",
+          "this_candidate": "本批具体合法域、最小观察、解析例及域映射有明示推导，尚待独立复审。",
+          "new_class_id": null,
+          "new_count_contribution": null
+        },
+        "source_anchor": {
+          "registry_card": "D06",
+          "evidence_table": "selected_source_evidence",
+          "review_scope": "REG3/R2/R3，活跃修正及新映射按本稿/R4/R5/PLAN25分层"
+        },
+        "display_title": "同一欧氏自伴传播双激励"
+      },
+      {
+        "id": "S3-D07",
+        "card_id": "D07",
+        "name": "无源正向与真实伴随端点对偶",
+        "source_lines": {
+          "start": 156,
+          "end": 171
+        },
+        "domain": {
+          "base": "C0/C1/C3/C6/C7",
+          "restrictions": "b=0；u∈K\\{0}；v∈X*\\{0}；A为常Metzler；在固定坐标识别下(A,u)≠(Aᵀ,v)，排除完全相同的两动力输入。v可非负或有符号。"
+        },
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "forward",
+              "solve": "n′=A n，n(0)=u",
+              "return": "y=n(T)"
+            },
+            {
+              "id": "dual_forward",
+              "solve": "q′=Aᵀq，q(0)=v",
+              "return": "z=q(T)"
+            }
+          ],
+          "actual_solve_count": 2,
+          "dependency_edges": [],
+          "role": "dual_forward是真实对偶求解，不是对单个向量y做转置。"
+        },
+        "input_transform": "(A,u,v,T)→(A,u,T)与(Aᵀ,v,T)；第二端算子必须取真实转置且配对保持同坐标/内积。",
+        "observation_and_predicate": {
+          "returns": "正向和对偶的终态",
+          "predicate": "vᵀy=uᵀz",
+          "residual": "R=vᵀy−uᵀz"
+        },
+        "analytic_proof": [
+          "exp(TA)ᵀ=exp(TAᵀ)，直接给双线性等式。",
+          "令p(t)=q(T−t)，则−p′=Aᵀp，p(T)=v，p(0)=q(T)=z；这是与D08连接的时间反转，不是把q(t)直接叫p(t)。"
+        ],
+        "nondegenerate_legal_witness": {
+          "input": "A=[[-1,0],[1,0]]，u=e1，v=e2，T=ln2。",
+          "returns": "y=(1/2,1/2)，z=(1/2,1)，两标量为1/2。",
+          "derivation": "exp(tA)=[[exp(−t),0],[1−exp(−t),1]]；q(T)=exp(TA)ᵀe2。"
+        },
+        "omission_counterexamples": [
+          {
+            "type": "把伴随算子误用成原A",
+            "example": "上例对偶端若仍求A,e2，返回e2，右侧0，左侧1/2。"
+          },
+          {
+            "type": "去无源条件却不加积分",
+            "example": "同A，T=1,u=e1,v=e2，正向b(t)=t e1时vᵀn(1)=3/2−2/e，而uᵀq(1)=1−1/e，差为1/2−1/e≠0。"
+          }
+        ],
+        "blind_spots": [
+          "两端共同使用同一错误A_tilde及其真实转置仍可通过。",
+          "一个或有限个v只检验对应投影，不是完整传播算子的正确性证书。"
+        ],
+        "discrete_and_engineering_boundary": {
+          "exact_discrete": "若两端实际精确离散核为同一r，则r(TA)ᵀ=r(TAᵀ)。同阶、同软件名称、名义PFD/IPF标签不足以证明同r；不同r须计缺陷。",
+          "error_budget": "|R_hat|≤||v||₂ E_forward+||u||₂ E_dual+Eobs；如比较连续目标，E还须含相应离散逼近误差。",
+          "interface_gate": "实际程序须能构造/求解转置问题；有符号v需合法对偶入口。Metzler转置未必满足原物理前端的列和或核数据规则，不得借数学合法性越过工程入口。 不得裁剪有符号v；如改为正负分解后各自求解，会新增实际节点，必须另记执行图和预算，不能冒充本卡两端。"
+        },
+        "mathematical_boundary": [
+          "无源、常A；对时间变历史，正确正向化应为q′(s)=A(T−s)ᵀq(s)，不是原时序A(s)ᵀ，此扩展不自动选入。",
+          "正/负对偶权不会增加或删除两求解节点；v不能凭正性宣传为物理库存。"
+        ],
+        "information_permissions": [
+          "事先构造Aᵀ、给定v；读取q(T)。",
+          "不获得q全轨迹或含源响应积分的隐含权限。",
+          "与D08零源适配时，I=0由已知b=0给出，不需正确n(T)或新求解。"
+        ],
+        "parent_ids_proposed": [
+          "S3-D08"
+        ],
+        "equivalent_class_id": null,
+        "independent_count_contribution": null,
+        "math_key": {
+          "target_layer": "continuous_exact_2D_finite_time_linear_ODE",
+          "domain_ref": "S3-D07.domain",
+          "execution_ref": "S3-D07.execution_graph",
+          "transform_ref": "S3-D07.input_transform",
+          "observation_ref": "S3-D07.observation_and_predicate",
+          "information_ref": "S3-D07.information_permissions",
+          "necessary_numerical_method": "无；离散子合同若另行选入，其方法/界必须进入该子合同数学键。"
+        },
+        "engineering_key": [
+          "实际程序/入口/版本/平台与身份",
+          "参数和系数字节、源/历史表示",
+          "实际步序、H/阈值、浮点与观察预算",
+          "运行轮次、复用关系、既有授权与预算"
+        ],
+        "inherited_review": {
+          "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+          "round2_finding": "D08零源特化；同有理核转置保持不等于任意算法互换。",
+          "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+          "evidence": [
+            "REG3",
+            "R2",
+            "R3"
+          ],
+          "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+        },
+        "engineering_status": "本次0次SUT；未核新的运行证据。既有状态仅由S2V2继承，不能由本稿定理升级。",
+        "inherited_engineering_note": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "review_status": "本次选域、接口精化、跨批映射及计数处分待独审。",
+        "latest_review_state": {
+          "inherited": "原卡的条件数学命题承接 R2/R3；不等于工程执行或独立性认证。",
+          "this_candidate": "本批具体合法域、最小观察、解析例及域映射有明示推导，尚待独立复审。",
+          "new_class_id": null,
+          "new_count_contribution": null
+        },
+        "source_anchor": {
+          "registry_card": "D07",
+          "evidence_table": "selected_source_evidence",
+          "review_scope": "REG3/R2/R3，活跃修正及新映射按本稿/R4/R5/PLAN25分层"
+        },
+        "display_title": "无源正向与真实伴随端点对偶"
+      },
+      {
+        "id": "S3-D08",
+        "card_id": "D08",
+        "name": "含外定L1源的最小观察伴随对偶",
+        "source_lines": {
+          "start": 173,
+          "end": 188
+        },
+        "domain": {
+          "base": "C0/C1/C3/C4/C6/C7",
+          "restrictions": "u∈K，b∈L¹([0,T];K)，(u,b)≠0；v∈X*\\{0}；在固定坐标识别下(A,u,b)≠(Aᵀ,v,0)，保证动力输入有实际区别。b允许为零，零源子域正好恢复D07的非退化限制。",
+          "interface_choice": "仅要求p(0)与J_b=∫pᵀb的最小充分观察；非零源通过真实伴随轨迹及独立配对积分，或等价充分积分返回取得。b=0时J_b=0由已知源直接成立，不强制无用轨迹。"
+        },
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "forward",
+              "solve": "n′=A n+b，n(0)=u",
+              "return": "y=n(T)"
+            },
+            {
+              "id": "adjoint",
+              "solve": "−p′=Aᵀp，p(T)=v",
+              "return": "z=p(0)，以及足以形成J_b的真实伴随轨迹/积分输出"
+            }
+          ],
+          "actual_solve_count": 2,
+          "dependency_edges": [],
+          "observer": "从adjoint返回及事先给定b评价J_b，不计为第三次SUT。不得把J_b设为vᵀy−uᵀz。",
+          "forward_time_realization": "q(s)=p(T−s)，q′=Aᵀq，q(0)=v；z=q(T)，J_b=∫₀ᵀq(s)ᵀb(T−s)ds。可在此真实伴随运行中增设标量j′=qᵀb(T−s),j(0)=0并返回j(T)，但此积分接口仍须资格验证。"
+        },
+        "input_transform": "(A,u,b,v,T)→正向含源问题与同A的后向伴随；不向伴随方程偷加b，b只进入独立配对积分。",
+        "observation_and_predicate": {
+          "returns": "y，z=p(0)，J_b；轨迹若返回是取得J_b的实现方式，不是额外数学谓词",
+          "predicate": "vᵀy=uᵀz+J_b",
+          "residual": "R=vᵀy−uᵀz−J_b"
+        },
+        "analytic_proof": [
+          "p与n绝对连续，p有界，b∈L¹，因此pᵀb可积；a.e.有(pᵀn)′=−pᵀA n+pᵀ(A n+b)=pᵀb。",
+          "对[0,T]积分并用p(T)=v、n(0)=u，得到所述等式。",
+          "b=0时J_b=0，q(T)=p(0)，端点合同与D07在该子域无损对应。"
+        ],
+        "nondegenerate_legal_witness": {
+          "input": "A=[[-1,0],[1,0]]，u=e1，v=e2，b(t)=t e1，T=1。",
+          "returns": "n(t)=(t−1+2exp(−t), t²/2−t+2−2exp(−t))；y=(2/e,3/2−2/e)。p(t)=(1−exp(−(1−t)),1)，z=(1−1/e,1)，J_b=1/2−1/e>0。",
+          "predicate": "vᵀy=3/2−2/e=(1−1/e)+(1/2−1/e)。",
+          "nondegeneracy": "非零初态、时变非零源、非自伴耦合A、非零源积分；两问题和观察均有实际差异。"
+        },
+        "omission_counterexamples": [
+          {
+            "type": "遗漏非零积分",
+            "example": "上述只比较vᵀy与uᵀz，差1/2−1/e≠0。"
+          },
+          {
+            "type": "未反转伴随时间",
+            "example": "若取q(t)=(1−exp(−t),1)并错误计算∫₀¹q(t)ᵀb(t)dt=2/e−1/2，而保留z=q(1)，右侧变成1/2+1/e，不等于3/2−2/e；正确积分用q(s)ᵀb(1−s)。"
+          },
+          {
+            "type": "把反馈源当事先外定输入",
+            "example": "若b按待测n动态重算，必须先定义新的耦合状态/方程及其真实伴随；本卡证明不自动适用。"
+          }
+        ],
+        "blind_spots": [
+          "共同错误A_tilde及其真实伴随、匹配的错误源响应仍可能相容。",
+          "用J_b=vᵀy−uᵀz反算会使任意结果恒通过，这是被禁止的循环构造。",
+          "只观察固定v的一项响应仍可能屏蔽正向错误方向。"
+        ],
+        "discrete_and_engineering_boundary": {
+          "exact_discrete": "必须给出实际正向离散、离散伴随、源注入和配对求积的共同对偶式。例如正向递推n_{k+1}=M_k n_k+g_k，真正离散伴随p_k=M_kᵀp_{k+1}，则vᵀn_N=uᵀp_0+Σ p_{k+1}ᵀg_k。仅r(A)转置恒等式不能补足源项。此公式是资格模板，不声称任意连续伴随数值法自动等于该离散伴随。",
+          "error_budget": "若y,z,J_b误差界为E_y,E_z,E_J，则|R_hat|≤||v||₂ E_y+||u||₂ E_z+E_J+Eobs。由轨迹取积分时可用E_J≤||b||_{L¹} sup_t||p_hat−p||₂+E_quadrature+E_source，所有项须独立有依据。",
+          "source_gate": "任意L¹源没有仅凭有限点采样即可获得的统一求积资格；实际执行需可认证表示或独立积分界，不能由数学存在性跳过。",
+          "strong_interface_variant": "若另把无条件完整伴随轨迹作为合同身份，D07端点不能无损升级为该强接口；须增强D07或记为观察投影。当前候选采用原卡“轨迹或足够积分输出”的最小所需观察精化，交独审裁决，不分拆成新计数节点。",
+          "augmented_observer_gate": "附加标量j是取得积分观察的可选实现，二维基础动力系统的数学目标不变；但实际增广成三数值状态/额外求积的能力、接口、资源和误差须单独冻结，不能未经验证当作原二维SUT入口免费提供。"
+        },
+        "mathematical_boundary": [
+          "当前仍为常A二维域，不在本稿悄悄改为全部非自治伴随定理。",
+          "含源合法域包含b=0，不把源非零当硬前提；非退化见证另选b≠0。",
+          "v允许有符号，J_b也可为负；本合同不要求J_b≥0。"
+        ],
+        "information_permissions": [
+          "读取/使用独立规定的b及伴随轨迹或经证明等价的积分输出。",
+          "无源子域只需伴随端点与已知零，不反向授予D07含源轨迹资格。",
+          "正确正向终态不得作为积分求值的输入。"
+        ],
+        "parent_ids_proposed": [],
+        "equivalent_class_id": null,
+        "independent_count_contribution": null,
+        "math_key": {
+          "target_layer": "continuous_exact_2D_finite_time_linear_ODE",
+          "domain_ref": "S3-D08.domain",
+          "execution_ref": "S3-D08.execution_graph",
+          "transform_ref": "S3-D08.input_transform",
+          "observation_ref": "S3-D08.observation_and_predicate",
+          "information_ref": "S3-D08.information_permissions",
+          "necessary_numerical_method": "无；离散子合同若另行选入，其方法/界必须进入该子合同数学键。"
+        },
+        "engineering_key": [
+          "实际程序/入口/版本/平台与身份",
+          "参数和系数字节、源/历史表示",
+          "实际步序、H/阈值、浮点与观察预算",
+          "运行轮次、复用关系、既有授权与预算"
+        ],
+        "inherited_review": {
+          "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+          "round2_finding": "乘积求导给含源积分对偶；真实伴随轨迹和积分须分别有误差资格。",
+          "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+          "evidence": [
+            "REG3",
+            "R2",
+            "R3"
+          ],
+          "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+        },
+        "engineering_status": "本次0次SUT；未核新的运行证据。既有状态仅由S2V2继承，不能由本稿定理升级。",
+        "inherited_engineering_note": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "review_status": "本次选域、接口精化、跨批映射及计数处分待独审。",
+        "latest_review_state": {
+          "inherited": "原卡的条件数学命题承接 R2/R3；不等于工程执行或独立性认证。",
+          "this_candidate": "本批具体合法域、最小观察、解析例及域映射有明示推导，尚待独立复审。",
+          "new_class_id": null,
+          "new_count_contribution": null
+        },
+        "source_anchor": {
+          "registry_card": "D08",
+          "evidence_table": "selected_source_evidence",
+          "review_scope": "REG3/R2/R3，活跃修正及新映射按本稿/R4/R5/PLAN25分层"
+        },
+        "display_title": "含外定L1源的最小观察伴随对偶"
+      },
+      {
+        "id": "S3-D16",
+        "card_id": "D16",
+        "name": "同一绝对历史的真实中间态重启",
+        "source_lines": {
+          "start": 309,
+          "end": 324
+        },
+        "domain": {
+          "base": "C0/C2/C4/C6/C7",
+          "restrictions": "u∈K；(u,b)≠0；严格内点t0<τ<T。状态就是完整二维ODE状态，无隐藏物理记忆/反馈；历史、标签和单位外定且完整。允许自治、零源、半时分割。"
+        },
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "full",
+              "solve": "从(t0,u)按完整A(t),b(t)求至T",
+              "return": "y_full"
+            },
+            {
+              "id": "prefix",
+              "solve": "从(t0,u)按原历史前缀求至τ",
+              "return": "m"
+            },
+            {
+              "id": "suffix",
+              "solve": "从(τ,m_actual)按原绝对历史后缀求至T",
+              "return": "y_restart"
+            }
+          ],
+          "actual_solve_count": 3,
+          "dependency_edges": [
+            {
+              "from": "prefix.m_actual",
+              "to": "suffix.initial_state",
+              "required": true
+            }
+          ],
+          "time_edge": "suffix初始绝对时刻必须为τ；若API局部时钟s从0起，输入历史须A(τ+s),b(τ+s)，而非A(t0+s),b(t0+s)。",
+          "forbidden": "不得用解析/参考中间态替代实际prefix返回，不得把prefix直接取自full轨迹而省掉独立prefix求解。"
+        },
+        "input_transform": "一个完整历史输入→同历史full、prefix，以及把实际prefix返回无损接入的suffix；只改分段，不改绝对历史。",
+        "observation_and_predicate": {
+          "returns": "full、prefix、suffix三实际返回；比较两完整终态，prefix返回作为第三端输入",
+          "predicate": "y_full=y_restart",
+          "residual": "R=y_restart−y_full"
+        },
+        "analytic_proof": [
+          "写F_{t,s}(x)=U(t,s)x+∫_s^t U(t,r)b(r)dr。唯一性给U(T,τ)U(τ,t0)=U(T,t0)。",
+          "F_{T,τ}(F_{τ,t0}(u))中前段源经U(T,τ)传播，等于∫_{t0}^τ U(T,r)b(r)dr；加后段积分即F_{T,t0}(u)。",
+          "该证明不要求不同时间的A交换；时间顺序由U保存。理论精确prefix返回正是正确中间态；实际实现误差必须如实接入并传播，不能把它抹除。"
+        ],
+        "nondegenerate_legal_witness": {
+          "input": "t0=0，τ=ln2，T=ln2+1；u=e1；前段A1=[[-1,0],[1,0]],b1=0；后段A2=0,b2=e2。",
+          "returns": "m=(1/2,1/2)，y_full=y_restart=(1/2,3/2)。",
+          "derivation": "前段链转移给半数存活与半数子体；后段原绝对历史加入长度1的e2源。"
+        },
+        "omission_counterexamples": [
+          {
+            "type": "重置源时钟",
+            "example": "A=0，b(t)=t e1，u=e2，t0=0,τ=1,T=2。prefix=(1/2,1)，full=(2,1)。若suffix使用局部s∈[0,1]的b(s)=s e1，得到(1,1)；正确b(1+s)才给(2,1)。"
+          },
+          {
+            "type": "丢弃实际中间态",
+            "example": "若把prefix错误输出m+δ替换为参考m，最终比较不再检查所声明重启图；例如后段A=0时实际δ应完整传递，换成参考会人为消失。",
+            "interpretation": "这是执行图越界，不是连续重启定理反例。"
+          }
+        ],
+        "blind_spots": [
+          "full/prefix/suffix共同遗漏相同历史且仍自洽拼接，可能保持该MR。",
+          "相同错误自治生成元的完整流也有重启性质；通过不证明物理历史/速率正确。"
+        ],
+        "discrete_and_engineering_boundary": {
+          "continuous_target_budget": "令prefix误差≤E_pre，转接序列化误差≤E_transfer，suffix实际输入相对其连续后缀解的误差≤E_suf，full误差≤E_full。则||R_hat||≤L(E_pre+E_transfer)+E_suf+E_full+Eobs，L=||U(T,τ)||₂≤exp(∫_τ^T||A(t)||₂dt)。E_suf必须对实际转入状态有效。",
+          "discrete_target_budget": "若各段精确离散目标为F_pre,h,F_suf,h,F_full,h，须先记录D_h=F_suf,h(F_pre,h(u))−F_full,h(u)。若后缀离散线性部为B_suf，围绕D_h的算术误差预算用||B_suf||(E_pre+E_transfer)+E_suf+E_full+Eobs；不能用连续恒等式硬令D_h=0。",
+          "method_gate": "同一共享网格/同一步序的一步法可能精确拼接；自适应法、重新选步、多步法或有内部记忆的程序须另证明所需算法状态可恢复，或计组合缺陷。物理充分状态与数值方法内部状态不可混称。",
+          "legality_gate": "prefix实际返回必须能原样合法送入suffix。若浮点负量触发非负入口限制，不得偷偷钳位；须先取得允许该输入的扩展合同/独立误差论证，否则该工程实例不能执行。"
+        },
+        "mathematical_boundary": [
+          "只覆盖无记忆外定线性ODE；有反馈/延迟/热功率等隐含状态需另证充分扩展状态且不再当然属于当前二维域。",
+          "零源、自治和半时分割都在父域中，不能用“历史必须变化”等非退化条件排除D18。"
+        ],
+        "information_permissions": [
+          "读原历史任意合法前缀/后缀与绝对时钟；取得prefix实际返回并原样转接。",
+          "不需正确中间态oracle；使用参考状态会改变信息权限和待检图。"
+        ],
+        "parent_ids_proposed": [],
+        "equivalent_class_id": null,
+        "independent_count_contribution": null,
+        "math_key": {
+          "target_layer": "continuous_exact_2D_finite_time_linear_ODE",
+          "domain_ref": "S3-D16.domain",
+          "execution_ref": "S3-D16.execution_graph",
+          "transform_ref": "S3-D16.input_transform",
+          "observation_ref": "S3-D16.observation_and_predicate",
+          "information_ref": "S3-D16.information_permissions",
+          "necessary_numerical_method": "无；离散子合同若另行选入，其方法/界必须进入该子合同数学键。"
+        },
+        "engineering_key": [
+          "实际程序/入口/版本/平台与身份",
+          "参数和系数字节、源/历史表示",
+          "实际步序、H/阈值、浮点与观察预算",
+          "运行轮次、复用关系、既有授权与预算"
+        ],
+        "inherited_review": {
+          "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+          "round2_finding": "外定历史重启成立；须用实际中间态、原时钟、完整状态并传播误差。",
+          "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+          "evidence": [
+            "REG3",
+            "R2",
+            "R3"
+          ],
+          "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+        },
+        "engineering_status": "本次0次SUT；未核新的运行证据。既有状态仅由S2V2继承，不能由本稿定理升级。",
+        "inherited_engineering_note": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "review_status": "本次选域、接口精化、跨批映射及计数处分待独审。",
+        "latest_review_state": {
+          "inherited": "原卡的条件数学命题承接 R2/R3；不等于工程执行或独立性认证。",
+          "this_candidate": "本批具体合法域、最小观察、解析例及域映射有明示推导，尚待独立复审。",
+          "new_class_id": null,
+          "new_count_contribution": null
+        },
+        "source_anchor": {
+          "registry_card": "D16",
+          "evidence_table": "selected_source_evidence",
+          "review_scope": "REG3/R2/R3，活跃修正及新映射按本稿/R4/R5/PLAN25分层"
+        },
+        "display_title": "同一绝对历史的真实中间态重启"
+      },
+      {
+        "id": "S3-D18",
+        "card_id": "D18",
+        "name": "自治零源三执行半群",
+        "source_lines": {
+          "start": 343,
+          "end": 358
+        },
+        "domain": {
+          "base": "C0/C1/C6/C7",
+          "restrictions": "A常Metzler，b=0，u∈K\\{0}，0<T<∞；h=T/2>0。第二半段在概念绝对时钟h开始，自治性允许只传持续时间h。"
+        },
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "full",
+              "solve": "(A,u,T)",
+              "return": "y_full"
+            },
+            {
+              "id": "half1",
+              "solve": "(A,u,h)",
+              "return": "m"
+            },
+            {
+              "id": "half2",
+              "solve": "(A,m_actual,h)",
+              "return": "y_two"
+            }
+          ],
+          "actual_solve_count": 3,
+          "dependency_edges": [
+            {
+              "from": "half1.m_actual",
+              "to": "half2.initial_state",
+              "required": true
+            }
+          ],
+          "role": "full与half1分别实际求解；half2必须吃half1实际返回；不得把解析半步、full轨迹中间值或复制输出作第二条路径。"
+        },
+        "input_transform": "(A,u,T)→完整T与两次按真实中间态连接的T/2；A及零源不变。",
+        "observation_and_predicate": {
+          "returns": "三实际求解返回；比较full与half2终态",
+          "predicate": "exp(TA)u=exp(hA)(exp(hA)u)，即y_full=y_two",
+          "residual": "R=y_two−y_full"
+        },
+        "analytic_proof": [
+          "同一常矩阵的指数有exp(hA)exp(hA)=exp(2hA)=exp(TA)。",
+          "映射到D16取t0=0,τ=h、常A(t)=A、b(t)=0，三个节点及中间态依赖完全保留。"
+        ],
+        "nondegenerate_legal_witness": {
+          "input": "A=[[-1,0],[1,0]]，u=e1，T=2ln2，h=ln2。",
+          "returns": "m=(1/2,1/2)，y_full=y_two=(1/4,3/4)。",
+          "derivation": "链传播e^(−h)=1/2、e^(−T)=1/4；真实第二半段从非原始状态(1/2,1/2)开始。"
+        },
+        "omission_counterexamples": [
+          {
+            "type": "去自治条件并错误复用前半历史",
+            "example": "A(t)=diag(−t,0)，b=0，u=(1,1)，T=2。full=(exp(−2),1)；把[0,1]的半步映射复用两次得到(exp(−1),1)。D16用绝对[1,2]后缀仍成立。"
+          },
+          {
+            "type": "健康离散不保持连续恒等式",
+            "example": "A=[[-1,0],[1,0]]，u=e1，T=2，后向Euler一次整步给(1/3,2/3)，两单位步给(1/4,3/4)，差(−1/12,1/12)。",
+            "interpretation": "是解析计算的正确BE离散组合缺陷，不是SUT失败，也不是连续半群定理的反例。"
+          }
+        ],
+        "blind_spots": [
+          "共同错误常生成元A_tilde的精确指数仍有半群。",
+          "A=0或Au=0等固定轨道可能无检测信号，虽属合法域；见证不用这些退化点。"
+        ],
+        "discrete_and_engineering_boundary": {
+          "exact_discrete": "同一r且相关谱无极点，令B=r(hA),Q=r(TA)；通常D_h=(B²−Q)u≠0。不得把r的线性/对偶保持误作指数半群保持。",
+          "error_budget": "围绕既定精确离散缺陷D_h的返回误差为||B||(E_half1+E_transfer)+E_half2+E_full+Eobs；若目标是连续零残差，另须包含离散组合/逼近缺陷。实际H、平台与阈值不进入此连续数学键。",
+          "historical_limit": "沿S2V2，E3仅有受限证书机制/暂不执行判断；完整G2/G3及实际半步转接尚未获完成证据。本稿不推翻该门控，也不把既有小信号不分离扩大成所有双精度不可分。"
+        },
+        "mathematical_boundary": [
+          "零源是本条线性半群的所选域，不是所有半群关系的必要条件；自治常源的完整仿射流也可半群，但不是据此自动添新节点。",
+          "不可用相同总时长替代相同历史；非自治时需D16完整绝对后缀。"
+        ],
+        "information_permissions": [
+          "同A、两种持续时间、真实中间态转接；无需轨迹/源积分。",
+          "可共享full的既有合格base，但half1、half2及其依赖不可省。"
+        ],
+        "parent_ids_proposed": [
+          "S3-D16"
+        ],
+        "equivalent_class_id": null,
+        "independent_count_contribution": null,
+        "math_key": {
+          "target_layer": "continuous_exact_2D_finite_time_linear_ODE",
+          "domain_ref": "S3-D18.domain",
+          "execution_ref": "S3-D18.execution_graph",
+          "transform_ref": "S3-D18.input_transform",
+          "observation_ref": "S3-D18.observation_and_predicate",
+          "information_ref": "S3-D18.information_permissions",
+          "necessary_numerical_method": "无；离散子合同若另行选入，其方法/界必须进入该子合同数学键。"
+        },
+        "engineering_key": [
+          "实际程序/入口/版本/平台与身份",
+          "参数和系数字节、源/历史表示",
+          "实际步序、H/阈值、浮点与观察预算",
+          "运行轮次、复用关系、既有授权与预算"
+        ],
+        "inherited_review": {
+          "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+          "round2_finding": "D16自治无源子域；有理离散一般有精确目标缺陷。",
+          "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+          "evidence": [
+            "REG3",
+            "R2",
+            "R3"
+          ],
+          "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+        },
+        "engineering_status": "本次0次SUT；未核新的运行证据。既有状态仅由S2V2继承，不能由本稿定理升级。",
+        "inherited_engineering_note": "E3 证书机制和暂不执行判断受限接受；完整 G2/G3 未通过，实际半步输出和转接未完成。全局预算不保证分离约 10^-15 缺陷，不排除逐分量证书路线。",
+        "review_status": "本次选域、接口精化、跨批映射及计数处分待独审。",
+        "latest_review_state": {
+          "inherited": "原卡的条件数学命题承接 R2/R3；不等于工程执行或独立性认证。",
+          "this_candidate": "本批具体合法域、最小观察、解析例及域映射有明示推导，尚待独立复审。",
+          "new_class_id": null,
+          "new_count_contribution": null
+        },
+        "source_anchor": {
+          "registry_card": "D18",
+          "evidence_table": "selected_source_evidence",
+          "review_scope": "REG3/R2/R3，活跃修正及新映射按本稿/R4/R5/PLAN25分层"
+        },
+        "display_title": "自治零源三执行半群"
+      },
+      {
+        "id": "TR-T01",
+        "source_id": "T01",
+        "name": "完整输运二参数尺度幅度协变",
+        "target_layer": "所声明角模型下的连续空间精确稳态固定源解；不是某一 MOC 实现或蒙特卡洛单样本",
+        "domain": {
+          "base": "TR-L2-CONTRACTION",
+          "parameters": "a,c>0，(a,c)≠(1,1)；至少有非零 q 或 β，并要求后续输入与源输入实际不同。若 c≠1，正有限体积域改变；若 c=1、a≠1，非零完整源/入流改变。",
+          "observation_selection": "默认比较完整场的拉回；也可在合同冻结时选定同一线性观察。不同观察选择若丢失信息不自动宣布全域等价。下列反应率与区域均值是由完整场合同导出的观察，不另加主合同。"
+        },
+        "input_transform": {
+          "geometry": "D_f=cD_s，r_f=cr_s，边界类型和材料区域关联随同映射，Ω、群索引与角权固定。",
+          "coefficients": "Σ_f(cr,Ω,g)=Σ_s(r,Ω,g)/c；K_f 在拉回空间满足 P_c K_f P_c⁻¹=K_s/c，全部散射、裂变和其他合法产生核共同除c。P_c v(r,Ω)=v(cr,Ω)。",
+          "source_boundary": "q_f(cr,Ω,g)=(a/c)q_s(r,Ω,g)，β_f(cr,Ω,g)=aβ_s(r,Ω,g)。q 为逐方向角源；若前端存全角积分源，须按同一个角归一化转换，不能混用。",
+          "action_law": "(a2,c2)∘(a1,c1)=(a2a1,c2c1)，逆为(1/a,1/c)。上述合法域闭合才称二参数作用；并不拆分 a=1 与 c=1 两条主计。"
+        },
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "s",
+              "solve": "Solve(D_s,Σ_s,K_s,q_s,β_s)",
+              "returns": "ψ_s"
+            },
+            {
+              "id": "f",
+              "solve": "Solve(D_f,Σ_f,K_f,q_f,β_f)",
+              "returns": "ψ_f"
+            }
+          ],
+          "edges": "s_input → deterministic input transform → f_input；观察同时使用实际返回 ψ_s、ψ_f。f 的求解不依赖 ψ_s 输出。可声明共享 s base。",
+          "no_fake_return": "P_cψ_f 是真实后续解的解码；aψ_s 只用于关系右端，不得作为 f 返回。"
+        },
+        "predicate": "P_cψ_f=aψ_s，H_D 中几乎处处相等；若选有界 J，则 J(P_cψ_f)=aJψ_s。若直接比较出口迹，必须声明相应有界迹观察及迹误差。",
+        "derived_observations": [
+          "区域平均通量按映射区域比较时乘a。",
+          "反应核 Σ_R 同样除c时，d维体积分反应率 R_f=a c^(d−1)R_s；二维单位高度为ac，三维为ac²，不能把维数因子省掉。"
+        ],
+        "proof": [
+          "令候选 φ_f(cr,Ω)=aψ_s(r,Ω)。链式法则给 Ω·∇_f φ_f=(a/c)Ω·∇_sψ_s，Σ_fφ_f=(a/c)Σ_sψ_s，K_fφ_f=(a/c)K_sψ_s。",
+          "因此 L_fφ_f=q_f，且全部入流迹为aβ_s=β_f；φ_f在对应图空间中。唯一性给ψ_f=φ_f。",
+          "体积元乘c^d，Σ_R除c，场乘a，给反应率a c^(d−1)；区域均值再除映射体积，给a。"
+        ],
+        "analytic_witness": {
+          "model": "二维矩形 D=(0,ln2)×(0,1)，固定单方向 Ω=(1,0)，G=1，Σ=1，K=0，q=1，左入流β=2；水平边界流权为0。此为明确单方向数学模型，不冒充全角连续模型。",
+          "base_return": "ψ_s(x,y)=1+e^(−x)，出口=3/2，R_s=∫DΣψ_s=ln2+1/2。",
+          "transform": "a=3、c=2；D_f=(0,2ln2)×(0,2)，Σ_f=1/2，q_f=3/2，β_f=6。",
+          "followup_return": "ψ_f(x',y')=3+3e^(−x'/2)，出口=9/2；P_2ψ_f=3ψ_s，R_f=6(ln2+1/2)。",
+          "nondegeneracy": "a和c均非恒等，正体源与非零入流同时变换，场非恒定、几何确实改变，反应率非零；这是解析结果，不是执行记录。"
+        },
+        "counterexamples_and_blindspots": [
+          {
+            "kind": "去完整几何/截面变换条件反例",
+            "example": "一维零体源、β=1、Σ=1、L=ln2，源出口1/2。c=2,a=1时合法Σ_f=1/2给1/2；只加长而Σ仍1给1/4。原q=β=Σ=1的平衡常数解不用于这个拒绝见证。"
+          },
+          {
+            "kind": "去完整幅度条件反例",
+            "example": "Σ=1、L=ln2、q=β=1，源出口1。只令q变2而β仍1，出口3/2，不是a=2要求的2。"
+          },
+          {
+            "kind": "保持MR的错误盲区",
+            "example": "两端共同把外源乘一个错误常数，或用其他仍服从相同缩放律的错误线性模型，可继续满足协变；本关系不单独认证源定义、核物理和连续正确性。"
+          }
+        ],
+        "boundaries": {
+          "mathematical": "只保证上述固定线性适定域；反馈功率归一化、温度/密度自洽改变核、未同步边界或不闭合物理参数域不在此合同。",
+          "discrete": "若验证精确离散协变，须证明源构造、实际段长、边界传播、场重构共同交织。二维 MOC 角权不变、轨距及含轨距组合权乘c、面积乘c²；只改名义几何不够。连续关系并不保证任意离散实现逐值精确保持。",
+          "error_budget": "在同一拉回观察空间中，健康残差界为 d_h+E_f,pull+aE_s+E_compare；若 E_f 原以 H_Df 给出，则 ||P_c||=c^(−d/2)，应相应换算。d_h 是所选精确离散目标的协变缺陷，不得从待测残差拟合。",
+          "engineering": "继承原卡 M1/M2/M3 的限定 SCALE 后验状态及其复用、秩和身份限制，不把它迁移为本次两参数解析例的运行证据。没有本次新增调用或新增执行许可。"
+        },
+        "mapping_labels": {
+          "main_template": "M-TRANSPORT-SCALE",
+          "subactions": [
+            "a=1 的尺度子作用",
+            "c=1 的幅度子作用"
+          ],
+          "count_contribution": null
+        },
+        "card_id": "T01",
+        "latest_review_state": {
+          "inherited": "原卡的条件数学命题承接 R2/R3；不等于工程执行或独立性认证。",
+          "this_candidate": "本批具体合法域、最小观察、解析例及域映射有明示推导，尚待独立复审。",
+          "new_class_id": null,
+          "new_count_contribution": null
+        },
+        "source_anchor": {
+          "registry_card": "T01",
+          "evidence_table": "selected_source_evidence",
+          "review_scope": "REG3/R2/R3，活跃修正及新映射按本稿/R4/R5/PLAN25分层"
+        },
+        "display_title": "完整输运二参数尺度幅度协变"
+      },
+      {
+        "id": "TR-T02",
+        "source_id": "T02",
+        "name": "不同支持完整源三端叠加",
+        "target_layer": "固定完整输运算子及边界类型的精确线性解算",
+        "domain": {
+          "base": "TR-L2-CONTRACTION",
+          "inputs": "同 D、Σ、K、角群权；x_A=(q_A,β_A)、x_B=(q_B,β_B)，均非负且非零。为保留原卡非退化限制，要求 q_A、q_B 均非零，且它们在空间×角×能群测度上的本质支持不同；可选不交支持这一更强见证域。β_A、β_B 可零或非零，联合端必须完整相加。",
+          "interpretation": "这是明确的足够合法域。并不把任意不同但同支持、共线输入都偷偷当作本卡要求的不同支持源覆盖。"
+        },
+        "input_transform": "联合抽象输入含固定模型和x_A、x_B；三个实际求解端分别输入x_A、x_B、x_A+x_B=(q_A+q_B,β_A+β_B)。",
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "A",
+              "solve": "S(q_A,β_A)",
+              "returns": "ψ_A"
+            },
+            {
+              "id": "B",
+              "solve": "S(q_B,β_B)",
+              "returns": "ψ_B"
+            },
+            {
+              "id": "AB",
+              "solve": "S(q_A+q_B,β_A+β_B)",
+              "returns": "ψ_AB"
+            }
+          ],
+          "edges": "联合输入由输入相加生成，不由输出相加生成；三个节点均实际求解。A或B可声明复用合格base，仍保留三个端角色；不要求统计独立。",
+          "no_fake_return": "ψ_A+ψ_B 是谓词右侧，不能写回为AB的求解返回；改变Q_used等后处理也不构成第三执行。"
+        },
+        "observation_and_predicate": "默认比较H_D完整场：ψ_AB=ψ_A+ψ_B。若预先选定共同线性观察J，则Jψ_AB=Jψ_A+Jψ_B；线性观察的相等是较弱投影合同，不能倒推完整场相等。",
+        "proof": [
+          "L(ψ_A+ψ_B)=q_A+q_B，入流迹为β_A+β_B，且和在合法图空间。",
+          "固定完整散射/裂变线性反馈已经包含在同一L中；唯一性给ψ_AB=ψ_A+ψ_B。把一次预设总源输运当作已收敛的同一固定点不在证明内。"
+        ],
+        "analytic_witness": {
+          "model": "单方向μ=1、G=1，Σ=1、K=0，h=ln2，L=2h；β_A=β_B=0。q_A=1_(0,h)，q_B=1_(h,2h)。分段源属于L²，支持不交且各有正测度。",
+          "return_A": "0≤x≤h时ψ_A=1−e^(−x)；h≤x≤2h时ψ_A=(1−e^(−h))e^(−(x−h))。出口ψ_A(L)=1/4。",
+          "return_B": "0≤x≤h时ψ_B=0；h≤x≤2h时ψ_B=1−e^(−(x−h))。出口ψ_B(L)=1/2。",
+          "return_AB": "联合源几乎处处为1，ψ_AB=1−e^(−x)，出口3/4=1/4+1/2。两段表达在h处连续并满足方程的弱/绝对连续意义。",
+          "nondegeneracy": "两源非零、不同空间支持，三个输入彼此不同，三出口非零；不是把同一方向缩放两次凑成叠加覆盖。解析计算不增加SUT端数。"
+        },
+        "counterexamples_and_blindspots": [
+          {
+            "kind": "去正确空间混合条件反例",
+            "example": "沿用解析例，AB端错用2q_A，体源总积分仍等于q_A+q_B，但出口1/2，不是3/4。相同总Q不足以定义正确混合分布。"
+          },
+          {
+            "kind": "去完整入流相加条件反例",
+            "example": "同例改β_A=β_B=1，出口分别1/2、3/4。正确联合β_AB=2给5/4；仅保留一份β=1给1，少1/4。"
+          },
+          {
+            "kind": "保持MR的错误盲区",
+            "example": "共同错误但线性的算子、核或源映射仍可三端相加，例如全程误用Σ=2。三端关系不是对正确算子的绝对验证。"
+          }
+        ],
+        "boundaries": {
+          "mathematical": "算子、几何、角群规范、完整线性边界必须相同；源强反馈改变材料、归一化或非线性处理不在域内。",
+          "discrete": "固定线性离散、完整线性源注入和共同重构可以保持；非线性停止、清零、限幅或不同迭代误差须另核。MC通常是期望/统计关系，三个随机样本不保证逐值相加。",
+          "error_budget": "完整场残差≤d_h+E_AB+E_A+E_B+E_compare；若观察J，误差在观察空间给出或乘||J||。独立的统计区间不能冒充确定性逐值界。",
+          "engineering": "原卡只继承M1/M2受限SUP后验；M1仅一个物理输入、M2三源秩2及复用限制保留，M3无SUP。这里的不同支持闭式例未执行。"
+        },
+        "mapping_labels": {
+          "main_template": "M-LIN-ADD",
+          "count_contribution": null
+        },
+        "card_id": "T02",
+        "latest_review_state": {
+          "inherited": "原卡的条件数学命题承接 R2/R3；不等于工程执行或独立性认证。",
+          "this_candidate": "本批具体合法域、最小观察、解析例及域映射有明示推导，尚待独立复审。",
+          "new_class_id": null,
+          "new_count_contribution": null
+        },
+        "source_anchor": {
+          "registry_card": "T02",
+          "evidence_table": "selected_source_evidence",
+          "review_scope": "REG3/R2/R3，活跃修正及新映射按本稿/R4/R5/PLAN25分层"
+        },
+        "display_title": "不同支持完整源三端叠加"
+      },
+      {
+        "id": "TR-T04",
+        "source_id": "T04",
+        "name": "有流偶宇称双激励互易",
+        "target_layer": "精确闭对称强制偶宇称形式的响应，不是把一阶角输运L说成自伴",
+        "domain": {
+          "slab": "x∈(0,L)，L>0；G有限；标准连续角例用H=L²((0,L)×(-1,1),dx dμ/2;R^G,m)，H_e=L²((0,L)×(0,1),dx dμ;R^G,m)。固定对称离散角测度也可另声明，但不因此等于连续角目标。",
+          "parity_maps": "E:H_e→H，(Eu)(x,±μ)=u(x,μ)；Π=E*:H→H_e，Πψ=(ψ(+μ)+ψ(−μ))/2；Rψ(x,μ)=ψ(x,−μ)，RE=E，ΠR=Π，ΠE=I。权重选成以上相容形式，E是等距偶延拓。",
+          "coefficients": "Σ_t,g(x)与方向符号无关，正且上下有界；Ke:H_e→H_e是固定群角内积下的有界、自伴且保非负锥的算子，||Ke||<σ0。完整K=E Ke Π，故Ko=0，无奇偶混合。要求合法材料账本。该较强充分域满足TR-L2-CONTRACTION，不宣称覆盖所有可能强制的Ke。",
+          "sources": "f,g∈H_e非负、非零、彼此不同；零入流即真空。至少选使交叉响应非零的实例，避免把两个解耦零响应当非退化见证。",
+          "form_space": "V为光滑半角函数在 ||u||_He²+∫μ²Σ_t⁻¹|∂xu|²+∑_{x=0,L}∫μ|u(x,μ)|² 下的完成，使用与He一致的群角权。V在He中稠密，端迹按加权意义定义。",
+          "form": "a(u,v)=∫μ²Σ_t⁻¹ ∂xu·∂xv+〈(Σ_t−Ke)u,v〉_He+∑_{x=0,L}∫μ u v，全部项含固定群角权。该形式闭、对称；Σ_t−Ke≥(σ0−||Ke||)I，故对V范数强制。",
+          "well_posedness": "Lax–Milgram给每个He源唯一u∈V；关联正自伴算子Ae的逆S_e有界。不是假设一个未证的一般输运自伴逆。",
+          "operator_and_boundary": "弱算子Ae=−μ∂x[(μ/Σ_t)∂x]+Σ_t−Ke；若有足够正则，Robin条件为(μ/Σ_t)u_x(0)=u(0)、(μ/Σ_t)u_x(L)=−u(L)。它们来自ψ+(0)=0、ψ−(L)=0。若仅V正则，则用形式中的边界项，不强行要求逐点导数迹。",
+          "full_field_relation": "偶解u=Πψ，奇分量v=(ψ+−ψ−)/2=−(μ/Σ_t)u_x，在合法解域中恢复ψ±=u±v；因此S_e=Π S E。Π在任意H上不单射，只有带方程及边界约束的解域才可作偶奇恢复，不把它称一般无损投影。"
+        },
+        "input_transform": "同一个模型，双激励f与g分别作为非负偶源；两次求解后交叉使用另一个输入作为加权观察。共同抽象输入为(模型,f,g)，不从一个结果拟合另一个源。",
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "f",
+              "solve": "Ae u_f=f，真空Robin形式",
+              "returns": "u_f∈V，或实际完整场ψ_f及其预定偶观察Πψ_f"
+            },
+            {
+              "id": "g",
+              "solve": "同一Ae u_g=g",
+              "returns": "u_g∈V，或实际完整场ψ_g及其预定偶观察Πψ_g"
+            }
+          ],
+          "edges": "两端独立给定输入源，各实际求解；输出互作双线性观察但不相互生成。可声明共享合格f端base。",
+          "adapter_caution": "理论上可使用与一阶响应严格等价的偶奇形式；实际程序若只求偶形式，必须另证明离散消元、边界和观察的对应，不能由连续等价直接赋予MOC资格。"
+        },
+        "predicate": "〈f,u_g〉_He=〈u_f,g〉_He。",
+        "proof": [
+          "由弱问题a(u_f,z)=〈f,z〉、a(u_g,z)=〈g,z〉，分别取z=u_g、u_f。",
+          "对称性给〈f,u_g〉=a(u_f,u_g)=a(u_g,u_f)=〈u_f,g〉。流项和Robin迹都已包含，未删去输运。"
+        ],
+        "analytic_witness": {
+          "model": "L=1、两群、m1=m2=1，μ∈(0,1)，Σ_t=I。取Ke u=C u逐点作用于|μ|，C=[[1/5,1/10],[1/10,1/5]]；完整Kψ(±μ)=C(ψ(+μ)+ψ(−μ))/2。这个明确的成对方向散射核是正有界算子，可用非负角转移测度表示；不假装它是任意光滑角密度。每列散射总率3/10，吸收7/10，无裂变，账本合法；||Ke||=3/10。",
+          "fields": "h(x,μ)=x(1−x)+μ，p=(2,1)ᵀ，r=(1,2)ᵀ；u_f=h p，u_g=h r。h在x=0、1满足μh_x(0)=h(0)、μh_x(1)=−h(1)。",
+          "sources": "f=2μ²p+h(I−C)p=(4μ²+3h/2, 2μ²+3h/5)ᵀ；g=2μ²r+h(I−C)r=(2μ²+3h/5,4μ²+3h/2)ᵀ。两源属于He，非负、非零且不同。",
+          "flow_and_boundary": "v_f=−μ(1−2x)p；ψ_f+=x(1−x+2μ)p，ψ_f−=(1−x)(x+2μ)p，均非负并满足各自真空入流；g端将p换r。v非零，模型含真实空间流，不是无流代数特例。",
+          "response": "两端交叉被积式均为8μ²h+(27/10)h²。∫₀¹∫₀¹ μ²h dx dμ=11/36，∫h²=8/15，所以共同响应874/225>0。",
+          "nondegeneracy": "两群耦合非零、两个源不同、真实流非零、交叉观察非零。全部为解析构造和有理积分；未运行SUT或离散传播。若某软件不支持此角核，其工程可执行性另审，不改变所声明算子合同的见证。"
+        },
+        "counterexamples_and_blindspots": [
+          {
+            "kind": "去自伴条件的合法明确反例",
+            "example": "保留上述h,p,r与Σ_t，改C为C_bad=[[1/5,3/10],[1/10,1/5]]，列和为3/10、1/2，仍可取合法非负散射/吸收且||C_bad||≤1/2<1。重新定义实际非负源f_bad=2μ²p+h(13/10,3/5)ᵀ、g_bad=2μ²r+h(1/5,3/2)ᵀ，实际偶解仍hp、hr。〈f_bad,u_g〉−〈u_f,g_bad〉=(3/5)∫h²=8/25≠0。该算子不是指定内积下自伴，所以它拒绝的是去前提版本，不否定原合同。"
+          },
+          {
+            "kind": "去Ko=0导致指定消元式失效",
+            "example": "若合法同方向散射K=sI、0<s<1，则Ke=Ko=sI，奇方程给v=−μ(Σ_t−Ko)⁻¹u_x，而不是−μΣ_t⁻¹u_x。例如Σ_t=1,s=1/2时系数差一倍。某些这种新模型仍另有自伴偶形式；这里不谎称Ko≠0必破互易，只说明原卡消元和域映射不能照搬。"
+          },
+          {
+            "kind": "保持MR的错误盲区",
+            "example": "共同错误但仍对称强制的偶响应算子仍通过双激励互易。仅测这一个双线性相等不认证正确材料、核、边界或数值精度。"
+          }
+        ],
+        "boundaries": {
+          "mathematical": "条件限定到偶源、真空、Ko=0、相容权、自伴Ke与闭稠密强制形式；完整一阶L的前向零入流域与伴随零出流域不同，L不自伴。",
+          "discrete": "同一共形空间和同一对称离散形式，以一致载荷ℓ_f(v)=〈f,v〉、ℓ_g(v)=〈g,v〉求解，可由对称刚度矩阵保互易。权、质量矩阵、迹和求积必须匹配；一般MOC或裸转置不自动满足。",
+          "error_budget": "|R̂|≤d_h+||f||E_g+||g||E_f+E_pairing，E_i为He返回误差；输入/权/求积有误差时另传播，不从待测互易差选阈值。",
+          "engineering": "旧稿未核到具体T04执行；本扩展只有数学构造，无MOC或其他程序认证。"
+        },
+        "mapping_labels": {
+          "parent": "TR-T05 的受限偶响应特化，详见单独映射",
+          "equivalence_claim": "不与全域T05作union",
+          "count_contribution": null
+        },
+        "card_id": "T04",
+        "latest_review_state": {
+          "inherited": "原卡的条件数学命题承接 R2/R3；不等于工程执行或独立性认证。",
+          "this_candidate": "本批具体合法域、最小观察、解析例及域映射有明示推导，尚待独立复审。",
+          "new_class_id": null,
+          "new_count_contribution": null
+        },
+        "source_anchor": {
+          "registry_card": "T04",
+          "evidence_table": "selected_source_evidence",
+          "review_scope": "REG3/R2/R3，活跃修正及新映射按本稿/R4/R5/PLAN25分层"
+        },
+        "display_title": "有流偶宇称双激励互易"
+      },
+      {
+        "id": "TR-T05",
+        "source_id": "T05",
+        "name": "含入流的前向伴随Green对偶",
+        "target_layer": "精确稳态线性输运的前向/真正伴随配对，包括独立定义的入流项",
+        "domain": {
+          "base": "TR-L2-CONTRACTION",
+          "inputs": "q≥0、β≥0且完整前向输入非零；w∈H_D非零，可有符号。L0及L0†在相同H内积上定义，前向输入采用γ−ψ=β，伴随采用γ+χ=0。",
+          "availability": "必须实际取得χ在体域的响应和Γ−迹，或取得等价且误差有资格的独立积分/迹输出。不能从前向观察减去体积分反算边界项，也不能从前向结果反算整个伴随。"
+        },
+        "input_transform": "共同抽象输入(D,Σ_t,K,q,β,w,内积/边界规范)生成前向问题Lψ=q,γ−ψ=β，以及真正伴随问题L†χ=w,γ+χ=0。若角群权非单位，K*是该内积的伴随而非未加权裸转置。",
+        "execution_graph": {
+          "nodes": [
+            {
+              "id": "forward",
+              "solve": "Lψ=q，γ−ψ=β",
+              "returns": "ψ及预定J_wψ=〈w,ψ〉"
+            },
+            {
+              "id": "adjoint",
+              "solve": "L†χ=w，γ+χ=0",
+              "returns": "χ和γ−χ，或足够计算配对的认证输出"
+            }
+          ],
+          "edges": "两个问题均由共同输入给定并实际求解；比较使用两个返回。计算〈χ,q〉和边界配对不是第三次求解；可共享合格forward base。",
+          "no_fake_return": "不得把定义上设成〈w,ψ〉−〈χ,q〉的量登记为独立边界测量，也不得以正向返回构造假的伴随返回。"
+        },
+        "observation_and_predicate": "〈w,ψ〉_H=〈χ,q〉_H+〈γ−χ,β〉_B−，即加权∫Γ−|Ω·n|χβ必须保留。",
+        "proof": [
+          "把Lψ=q、L†χ=w代入Green公式，得到〈χ,q〉−〈w,ψ〉=〈γ+χ,γ+ψ〉_B+−〈γ−χ,β〉_B−。",
+          "γ+χ=0消去出流端配对，移项得到合同。所用边界域与内积是证明的一部分，不是后验选择。"
+        ],
+        "analytic_witness": {
+          "model": "一维单方向μ=1，x∈(0,1)，G=1，L=d/dx+1，q=1，β=1，w=1。",
+          "forward": "ψ(x)=1。",
+          "adjoint": "L†=−d/dx+1，χ(1)=0，χ(x)=1−e^(x−1)。",
+          "paired_terms": "〈w,ψ〉=1；〈χ,q〉=∫₀¹(1−e^(x−1))dx=e^(−1)；χ(0)β=1−e^(−1)。因此1=e^(−1)+(1−e^(−1))。",
+          "nondegeneracy": "q、β、w均非零，体项与边界项均严格正，伴随非恒定；两端实际问题和边界不同。解析值不算执行证据。"
+        },
+        "counterexamples_and_blindspots": [
+          {
+            "kind": "去入流项反例",
+            "example": "同一合法解析例漏去边界项，右侧只有e^(−1)，与左侧1不同。"
+          },
+          {
+            "kind": "用同向算子冒充伴随的反例",
+            "example": "同例把第二端错做χ'+χ=1、χ(0)=0，则χ_wrong=1−e^(−x)，体配对为e^(−1)、入流迹项0，仍不等1。这不是所需的L†及零出流条件。"
+          },
+          {
+            "kind": "保持MR的错误盲区",
+            "example": "两个程序共同使用错误L̃，并正确配L̃†及对应边界，仍可满足同样Green配对；对偶相等不能独立认证正确物理核。"
+          }
+        ],
+        "boundaries": {
+          "mathematical": "只在给定H/B内积、图域、正确核伴随和配对边界下成立；把边界换成不匹配的反射或周期条件时必须重导Green项，不能沿用。w的体观察也不能无声替换成出口delta分布。",
+          "discrete": "对实际离散未知量，正确加权伴随通常含W⁻¹AᵀW，并需源注入、边界项、重构、离散迹和求积的对应；裸矩阵转置或名称叫adjoint都不够。有限迭代与实际求解误差另核。",
+          "error_budget": "|R̂|≤d_h+||w||_H E_ψ+||q||_H E_χ+||β||_B− E_χ,trace+E_integrals。输入和权重的不确定性另加，迹误差不能由体H误差无条件替代。",
+          "engineering": "旧稿未核到T05真实独立伴随入口批次；本次没有建立程序身份、真实离散伴随或误差资格。"
+        },
+        "mapping_labels": {
+          "main_template": "M-ADJOINT-T",
+          "count_contribution": null
+        },
+        "card_id": "T05",
+        "latest_review_state": {
+          "inherited": "原卡的条件数学命题承接 R2/R3；不等于工程执行或独立性认证。",
+          "this_candidate": "本批具体合法域、最小观察、解析例及域映射有明示推导，尚待独立复审。",
+          "new_class_id": null,
+          "new_count_contribution": null
+        },
+        "source_anchor": {
+          "registry_card": "T05",
+          "evidence_table": "selected_source_evidence",
+          "review_scope": "REG3/R2/R3，活跃修正及新映射按本稿/R4/R5/PLAN25分层"
+        },
+        "display_title": "含入流的前向伴随Green对偶"
+      }
+    ],
+    "relation_edges": [
+      {
+        "edge_id": "E-S2-HOM-REP",
+        "from": "S2-D01",
+        "to": "S2-D14",
+        "type": "specialization",
+        "domain": "COMMON-S2；E=cI₂，c>0且c≠1；初态与外源完整同比例缩放。",
+        "input_mapping": "EAE⁻¹=A，Eu=cu，Eb=cb，T固定。",
+        "output_mapping": "E⁻¹y_f=y_s ⇔ y_f=c y_s；关系逐点双向，仅限 E=cI₂ 的父域。",
+        "execution_mapping": "s↦s，f↦f，两端一一对应，不增加或删除求解；父合同在该域的两个返回就是子合同两个返回。",
+        "information_requirements": "只用预先给定的 c 和模型；不需要完整正确解或额外求解。物理幅度/编码语义是标签，不进入本次原始数值合同主键。",
+        "numerical_limit": "r_rep=y_f/c−y_s=r_hom/c；有绝对容差时须同时缩放阈值和误差界。本次只计精确连续谓词，不自动合并工程合同。",
+        "proof_reference": [
+          "R4 C5",
+          "REG3 D01/D14"
+        ],
+        "proof_status": "R5 在 S2 声明范围受限接受",
+        "strictness_witness": "S2-D14 的 E=diag(2,3) 合法见证不是 cI₂，且改变 A；因此反向只能到该标量子域，不能覆盖全父域。",
+        "equivalence_union": false,
+        "review_source": "R5",
+        "endpoints": [
+          "S2-D01",
+          "S2-D14"
+        ],
+        "latest_review_state": "R5 受限接受，仍限原 S2 二维域。"
+      },
+      {
+        "edge_id": "E-S2-SYM-REP",
+        "from": "S2-D04",
+        "to": "S2-D14",
+        "type": "specialization",
+        "domain": "COMMON-S2；E=P=swap，PA=AP，Pb=b 几乎处处，Pu≠u。",
+        "input_mapping": "PAP⁻¹=A，u_f=Pu，b_f=Pb=b；保持固定模型输入字段。",
+        "output_mapping": "P⁻¹y_f=y_s ⇔ y_f=P y_s；二维交换P⁻¹=P。",
+        "execution_mapping": "s↦s，f↦f，两端一一对应；不能用一般同步置换实例反推固定 A 条件。",
+        "information_requirements": "需预先核 PA=AP 与源不变；这是子域额外信息。父的同步变换本身不要求交换。 可用 A=[[a,q],[q,a]]、b=β(t)(1,1) 的构造式域给出条件，不额外要求用有限样本证明任意黑箱源函数恒等。",
+        "numerical_limit": "置换解码在常用置换不变范数下保持范数；其他观察/权、清零及阈值应另审。",
+        "proof_reference": [
+          "R2 D04→D14",
+          "R4 relation_decisions D04→D14",
+          "REG3 D04/D14"
+        ],
+        "proof_status": "R5 在 S2 声明范围受限接受",
+        "strictness_witness": "S2-D14 的 E=diag(2,3) 不是置换；另取 A=diag(−1,−2)、E=P 时父合同可同步改变 A，而 D04 的固定 A 域不允许。",
+        "equivalence_union": false,
+        "review_source": "R5",
+        "endpoints": [
+          "S2-D04",
+          "S2-D14"
+        ],
+        "latest_review_state": "R5 受限接受，仍限原 S2 二维域。"
+      },
+      {
+        "edge_id": "E-S2-HOM-SYM",
+        "from": "S2-D01",
+        "to": "S2-D04",
+        "type": "distinct_whole_contracts_in_declared_identity",
+        "domain": "本次全二维数值合同；仅允许保持整个目标域、端角色、变换作用和先验信息的无损类型/记号适配。",
+        "input_mapping": "不存在本稿允许的全域等价映射；不是把一个子域限制当作另一个全域。HOM 使用 cI₂ 并同步改 b；SYM 使用交换P且要求 A、b不变。",
+        "output_mapping": "HOM 输出作用 cI₂ 的特征值均为正 c≠1；交换 P 的特征值为 +1、−1。共同可逆坐标改写保持特征值，不能将这两个非平凡输出作用互换。",
+        "execution_mapping": "两者各有两端，也允许共享源端；执行数相同并不构成合同等价。",
+        "information_requirements": "SYM 需要交换/源不变证明；HOM 不需要它们。相同线性证明来源不是双向合同适配。",
+        "numerical_limit": "无工程互报覆盖；不是关于任意算法归约或所有可能等价关系的不可约性定理。",
+        "proof_reference": [
+          "R4 C1/C5及等价口径",
+          "本稿源条件与谱不变量论证"
+        ],
+        "proof_status": "R5 在 S2 声明范围受限接受",
+        "strictness_witness": "共同源问题 A=−I₂、u=(1,2)、b=(1,1)、T=ln2 时：HOM c=2 后续输出(2,3)，SYM 后续输出(3/2,1)，变换后的输入及输出作用不同。数值例只辅助说明；全域区分依上述作用/信息不变量。",
+        "equivalence_union": false,
+        "review_source": "R5",
+        "endpoints": [
+          "S2-D01",
+          "S2-D04"
+        ],
+        "latest_review_state": "R5 受限接受，仍限原 S2 二维域。"
+      },
+      {
+        "edge_id": "E-B3-Z-WEIGHT",
+        "from": "B3-D03",
+        "to": "D21",
+        "type": "restricted_coordinate_family_embedding",
+        "domain": "共同常矩阵/时间及固定合法差域；固定 Q=Π_O。D21 本阶段未纳入。",
+        "input_mapping": "保持 D03 的两个真实输入及 O。对每个观察坐标 k，取预先固定 w=e_k；V=span{Π_O Δn(T):所有允许差}={0} 由不可达性证明。",
+        "output_mapping": "每个 e_kᵀΠ_O(y_f−y_s)=0 是 D21 的一项标量谓词；D03 多坐标等式对应其有限合取。不是把单个固定标量谓词冒充完整向量等式。",
+        "execution_mapping": "同一 s/f 返回复用，不新增求解或样本；增列观察权不是新增执行。",
+        "information_requirements": "D03 用实际图/净源支持先验证明即可，不要求事先构造完整正确传播算子。D21 若以更一般消去权建域，其权生成/认证成本须另明，不能反向授予 D03 oracle。",
+        "proof": "不可达使每个坐标响应恒零，故坐标权属于 V 的正交补；一般有符号消去可由相消而非图零得到，反向不成立。",
+        "proof_status": "原卡及 R2/R4 已确认方向；本批有限合取解释待复审",
+        "equivalence_union": false,
+        "group": "ZP",
+        "endpoints": [
+          "B3-D03",
+          "D21"
+        ],
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "edge_id": "E-B3-Z-P-SHARE",
+        "from": "B3-D03",
+        "to": "B3-D10",
+        "type": "shared_execution_distinct_observation",
+        "domain": "本稿三状态见证，同一 A、T、u_s/u_f、等源；O={3}不可达，i=2有正路径1→2。",
+        "input_mapping": "s↦s，f↦f；不用任何额外变换。",
+        "output_mapping": "第3分量差为0与第2分量差≥e^−1是两个不同观察下的关系。同一健康观察不能既满足不可达条件又有正路径。",
+        "execution_mapping": "共享两次返回；不能记作四次执行或两份独立样本。",
+        "information_requirements": "Z 需图的不可达信息；P 需正路径、边权、β及必要源界。二者既不互给全部前提，也不能用健康 P 下界冒充负控违反 P 的上界。",
+        "proof": "见 B3-D03/B3-D10 同一闭式示例及 PLAN25 活跃谓词分流。",
+        "proof_status": "先前 Z/P 分流已审；本批共用实例待复审",
+        "equivalence_union": false,
+        "group": "ZP",
+        "endpoints": [
+          "B3-D03",
+          "B3-D10"
+        ],
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "edge_id": "E-B3-P-ORDER",
+        "from": "B3-D10",
+        "to": "D09",
+        "type": "restricted_scalar_implication_not_full_parent_map",
+        "domain": "再限等源 δ=0；D09 本阶段未纳入。D10 的正路径终点 i 与 D09 的一个坐标观察相同。",
+        "input_mapping": "保持同一 A/T 与 Δu=a e_j≥0 的两端。",
+        "output_mapping": "D10 在 i 的严格正下界蕴含该坐标非负差；不能由单一坐标谓词恢复 D09 全向量谓词，也不能从非严格保序恢复指定路径数值下界。",
+        "execution_mapping": "同一两个真实返回，不增求解。",
+        "information_requirements": "D10 须额外路径/β/权信息；若允许负源差，只给 s_i≥−δ，甚至不保证 D09 的有序源前提。",
+        "proof_status": "已写明受限蕴含，完整合同互换未主张",
+        "equivalence_union": false,
+        "group": "ZP",
+        "endpoints": [
+          "B3-D10",
+          "D09"
+        ],
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "from": "S3-D06",
+        "to": "S3-D07",
+        "type": "strict_specialization",
+        "domain": "A=Aᵀ且v∈K\\{0}、u≠v、b=0。",
+        "input_map": "D07对偶输入(Aᵀ,v)=(A,v)，恰为D06第二前向输入。",
+        "output_map": "y=y_u,z=y_v；两交叉标量完全相同。",
+        "execution_and_information": "保留两个真实返回；已有自伴构造/证明足以替代转置，未新增轨迹、未知目标或额外求解。",
+        "strictness": "单向链A=[[-1,0],[1,0]]、u=e1,v=e2满足D07但非D06；此外D07允许有符号对偶权。",
+        "decision": "数学映射已给；本次选域及主键/父模板处分待独审，非全域equivalent。",
+        "edge_id": "E-D06-D07",
+        "group": "ODE_internal",
+        "endpoints": [
+          "S3-D06",
+          "S3-D07"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "from": "S3-D07",
+        "to": "S3-D08",
+        "type": "strict_specialization_with_time_and_required_observation_adapter",
+        "domain": "b=0 a.e.；采用D08本稿最小所需观察接口。",
+        "input_map": "正向端不变；后向伴随用q(s)=p(T−s)，q′=Aᵀq,q(0)=v。",
+        "output_map": "p(0)=q(T)，J_0=0由已知零源直接给出，D08谓词逐字退化为D07。",
+        "execution_and_information": "仍仅两实际求解，无需额外完整轨迹；零源不授予含源积分资格。时间反转须作用于轨迹时间标签，不是把同时间q当p。",
+        "strictness": "D08见证b(t)=t e1的J_b=1/2−1/e非零，属于D08而不属D07。",
+        "strong_interface_reservation": "若读者把D08无条件完整轨迹返回作为身份，则端点D07只对应其观察投影，非无损执行包含；不能凭端点补出轨迹。此更强接口另记录，不人为拆节点凑数。",
+        "decision": "按最小所需观察的零源特化待独审；不把强接口差异变成对正确含源定理的否定。",
+        "edge_id": "E-D07-D08",
+        "group": "ODE_internal",
+        "endpoints": [
+          "S3-D07",
+          "S3-D08"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "from": "S3-D06",
+        "to": "S3-D08",
+        "type": "composite_specialization",
+        "via": [
+          "E-D06-D07",
+          "E-D07-D08"
+        ],
+        "domain": "欧氏自伴、非负双激励、零源及D08最小观察；完全继承两条边的限制。",
+        "decision": "组合映射不新增合同或执行。",
+        "edge_id": "E-D06-D08",
+        "group": "ODE_internal",
+        "endpoints": [
+          "S3-D06",
+          "S3-D08"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "from": "S3-D18",
+        "to": "S3-D16",
+        "type": "strict_specialization",
+        "domain": "t0=0，τ=T/2，A(t)=A常量，b=0。",
+        "input_map": "full→full，half1→prefix，half2→suffix；suffix绝对起点h仍保存，自治性允许持续时间参数接口。",
+        "output_map": "y_full/y_two对应y_full/y_restart，m_actual同一数据流。",
+        "execution_and_information": "三真实返回、actual中间态、原标签单位全部保持；无正确中间态oracle，不能删除prefix或用参考取代。",
+        "strictness": "D16的时变分段A/非零后缀源见证属于父域不属D18；任意非半分τ也不在本D18变换域。",
+        "decision": "严格特化待本批冻结；非全域equivalent。",
+        "edge_id": "E-D18-D16",
+        "group": "ODE_internal",
+        "endpoints": [
+          "S3-D18",
+          "S3-D16"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "participants": [
+          "S3-D02",
+          "S2-D01"
+        ],
+        "type": "restricted_overlap_not_execution_equivalence",
+        "domain": "x2=c x1，c>0,c≠1，D02第三输入为(1+c)x1；x1≠0。",
+        "relation": "三输入共线时D01的两个适当尺度实例可推出D02标量方向关系，但涉及额外返回/观察。一个HOM两端不能替代D02三端。",
+        "information_separation": "D02加法与D01比例不同；严格适配不准增删实际求解。可共享x1的base，其余节点仍真实计算。",
+        "contrast": "例如输出伪算子F(u,0)=||u||₂ e1满足正齐次却不满足e1、e2的叠加（sqrt(2)e1≠2e1）；它是错误响应的关系盲区说明，不是给定ODE的合法精确解反例。",
+        "decision": "不因共享线性基础全域合并。",
+        "edge_id": "X-D02-HOM",
+        "group": "ODE_cross_batch",
+        "endpoints": [
+          "S3-D02",
+          "S2-D01"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "participants": [
+          "S2-D04",
+          "S3-D06"
+        ],
+        "type": "restricted_vector_predicate_implies_scalar_predicate",
+        "domain": "A=Aᵀ、P为二维交换矩阵、PA=AP、b=0、v=Pu≠u且u∈K\\{0}。",
+        "mapping": "D04两端恰为u与v；y_v=P y_u推出uᵀy_v=uᵀP y_u=(Pu)ᵀy_u=vᵀy_u。P=Pᵀ是关键。",
+        "information": "只从已返回完整向量取标量，零额外求解；不把标量互易反推全向量置换。",
+        "nonconverse": "取u=e1,v=e2及候选返回y_u=(1,1),y_v=(1,3)，两交叉值皆1而y_v≠P y_u；这是输出谓词严格弱化见证，不宣称这些是精确ODE输出。",
+        "decision": "受限观察推导，不是等价边或全域包含。",
+        "edge_id": "X-PERM-RECIP",
+        "group": "ODE_cross_batch",
+        "endpoints": [
+          "S2-D04",
+          "S3-D06"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "participants": [
+          "S2-D01",
+          "S3-D06"
+        ],
+        "type": "restricted_observation_implication",
+        "domain": "A=Aᵀ，b=0，u≠0，v=c u，c>0,c≠1。",
+        "mapping": "y_v=c y_u推出uᵀy_v=c uᵀy_u=vᵀy_u；共享两返回。",
+        "limit": "仅共线自伴子域的一项标量；不能恢复HOM全向量，也不覆盖一般双激励或有源HOM。",
+        "decision": "不新增类或执行。",
+        "edge_id": "X-HOM-RECIP",
+        "group": "ODE_cross_batch",
+        "endpoints": [
+          "S2-D01",
+          "S3-D06"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "participants": [
+          "S2-D14",
+          "S3-D07"
+        ],
+        "type": "restricted_vector_to_dual_response_implication",
+        "domain": "b=0；E为事先给定正对角且EA=AᵀE；v=Eu；u≠0；(A,u)≠(Aᵀ,v)。",
+        "mapping": "EAE⁻¹=Aᵀ，D14 follower输入是(Aᵀ,Eu)=(Aᵀ,v)，其向量谓词z=E y推出uᵀz=uᵀE y=(Eu)ᵀy=vᵀy。",
+        "example": "A=[[-1,2],[1,-2]]，E=diag(1,2)，u=(1,1)，v=(1,2)，b=0,T>0；EA=AᵀE，所有原始输入合法。",
+        "information": "E和交织等式须先验可得；任意Metzler并不保证存在此正对角E。这里v=Eu是特殊输入配对，不是一般换坐标时对偶权的变换规则。",
+        "limit": "一般D07只有一项标量，不能恢复z=Ey；含源D14 follower会有Eb而D08伴随动力无源，因此不能不加限制沿用。",
+        "decision": "受限重叠及观察推导，不全域合并。",
+        "edge_id": "X-REP-ADJOINT",
+        "group": "ODE_cross_batch",
+        "endpoints": [
+          "S2-D14",
+          "S3-D07"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "participants": [
+          "S2-D14",
+          "S3-D02",
+          "S3-D06",
+          "S3-D07",
+          "S3-D08",
+          "S3-D16",
+          "S3-D18"
+        ],
+        "type": "common_covariance_adapters_not_contract_equivalence",
+        "domain": "E为S2允许的固定正单项式矩阵，全部端同步变换。",
+        "primal_map": "A↦EAE⁻¹，u↦Eu，b↦Eb，y↦Ey；历史逐时相同变换，绝对时钟不变；中间态也必须变成E m_actual。D02加法与D16/D18拼接在此变换下保留。",
+        "dual_map": "v↦E^{-T}v，p/q↦E^{-T}p/q；(EAE⁻¹)ᵀ=E^{-T}AᵀEᵀ，因此各配对及J_b不变。正单项式逆和转置保持对偶非负锥，但允许有符号权仍在全对偶空间。",
+        "D06_limit": "一般正对角相似并不保欧氏自伴。若要保持D06，另需EᵀE与A交换；或改为W′=E^{-T}E⁻¹加权内积，这已改变当前欧氏合同。仅置换/统一正尺度自动保欧氏自伴。",
+        "counting_limit": "共同换坐标是所有节点的一次无损记号适配，不把三端叠加、两端对偶或三端历史图变成D14自身的两端表示检查。",
+        "decision": "说明合法跨批信息映射；不计新增MR。",
+        "edge_id": "X-COMMON-COORDINATES",
+        "group": "ODE_cross_batch",
+        "endpoints": [
+          "S2-D14",
+          "S3-D02",
+          "S3-D06",
+          "S3-D07",
+          "S3-D08",
+          "S3-D16",
+          "S3-D18"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "participants": [
+          "S2-D01",
+          "S2-D04",
+          "S2-D14",
+          "S3-D02",
+          "S3-D06",
+          "S3-D07",
+          "S3-D08",
+          "S3-D16",
+          "S3-D18"
+        ],
+        "type": "execution_reuse_only",
+        "conditions": "同实际问题、目标层级、时段、输入字节和返回定义的base才可声明共享。常A含源forward可在D08、D02某单端、D16 full以及适当S2源端之间复用；D16非自治full不能冒作本稿常A的D08端。",
+        "limits": "复用不授予缺失的伴随入口、全轨迹/积分、prefix、sum或suffix；不提高样本独立性，不合并数学节点。",
+        "edge_id": "X-SHARED-BASE",
+        "group": "ODE_cross_batch",
+        "endpoints": [
+          "S2-D01",
+          "S2-D04",
+          "S2-D14",
+          "S3-D02",
+          "S3-D06",
+          "S3-D07",
+          "S3-D08",
+          "S3-D16",
+          "S3-D18"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "relation_type": "严格受限响应特化；不声称全域等价",
+        "domain_restriction": "把T05限到TR-T04的slab、相容对称角群内积、Σ方向反演不变、K=EKeΠ且Ke自伴、Ko=0、β=0、q=Ef、w=Eg。所有变量在前述H/He和图域内。",
+        "boundary_domain_map": "R把前向零入流图域D(L0)映至伴随零出流图域D(L0†)；Σ与R交换，K*=K=RKR，故L0†=R L0 R。这里是含定义域的单位共轭，不是L0=L0†。",
+        "response_map": "设S=L0⁻¹，则S*=RSR。E*:H→He为Π，RE=E且ΠR=Π，所以S_e=ΠSE，S_e*=E*S*E=ΠRSRE=ΠSE=S_e。S_e等于真空偶宇称强制形式的Ae⁻¹。",
+        "two_endpoint_map": "T04的两个真实完整响应可记为ψ_f=S Ef与ψ_g=S Eg。T05前向端用ψ_f；伴随端解χ=S*Eg=Rψ_g。用真正伴随求解取得χ，或用经过证明的反演输入/输出表示实际求解S Eg后解码Rψ_g，都保留两次实际求解，不新增或伪造端。若接口只返回偶宇称u_g，完整奇场恢复须满足上述弱/图域对应；不能把任意Π投影视作可逆。",
+        "observation_map": "T05左端〈Eg,ψ_f〉_H=〈g,Πψ_f〉_He=〈g,u_f〉；右端体项〈Rψ_g,Ef〉_H=〈ΠRψ_g,f〉_He=〈u_g,f〉，β=0使边界项0。于是正好得到T04互易。",
+        "restricted_reverse": "在已声明的偶响应及边界子域内，可把真实伴随χ经R解码为S Eg，并取Π得到u_g；因RE=E，源角色和双线性谓词保持。这个回映仅覆盖受限响应合同，不可把非偶源、一般w或非零β的T05倒映成T04。",
+        "strictness_witness": "T05解析例β=1含严格正边界项，不能落入T04的真空β=0子域；一般非自伴K也满足T05而不满足同向双激励互易。",
+        "information_preserved": "E、Π、R、Σ、Ke、边界、内积在求解前给定；适配不调用正确解oracle，不从待测结果拟合源或核。",
+        "engineering_limit": "S*=RSR是精确连续响应关系；要把一个真实前向程序反演成合格伴随端，还需其离散权、角配对、边界、源/观察及返回误差的独立资格。此处不颁发工程资格。",
+        "edge_id": "E-TR-T04-T05",
+        "from": "TR-T04",
+        "to": "TR-T05",
+        "type": "strict_restricted_response_specialization",
+        "group": "TR_internal",
+        "endpoints": [
+          "TR-T04",
+          "TR-T05"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "from": "TR-T01 的 c=1 幅度子作用",
+        "to": "D01；以及S2-D01的纯吸收共同子域",
+        "type": "限制共同域并投影为出口观察后，所得投影合同与ODE终态合同对应；不是所选完整场合同的无损双向同构",
+        "common_domain": "一维单向μ=1、两个不耦合能群、常Σ=diag(σ1,σ2)且σi>0、K=0，长度T>0，β=u∈R²≥0，q=b∈L²([0,T];R²≥0)，预定终点全向量观察。对应S2只取A=−diag(σ1,σ2)，并把原L¹源限制到L²共同域；不假装覆盖整个Metzler域。",
+        "input_output_execution_map": "先把TR-T01限制到上述纯吸收共同域及c=1子作用，再对两个实际完整场返回施加预定出口迹观察P_outψ=ψ(T)。在微分问题层面x↔t、Lψ=q↔n'=An+b、β↔u；所得投影返回y=P_outψ对应ODE终态n(T)。a=α映到D01的(u,b)→(αu,αb)，两真实端逐一对应，投影后的谓词均y_f=αy_s。",
+        "why_not_global": "一般T01可改几何、Σ、全角核，c≠1还改T；一般S2-D01可有非对角Metzler耦合，固定有限时ODE终态也不同于完整角场观察。没有覆盖双方全域的无损适配。",
+        "observation_limit": "完整场→出口观察投影不可逆，不能从出口相等倒推完整场相等，也不能靠重新解ODE恢复全场作为免费适配。出口迹是在所声明graph/trace域上的观察，不是裸H=L²空间上的有界观察；其资格和误差须按迹范数处理。这里仅标记所得投影合同的对应，不新增节点或计数。",
+        "edge_id": "E-TR-CROSS-01",
+        "group": "TR_cross_batch",
+        "endpoints": [
+          "TR-T01",
+          "S2-D01"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "from": "TR-T01 幅度共同子域",
+        "to": "S2-D14 的 E=αI 共同子域",
+        "type": "经上述D01对应：限制共同域并投影为出口观察后，所得投影合同与S2-D14的E=αI终态子合同对应",
+        "map": "先对纯吸收共同域内TR-T01的实际完整场返回取出口迹y=P_outψ，再用EAE⁻¹=A、Eu=αu、Eb=αb、E⁻¹y_f=y_s⇔y_f=αy_s对应S2-D14的E=αI终态子合同。它依赖同一源空间、域限制及出口观察，不是完整场合同经D01与D14的无损等价链。",
+        "why_not_global": "T01的空间尺度c不是D14的库存正单项式编码；一般D14的非均匀对角缩放/置换及一般Metzler模型也不是T01全域作用。",
+        "observation_limit": "完整场→出口投影不可逆；不得以解ODE恢复场充当免费逆适配。出口迹仅在graph/trace域上有相应观察资格，不是H上的有界观察。此投影对应不新增节点或计数。",
+        "edge_id": "E-TR-CROSS-02",
+        "group": "TR_cross_batch",
+        "endpoints": [
+          "TR-T01",
+          "S2-D14"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "from": "TR-T02",
+        "to": "D02",
+        "type": "跨方程共享可加结构；限制共同纯吸收域并投影为出口观察后，所得投影合同与ODE终态合同对应",
+        "common_domain": "沿用上面两维单向纯吸收识别，两个b_A、b_B属于L²、非零且在时间×两群上的支持不同，u_A、u_B≥0，观察终态完整向量。",
+        "map": "先对共同纯吸收域内TR-T02的三个真实完整场返回施加出口迹P_outψ=ψ(T)，然后令(q_A,β_A)、(q_B,β_B)、两者和对应(b_A,u_A)、(b_B,u_B)、两者和；三个实际求解端角色逐一对应，所得出口投影谓词y_AB=y_A+y_B对应D02终态谓词。",
+        "why_not_global": "全D02允许同支持或共线的不同输入，全T02强调不同空间/能群支持，并且一般角输运不是有限维ODE终态问题。此映射未新增S2-D02节点，更不把D01的双端幅度执行冒作D02/T02三端执行。",
+        "observation_limit": "所选TR-T02主合同观察完整场；完整场→出口投影不可逆，出口相等不能推出完整场相等。不得通过重新解ODE恢复全场充当免费逆适配。出口迹在graph/trace域而非裸H上有界，须有迹观察及误差资格。本行仅描述投影合同的对应，不新增节点或计数。",
+        "edge_id": "E-TR-CROSS-03",
+        "group": "TR_cross_batch",
+        "endpoints": [
+          "TR-T02",
+          "S3-D02"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "from": "TR-T04",
+        "to": "D06",
+        "type": "只共享自伴响应双线性互易结构，未证全域等价",
+        "reason": "T04响应为带流/真空Robin域的Ae⁻¹，输入为体域偶源，输出为He函数；D06响应为有限时exp(TA)，输入为初态，源为零。自伴这一共同性质不提供保持全部输入、端角色、目标与观察的双向类型适配。不能为合并而改用log/逆等任意求解归约。",
+        "edge_id": "E-TR-CROSS-04",
+        "group": "TR_cross_batch",
+        "endpoints": [
+          "TR-T04",
+          "S3-D06"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "from": "TR-T05",
+        "to": "D07、D08",
+        "type": "只共享真正伴随/Green或乘积导数结构，未证全域等价",
+        "reason": "T05伴随是体源w、零出流，观察是〈w,ψ〉体积分并显含前向入流；D08伴随是零体源、终端值v，观察是vᵀn(T)，D07再限b=0。即使一维纯吸收中L与ODE有相同微分表达，观察和伴随边界角色仍不同。把w改成终点delta不属于本L²域；增加累积状态又改维数/目标，均不是本口径的无损全域适配。",
+        "edge_id": "E-TR-CROSS-05",
+        "group": "TR_cross_batch",
+        "endpoints": [
+          "TR-T05",
+          "S3-D07",
+          "S3-D08"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "from": "TR-T04",
+        "to": "D07、D08",
+        "type": "不因T04⊂T05、D06⊂D07⊂D08而传递合并",
+        "reason": "各自域内的方向特化与跨方程同结构不构成全域等价边；overlap不能传递求闭包。",
+        "edge_id": "E-TR-CROSS-06",
+        "group": "TR_cross_batch",
+        "endpoints": [
+          "TR-T04",
+          "S3-D07",
+          "S3-D08"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "pair": [
+          "TR-T01",
+          "TR-T02"
+        ],
+        "disposition": "不全域等价",
+        "reason": "前者为两真实端的可逆二参数作用，后者为三个真实端的不同支持二元相加；用线性性质从一个证明另一个不保持执行图，也不能增删求解端来合并。",
+        "edge_id": "E-TR-DISTINCT-01",
+        "group": "TR_internal_contrast",
+        "endpoints": [
+          "TR-T01",
+          "TR-T02"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      },
+      {
+        "pair": [
+          "TR-T01或TR-T02",
+          "TR-T04或TR-T05"
+        ],
+        "disposition": "未建立全域等价，不以同属线性方程合并",
+        "reason": "输入变换、端角色、观察和合法域不同。这里不把‘没找到等价’冒称任意逻辑独立证明。",
+        "edge_id": "E-TR-DISTINCT-03",
+        "group": "TR_internal_contrast",
+        "endpoints": [
+          "TR-T01",
+          "TR-T02",
+          "TR-T04",
+          "TR-T05"
+        ],
+        "equivalence_union": false,
+        "latest_review_state": "本稿具体映射/投影或边界说明待独审；方向如曾受审，只继承该有限方向，不视作本批全域计数已冻结。"
+      }
+    ],
+    "excluded_unresolved": [
+      {
+        "id": "D05",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "与 D15 的求解图/粗端权限和 D21 的预算权另批处理，不合并也不计为独立。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D09",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D11",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "有符号差→绝对形状只有单向推导，与 D21 不全域等价；另批处理。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D12",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D13",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D15",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "不可逆粗观察及独立粗端不同于可逆表示；本次不计，E5 暂停不是数学否定。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D17",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D19",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D20",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D21",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "加权零空间、观察权限及和 D03/D05/D11 的有向联系另批闭合；不阻断本次三节点。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D22",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D23",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D24",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D25",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "实际前端物理参数域未冻结；条件命题保留，本次数值表示子集不计。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D26",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D27",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D28",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "活跃语义已按 PLAN25 剥离单端虚部；双实现/系数实例未冻结，本次不计。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D29",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D30",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "D31",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "T03",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "T06",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "T07",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "T08",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "T09",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "T10",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "本阶段未选择此卡；保留已审条件命题，不据编号或尚未找到等价推定独立。后续优先处理与当前节点有明确关系的候选。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "T11",
+        "category": "outside_selected_scope",
+        "status": "条件数学接受的原卡或限定工程候选，未因排除而撤回；沿用逐卡状态。",
+        "reason": "具体空间/B_N 及和 D31 的强弱界另批处理；条件命题保留。",
+        "counted": false,
+        "source": "REG3、R2/R3/R4",
+        "pending": "本阶段未固定该卡完整具体合同及全部关系；不纳入任何合并有效类数。",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P01",
+        "source_disposition": "左零权预算wᵀn(T)=wᵀu+∫wᵀb；开放模型用独立P/L/Q净账本；V5 B1、A-C1/C2/C4、B-X6、算法C1。无源有理目标乘r(0)；两个等预算组成才得到D05；完整源离散另核",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P02",
+        "source_disposition": "对称交换的单次形状收缩Z(nT)=e^(−2λT)Z(u)≤Z(u)；V5/U g；配对必须增加共同平移条件才得到D11，不从单次收缩推出任意两输入不变",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P03",
+        "source_disposition": "稳态上界：真空、正解算S、常量正群权v满足Σt v−Kv≥αv、α>0，则Z_v(αSq)≤Z_v(q)；U g/T7；常量上解及比较原理。变权需流导数，实际MOC上解/误差未知；没有冻结稳态多执行转换",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P04",
+        "source_disposition": "完整输运账本Qext+In+Fprod=Abs+Out；U b/BI；保粒子散射全群全角抵消、裂变损失计Abs，非保粒子项另列。无裂变同总预算两个源转换为T03；单次账本不算MR",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P05",
+        "source_disposition": "非负初值/源经Metzler连续传播保持非负；B-X13及算法C5；离散有理正性或负值下界必须独立证明。线性加增量非负导出D09，不另加独立属性为MR",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P06",
+        "source_disposition": "稳定孤立初值模式保持：A e_i=0、零源且只给该模式；A-C5；135Cs不是稳定核素，原例名须纠正。有理r(0)漂移保留；单次绝对值检查不计MR",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P07",
+        "source_disposition": "无源、无上游补充且n_j(0)>0时，d ln n_j/dt=A_jj；正衰减率为−A_jj；B-X4；负列和一般错误。闭链A→B列和0、斜率−1、衰减率1。单次轨迹锚定，未转换就不算MR",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P08",
+        "source_disposition": "无移出汇、非负进入使该汇库存随时间不减；Pm→稳定Sm在无Sm损失的停堆子模型同理；B-X5、A-Y3；一般链平台、最终份额和窗口另需条件。取两个时间/源执行的有限比较需另冻结，不能把轨迹口述自动计MR",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P09",
+        "source_disposition": "左特征投影：wᵀA=μwᵀ时wᵀr(TA)u=r(μT)wᵀu；B算法C2，C1为μ=0特化；无谱极点及系数/观察正确。是单次已知目标投影，当前无独立多执行合同",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P10",
+        "source_disposition": "裂变累计产额/次数的完整计数账本；B-X16；现存碎片库存还受原库存及后续衰变/吸收影响，不能等同累计生成数；完整P/L/Q另列",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P11",
+        "source_disposition": "总活度并非一般守恒量，且并不必单调下降；A-C6原普遍方向撤回：母女λA=1,λB=2，初始(1,0)，总活度初始导数+1；负面断言不能作无条件MR",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P12",
+        "source_disposition": "母女长期活度比、快变量QSSA是受限渐近属性；B-X18/X19；纯链/分支、λd>λp、初始层、误差余项需明示；固定“谱隙足够”或时间窗不是认证阈值",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P13",
+        "source_disposition": "简化碘氙解析平衡值；B-X20；是单次参数oracle，直接Xe产额、碘吸收等模型条件要补；A和b共同×2时平衡不变。真正多参数配对见D19/D20",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P14",
+        "source_disposition": "冻结PFD孤立核素λT→∞时单步趋α0u，固定k步趋α0^k u；B算法C7；有限λT不是精确极限，零输出可能由钳位/格式策略产生，不能仅凭零即判缺陷；未有有限配对判据",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P15",
+        "source_disposition": "分支、产额、列和、数据排列和左核维数等装配检查；A-C3、B-X6/X17。改单支不补偿不保列和；独立产额/累计产额口径不同；左核维数不等于一般稳定单核素数，双向交换无稳定单核素却左核维数1。未经过两次求解的不算MR",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P16",
+        "source_disposition": "已产生负分量的守恒离散向量经逐分量max(·,0)后总量增加；B-X15；大步阈值不能保证每个初态都出现负值；正性与守恒不普遍互斥。前后处理两个值不自动算两个SUT求解",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P17",
+        "source_disposition": "回环路径的简并链解应有限非负；B-T4；是单运行求解性质，退化参数连续性见U09；不能把未处理除零现象反推所有方法错误",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "P18",
+        "source_disposition": "无源或受限源支持下，单次输出支持局限于可达集；B-X3；两输入差支持、共同算子及源条件才转换成D03。实际浮点观察仍需资格，不能宣称严格零不受容差影响",
+        "category": "single_execution_property_or_data_check",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "U01",
+        "source_disposition": "一般MOC空间/角/轨迹加密收敛；同物理目标、联合加密、稳定/一致性及可计算界未闭合；T09/T11只证受限对象。不能因无定理写一般已否定，也不计有效MR",
+        "category": "unresolved_or_restricted_candidate",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "U02",
+        "source_disposition": "特定CRAM48对16在全部合法输入上的误差序；普遍比较定理及该精确命题的实际反例均未取得。高阶标签不足；D13其他算法反例不直接否定该具体命题",
+        "category": "unresolved_or_restricted_candidate",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "U03",
+        "source_disposition": "B-X1/X9晚时斜率或收缩率统一等最小移出率；原一般式撤回：循环谱和初态/差模态激活可改变渐近行为，慢模态可消去、不同汇份额可留常量。若保留需固定谱域、非退化观测及有限余项界/输入配对",
+        "category": "unresolved_or_restricted_candidate",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "U04",
+        "source_disposition": "B-X2不同初态都趋同一汇；仅闭合且共同唯一吸收汇等限定条件可考虑；多汇/损失反例排除原一般式。当前有限时间阈值与具体多输入合同未冻结，不以极限口述当可执行MR",
+        "category": "unresolved_or_restricted_candidate",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "U05",
+        "source_disposition": "A-S4/Y1/Y2停堆峰高单调、升功率唯一谷、约10小时峰；完整碘氙方程、参数域、初始平衡、峰存在/唯一性及输出函数未闭合。旧数值为经验线索，固定窗口不可普遍化；数学候选/单轨迹属性不混记",
+        "category": "unresolved_or_restricted_candidate",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "U06",
+        "source_disposition": "A-L1/L2/R2普遍细步/高展开项误差单调；原普遍断言不采纳；收敛不推出逐例单调。D12给有限BE界，D30给正路径嵌套序，均不验证任意方法/项数关系",
+        "category": "unresolved_or_restricted_candidate",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "U07",
+        "source_disposition": "A-R1观测阶趋理论阶；需误差展开非零首项、渐近区间、至少三网格等实际求解及有限分母分离/舍入预算。“瞬态窗”单独不充分；未冻结有限MR判据",
+        "category": "unresolved_or_restricted_candidate",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "U08",
+        "source_disposition": "A-R3 TTA/CRAM按链名称固定精度次序；需指定算法/参数/目标及独立比较界；不能从“闭环/长半衰期”标签推出一般序。D31是有界一致性，不等于精度优劣",
+        "category": "unresolved_or_restricted_candidate",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "U09",
+        "source_disposition": "B-B2近简并参数连续极限；矩阵指数连续性可证明，但原记录只给δ→0及极限；有限两次执行须补差界或明确参数间谓词。当前不凭“输出连续”凑可执行MR",
+        "category": "unresolved_or_restricted_candidate",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "U10",
+        "source_disposition": "稳态多群形状族的真正多执行配对；P03只有单运行上界；瞬态角均化/周期自由流属于域外扩展，不能填稳态缺口。尚无冻结核心多执行合同",
+        "category": "unresolved_or_restricted_candidate",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "X01",
+        "source_disposition": "非零耗散燃耗的同流回程；无源Metzler、列和非正、非负置换对合、全初值及含0非退化时间区间：e^(tA)Θe^(tA)=Θ等价ΘAΘ=−A，进而A=0。A=−1,Θ=I,t>0反例；限定不适用，不扩为所有动力学不可能",
+        "category": "limited_inapplicability",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "X02",
+        "source_disposition": "稳态固定源对象的时间回程表达式；未定义物理时间流Φ_t，指定Φ_tΘΦ_t无定义；不是证明所有稳态对称关系不存在。瞬态无碰撞周期流另属扩展域",
+        "category": "undefined_in_stated_domain",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "X03",
+        "source_disposition": "A-C3只改单支仍恒定列和；原断言错误；只改一支一般改变列和。合法补偿分支的装配约束可另查，现不计传播MR",
+        "category": "withdrawn_false_general_assertion",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "X04",
+        "source_disposition": "A-C6总活度必降；原普遍方向错误，见P11非负合法链反例；不能作为有效负面MR",
+        "category": "withdrawn_false_general_assertion",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      },
+      {
+        "id": "X05",
+        "source_disposition": "B-X14精确正推再用−A倒推必出现负库存、代数不可逆；错误：e^(−At)e^(At)u=u≥0。逆映射不保整个非负锥，与在正向像上精确可逆不同；也不是X01的同流回程",
+        "category": "withdrawn_false_general_assertion",
+        "counted": false,
+        "reason": "原始处分逐项保留，不在本次 D/T 数学合同计数宇宙；不把单次属性、未知、撤回及无定义混为数学不成立。",
+        "source": "REG3 §§4–5",
+        "counted_in_current_inventory": false
+      }
+    ]
+  },
+  "finite_scope_statistics": {
+    "included_contract_records": 15,
+    "accepted_prior_S2_classes": 3,
+    "accepted_prior_S2_parent_templates": 1,
+    "new_contract_records": 12,
+    "new_batch_effective_class_count": null,
+    "merged_effective_class_count": null,
+    "global_effective_unique_count": null,
+    "engineering_qualified_count": null,
+    "actual_SUT_calls_added": 0,
+    "meaning": "15 与12只是本次清单记录数，不是15或12个独立有效类、定理、检测能力或实验；已受限接受的3只属于原S2。",
+    "excluded_unresolved_records": 60,
+    "unselected_DT_cards": 27,
+    "relation_rows": 25,
+    "warning": "这些记录/行数只核对材料完整性，不是独立MR、数学贡献或实验数量。"
+  },
+  "domain_definitions": {
+    "S2_common_domain": {
+      "dimension": 2,
+      "target": "固定有限时间的精确连续初值问题 n'(t)=A n(t)+b(t)，n(0)=u，观察完整 n(T)。",
+      "A": "实 2×2 Metzler 矩阵；本次不要求列和非正，也不声明核素物理装配合法。",
+      "u": "u∈R²_{≥0}",
+      "b": "b∈L¹([0,T];R²_{≥0})；函数相等、非零及变换后是否改变均按几乎处处意义；不随求解反馈重算 A。",
+      "T": "0<T<∞",
+      "existence": "常矩阵与可积外源给唯一绝对连续解。",
+      "nontriviality": "变换参数非恒等，且该输入的后续问题实际不同于源问题；退化固定点实例不用于见证。"
+    },
+    "B3_ZP_dimension": "B3-D03/B3-D10 明确采用任意固定有限 n≥2；不能把其三维见证直接移为二维S2工程资格。有限清单指有限条合同，不指只准有限个参数值。",
+    "B3_ODE_common_conditions": {
+      "C0_space": "X=R²，库存锥K=R²_{≥0}，对偶X*=R²，固定欧氏配对〈v,n〉=vᵀn。源函数相等、非零、变换后改变都按几乎处处意义。范数预算另明确采用2范数及其诱导矩阵范数。",
+      "C1_constant": "0<T<∞；A∈R^{2×2}为实常Metzler矩阵；u∈K；b∈L¹([0,T];K)外定，不随本次解或待测输出反馈重算A/b。解F_{A,b,T}(u)=exp(TA)u+∫₀ᵀexp((T−s)A)b(s)ds唯一且绝对连续，保持K。",
+      "C2_history": "−∞<t0<τ<T<∞；A∈L∞([t0,T];R^{2×2})外定且a.e. Metzler；b∈L¹([t0,T];K)外定；u∈K。线性Carathéodory初值问题有唯一绝对连续解及正演化族U(t,s)。允许A常量、b=0、τ=(t0+T)/2，不人为排除特化。",
+      "C3_dual": "D07/D08中v∈X*\\{0}，允许有符号；Aᵀ仍为Metzler，但有符号v不被解释为非负库存。D06额外要求v∈K\\{0}及A=Aᵀ。当前选域只取欧氏配对，不把未给定权矩阵的加权自伴混入。",
+      "C4_source_access": "b是事先独立规定的函数或可认证表示，不从n(T)反算。L¹保证积分存在，但不自动给任意有限点求积误差界；点值在L¹等价类中也非固有数据。实际含源算法须另冻结源的表示、求积/注入及相应界。A的有界可测历史同理。 若SUT按离散节点读取数据，须冻结代表元并检查实际样值；a.e. Metzler/非负不能自动保证任意修改后的孤立采样点合法。",
+      "C5_nondegeneracy": "各卡写明必要的输入不同/非零限制；不要求每个合法实例都有非零残差或非零交叉响应。见证另保证有可见非零响应。所有零残差都只能说明相容性，不能证明正确。",
+      "C6_execution": "图中的每个求解节点都必须实际计算其返回。允许同一输入/目标/时段的合格base供不同谓词共享；共享不新增执行或统计独立证据。不得复制、缩放、转置已有输出来伪装另一求解。理论图不等于本次已执行。",
+      "C7_information": "A/u/b/T/τ、变换及观察权均先验给定或由已声明输入确定；合法性和结构证明可用事先构造/认证数据，不假定能对任意黑箱函数判恒等。不得从待测正确终态oracle生成后续端。唯D16/D18允许且要求prefix实际返回作为suffix输入。"
+    },
+    "B3_ODE_scope": {
+      "selected_ids": [
+        "S3-D02",
+        "S3-D06",
+        "S3-D07",
+        "S3-D08",
+        "S3-D16",
+        "S3-D18"
+      ],
+      "selection": "统一选择二维原始系数域，与S2-D01/D04/D14直接对齐。六条证明可推广至任意固定有限维，但本稿不按维数形式分拆，也不把推广域计入本次冻结范围。",
+      "raw_model_only": "n′=A n+b 的数学系数合同；Metzler并不自动保证未加权列和非正、核素总量守恒或物理装配可实现。伴随端属于对偶问题，不冒称核素库存传播。",
+      "target": "精确连续有限时间目标。下列离散保持条件和工程预算是资格边界，不是另增已接受数学节点。",
+      "count_policy": "沿S2按目标、全声明域、执行图、变换、观察/谓词、必要方法与信息权限定义合同。包含、共同证明和共用base均不做等价类union。equivalent_class_id和最终贡献暂不赋值。",
+      "old_wording": "原卡“不加主模式”保留为父模板覆盖口径的历史表述，不能据此把不同全域条件合同强行等价。父模板覆盖与具体合同等价类须分别裁决。"
+    },
+    "TR_L2_CONTRACTION": {
+      "id": "TR-L2-CONTRACTION",
+      "scope_choice": "以下是登记册适定固定源域内可明确证明的充分子域，不宣称覆盖所有亚临界模型、任意裂变模型、任意反射边界或所有角核。取 d=1 的 slab 或 d=2、3 的有界矩形域 D，采用入流边界。T04 另限一维 slab 与对称角域。",
+      "angular_model": "固定角集合和正有限角测度 ν，方向 Ω 的模为1；slab 可用方向余弦 μ∈[-1,1]，不在 μ=0 放原子。标准连续角模型与明确固定的有限方向数学模型均可分别选定，但 ν 是目标的一部分。有限方向的精确空间微分解不因此是完整连续角输运的精确解；把其当角离散时须另计角误差。",
+      "group_space": "有限 G 群，固定正群权 m_g。H_D=L²(D×A,dx dν;R^G)，〈u,v〉=∑_g m_g∫u_g v_g。所有空间、角、群权均进入伴随与观察，不由程序默认值替代。",
+      "boundary": "Γ±={(r,Ω): ±Ω·n(r)>0}；B±=L²(Γ±,|Ω·n|dσ dν;R^G,m)。边角及切向零权集合按几乎处处处理。",
+      "graph_space": "W_D 为 H_D 中 Ω·∇v∈H_D 且入/出流迹均在 B± 的输运图空间；采用带 H、流导数及两个加权迹范数的完备化，并使 Green 公式成立。D(L0)={v∈W_D:γ−v=0}，D(L0†)={v∈W_D:γ+v=0}。有非零入流时解属于指定迹的仿射空间，不把它当零入流算子的线性定义域。",
+      "coefficients": "Σ_t 为实对角乘法算子，0<σ0≤Σ_t,g(r,Ω)≤σ1<∞。K 是空间局部、固定、线性、正的群角产生/散射算子，H_D 上有界，κ=||K||<σ0。若存在实际散射/裂变拆分，其全部核一起固定或变换，材料账本必须另满足所用物理模型；κ<σ0 本身不替代材料合法性。",
+      "operator": "L=Ω·∇+Σ_t−K。真正加权伴随的微分表达为 L†=−Ω·∇+Σ_t−K*，并采用 γ+χ=0。",
+      "data": "q∈H_D 的非负锥，β∈B− 的非负锥；对偶权 w∈H_D，可以有符号且不强称物理源。T01/T02 对非零输入作相应限制。",
+      "well_posedness_proof": "自由吸收零入流逆 T=(Ω·∇+Σ_t)₀⁻¹ 由特征线积分定义，||T||≤1/σ0；入流提升 Gβ 的 H 范数≤||β||_B/√(2σ0)。TK 范数<1，所以 ψ=(I−TK)⁻¹(Tq+Gβ) 唯一。流导数及出流迹由方程和能量恒等式控制。伴随由反向特征线同理成立。T、G、K 正给非负输入解的非负性。没有用未证明的‘一般输运必适定’替代此论证。",
+      "green_identity": "对合法 ψ、χ，有 〈χ,Lψ〉−〈L†χ,ψ〉=〈γ+χ,γ+ψ〉_B+−〈γ−χ,γ−ψ〉_B−。这里 B 配对已经含 |Ω·n|、群权、角权。",
+      "closure": "取满足某组 σ0、σ1、κ 且 κ<σ0 的所有此类模型之并，而不是固定同一个数值下界的集合；这样空间缩放 c 后 σ0/c、σ1/c、κ/c 仍满足条件，正逆缩放都留在声明域。T02 对输入相加闭合。"
+    }
+  },
+  "selected_source_evidence": [
+    {
+      "id": "D01",
+      "title": "初态与外源同比例齐次",
+      "source_lines": {
+        "start": 54,
+        "end": 69
+      },
+      "source_contract": {
+        "multi_execution_relation": "n_f(T)=c n_s(T)；固定线性观察亦同比。",
+        "input_transform": "2次：求解(A,u,b,T)与(A,cu,cb,T)，c>0且c≠1。第二端必须真实求解，不能复制/缩放第一端。",
+        "premises": "合法非负初值/源；A、T及单位固定，合法域对缩放闭合；不反馈重算A。",
+        "deduplication_statement": "M-LIN-SCALE；D20为同结构的平衡目标扩展，不直接相加为独立结构发现",
+        "numerical_conditions": "无源同r(TA)线性；含源K_h[cb]=cK_h[b]须单独成立。清零/功率归一化另审；预算E_f+cE_s+比较误差。",
+        "prior_execution_statement": "本轮未取得该具体合同的运行证据；登记为未核实，不等同历史从未执行。",
+        "original_pre_review_status": "第一轮独审要求修订后整册再审；本卡在本合并版本中未独审通过。数学推导、离散资格和运行身份分别审。"
+      },
+      "review_crosswalk": {
+        "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+        "round2_finding": "完整初值和源齐次成立；源响应线性及同算子是必要边界。",
+        "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。",
+        "additional_relation": {
+          "source": "R4 C5",
+          "from": "D01",
+          "to": "D14",
+          "type": "specialization_on_raw_finite_ODE_contract",
+          "map": "E=cI；EAE⁻¹=A、Eu=cu、Eb=cb；E⁻¹y_f=y_s⇔y_f=cy_s。",
+          "scope": "物理幅度/坐标编码语义本次仅标签；不能声称两个独立结构，也不取消 E2 HOM/PERM 子域工程义务。"
+        }
+      },
+      "engineering_update": {
+        "status": "无源 HOM 子合同的 E2 G2 受限通过；真实 E2 SUT 为零，G3 未通过，建议暂不运行。不能覆盖非零源漏变换。",
+        "sources": [
+          "E2"
+        ],
+        "unknowns": [
+          "真实采集、身份绑定及逐端误差资格尚未形成；历史复用默认零。"
+        ]
+      },
+      "specific_open_items": [],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {},
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    },
+    {
+      "id": "D02",
+      "title": "全部线性输入三端叠加",
+      "source_lines": {
+        "start": 71,
+        "end": 86
+      },
+      "source_contract": {
+        "multi_execution_relation": "n_12(T)=n_1(T)+n_2(T)。",
+        "input_transform": "3次：相同A,T下分别求解(u1,b1)、(u2,b2)、(u1+u2,b1+b2)；前两输入非零且不同。",
+        "premises": "全部输入合法，算子/时间/观察一致；源也相加，不得只加初值。",
+        "deduplication_statement": "M-LIN-ADD；与D01共享线性基础，但三输入谓词与单比例不同，不以族名强合并",
+        "numerical_conditions": "同一线性有理传播及线性源离散保持；实际残差界E12+E1+E2+比较误差。",
+        "prior_execution_statement": "本轮未取得该具体合同的运行证据；登记为未核实，不等同历史从未执行。",
+        "original_pre_review_status": "第一轮独审要求修订后整册再审；本卡在本合并版本中未独审通过。数学推导、离散资格和运行身份分别审。"
+      },
+      "review_crosswalk": {
+        "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+        "round2_finding": "三执行可加成立；标量共线正例合法，但不能作为超出幅度方向的独立覆盖。",
+        "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+      },
+      "engineering_update": {
+        "status": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "sources": [
+          "REG3"
+        ],
+        "unknowns": [
+          "具体实例的输入、离散目标、误差、身份与独立后验资格，须按所选合同另核；本次没有重审历史 SUT 原包。"
+        ]
+      },
+      "specific_open_items": [],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {},
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    },
+    {
+      "id": "D03",
+      "title": "不可达观察零响应",
+      "source_lines": {
+        "start": 88,
+        "end": 103
+      },
+      "source_contract": {
+        "multi_execution_relation": "[n_f(T)−n_s(T)]_O=0。",
+        "input_transform": "2次同A/T求解；初值差与实际净状态源差支持在J；观察集合O不可由J到达，含零长路径。",
+        "premises": "两侧实际工作矩阵相同；合法初值/源；源通道变化须检查实际净状态源差，不仅输入参数差；不要求Metzler。",
+        "deduplication_statement": "M-LIN-ZERO；D21一般加权零关系的图坐标特化，保留不需完整目标权的工程权限优势",
+        "numerical_conditions": "同一r在实际参与谱无极点时保零块；源响应另需保支持。冻结PFD例D=r(0)−r(−T)，EZ信号aεD；每端E≤H时τ=2H且aεD>4H为充分拒绝条件，不是必要条件。",
+        "prior_execution_statement": "P v12.3记录E1 54、C1 54调用及各自条件数值核算；旧六调用另列。五状态节点5也有历史记录。此次未重审原始包；identity_certified=false保留。",
+        "original_pre_review_status": "第一轮独审要求修订后整册再审；本卡在本合并版本中未独审通过。数学推导、离散资格和运行身份分别审。"
+      },
+      "review_crosswalk": {
+        "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+        "round2_finding": "可达子空间零观察成立，D21图坐标特化；实际工作矩阵和净源支持须一致。",
+        "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+      },
+      "engineering_update": {
+        "status": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "sources": [
+          "REG3"
+        ],
+        "unknowns": [
+          "具体实例的输入、离散目标、误差、身份与独立后验资格，须按所选合同另核；本次没有重审历史 SUT 原包。"
+        ]
+      },
+      "specific_open_items": [],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {},
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    },
+    {
+      "id": "D04",
+      "title": "固定模型的初态置换",
+      "source_lines": {
+        "start": 105,
+        "end": 120
+      },
+      "source_contract": {
+        "multi_execution_relation": "n(T;Pu)=P n(T;u)。",
+        "input_transform": "2次：同A,b,T，分别初值u与Pu；P为非恒等置换。",
+        "premises": "PA=AP、Pb=b几乎处处，域对P闭合；全初值及含趋零正时间区间的充要分类不能用单时刻替代。",
+        "deduplication_statement": "D04⊂D14：E=P、PA=AP、Pb=b；可独立保留“不改A字段”的工程面，不另计主模式",
+        "numerical_conditions": "r(TA)与P交换；源离散需P K_h[b]=K_h[b]；不同坐标钳位阈值需同步。",
+        "prior_execution_statement": "本轮未取得该具体合同的运行证据；登记为未核实，不等同历史从未执行。",
+        "original_pre_review_status": "第一轮独审要求修订后整册再审；本卡在本合并版本中未独审通过。数学推导、离散资格和运行身份分别审。"
+      },
+      "review_crosswalk": {
+        "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+        "round2_finding": "E=P、PA=AP、Pb=b将本卡映入D14；无额外数学主计。",
+        "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+      },
+      "engineering_update": {
+        "status": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "sources": [
+          "REG3"
+        ],
+        "unknowns": [
+          "具体实例的输入、离散目标、误差、身份与独立后验资格，须按所选合同另核；本次没有重审历史 SUT 原包。"
+        ]
+      },
+      "specific_open_items": [],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {},
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    },
+    {
+      "id": "D06",
+      "title": "自伴传播双激励",
+      "source_lines": {
+        "start": 139,
+        "end": 154
+      },
+      "source_contract": {
+        "multi_execution_relation": "vᵀn_u(T)=uᵀn_v(T)。",
+        "input_transform": "2次正向求解，同一自伴A,T，初值u与v；分别读取与v/u的配对。",
+        "premises": "实欧氏内积下A=Aᵀ，或另证指定加权自伴；合法非退化u,v；零源。",
+        "deduplication_statement": "D06⊂D07⊂D08；A=Aᵀ、同一内积、b=0",
+        "numerical_conditions": "同一无谱极点实系数r保自伴；内积权/观察误差分别传播。",
+        "prior_execution_statement": "本轮未取得该具体合同的运行证据；登记为未核实，不等同历史从未执行。",
+        "original_pre_review_status": "第一轮独审要求修订后整册再审；本卡在本合并版本中未独审通过。数学推导、离散资格和运行身份分别审。"
+      },
+      "review_crosswalk": {
+        "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+        "round2_finding": "D07自伴子域；不另外加为独立数学合同。",
+        "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+      },
+      "engineering_update": {
+        "status": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "sources": [
+          "REG3"
+        ],
+        "unknowns": [
+          "具体实例的输入、离散目标、误差、身份与独立后验资格，须按所选合同另核；本次没有重审历史 SUT 原包。"
+        ]
+      },
+      "specific_open_items": [],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {},
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    },
+    {
+      "id": "D07",
+      "title": "无源正向伴随对偶",
+      "source_lines": {
+        "start": 156,
+        "end": 171
+      },
+      "source_contract": {
+        "multi_execution_relation": "vᵀn=uᵀp。",
+        "input_transform": "2次真实求解：正向(A,u,T)返回n；伴随(Aᵀ,v,T)返回p。同抽象输入(A,u,v,T)。",
+        "premises": "同一T、内积、真正转置算子；无源；v为对偶权不强称物理库存。",
+        "deduplication_statement": "D07⊂D08，b=0；独立保存无源工程合同但不再与父项加为数学主模式",
+        "numerical_conditions": "两端需同一r且在参与谱无极点；不能任意PFD/IPF或16/48阶互代精确等式；观察与内积舍入另计。",
+        "prior_execution_statement": "本轮未取得该具体合同的运行证据；登记为未核实，不等同历史从未执行。",
+        "original_pre_review_status": "第一轮独审要求修订后整册再审；本卡在本合并版本中未独审通过。数学推导、离散资格和运行身份分别审。"
+      },
+      "review_crosswalk": {
+        "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+        "round2_finding": "D08零源特化；同有理核转置保持不等于任意算法互换。",
+        "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+      },
+      "engineering_update": {
+        "status": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "sources": [
+          "REG3"
+        ],
+        "unknowns": [
+          "具体实例的输入、离散目标、误差、身份与独立后验资格，须按所选合同另核；本次没有重审历史 SUT 原包。"
+        ]
+      },
+      "specific_open_items": [],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {},
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    },
+    {
+      "id": "D08",
+      "title": "含外定源的正向伴随对偶",
+      "source_lines": {
+        "start": 173,
+        "end": 188
+      },
+      "source_contract": {
+        "multi_execution_relation": "vᵀn(T)=uᵀp(0)+∫₀ᵀp(t)ᵀb(t)dt。",
+        "input_transform": "至少2次：正向求n(T)，后向伴随求完整p(t)，−p′=Aᵀp、p(T)=v；使用独立定义的b(t)及配对积分。积分评价不是额外SUT。",
+        "premises": "外定可积b，同一空间/内积及真实伴随；完整轨迹或足够积分输出；不得用正向输出反算积分。",
+        "deduplication_statement": "M-ADJOINT-D；D07为零源特化，D06再限制同一自伴算子",
+        "numerical_conditions": "须证明实际离散正向、离散伴随、源注入及求积响应的对偶恒等式；仅有r(A)转置性质不足。积分/轨迹误差单列。",
+        "prior_execution_statement": "本轮未取得该具体合同的运行证据；登记为未核实，不等同历史从未执行。",
+        "original_pre_review_status": "第一轮独审要求修订后整册再审；本卡在本合并版本中未独审通过。数学推导、离散资格和运行身份分别审。"
+      },
+      "review_crosswalk": {
+        "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+        "round2_finding": "乘积求导给含源积分对偶；真实伴随轨迹和积分须分别有误差资格。",
+        "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+      },
+      "engineering_update": {
+        "status": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "sources": [
+          "REG3"
+        ],
+        "unknowns": [
+          "具体实例的输入、离散目标、误差、身份与独立后验资格，须按所选合同另核；本次没有重审历史 SUT 原包。"
+        ]
+      },
+      "specific_open_items": [],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {},
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    },
+    {
+      "id": "D10",
+      "title": "指定正路径定量下界",
+      "source_lines": {
+        "start": 207,
+        "end": 222
+      },
+      "source_contract": {
+        "multi_execution_relation": "Δn_i≥a e^(−βT)T^m W/m!−δ，m为指定路径边数、W为边权乘积。",
+        "input_transform": "2次同实际工作A,T求解；Δu=a e_j、a>0，净源观察贡献≥−δ。",
+        "premises": "T>0、A为Metzler、j→i有m≥1条边组成的正路径，β≥max(0,max_k −A_kk)；实际图/权/对角来自同一A，不混声明与工作图。",
+        "deduplication_statement": "M-PATH-LOWER；与D03共享输出不增加样本；与D09有条件联系而非无条件同谓词",
+        "numerical_conditions": "需直接离散下界或元素逼近γ及源下界−δ_h；L=a(ℓ−γ)−δ_h>τ+E_m才保证拒绝。PFD例健康D≥b_lower、EZ的(1−ε)D≥b_lower分别核验。缺界与有界不分离分列。",
+        "prior_execution_statement": "P v12.3记录E1/C1对应Z/P与各自目标证书；本轮未重核原包或加载身份。不能外推所有路径/网络。",
+        "original_pre_review_status": "第一轮独审要求修订后整册再审；本卡在本合并版本中未独审通过。数学推导、离散资格和运行身份分别审。"
+      },
+      "review_crosswalk": {
+        "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+        "round2_finding": "指定路径边数和非负指数项给定量下界；源负贡献和离散信号界已分列。",
+        "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+      },
+      "engineering_update": {
+        "status": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "sources": [
+          "REG3"
+        ],
+        "unknowns": [
+          "具体实例的输入、离散目标、误差、身份与独立后验资格，须按所选合同另核；本次没有重审历史 SUT 原包。"
+        ]
+      },
+      "specific_open_items": [],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "operational_clarification": {
+        "source": "PLAN25",
+        "status": "较晚受限 G1 语义修订已通过。",
+        "finding": "L>τ_Z+E_m 保证拒绝指定零响应候选，不是拒绝 D10-P；D10-P 核实际两端差≥L−E_m。D03 不可达与 D10 正路径不能同时套于同一健康观察；E1/C1 是不同谓词共享输出。若以后保证负控违反 P，须另外建立负控上界和分离条件。"
+      },
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {
+          "source": "PLAN25",
+          "multi_execution_relation": "D10-P 使用真实两端差检验给定正路径下界；验收下界相容 d_hat≥L−E_m。L>τ_Z+E_m 是拒绝另一个零响应候选的充分条件，不是拒绝 D10-P。",
+          "numerical_conditions": "零响应拒绝和正路径相容分别登记；若要保证负控违反 P，下界不足，须另给负控上界和阈值分离。",
+          "not_mr": "单次参考/证书不增加 MR 或执行。"
+        },
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    },
+    {
+      "id": "D14",
+      "title": "库存的可逆表示与解码",
+      "source_lines": {
+        "start": 275,
+        "end": 290
+      },
+      "source_contract": {
+        "multi_execution_relation": "E⁻¹n_f(T)=n_s(T)；若观察J，则J_f=J E⁻¹。",
+        "input_transform": "2次同抽象问题：原编码(A,u,b,T)，新编码(EAE⁻¹,Eu,Eb,T)；读出新状态后E⁻¹解码。",
+        "premises": "E可逆且全非负锥双向编码时E、E⁻¹≥0，因此E为正对角乘置换；全部标签/源/单位/观察同步。",
+        "deduplication_statement": "M-REP-D；D04固定模型置换为特化；正对角/置换是编码参数，不各加一类发现",
+        "numerical_conditions": "r(EAE⁻¹)=Er(A)E⁻¹，谱无极点；含源须K_EAE⁻¹,h[Eb]=E K_A,h[b]，采样/求积及清零/阈值同步。",
+        "prior_execution_statement": "本轮未取得该具体合同的运行证据；登记为未核实，不等同历史从未执行。",
+        "original_pre_review_status": "第一轮独审要求修订后整册再审；本卡在本合并版本中未独审通过。数学推导、离散资格和运行身份分别审。"
+      },
+      "review_crosswalk": {
+        "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+        "round2_finding": "同步可逆编码和解码成立；全非负锥双向闭合时E为正单项式矩阵，量词正确。",
+        "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。",
+        "additional_relation": {
+          "source": "R4 C5",
+          "from": "D01",
+          "to": "D14",
+          "type": "specialization_on_raw_finite_ODE_contract",
+          "map": "E=cI；EAE⁻¹=A、Eu=cu、Eb=cb；E⁻¹y_f=y_s⇔y_f=cy_s。",
+          "scope": "物理幅度/坐标编码语义本次仅标签；不能声称两个独立结构，也不取消 E2 HOM/PERM 子域工程义务。"
+        }
+      },
+      "engineering_update": {
+        "status": "同步矩阵和初态置换 PERM 子合同的 E2 G2 受限通过；逆置换解码必需，不要求 PA=AP。真实 E2 SUT 为零，G3 未通过，建议暂不运行。",
+        "sources": [
+          "E2"
+        ],
+        "unknowns": [
+          "只覆盖该无源置换子合同，不认证全部可逆表示；不得移作 D04 固定 A 置换执行证据。"
+        ]
+      },
+      "specific_open_items": [],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {},
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    },
+    {
+      "id": "D16",
+      "title": "同一绝对历史分段重启",
+      "source_lines": {
+        "start": 309,
+        "end": 324
+      },
+      "source_contract": {
+        "multi_execution_relation": "n_full(T)=n_restart(T)。",
+        "input_transform": "3次：完整[t0,T]；前段[t0,τ]；把实际前段输出、绝对时钟τ及原历史后缀输入后段。",
+        "premises": "A(t)外定有界可测、b可积、合法解；同一后缀和标签/单位；记忆/反馈须有经证明的充分扩展状态。",
+        "deduplication_statement": "M-HISTORY；D18自治无源半群为特化",
+        "numerical_conditions": "真实离散通常有组合缺陷；第二段必须输入实际第一段输出；预算含后缀传播对中间误差的放大，不能替成参考中间态。",
+        "prior_execution_statement": "本轮未取得该具体合同的运行证据；登记为未核实，不等同历史从未执行。",
+        "original_pre_review_status": "第一轮独审要求修订后整册再审；本卡在本合并版本中未独审通过。数学推导、离散资格和运行身份分别审。"
+      },
+      "review_crosswalk": {
+        "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+        "round2_finding": "外定历史重启成立；须用实际中间态、原时钟、完整状态并传播误差。",
+        "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+      },
+      "engineering_update": {
+        "status": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "sources": [
+          "REG3"
+        ],
+        "unknowns": [
+          "具体实例的输入、离散目标、误差、身份与独立后验资格，须按所选合同另核；本次没有重审历史 SUT 原包。"
+        ]
+      },
+      "specific_open_items": [],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {},
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    },
+    {
+      "id": "D18",
+      "title": "自治无源半群",
+      "source_lines": {
+        "start": 343,
+        "end": 358
+      },
+      "source_contract": {
+        "multi_execution_relation": "连续目标F_T(u)=F_T/2(F_T/2(u))。",
+        "input_transform": "完整T一次；T/2一次；以真实半步输出再T/2一次。",
+        "premises": "固定自治A、零源；合法时间与真实中间状态。",
+        "deduplication_statement": "D18⊂D16；保留SEM工程合同，不加主模式",
+        "numerical_conditions": "固定r通常有非零d_h=[r(TA/2)²−r(TA)]u；E_comp=||B||E1+E2+Efull+Eobs，B=r(TA/2)；现有既有小信号预算不保证分离，不证明所有双精度均不可分。",
+        "prior_execution_statement": "本轮未取得该具体合同的运行证据；登记为未核实，不等同历史从未执行。",
+        "original_pre_review_status": "第一轮独审要求修订后整册再审；本卡在本合并版本中未独审通过。数学推导、离散资格和运行身份分别审。"
+      },
+      "review_crosswalk": {
+        "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+        "round2_finding": "D16自治无源子域；有理离散一般有精确目标缺陷。",
+        "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+      },
+      "engineering_update": {
+        "status": "E3 证书机制和暂不执行判断受限接受；完整 G2/G3 未通过，实际半步输出和转接未完成。全局预算不保证分离约 10^-15 缺陷，不排除逐分量证书路线。",
+        "sources": [
+          "E3"
+        ],
+        "unknowns": [
+          "历史快照未与原 E1 归档逐字节比对；不能把 binary64 表示可行性当作现有 ONIX 实现资格。"
+        ]
+      },
+      "specific_open_items": [],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {},
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    },
+    {
+      "id": "T01",
+      "title": "固定源输运二参数尺度与幅度",
+      "source_lines": {
+        "start": 581,
+        "end": 596
+      },
+      "source_contract": {
+        "multi_execution_relation": "ψ_f(cr,Ω,g)=aψ_s(r,Ω,g)。二维单位高度积分反应率×ac，区域平均通量×a。",
+        "input_transform": "2次完整问题：空间×c、所有宏观总截面及散裂变核÷c、逐方向角源×a/c、入流×a，几何/边界/观察拉回；c,a>0不同时为1。",
+        "premises": "适定唯一、固定规范的群/角/材料及完整核；逐方向源而非混用全角积分源；如称群作用须合法域对正逆作用闭合。",
+        "deduplication_statement": "M-TRANSPORT-SCALE；恢复C10/C11分别为a=1尺度、c=1幅度子作用，工程合同分列不重复主计",
+        "numerical_conditions": "MOC须源构造、真实段长、边界、重构四组件交织；角权不变，轨距及含轨距组合权×c，面积×c²；初猜/停止或输出误差另核。完整离散充分条件不等于真实实现已认证。",
+        "prior_execution_statement": "已直接核读独审结论：M1 round2（MRV-M1）追溯24次已审记录，为原6端先导＋事后A/B＋两轮8端，只有一个物理输入；M2（MRV-M2）为八组全新五端＋一历史混合五端，健康尺度及指定漏散射缩放负控通过限定后验；M3（MRV-M3）九组27端为健康尺度及去1→2负控，三源秩3。此次未读取这些原始包重算，不称本次认证身份。",
+        "original_pre_review_status": "MRV-M1/M2/M3分别有冻结离散范围内后验通过结论；不覆盖连续解误差、自然缺陷、全部核/角/多群模型。getter非内部源缓冲直接观测、EISDIR等限制保留。本统一册仍未独审通过。"
+      },
+      "review_crosswalk": {
+        "round2_status": "local_correction",
+        "round2_finding": "二参数连续协变成立；当前恒定解正例不能支持紧接的漏几何缩放拒绝见证，需局部替换。",
+        "current_mathematical_status": "v3 定向修复闭合，承接第二轮条件数学合同接受。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+      },
+      "engineering_update": {
+        "status": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "sources": [
+          "REG3"
+        ],
+        "unknowns": [
+          "具体实例的输入、离散目标、误差、身份与独立后验资格，须按所选合同另核；本次没有重审历史 SUT 原包。"
+        ]
+      },
+      "specific_open_items": [],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {},
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    },
+    {
+      "id": "T02",
+      "title": "不同空间或能群源三端叠加",
+      "source_lines": {
+        "start": 598,
+        "end": 613
+      },
+      "source_contract": {
+        "multi_execution_relation": "S(xA+xB)=SxA+SxB，比较实际返回场或预定线性观察。",
+        "input_transform": "3次同L：xA=(qA,βA)、xB=(qB,βB)、xA+xB；两个非零不同支持源。",
+        "premises": "同材料/几何/线性边界及唯一固定点；联合端全部源和入流相加；散射反馈须同一完整线性求解，不能只运输一次预设总源。",
+        "deduplication_statement": "M-LIN-ADD的输运域合同；不把不同源样本、软件或轮次另计MR",
+        "numerical_conditions": "固定线性离散及源响应保持；有限迭代/截断、返回场重构和各端误差另核。MC为期望/统计关系，单条随机样本不保证逐值相加。",
+        "prior_execution_statement": "已直接核读MRV-M1：探索性SUP加两轮冻结H_s/A/B，M1总记录24且仅一个物理输入；MRV-M2：八组全新五端＋一历史混合五端含SUP，三源位于二维空间，并非三条独立方向；MRV-M3明确未测SUP。此次未重核原始包，不能从M3尺度/负控移作本卡通过。",
+        "original_pre_review_status": "MRV-M1/M2限定SUP后验结论可保留，先导复用、确定性重复和实际阈值分别登记。M3无SUP证据。本统一册仍待独审。"
+      },
+      "review_crosswalk": {
+        "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+        "round2_finding": "固定完整算子下三端源/入流可加成立；M3无SUP已正确，M1/M2复用和后验范围未外推。",
+        "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+      },
+      "engineering_update": {
+        "status": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "sources": [
+          "REG3"
+        ],
+        "unknowns": [
+          "具体实例的输入、离散目标、误差、身份与独立后验资格，须按所选合同另核；本次没有重审历史 SUT 原包。"
+        ]
+      },
+      "specific_open_items": [],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {},
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    },
+    {
+      "id": "T04",
+      "title": "有流多群偶宇称互易",
+      "source_lines": {
+        "start": 632,
+        "end": 647
+      },
+      "source_contract": {
+        "multi_execution_relation": "〈f,u_g〉_H=〈u_f,g〉_H。",
+        "input_transform": "2次同模型的非负偶源f,g，返回偶宇称u_f,u_g；各以另一个源加权。",
+        "premises": "有流slab、多群、偶源、真空；Ko=0、Ke在固定群角内积有界自伴；形式闭稠密且强制，Σt有正界；合法材料账本。",
+        "deduplication_statement": "T04为T05在同一偶宇称自伴响应空间的特化；不是一般一阶角输运自伴",
+        "numerical_conditions": "同一对称离散形式可保；MOC未自动实现该形式；迹、权、离散对偶及误差另核。",
+        "prior_execution_statement": "本轮未取得该具体合同的运行证据；登记为未核实，不等同历史从未执行。",
+        "original_pre_review_status": "第一轮独审要求修订后整册再审；本卡在本合并版本中未独审通过。数学推导、离散资格和运行身份分别审。"
+      },
+      "review_crosswalk": {
+        "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+        "round2_finding": "偶宇称强制自伴变分问题互易成立；用偶延拓E、偶投影Π=E*及方向反演给T05受限响应适配。",
+        "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+      },
+      "engineering_update": {
+        "status": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "sources": [
+          "REG3"
+        ],
+        "unknowns": [
+          "具体实例的输入、离散目标、误差、身份与独立后验资格，须按所选合同另核；本次没有重审历史 SUT 原包。"
+        ]
+      },
+      "specific_open_items": [
+        "T04→T05 的受限偶响应适配见 R2；不得据此称完整一阶输运算子自伴。"
+      ],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {},
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    },
+    {
+      "id": "T05",
+      "title": "含入流的正伴随对偶",
+      "source_lines": {
+        "start": 649,
+        "end": 664
+      },
+      "source_contract": {
+        "multi_execution_relation": "〈w,ψ〉=〈χ,q〉+∫Γ−|Ω·ν|χβ；角群与空间权完整。",
+        "input_transform": "2次真实求解：正向Lψ=q、入流β；伴随L†χ=w、配对零出流伴随迹。共同抽象输入(q,β,w)。",
+        "premises": "同一内积/定义域，核转置、边界迹及规范匹配；不能用裸转置任意矩阵冒充伴随。",
+        "deduplication_statement": "M-ADJOINT-T；T04须通过同空间响应适配才作为特化",
+        "numerical_conditions": "必须使用带群角权与边界迹的真实离散伴随；输出、积分、迹及比较误差另计。",
+        "prior_execution_statement": "本轮未取得该具体合同的运行证据；登记为未核实，不等同历史从未执行。",
+        "original_pre_review_status": "第一轮独审要求修订后整册再审；本卡在本合并版本中未独审通过。数学推导、离散资格和运行身份分别审。"
+      },
+      "review_crosswalk": {
+        "round2_status": "conditional_mathematical_contract_accepted_not_execution_qualification",
+        "round2_finding": "真实伴随及完整边界Green配对成立；正例体积分e^-1、边界1-e^-1之和为1。",
+        "current_mathematical_status": "第二轮在声明条件下接受数学合同；v3 未变部分沿用该受限结论。",
+        "evidence": [
+          "REG3",
+          "R2",
+          "R3"
+        ],
+        "scope_limit": "这是逐卡条件命题及登记状态，不是独立性证明、工程执行资格或普遍正确性认证。"
+      },
+      "engineering_update": {
+        "status": "本次未核到比 v3 卡中更晚且可直接对应本卡的执行更新；沿用原卡有界历史说明，不推断从未执行。",
+        "sources": [
+          "REG3"
+        ],
+        "unknowns": [
+          "具体实例的输入、离散目标、误差、身份与独立后验资格，须按所选合同另核；本次没有重审历史 SUT 原包。"
+        ]
+      },
+      "specific_open_items": [],
+      "independent_count_contribution": null,
+      "count_reason": "计数规则及逐对等价/包含/重叠裁决未冻结，不从卡号自动赋值。",
+      "active_contract": {
+        "base": "source_contract（保留冻结 v3 原文快照）",
+        "precedence": "effective_overrides > source_contract；overlay 不改写源件",
+        "effective_overrides": {},
+        "status": "数学状态按 R2/R3/R4；工程状态不由继承升级。"
+      }
+    }
+  ],
+  "source_evidence_precedence": "selected_source_evidence.source_contract 保留冻结登记册的历史文字；review_crosswalk、active_contract 与本稿 latest_review_state/更晚R5勘误优先。历史“未审”“不另加”不得误作当前整表结论。工程证据只是报告级继承，本次未重验历史原包。",
+  "unresolved_pair_register": [
+    {
+      "pairs": "D02 对 D06/D07/D08",
+      "reason": "三独立输入求解与两端对偶求解的图不同，完整向量加法与交叉标量不同；线性/双线性共同来源不构成保图等价。",
+      "status": "不主张全域等价；不是任意逻辑独立性证明。"
+    },
+    {
+      "pairs": "D02 对 D16/D18",
+      "reason": "同为三求解但D02无返回→输入数据边，历史合同有prefix→suffix强制数据边；前者完整输入相加，后者切分时间。保图适配不能删除/新增该边。",
+      "status": "本口径下不能靠同为三端强合并。"
+    },
+    {
+      "pairs": "D06/D07/D08 对 D16/D18",
+      "reason": "两端标量对偶观察与三端真实中间态全向量重启不同；轨迹积分访问不等于独立prefix求解和suffix转接。",
+      "status": "不主张等价或自动包含。"
+    },
+    {
+      "pairs": "S2三条 对 D02/D16/D18",
+      "reason": "S2两端表示/幅度变换与三个实际求解的相加/拼接合同图不同；共同base或共同坐标协变不能抹除第三节点。",
+      "status": "除已列受限关系和协变适配外不新增等价边。"
+    },
+    {
+      "pairs": "S2三条 对 D06/D07/D08",
+      "reason": "可能同为两求解，但全状态可逆编码关系与固定交叉标量/积分关系的信息不同；已列自伴、交换、正对角交织子域只给一向观察推导。",
+      "status": "不因两端或共有矩阵指数而全域合并。"
+    },
+    {
+      "pairs": "B3-D03/B3-D10 对本阶段其余节点及未选D21等",
+      "status": "只使用关系表中的具体受限映射。",
+      "reason": "图零与正路径有实质不同观察；没有因共享线性系统或共享输出就宣布所有对等价或独立。"
+    },
+    {
+      "pairs": "TR-T01/T02完整场 对 ODE终态",
+      "status": "只允许共同纯吸收域并显式取出口投影后的对应。",
+      "reason": "完整场到出口非一般无损映射；出口是graph/trace观察，不是H上的有界点值；不新增出口变体计数节点。"
+    },
+    {
+      "pairs": "所有新增节点的全域等价类与父模板覆盖",
+      "status": "待独审；merged_effective_class_count=null。",
+      "reason": "当前表给出可证的方向与不能无声合并的接口差异，不宣称已经穷举或裁决全部可能适配。"
+    }
+  ],
+  "review_requests": [
+    "先确认 E2 勘误闭合且不改变 R5 的 S2 受限结果；勿再扩大二维3类为全局数。",
+    "逐条审 B3-ZP 的实际工作图、合法源差与活跃P阈值；Z/P共用两返回但不同观察，不增加样本。",
+    "审六条新增ODE的二维原始域和最小观察：D06→D07→D08，D18→D16；真实中间态、原绝对时钟、源积分独立取得。",
+    "审T01/T02完整场、空间/角/群权和充分适定域；T01反应率按d维处理，T02不同支持例不退化为幅度覆盖。",
+    "审T04/T05图域、真空Robin、Ke/Ko、E/Π/R、S*=RSR及非零边界例；不得把一阶L称自伴。",
+    "审跨批受限标量投影与共同纯吸收出口投影；没有可逆全域映射就不作union，overlap不可传递。",
+    "给可接受、需小修、未决的逐项清单。以形成实质有效MR清单为主，先接受可证明的合同和边，不要求靠形式分拆凑新增数量。若愿计本有限清单类数，必须给完整分组/排除理由；否则保留null。",
+    "数学接受不放行SUT，不移用历史维数、角模型、输入样本、程序身份或未完成门控作为本批工程资格。"
+  ],
+  "engineering_status_brief": {
+    "E2": "无源HOM与PERM有限G2已审，分别覆盖cI与P子域；0 E2实测。K1/K2/K3维数3/5/4不直接覆盖二维S2。",
+    "E3": "受限证书机制与暂不执行结论已审；完整G2/G3及实际半步转接未闭合。不是所有binary64不可分的定理。",
+    "E5": "coarse受限接受；fine在捕获前重复hash核验超时，未保留blind fine。3次计费不等于3次已完成SUT。暂停，不是MR反证，也不是还等原因复核。",
+    "ZP": "保留E1/C1报告级历史范围及身份限制；未在本次重核原包。",
+    "transport": "T01保留M1/M2/M3限定SCALE；T02仅M1/M2限定SUP，M3未测SUP；本批解析场和新角核不是工程输出。",
+    "all": "新伴随入口、源/迹积分、离散交织、误差、身份、阈值、预算和后续授权均未由数学清单自动赋予。"
+  },
+  "fragment_source_identity": [
+    {
+      "filename": "expansion_core_path_contracts_20261106.json",
+      "bytes": 7326,
+      "sha256": "19c8960ad5889910d029b670d6079f18731fd79f45986e3be4e2f1f2108f9008"
+    },
+    {
+      "filename": "expansion_depletion_contracts_20261106.json",
+      "bytes": 53247,
+      "sha256": "5f490aba1884be0d3b4ba1f2d9dc4c8a3e985460e21d0356281b5408edfcbd91"
+    },
+    {
+      "filename": "expansion_transport_contracts_20261106.json",
+      "bytes": 37109,
+      "sha256": "72c27e8d17f1771ba0ccba86f191a5e8df89b12327355026488890e0f2bf0086"
+    },
+    {
+      "filename": "mr_s2_review_and_e2_correction_20261106.json",
+      "bytes": 2826,
+      "sha256": "7127c589967df851d1dd6eb822708c770db9d91c3871886804a11b60cd5621f6"
+    }
+  ]
+}

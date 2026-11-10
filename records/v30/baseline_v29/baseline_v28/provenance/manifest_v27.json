@@ -1,0 +1,129 @@
+{
+  "schema": "v27-delivery-manifest/1.0",
+  "date": "2026-11-08",
+  "main": "结构MR离散后有效性预测_重构稿_v27.md",
+  "main_sha256": "a2e9a36f5f28f87fe5229ae2fadc1434dbe26818d0c2446c1aeb2f4213f92c39",
+  "baseline": {
+    "library_file_id": "libfile_fde3_f-aafb59daef348191bd7b0b145083c862_0494671ff73c819189f74404b3b983a5",
+    "version": 0,
+    "sha256": "ce36cacdec5e658aa1290363d65bd4d1e43e9e3080cea1afd4c90c395f53da18"
+  },
+  "scientific_archive_sha256": "45dc02cb2223aa5f5bc9bb2622f289b251a1e190fe9ae145a05464171c3ec15e",
+  "scope": "Static restructuring and targeted independent verification only; 78 text/identity checks. No SUT, scientific package scripts, certificate regeneration or STOP release. Historical verification is identified as historical.",
+  "remaining_limits": [
+    "Prospective predictive validity not evaluated",
+    "Specific prior-work component mapping incomplete",
+    "M1 enclosure and complete runtime identity incomplete",
+    "MOC author-derived materials distinct from newly retrieved contract JSONs remain missing",
+    "Complete official TSE/TOSEM author guidelines unavailable this round; submission format not certified",
+    "Human author responsibility and external access arrangements not confirmed"
+  ],
+  "files": [
+    {
+      "path": "README_v27.md",
+      "bytes": 3907,
+      "sha256": "1e5e1068bb7e885b6edaad90a21548c7652d30d6a7b7d02e2c436bbdfc412f80"
+    },
+    {
+      "path": "evidence/v25_N1_final_review_package.zip",
+      "bytes": 19246832,
+      "sha256": "45dc02cb2223aa5f5bc9bb2622f289b251a1e190fe9ae145a05464171c3ec15e"
+    },
+    {
+      "path": "evidence_inventory_v27.json",
+      "bytes": 32290,
+      "sha256": "659b6e8d097ec071291101793e9d8534162cc9538418297fb924e00a40eea475"
+    },
+    {
+      "path": "provenance/参考文献元数据核对_v26.json",
+      "bytes": 77781,
+      "sha256": "6e479a42708daf730726bc325f1010cfc35375ec03dcaf860d20c4e138f5d331"
+    },
+    {
+      "path": "provenance/来源核对_v26.json",
+      "bytes": 5185,
+      "sha256": "7d67d33a26dd0b1b36e43d0edfc5b32d28ed4866f3caead1080aa1ec8eac3aea"
+    },
+    {
+      "path": "provenance/核验报告_v26_独立定向.md",
+      "bytes": 9760,
+      "sha256": "6f5756bb3ae0e236ca8186170c4ff39b9109ba74b222c63bce5ad80a2c2386e8"
+    },
+    {
+      "path": "provenance/结构MR有效范围与能力边界_修订稿_v26.md",
+      "bytes": 137341,
+      "sha256": "ce36cacdec5e658aa1290363d65bd4d1e43e9e3080cea1afd4c90c395f53da18"
+    },
+    {
+      "path": "reviews/v25_ARS全新评审_完整交付包.zip",
+      "bytes": 588454,
+      "sha256": "f89b58e9fdd48973f49b2c9c06f28841ec736561417fb65697198b61b9c7c3f4"
+    },
+    {
+      "path": "upstream/independent-finite15-dedup-and-evidence-review.json",
+      "bytes": 64793,
+      "sha256": "1d48cd5ff96a9497f5402717ce8cc51327a6f356b80e48f9f5b009806b16a3ad"
+    },
+    {
+      "path": "upstream/mr_finite15_adjudication_and_evidence_20261106.json",
+      "bytes": 167555,
+      "sha256": "5f6942e26f3af389708da3d82b3698140849b044c8e437ecb75ea94b1c4d409d"
+    },
+    {
+      "path": "upstream/mr_valid_contract_inventory_stage3_20261106.json",
+      "bytes": 230730,
+      "sha256": "638828dc8eec441f82434a403efcdf4b03e81450d8dbafe880b11cd1a482b2f9"
+    },
+    {
+      "path": "v26_result_index.json",
+      "bytes": 384290,
+      "sha256": "6460d91e0f2d025f17db0d3f9b90c16c99ecee297da2c02d7579d2e16df5280c"
+    },
+    {
+      "path": "v27_section_migration.json",
+      "bytes": 18450,
+      "sha256": "9260e20bb8fa081f6a901a2a4e78ee7421864efa5af5794a63c20f32148910ce"
+    },
+    {
+      "path": "v27_static_verification.json",
+      "bytes": 8978,
+      "sha256": "91f47ec0f6a7bf89503fc50d0acfc58084adc6cc1f6e6712f6c26a864f90d99b"
+    },
+    {
+      "path": "verify_v27_static.py",
+      "bytes": 5033,
+      "sha256": "9dcdbab6016b051446f2bf33f51f31e24b76dd2088bbb8eb004089c9d932fbb7"
+    },
+    {
+      "path": "变更说明_v27.md",
+      "bytes": 9606,
+      "sha256": "da1019704c8815df91663fbb675ac3eb3820639f052d7f92b6b375d2598d0f72"
+    },
+    {
+      "path": "来源增量核对_v27.json",
+      "bytes": 4806,
+      "sha256": "e568b3a62602b803a810cd1ed9c6e7e3e0f7f5ee342d177769c517f4f8bf330b"
+    },
+    {
+      "path": "核验报告_v27_独立定向.md",
+      "bytes": 13032,
+      "sha256": "bd89880d7badb5264d0afeadf3944fd92273226bbb6a0b3e632378ce4fc8e7ae"
+    },
+    {
+      "path": "章节映射与修复计划_v27.md",
+      "bytes": 8650,
+      "sha256": "048656f1469462fd7e99992ee8d0472dc54b89b5adb577f90b111fda14daf520"
+    },
+    {
+      "path": "结构MR离散后有效性预测_重构稿_v27.md",
+      "bytes": 154704,
+      "sha256": "a2e9a36f5f28f87fe5229ae2fadc1434dbe26818d0c2446c1aeb2f4213f92c39"
+    },
+    {
+      "path": "证据缺口与最小实验方案_v27.md",
+      "bytes": 21388,
+      "sha256": "d7c3eb6769cba3e4067c4ed8a524a1d95df6b357bf0f7d96b64f06301bba4e59"
+    }
+  ],
+  "manifest_scope": "Hashes cover listed files; manifest excludes itself and outer ZIP."
+}

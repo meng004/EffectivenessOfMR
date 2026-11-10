@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-08",
+  "scope": "定向来源核对，不是系统综述；公开源与运行身份分别记录",
+  "entries": [
+    {
+      "ref": "[16]",
+      "authors": "Huai Liu; Fei-Ching Kuo; Dave Towey; Tsong Yueh Chen",
+      "url": "https://doi.org/10.1109/TSE.2013.46",
+      "read": "IEEE出版摘要与引言片段、Nottingham机构元数据/摘要",
+      "use": "MR多样性与适当关系的重要性；仅作为机制覆盖设计依据，不移用其效果数值"
+    },
+    {
+      "ref": "[17]",
+      "authors": "Kun Qiu; Zheng Zheng; Tsong Yueh Chen; Pak-Lok Poon",
+      "url": "https://2021.esec-fse.org/details/fse-2021-journal-first/28/An-Extended-Abstract-of-Theoretical-and-Empirical-Analyses-of-the-Effectiveness-of-",
+      "read": "IEEE出版摘要、官方Journal First扩展摘要",
+      "use": "输入/输出映射条件—理论保证—实证—使用指导；不把单射转作数值裕量"
+    },
+    {
+      "ref": "[21]",
+      "authors": "Xiaoyuan Xie et al.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0164121210003213",
+      "read": "出版摘要、引言、各节节选；PMC正文可访问但本轮未逐页全文审计",
+      "use": "必要属性与用户预期、验证与确认的区分；引用仍为JSS，不误称TSE/TOSEM"
+    },
+    {
+      "ref": "[24]",
+      "authors": "Chang-ai Sun; An Fu; Pak-Lok Poon; Xiaoyuan Xie; Huai Liu; Tsong Yueh Chen",
+      "url": "https://2020.icse-conferences.org/details/icse-2020-Journal-First/21/An-Extended-Abstract-of-METRIC-A-Metamorphic-Relation-Identification-Technique-Bas",
+      "read": "官方Journal First扩展摘要；IEEE DOI入口返回机器人验证，无全文核验",
+      "use": "联合输入/输出域、系统化指南；不借用其效果作本文实证"
+    },
+    {
+      "ref": "[25]",
+      "authors": "Zhi Quan Zhou; Liqun Sun; Tsong Yueh Chen; Dave Towey",
+      "url": "https://2019.icse-conferences.org/details/icse-2019-Journal-First-Paper/25/Metamorphic-Relations-for-Enhancing-System-Understanding-and-Use",
+      "read": "官方Journal First作者/题名记录；本轮检索还读到作者论文托管的摘要和正文节选；不升级为全文审计",
+      "use": "MR支持系统理解与使用的既有定位；不声称本文首次提出该目标"
+    },
+    {
+      "ref": "[31]",
+      "url": "https://onix-documentation.readthedocs.io/en/stable/index.html",
+      "read": "ONIX官方推荐书目及GitHub README；期刊DOI页访问失败，完整文章号与DOI由父线程独立核验转交",
+      "use": "ONIX为开源燃耗程序，可与OpenMC耦合；官网不证明归档运行身份",
+      "additional_bibliographic_verification": "本轮已直接从Crossref取得完整题名、作者、卷页/文章号、正式年份与DOI，支持父线程转交书目；实际正文阅读范围仍按read字段。"
+    },
+    {
+      "ref": "[32]",
+      "url": "https://docs.openmc.org/en/stable/publications.html",
+      "read": "官方出版列表及v0.15.2概述；完整书目DOI父线程转交",
+      "use": "OpenMC程序背景，不将蒙卡输运能力当C1已测内容",
+      "additional_bibliographic_verification": "本轮已直接从Crossref取得完整题名、作者、卷页/文章号、正式年份与DOI，支持父线程转交书目；实际正文阅读范围仍按read字段。"
+    },
+    {
+      "ref": "[33]",
+      "url": "https://docs.openmc.org/en/stable/_modules/openmc/deplete/cram.html",
+      "read": "官方IPFCramSolver说明及顺序因子更新源码；燃耗论文书目父线程核验转交，DOI正文访问失败",
+      "use": "IPF方法归属、16/48阶可用性；当前代码不替代冻结0.15.3",
+      "additional_bibliographic_verification": "本轮已直接从Crossref取得完整题名、作者、卷页/文章号、正式年份与DOI，支持父线程转交书目；实际正文阅读范围仍按read字段。"
+    },
+    {
+      "ref": "[34]",
+      "url": "https://mit-crpg.github.io/OpenMOC/publications.html",
+      "read": "官方书目及出版商摘要/引言/节选",
+      "use": "MOC确定性输运背景；不当燃耗器",
+      "additional_bibliographic_verification": "本轮已直接从Crossref取得完整题名、作者、卷页/文章号、正式年份与DOI，支持父线程转交书目；实际正文阅读范围仍按read字段。"
+    }
+  ],
+  "limitations": [
+    "未认证全部30项旧引用全文",
+    "指定作者未参与本修订；不模仿个人表达",
+    "旧文献阅读历史保留其原记录，不回填为本轮核读",
+    "不新增SciML实证"
+  ],
+  "bibliographic_audit": {
+    "file": "参考文献元数据核对_v26.json",
+    "doi_records": 29,
+    "retrieved": 29,
+    "failed_final": 0,
+    "content_scope": "书目元数据核验不代替正文核读",
+    "non_doi": {
+      "1": "前轮arXiv2605.17390v1公开精确版本及定向章节",
+      "2": "前轮arXiv2606.17529v1公开精确版本及定向章节",
+      "13": "前轮arXiv2605.17437v2公开精确版本及定向章节",
+      "14": "本轮固定commit GitHub源文件入口",
+      "30": "本轮JMLR官方题名作者卷页年份和摘要"
+    }
+  }
+}

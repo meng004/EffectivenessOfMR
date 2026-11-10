@@ -1,0 +1,3582 @@
+{
+  "title": "15 合同有限宇宙：去重裁决、模板覆盖与实证论证优先级",
+  "version": "FINITE15-ADJUDICATION-20261106",
+  "date_utc": "2026-11-06",
+  "scope": "仅裁决第三阶段已受限接受的15条合同；不扩域、不增节点、不改变其定义，不把数学接受当工程运行许可。",
+  "source_baseline": {
+    "filename": "mr_valid_contract_inventory_stage3_20261106.json",
+    "bytes": 230730,
+    "sha256": "638828dc8eec441f82434a403efcdf4b03e81450d8dbafe880b11cd1a482b2f9",
+    "source_bundle_library_ids": [
+      "libfile_fde3_f-6c31a825d8d08191a1091e2269c1f83e_0494671ff73c819189f74404b3b983a5",
+      "libfile_fde3_f-1ba964e7ebac8191b47988b089a8a500_0494671ff73c819189f74404b3b983a5",
+      "libfile_fde3_f-1d6140ba3448819189fcef725989e6c6_0494671ff73c819189f74404b3b983a5"
+    ],
+    "latest_independent_review": {
+      "library_file_id": "libfile_fde3_f-6e0f20baadc88191ab74e9f7663da984_0494671ff73c819189f74404b3b983a5",
+      "thread_id": "01a1afe9-6ca2-763d-9736-5205a77360cc",
+      "turn_id": "01a1b285-c178-76e1-bce6-f0ab653fb3b9",
+      "read": "本次完整读取491行独审JSON及最终消息。受限接受15合同/25关系；它未签认15个去重类，未重认证历史SUT包。",
+      "acceptance": {
+        "finite_mathematical_inventory": "受限接受；可冻结这15条明确条件的多执行合同记录及这25条带类型和方向的关系说明，作为有限数学基线。",
+        "blocking_defects_found": [],
+        "counting": "15是合同记录数，不据此签认15个去重有效类、独立定理或独立检测能力。原S2局部3类/1父模板保持；新增、合并及全局有效类数继续null。",
+        "can_expand": "可以继续零SUT数学集合扩展与去重裁决。不得把此结论解释为扩实验资格；任一实际实验仍须具体离散目标、输入、观测、误差、身份与预算的独立前置门控。",
+        "not_changed": [
+          "冻结登记册v3",
+          "原S2文件",
+          "全部旧STOP",
+          "执行预算",
+          "现有实验状态"
+        ],
+        "authorization": "未签发任何GO或运行授权。"
+      },
+      "accepted_contracts": [
+        {
+          "id": "S2-D01",
+          "verdict": "保留前轮受限接受",
+          "limit": "E2只有无源有限G2；K维数3/5/4，不能覆盖本二维含源域；没有E2实测。"
+        },
+        {
+          "id": "S2-D04",
+          "verdict": "保留前轮受限接受",
+          "limit": "不能把E2 D14-PERM的同步改变A当作本卡固定A实测。"
+        },
+        {
+          "id": "S2-D14",
+          "verdict": "保留前轮受限接受",
+          "limit": "E2 HOM与PERM分别为cI和P子域，更新说明闭合前轮勘误。"
+        },
+        {
+          "id": "B3-D03",
+          "verdict": "本批条件数学合同接受",
+          "limit": "只承接E1/C1报告级Z机制；新三维解析例不是历史真实运行复演。"
+        },
+        {
+          "id": "B3-D10",
+          "verdict": "本批条件数学合同接受",
+          "limit": "P相容为d_hat≥L−E_m；L>τ_Z+E_m只排除指定零候选。历史Z/P不能在同一个健康观察上同时要求不可达和正路径。"
+        },
+        {
+          "id": "S3-D02",
+          "verdict": "本批条件数学合同接受",
+          "limit": "必须有三个真实节点；共同错误线性映射仍通过。没有由HOM两端补齐SUM第三端。"
+        },
+        {
+          "id": "S3-D06",
+          "verdict": "本批条件数学合同接受",
+          "limit": "点态自伴历史不够；加权情形须另冻结内积。没有新的真实互易运行。"
+        },
+        {
+          "id": "S3-D07",
+          "verdict": "本批条件数学合同接受",
+          "limit": "合法数学对偶初态不等于物理前端接受有符号库存；正负拆分会增加节点。"
+        },
+        {
+          "id": "S3-D08",
+          "verdict": "本批最小观察接口下条件接受",
+          "limit": "非零源需要认证轨迹/积分；L¹存在性不授予有限点求积精度。若坚持无条件完整轨迹的强接口，D07到该强接口只能记投影，不能无损升级。"
+        },
+        {
+          "id": "S3-D16",
+          "verdict": "本批条件数学合同接受",
+          "limit": "后缀增益乘prefix/转接误差不可省；离散内部状态、输入合法性和组合缺陷单独验收。"
+        },
+        {
+          "id": "S3-D18",
+          "verdict": "本批条件数学合同接受",
+          "limit": "正确离散不必满足连续零残差；E3完整G2/G3与实际半步未完成，不推广为所有binary64不可分。"
+        },
+        {
+          "id": "TR-T01",
+          "verdict": "本批条件数学合同接受",
+          "limit": "有限方向精确空间目标与连续角目标分开；体H误差不自动给出口迹误差。历史SCALE只继承M1/M2/M3各自范围。"
+        },
+        {
+          "id": "TR-T02",
+          "verdict": "本批条件数学合同接受",
+          "limit": "M1/M2限定SUP可以报告级继承；M3没有SUP。全场MR与出口投影子观察不等价。"
+        },
+        {
+          "id": "TR-T04",
+          "verdict": "本批条件数学合同接受",
+          "limit": "成对方向散射测度例合法且已声明非一般光滑角核；不要求现有软件支持它才承认数学合同。离散偶奇消元/权/求积尚无程序资格。"
+        },
+        {
+          "id": "TR-T05",
+          "verdict": "本批条件数学合同接受",
+          "limit": "返回必须足以独立形成体积分与迹配对，不能从前向差反算；没有新真实伴随入口或源/迹捕获证据。"
+        }
+      ],
+      "accepted_relation_ids": [
+        "E-S2-HOM-REP",
+        "E-S2-SYM-REP",
+        "E-S2-HOM-SYM",
+        "E-B3-Z-WEIGHT",
+        "E-B3-Z-P-SHARE",
+        "E-B3-P-ORDER",
+        "E-D06-D07",
+        "E-D07-D08",
+        "E-D06-D08",
+        "E-D18-D16",
+        "X-D02-HOM",
+        "X-PERM-RECIP",
+        "X-HOM-RECIP",
+        "X-REP-ADJOINT",
+        "X-COMMON-COORDINATES",
+        "X-SHARED-BASE",
+        "E-TR-T04-T05",
+        "E-TR-CROSS-01",
+        "E-TR-CROSS-02",
+        "E-TR-CROSS-03",
+        "E-TR-CROSS-04",
+        "E-TR-CROSS-05",
+        "E-TR-CROSS-06",
+        "E-TR-DISTINCT-01",
+        "E-TR-DISTINCT-03"
+      ]
+    }
+  },
+  "counting_decision": {
+    "status": "本次作者侧有限全域裁决完成，供独立复审签认；R6本身尚未签认这一新计数。",
+    "unit": "整个冻结声明域上的具体条件多执行数学合同等价类；不是最小定理基、独立检测能力或实际实验数。",
+    "universe_size": 15,
+    "unordered_pairs_required": 105,
+    "unordered_pairs_adjudicated": 105,
+    "relation_kind_counts": {
+      "distinct": 84,
+      "strict_specialization": 7,
+      "projection_or_overlap": 14
+    },
+    "equivalent_pair_count": 0,
+    "whole_domain_unknown_pair_count": 0,
+    "class_lower_bound": 15,
+    "class_upper_bound": 15,
+    "exact_finite_contract_class_count": 15,
+    "equivalence_classes": [
+      [
+        "S2-D01"
+      ],
+      [
+        "S2-D04"
+      ],
+      [
+        "S2-D14"
+      ],
+      [
+        "B3-D03"
+      ],
+      [
+        "B3-D10"
+      ],
+      [
+        "S3-D02"
+      ],
+      [
+        "S3-D06"
+      ],
+      [
+        "S3-D07"
+      ],
+      [
+        "S3-D08"
+      ],
+      [
+        "S3-D16"
+      ],
+      [
+        "S3-D18"
+      ],
+      [
+        "TR-T01"
+      ],
+      [
+        "TR-T02"
+      ],
+      [
+        "TR-T04"
+      ],
+      [
+        "TR-T05"
+      ]
+    ],
+    "proof": "上界15由有限集合大小给出。全部105个不同节点对各有允许适配必须保持的不变量或具体非逆信息证书，故任何两节点不可同类，给下界15；上下界一致。不是从“表里没有equivalent边”反推15，也不是把3与12、ODE与输运记录盲加。",
+    "independent_review_signed_finite_count": null,
+    "already_independently_accepted_S2_local_count": 3,
+    "global_effective_unique_MR_count": null,
+    "engineering_qualified_count": null,
+    "meaning": "在既定计数口径和这15个冻结节点内，可提出精确15类。新增裁决待独审；全局未知。严格子合同虽全域身份不同，仍不得宣传为新增独立科学贡献。"
+  },
+  "status_precedence": "R6是第三阶段15合同的较晚数学状态伴随，不改源文件。下列计数论证是本次新增作者侧裁决；不得冒称R6已接受该计数。S2原受限3类/1父模板仍保留其局部含义。",
+  "safeguards": {
+    "SUT_calls": 0,
+    "numerical_propagation_calls": 0,
+    "new_experiments": 0,
+    "new_contract_nodes": 0,
+    "frozen_registry_modified": false,
+    "stage3_source_modified": false,
+    "STOP_or_budgets_modified": false,
+    "GO_issued": false
+  },
+  "review_request": "复核有限全域等价分组及其不变量证明，区分严格特化、非逆投影与未知；只裁决这15项，不要求无限扩展。实证优先级是已有证据的论证选取，不是执行计划或GO。",
+  "universe": [
+    {
+      "id": "S2-D01",
+      "card_id": "D01",
+      "title": "二维完整初态外源齐次合同",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=S2-D01]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    },
+    {
+      "id": "S2-D04",
+      "card_id": "D04",
+      "title": "二维固定模型交换置换合同",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=S2-D04]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    },
+    {
+      "id": "S2-D14",
+      "card_id": "D14",
+      "title": "二维完整可逆正单项式变换合同",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=S2-D14]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    },
+    {
+      "id": "B3-D03",
+      "card_id": "D03",
+      "title": "不可达观察零响应",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=B3-D03]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    },
+    {
+      "id": "B3-D10",
+      "card_id": "D10",
+      "title": "指定正路径的两执行响应下界",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=B3-D10]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    },
+    {
+      "id": "S3-D02",
+      "card_id": "D02",
+      "title": "全部初态外源三端叠加",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=S3-D02]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    },
+    {
+      "id": "S3-D06",
+      "card_id": "D06",
+      "title": "同一欧氏自伴传播双激励",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=S3-D06]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    },
+    {
+      "id": "S3-D07",
+      "card_id": "D07",
+      "title": "无源正向与真实伴随端点对偶",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=S3-D07]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    },
+    {
+      "id": "S3-D08",
+      "card_id": "D08",
+      "title": "含外定L1源的最小观察伴随对偶",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=S3-D08]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    },
+    {
+      "id": "S3-D16",
+      "card_id": "D16",
+      "title": "同一绝对历史的真实中间态重启",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=S3-D16]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    },
+    {
+      "id": "S3-D18",
+      "card_id": "D18",
+      "title": "自治零源三执行半群",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=S3-D18]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    },
+    {
+      "id": "TR-T01",
+      "card_id": "T01",
+      "title": "完整输运二参数尺度幅度协变",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=TR-T01]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    },
+    {
+      "id": "TR-T02",
+      "card_id": "T02",
+      "title": "不同支持完整源三端叠加",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=TR-T02]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    },
+    {
+      "id": "TR-T04",
+      "card_id": "T04",
+      "title": "有流偶宇称双激励互易",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=TR-T04]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    },
+    {
+      "id": "TR-T05",
+      "card_id": "T05",
+      "title": "含入流的前向伴随Green对偶",
+      "contract_definition": "冻结第三阶段JSON tables.selected_contracts[id=TR-T05]",
+      "latest_math_status": "R6受限接受；不等于本次去重计数已独审或完整工程覆盖"
+    }
+  ],
+  "identity_policy": {
+    "primary_unit": "声明语义下的具体条件数学合同全域等价类；不是最小独立定理基。",
+    "mathematical_key": [
+      "精确目标层级",
+      "量词及合法域",
+      "执行图和端角色",
+      "输入变换",
+      "观察/解码和关系谓词",
+      "定理必需方法/界",
+      "预先可取得的信息权限"
+    ],
+    "engineering_key": [
+      "实际程序/版本/平台",
+      "参数与系数字节",
+      "实际 H/阈值/舍入",
+      "捕获身份",
+      "轮次/复用/预算"
+    ],
+    "equivalence": "必须给出双向、覆盖双方整个声明域、保持目标/端角色/变换作用/观察及先验信息的无损类型或记号适配。不允许删去前提、限子域、增删求解、引入未知正确解或任意计算归约后声称等价。",
+    "specialization": "全父域与严格子域不是同一等价类；子域内双向谓词等价只记为受限别名。仅 equivalent 才可求闭包，specialization 保留方向，overlap 不传递合并。",
+    "execution_definition": "至少两个分别实际计算的求解返回参与非平凡关系；允许声明的共享 base 和中间态依赖，不要求统计独立或不同进程。不得用复制/变换输出冒充新求解。理论合同规定这些端，未运行不影响条件定理资格。",
+    "allowed_adapters": [
+      "对所有问题和观察作同一个预先给定的无损类型/记号改写；参数重命名必须保持其合法集合和作用。",
+      "可在同一声明域内将可逆输出等式 E⁻¹y_f=y_s 改写为 y_f=E y_s；不改变执行图或信息。",
+      "全域等价映射须额外给出保持 raw 问题、端点角色及变换作用的证明；任意集合双射或任意程序归约不在本次口径内。",
+      "如果共同坐标变换被提出为适配，必须同时变换 A、u、b、观察，且保持已声明输入域和信息；作用矩阵谱不变。"
+    ],
+    "no_new_scope": "不重新定义身份来凑数量。沿R4/R5及第三阶段的raw目标/域/端角色/观察/信息要求；候选返回上的共同可逆坐标或无损记号重写不能丢观察、改变求解图或编码未知正确解。不是关于所有抽象集合双射或任意程序归约的不可约性定理。"
+  },
+  "normalization_decisions": [
+    "TR-T01和TR-T02计入的是第三阶段完整场主谓词；预选较弱线性观察的备注以及实际区域/出口实证，是投影/工程观察，不悄悄替换计数节点。",
+    "D08继续采用已接受的最小所需观察：b=0时J=0由输入已知，b≠0从真实伴随轨迹或充分积分输出独立取得；不分拆成额外节点。",
+    "不按维数、源样本、程序、阈值、进程或重复轮次增设数学合同。D03/D10原已固定的任意有限n域照旧，其他二维合同也不扩域；共同二维实质差异优先用于分离。",
+    "每个执行端是实际返回的图节点。共享base及prefix→suffix依赖均保留，不要求统计独立。"
+  ],
+  "proof_convention": "秩、半空间和候选返回反例比较的是冻结MR对真实求解返回施加的检验义务。候选返回仅用于证明两个关系谓词不互推，不声称是满足全部前提的正确ODE解，不运行SUT。若仅在已知正确解图上比较真假，则所有已证恒等式都会真，丢失了题设必须保持的观察/谓词语义，因此不采用该退化口径。",
+  "proof_rules": {
+    "ODE": {
+      "R01_NODE_COUNT": {
+        "invariant": "实际求解节点数及端角色",
+        "proof": "全域适配须给求解节点的角色保持双射；2节点图与3节点图不可能同构。重复实际计算、删掉返回、由其他输出构造返回、共享base均不能改变单条合同规定的节点数。"
+      },
+      "R02_RETURN_DEPENDENCY": {
+        "invariant": "实际求解返回到另一求解输入的强制数据边",
+        "proof": "D02的三端输入全由先验输入生成，没有返回→输入边。D16/D18强制prefix/half1.m_actual→suffix/half2.initial_state。保图适配不可能把有该边变成无该边；用正确中间态oracle或重新求解均越界。"
+      },
+      "R03_RAW_DIMENSION": {
+        "invariant": "raw状态/算子维数的全域覆盖",
+        "proof": "B3-D03/D10的同一合同允许任意固定有限n≥2，所列三维见证是合法实例；其他九条固定X=R²。无损共同线性坐标/类型适配保持dim X，无法把整个n=3 raw问题(A,u,b)双向映到二维问题。即使某坐标不被观察，也不能删除raw隐态、消去方程或编码进函数/参数来冒充无损适配。此证据只排除全域等价，不排除n=2共同子域。"
+      },
+      "R04_PREDICATE_RANK": {
+        "invariant": "固定合法输入后，所声明返回谓词的独立线性等式数",
+        "proof": "S2为R=y_f-E y_s=0，E可逆，因此对两二维返回的约束矩阵[-E,I]秩2。D06/D07为[v^T,-u^T](y,z)=0，非零u/v使秩1。D08最小观察为(y,z,J_b)，谓词[v^T,-u^T,-1](y,z,J_b)=0秩1；b=0时J_0是已知0，仍是秩1。无损共同坐标及可逆等式改写保持约束秩/零空间余维；把2个独立等式改为1个交叉等式是非逆投影。若含源D08返回J_b，其额外积分观察还不能由S2端点免费反算。 对B3-D03，二维非平凡实例的J非空且O非空、O∩J=∅，故O为真子集、|O|=1，Π_O(y_f-y_s)=0秩1；它与任一S2完整向量谓词秩2不同。此二维实例已足以阻断D03全域到S2的覆盖，跨维只作辅助。"
+      },
+      "R05_EQUALITY_VS_HALFSPACE": {
+        "invariant": "观察关系是等式子空间还是具有内部的不等式半空间",
+        "proof": "固定合法参数时D03谓词Π_O(y_f-y_s)=0，O非空，接受集合为真等式子空间、无环境内部。D10为e_i^T(y_f-y_s)≥L，L=a exp(-βT)T^mW/m!-δ，接受集合为有内部的真半空间。允许的可逆线性/仿射记号改写保持这些性质，不能互换。此论证也可限制到正返回锥的内部；不是把健康精确输出当反例。 同理，S2、D06/D07/D08的等式均有至少一个独立约束，接受集合没有相应返回空间的环境内部；因此D10与这些合同也被此不变量分开。"
+      },
+      "R06_ACTION_SPECTRUM": {
+        "invariant": "两端共同坐标下变换作用的相似不变量",
+        "proof": "共同C下E变为CEC^-1。cI(c>0,c≠1)中心性及谱{c,c}不变；swap谱{1,-1}不变；diag(2,3)谱{2,3}不能化为前两种。分别为两端选取不一致坐标以吸收E，会改变共同坐标/端角色和raw变换，不是本政策的适配。"
+      },
+      "R07_ZERO_SOURCE_HISTORY": {
+        "invariant": "raw源零/非零与外定历史条件",
+        "proof": "同一预给可逆状态坐标使b变为Cb，故零源仍为零、非零L1源仍为非零。常矩阵与真正时变历史也不能靠固定共同坐标互换。把非零源通过特解平移消去、以基本解消去历史、添状态或作逆求解均不在允许适配内。已审严格域见证足以排除覆盖父合同全域的反向映射。"
+      },
+      "R08_DUAL_DOMAIN": {
+        "invariant": "完整对偶权域与非负激励锥、raw端角色",
+        "proof": "D06两激励均在K\\{0}，D07/D08的v在整个R²\\{0}，包含v和-v。任何保持配对的可逆线性对偶坐标映射仍把整个对偶空间映为整个对偶空间，不能映成尖非负锥。D07另有单向链raw算子非对称合法实例；它不靠改为加权内积冒充D06当前欧氏自伴域。"
+      },
+      "R09_RESTRICTED_MAP_ONLY": {
+        "invariant": "已明示的共同子域/观察映射不能升级为全域双向映射",
+        "proof": "strict_specialization须保留方向且父域严格多出合法实例；projection_or_overlap须写明共同域、是否多用一次/一个实例的返回，以及不能逆回的观察信息。只对equivalent求闭包。共同证明、坐标协变或base复用均不提供等价。"
+      },
+      "R10_ENDPOINT_SOURCE_SIGNATURE": {
+        "invariant": "每一真实求解端的raw外源是零还是非零，按端角色列出的签名",
+        "proof": "共同可逆状态坐标使每一端b_k变为C b_k，保留各端L1零/非零状态；伴随正向化的时间反转也保留零/非零。D03允许两端均非零外源，D06/D07要求两端零源，D08至少真实伴随动力端必须零源。不能把两端问题相减、减去未知特解或把两返回混成差来消掉源：那会改变raw求解端、输入变换和返回含义，而不是保raw的逐端记号适配。此证据在共同二维域内成立。"
+      },
+      "R11_JORDAN_STRUCTURE": {
+        "invariant": "共同相似变换下的可对角化性/Jordan块",
+        "proof": "D06所有A欧氏自伴，故在实数上正交可对角化。D07合法A=[[-1,1],[0,-1]]只有一个特征向量，存在大小2的Jordan块；任意可逆共同相似仍不可对角化，不能进入D06自伴算子域。取u=e2,v=e1,T=1,b=0，两个动力输入不同，y=z=e^-1(1,1)，交叉值均e^-1。这个全域阻断不只依赖坐标可变的表面非对称性。"
+      }
+    },
+    "TR": {
+      "R0": {
+        "name": "全域合同身份与裁决含义",
+        "statement": "equivalent要求双向覆盖双方整个声明域，保持raw问题、端角色、执行图、输入作用、观察/谓词和先验信息的共同无损类型/坐标适配。strict_specialization是有明示受限回映的严格子合同。projection_or_overlap仅记录已给出具体共同域及投影的联系。distinct表示已用允许适配必须保持的不变量排除全域等价；不宣称逻辑独立，也不宣称一切更弱投影都不存在。unknown用于尚无可接受等价或排除证书。优先保留已有具体特化/投影标签，故前三种非equivalent标签均不union。",
+        "guard": "不把仅在健康精确解上均为真的命题当相同合同；必须保留返回数据上的比较谓词及其信息损失。禁止任意抽象集合编码、用log/逆求解改变目标、增删求解、把正确解重算当免费逆适配。"
+      },
+      "R1": {
+        "name": "实际求解图节点数",
+        "statement": "保图无损适配保持分别实际计算的求解端数。T01/T04/T05为2端；T02为3端。ODE中D02/D16/D18为3端，其余为2端。复制、相加或缩放一个返回不能代替另一实际求解，合并两端或添端均不允许。"
+      },
+      "R2": {
+        "name": "返回到输入的强制依赖边",
+        "statement": "T02三个输入均事先由xA,xB及其和给定，没有求解返回进入另一求解输入的边；D16/D18必须有prefix/half1实际返回→suffix/half2初态的有向边。保图适配不能新增、删除或以解析中间态替代该边。"
+      },
+      "R3": {
+        "name": "完整场响应与有限终态的无损性障碍",
+        "statement": "固定一个合法的单向纯吸收模型L=d/dx+1、β=0，取任意多个互不交支持的非零非负q_j∈L²(0,1)。ψ_j=L₀⁻¹q_j线性独立：若∑a_jψ_j=0，施L得∑a_jq_j=0，故所有a_j=0。因此完整场源响应有无限线性秩。固定有限维ODE的终态观察仅在R^n，任一保持线性问题/观察结构的有限坐标映射必有核，不能与完整场无损互换。D03/D10可选任意固定有限n但不允许把同一固定输运模型随输入改成无限状态或用任意编码选择n。",
+        "important_limit": "这不是声称所有ODE输入均有限维。含源ODE的b本来是L¹函数；障碍是raw返回/观察及变量的角色不同。把输运场编码进ODE源、历史或系数字节并随后解码，不保持问题与返回角色，属于本口径禁止的归约。"
+      },
+      "R4": {
+        "name": "出口投影的具体反向失败",
+        "statement": "在L=d/dx+1、x∈(0,1)、β=1下，ψ₀=1来自q₀=1。令h=x(1−x)、0<ε<1，则ψε=1+εh来自qε=1+ε(1−x−x²)>0；两者入口、出口均相同但场不同。这给合法数据内出口观察非单射见证。比较谓词更直接：后续返回aψ+εh与aψ有相同出口，却只有后者满足完整场缩放；在叠加端同加εh亦然。已知q不能弥补该观察损失，除非重新解算/使用正确目标来重建场，而这不是允许逆适配。",
+        "not_an_SUT_claim": "返回扰动仅是观察/谓词信息损失的解析见证，未称其为满足原方程的同输入健康解，更未称为实测缺陷。"
+      },
+      "R5": {
+        "name": "H体观察与图域迹不能混同",
+        "statement": "出口迹不是裸H=L²上的有界点值观察。在(0,1)取h_n=max(0,1−n(1−x))，则h_n∈H¹、h_n(1)=1而||h_n||²_L²=1/(3n)→0。出口/入流迹应在所声明W图/迹空间内处理，不能用体H误差无条件替代迹误差。w∈H的体配对不含端点delta；把w换成delta改变合法域、观察和边界角色。"
+      },
+      "R6": {
+        "name": "完整场等式与单一交叉配对的约束秩",
+        "statement": "T01主合同在H中要求P_cψ_f−aψ_s=0，保留完整场，比较残差无限维；T04与T05分别只以一个预定交叉配对/Green配对标量相等。固定合法输入后，单标量观察有非零核，例如T04可在第二返回加非零h使〈f,h〉=0而比较不变。共同可逆坐标变换不能把完整场零残差的全部约束换成一个标量超平面而仍保留观察信息。S2完整终态等式同样保留全部二维残差，不能无损换成单标量配对。",
+        "qualification": "该论证比较已声明主谓词；T01/T02允许预选较弱线性观察的备注不授权把本次选入的完整场主合同悄然替换成投影版本。"
+      },
+      "R7": {
+        "name": "非平凡作用的阶与全域参数作用",
+        "statement": "T01的正尺度幅度作用(a,c)∈R₊²是无挠交换作用：在非零输入和正有限域上，非恒等(a,c)的正整数幂不会成为恒等。D04的非平凡swap满足P²=I；D14全域还包括此swap及非均匀正对角作用。共同坐标共轭保留作用的阶及组合律，不能把T01的整个作用与D04或全D14等同。D01只有固定T和固定raw A的幅度作用，T01另有改变实际几何及所有核的c作用；取c=1只是严格限制。"
+      },
+      "R8": {
+        "name": "固定模型的无限体激励与有限初态激励",
+        "statement": "T04在固定合法Ae下f,g∈H_e可任取，S_e=Ae⁻¹为单射、无限秩源响应。D06固定A,T时u,v∈R²，响应为exp(TA)，秩2；D07的对偶激励v同为R²。保持raw模型及源/初态端角色的坐标重写不能将任意体函数激励无损变成两个初态分量。以有限模态选域、空间离散、计算Ae逆或log(exp)改写都会限制域或改变求解目标。",
+        "D08_extension": "D08虽允许任意L¹正向外源b，但其第二端仍只有二维终端激励v、零体源；T04第二端有任意体源g。把g塞入第一端b不保持端角色，也未给第二端所需响应。"
+      },
+      "R9": {
+        "name": "T05的体权/伴随边界与ODE终端对偶角色",
+        "statement": "即便仅在一维单向两群纯吸收共同表达式上，T05第二端是−χ′+Σχ=w(x)、χ(T)=0，w∈L²任意非零；观察为∫wᵀψ，独立配对为∫χᵀq+χ(0)ᵀβ。D07/D08第二端等价为−p′+Σp=0、p(T)=v≠0，观察为vᵀn(T)；D08另配∫pᵀb。任意体激励/零出流与齐次方程/非零终端数据不能由保角色坐标变换互换：非零体激励在可逆点wise状态变换下仍为体激励；消去它须求一个特解，属于新增求解/逆算。",
+        "reverse_failure": "T05取w=1,Σ=1,T=1得χ=1−exp(x−1)，终端为0；它不可能是D08同原始方程下p=exp(x−1)v、v≠0的坐标重命名。要把D08终端观察写成T05体观察需端点delta，不属于H；增加累积状态又改变固定二维目标和图。",
+        "broader_applicability": "T05的模型还含一般角/群核与独立边界迹空间；D06/D07/D08的共同有限维对偶原理不提供这些变量的全域无损适配。"
+      },
+      "R10": {
+        "name": "等式与有先验下界的不等式",
+        "statement": "B3-D10的活跃数学谓词为一侧下界Δy_i≥a exp(−βT)T^mW/m!−δ，含先验路径/源贡献下界信息；四个输运合同均是所列等式。固定输入与先验阈值后，下界接受集含严格超阈值的开集，等式接受集为相应零残差集合。共同可逆线性/坐标重写不把一侧区间无损变成单点等式；截断、求符号或添松弛变量会丢信息/增域。另不能把D10-P验收偷换为零响应负控拒绝。"
+      },
+      "R11": {
+        "name": "T04→T05严格受限响应特化",
+        "statement": "把T05限到T04的slab、相容对称角群权、反演不变Σ、K=EKeΠ且Ke自伴、Ko=0、β=0、q=Ef、w=Eg。R将前向零入流图域映到伴随零出流图域，L₀†=RL₀R，故S*=RSR，S_e=ΠSE且S_e*=S_e。两真实前向响应ψ_f=S Ef、ψ_g=S Eg对应T05前向ψ_f和真实伴随χ=Rψ_g；Π只在声明方程/边界约束下连同奇场恢复使用，不称任意H上无损。配对化为〈g,u_f〉=〈u_g,f〉。",
+        "strictness": "T05已给合法q=β=w=1的单向例，边界项1−exp(−1)>0，不能倒映到T04的真空β=0偶源域。一般非自伴K、非偶w也不在T04域。严格特化不做全域union；不是完整一阶L自伴。",
+        "whole_domain_non_equivalence_invariant": "此处不只靠父域多一个例子判不等价。共同可逆raw场坐标把非零入流β映为非零，不能成为T04真空；以输入依赖lifting/特解平移消去边界会改变raw求解问题。另T05的非零体权域含w与−w，而T04第二激励限非负尖锥；保角色的可逆线性对偶/源坐标不能把整个有符号空间双向变成尖锥。把权编码到另一端、增组或正负拆分均改变已定raw端角色/状态或执行图。"
+      },
+      "R12": {
+        "name": "零响应图观察不是互易或协变",
+        "statement": "D03保持同A/T，只允许受J支持的输入差，并在J不可达的有限坐标集O观察零响应；该图/支持证据是先验条件。输运双激励/Green合同允许任意适格体源，要求不同的场/交叉配对关系，未规定一个固定不可达O。把其余场丢弃为不可达观察会变弱，不能恢复全域输入作用及观察；与R3、R8或R9的raw类型障碍合用，形成正面不等价证书。"
+      },
+      "R13": {
+        "name": "输入—观察双线性族的秩，不依赖返回字段个数",
+        "statement": "固定原始模型/时间，D06/D07/D08的双线性目标为B(v,x)=vᵀF(x)，其中F(x)为R²终态；D08取x=(u,b)，尽管b∈L¹无限维，整族仍通过二维终态因子化，故其双线性秩≤2。保留正向/对偶输入角色的共同无损线性类型/坐标适配保留该因子化秩。",
+        "T05_witness": "将T05仅限β=0，仍有B(w,q)=〈w,Sq〉，S=L₀⁻¹在无限维H上单射。任取N个线性独立非负q_j（例如互不交支持），Sq_j线性独立。其Gram矩阵G可逆，取这些Sq_j的对偶线性组合w_i∈H，可使〈w_i,Sq_j〉=δ_ij，得到任意N阶满秩配对矩阵。w_i可有符号、均非零，符合T05域。故即便每次只返回一个充分积分标量，整个先验输入—观察族仍为无限秩。",
+        "T04_witness": "固定合法Ae，S_e=Ae⁻¹为严格正、自伴、保非负锥的单射。取N个线性独立严格正有界f_i∈H_e，例如在有限测度slab上取f_i=1+ε1_{I_i}、0<ε<1，I_i互不交且其并的补集有正测度，所有群角分量相同；令g_j=2f_j，则每一对f_i,g_j不同、非零，且交叉响应严格正。矩阵〈f_i,S_e g_j〉=2〈f_i,S_e f_j〉为正定Gram矩阵，秩N。因此T04的单标量互易观察族也无限秩，不需要把它误说成完整场等式。",
+        "adapter_limit": "这里固定raw算子，且保持正向输入与对偶权/第二激励角色及其双线性作用。若将两个端的输入混合编码、把w变成随q变化的已求积分、把源编码进模型、引入正确目标或任意函数集合编码，便不属于已声明允许适配。不是比较单次输出的维数，也不是仅以两个输入集合的基数判别。",
+        "T05_oracle_free_witness": "也可完全不用正确解生成权：固定合法L=d/dx+1、(0,1)、β=0，预先选按位置排序的N个不交正长度区间I_1<…<I_N，令q_j=1_{I_j}、w_i=1_{I_i}。这全是独立给定的非负L²输入。因特征线只向+x传播，i<j时〈w_i,Sq_j〉=0，i=j时该配对严格正；N×N配对矩阵为正对角下三角，秩N。因此无限秩证明不要求为了构造MR输入调用正确解oracle、读待测返回或增加求解。Gram论证仅是另一数学证明，不授予任何oracle权限。"
+      }
+    }
+  },
+  "proof_records": {
+    "ODE": {
+      "P_S2_HOM_REP": {
+        "source_edges": [
+          "E-S2-HOM-REP"
+        ],
+        "direction": [
+          "S2-D01",
+          "S2-D14"
+        ],
+        "restriction": "E=cI，c>0,c≠1；原u/b非零和问题实际改变限制完全一致。",
+        "map": "s→s,f→f；EAE^-1=A，Eu=cu，Eb=cb；E^-1 y_f=y_s ⇔ y_f=c y_s。",
+        "strictness": "父域合法A=[[-1,0],[1,0]],u=e1,b=0,T=ln2,E=diag(2,3)；E谱{2,3}、非中心且A_f≠A，不可由cI作用共同换坐标得到。"
+      },
+      "P_S2_SYM_REP": {
+        "source_edges": [
+          "E-S2-SYM-REP"
+        ],
+        "direction": [
+          "S2-D04",
+          "S2-D14"
+        ],
+        "restriction": "E=P=swap，PA=AP，Pb=b，Pu≠u。",
+        "map": "s→s,f→f；PAP^-1=A、Pb=b，P^-1y_f=y_s ⇔ y_f=P y_s。",
+        "strictness": "上述E=diag(2,3)父例的作用谱不是{1,-1}；另有A=diag(-1,-2),E=P可同步改变A，D04固定模型域不含该例。"
+      },
+      "P_D06_D07": {
+        "source_edges": [
+          "E-D06-D07"
+        ],
+        "direction": [
+          "S3-D06",
+          "S3-D07"
+        ],
+        "restriction": "A=A^T，b=0，u,v∈K\\{0}，u≠v。",
+        "map": "forward→u、dual_forward→v；(A^T,v)=(A,v)，y/z和交叉等式逐字相同。",
+        "strictness": "A=[[-1,0],[1,0]],u=e1,v=e2,T=ln2是已审D07非自伴例；D07还允许A=-I,u=e1,v=-e2,T=1，完整有符号对偶域不能由共同可逆线性坐标变成D06的K域。 更强共同坐标不变量见证：A=[[-1,1],[0,-1]],u=e2,v=e1,T=1,b=0合法且含缺陷Jordan块；任何相似都不可成为欧氏自伴矩阵。"
+      },
+      "P_D07_D08": {
+        "source_edges": [
+          "E-D07-D08"
+        ],
+        "direction": [
+          "S3-D07",
+          "S3-D08"
+        ],
+        "restriction": "b=0 a.e.；仅采用D08已冻结最小观察，不强制完整伴随轨迹。",
+        "map": "n端不变；q(s)=p(T-s)，q(0)=v，q(T)=p(0)=z；J_0=0由先验零源直接给出。两求解、端角色和权限保留，不添轨迹/求解。",
+        "strictness": "已审父例A=[[-1,0],[1,0]],u=e1,v=e2,b(t)=t e1,T=1，J_b=1/2-1/e>0。非零源在共同可逆坐标下不能变成零；J_b不能由待测端点差反算。"
+      },
+      "P_D06_D08": {
+        "source_edges": [
+          "E-D06-D08",
+          "E-D06-D07",
+          "E-D07-D08"
+        ],
+        "direction": [
+          "S3-D06",
+          "S3-D08"
+        ],
+        "restriction": "A=A^T、非负不同双激励、b=0；D08最小观察。",
+        "map": "同P_D06_D07的两端，再用P_D07_D08的时间反转及J_0=0，保留两求解和交叉标量。",
+        "strictness": "P_D07_D08中的非零源父例不在D06；完整有符号对偶域也严格更大。 亦可取b=0的上述缺陷Jordan块D07/D08合法例，其不可对角化性阻断任意共同相似到D06。"
+      },
+      "P_D18_D16": {
+        "source_edges": [
+          "E-D18-D16"
+        ],
+        "direction": [
+          "S3-D18",
+          "S3-D16"
+        ],
+        "restriction": "t0=0,τ=T/2,A(t)=A常量,b=0。",
+        "map": "full→full，half1→prefix，half2→suffix，m_actual是相同强制数据边；概念后段绝对起点T/2保留。",
+        "strictness": "已审父例t0=0,τ=ln2,T=ln2+1,u=e1，前段A=[[-1,0],[1,0]],b=0，后段A=0,b=e2；m=(1/2,1/2),终态(1/2,3/2)。非零后缀源、非恒定历史和非半分割均超出D18。"
+      },
+      "P_S2_HOM_SYM": {
+        "source_edges": [
+          "E-S2-HOM-SYM"
+        ],
+        "proof": "D01作用cI谱{c,c}且c>0,c≠1；D04作用P谱{1,-1}。共同坐标只作相似变换，不能相互替换；不能因同为两求解或共享源端合并。"
+      },
+      "P_B3_DIMENSION": {
+        "source_contracts": [
+          "B3-D03.witness",
+          "B3-D10.witness"
+        ],
+        "legal_3D_witness": "A=[[-1,0,0],[1,0,0],[0,0,0]],T=1,u_s=(0,0,1),u_f=(1,0,1),b_s=b_f=0。D03取J={1},O={3}；D10取j=1,i=2,m=1,W=β=a=1,δ=0。y_s=(0,0,1),y_f=(e^-1,1-e^-1,1)。",
+        "exclusion": "任一同列表二维合同均不能覆盖该raw三维实例；丢掉第三或第二坐标都会改变raw问题/观察而不是共同无损类型改写。"
+      },
+      "P_B3_Z_P": {
+        "source_edges": [
+          "E-B3-Z-P-SHARE"
+        ],
+        "shared_example": "使用P_B3_DIMENSION的两个实际返回，D03观Δy3=0；D10观Δy2≥e^-1。同一健康观察不能同时不可达又有指定正路径。",
+        "predicate_separation": "D03是非空坐标零等式，D10是数值下界半空间，R05排除全域可逆关系适配。",
+        "nonimplication_tests": "在该固定raw实例中仅作候选返回谓词测试：y_s=(1,1,1),y_f=(1,1,1)满足Z却不满足P；y_s=(1,1,1),y_f=(1,2,2)满足P却不满足Z。这些不是该ODE的正确解或SUT结果。"
+      },
+      "P_HOM_D02_OVERLAP": {
+        "source_edges": [
+          "X-D02-HOM"
+        ],
+        "common_domain": "x1=(u1,b1)≠0；x2=c x1,c>0,c≠1。D02第三输入为(1+c)x1，三输入满足冻结非零/不同条件。",
+        "map": "保持D02三实际返回y1,y2,y12。两项HOM谓词y2=c y1、y12=(1+c)y1相减得到D02谓词y12=y1+y2。",
+        "noninverse": "不是单个两端HOM与三端D02同构；必须用两个HOM实例并共享base。D02可加等式也不反推这两项比例，例如候选y1=e1,y2=e2,y12=e1+e2。完整D02还含非共线输入。"
+      },
+      "P_REP_D02_OVERLAP": {
+        "source_edges": [
+          "E-S2-HOM-REP",
+          "X-D02-HOM"
+        ],
+        "common_domain": "直接取D02的x2=c x1,c>0,c≠1；D14两实例分别E=cI和E=(1+c)I。",
+        "map": "同一三返回上D14两比例谓词y2=c y1与y12=(1+c)y1推出D02加法。完整写出该子域映射，不把overlap传递求等价闭包。",
+        "noninverse": "一个D14仍只有两实际节点，D02有三节点；其加法谓词不能反推两个向量比例。不是D02全域特化到一个D14实例。"
+      },
+      "P_HOM_DUAL_PROJECTION": {
+        "source_edges": [
+          "X-HOM-RECIP",
+          "E-D06-D07",
+          "E-D07-D08"
+        ],
+        "common_domain": "A=A^T，b=0，u∈K\\{0}，v=c u，c>0,c≠1。D06、D07以及D08在此域有同一两实际问题(A,u),(A,v)；D08用q(s)=p(T-s),J_0=0。",
+        "map": "D01向量等式z=c y推出u^T z=c u^T y=v^T y。D07/D08的对偶端在该自伴域与第二前向端相同，不新增求解。",
+        "noninverse": "固定A=-I,u=e1,v=2e1,T=1；候选y=(1,1),z=(2,3)满足交叉标量但不满足z=2y。故不可由标量关系恢复完整向量关系。",
+        "scope_warning": "这些候选返回只证明谓词信息损失，不是假称精确ODE反例。"
+      },
+      "P_PERM_DUAL_PROJECTION": {
+        "source_edges": [
+          "X-PERM-RECIP",
+          "E-D06-D07",
+          "E-D07-D08"
+        ],
+        "common_domain": "P=swap，A=[[a,q],[q,a]],q≥0，b=0，u∈K\\{0},v=Pu≠u。此A欧氏自伴；D06/D07/D08共享相同两实际问题；D08只添已知J_0=0。",
+        "map": "D04的z=P y推出u^T z=u^T P y=(Pu)^T y=v^T y。",
+        "noninverse": "固定A=-I,u=e1,v=e2,T=1；候选y=(1,1),z=(1,3)使两交叉值均1，却z≠P y。仅为输出谓词非逆见证。"
+      },
+      "P_REP_D06_PROJECTION": {
+        "source_edges": [
+          "E-S2-HOM-REP",
+          "X-HOM-RECIP"
+        ],
+        "common_domain": "直接取D14的E=cI,A=A^T,b=0,u∈K\\{0},v=cu,c>0,c≠1。",
+        "map": "D14两个实际问题是(A,u),(A,v)，z=c y推出D06交叉等式。",
+        "noninverse": "A=-I,u=e1,c=2,T=1，候选y=(1,1),z=(2,3)满足交叉式而非D14向量式；R04还排除其他全域无损映射。"
+      },
+      "P_REP_ADJOINT_PROJECTION": {
+        "source_edges": [
+          "X-REP-ADJOINT",
+          "E-D07-D08"
+        ],
+        "common_domain": "b=0；E预定正对角，EA=A^T E；v=Eu,u≠0，(A,u)≠(A^T,v)。对D08采用q(s)=p(T-s),J_0=0。",
+        "map": "D14 follower=(EAE^-1,Eu)=(A^T,v)，故两个实际求解逐端对应。向量式z=Ey推出u^Tz=(Eu)^T y=v^T y。",
+        "legal_example": "A=[[-1,2],[1,-2]],E=diag(1,2),u=(1,1),v=(1,2),T=1满足EA=A^TE。",
+        "noninverse": "在上述固定合法输入下，候选y=(1,1),z=(2,1)使v^Ty=u^Tz=3，但z≠Ey=(1,2)。完整D07/D08允许无该E的其他模型及有符号v；含源D14 follower有Eb，D08伴随动力始终无源，不能把本映射扩到b≠0。"
+      },
+      "P_B3_2D_SOURCE_AND_OBSERVATION": {
+        "legal_2D_witness": "A=diag(-1,0),T=1,J={1},O={2}；u_s=e2,u_f=e1+e2，常源b_s=e2,b_f=e1+e2。Δu=e1、Δb=e1均支持J，O从J不可达；两端源均非零，输入实际不同。精确解析终态y_s=(0,2),y_f=(1,2)。",
+        "against_S2": "固定该合法输入时D03仅要求Δy2=0，二维谓词秩1；任一S2的完整向量作用为秩2。坐标变换可改变观察权，不能增加独立约束。",
+        "against_D06_D07": "D03该例有两个非零外源端，D06/D07的每个合法实例均为两个零源端；R10保此签名。",
+        "against_D08": "D03该例两个raw源端均非零，D08每个合法实例至少伴随端动力源为零。将源挪到J_b观察不等于同一raw有源求解，R10排除该偷换。",
+        "candidate_output_note": "解析值只核合法例；谓词秩证明比较候选返回关系，并未运行SUT。"
+      }
+    }
+  },
+  "proof_cautions": [
+    "严格包含本身不排除任意集合双射；每一特化对还需既定适配保持的全域障碍，本稿给作用谱、Jordan结构、源/边界零非零签名等。",
+    "D06/D07不是靠表面非对称分开。缺陷Jordan块A=[[-1,1],[0,-1]]不可对角化；所有欧氏自伴A可对角化，任意共同相似不能消去此差异。",
+    "约束秩及等式/半空间内点针对固定合法输入的候选返回空间；这些候选只证谓词信息损失，不冒称正确解或程序实测。",
+    "D08与T05不靠最小输出字段数。按原始正/对偶角色及双线性输入—观察族秩区分：前者经二维终态因子化，后者即使β=0仍含无限秩〈w,Sq〉。",
+    "没有全域等价unknown不等于穷尽所有可能共同子域/投影；后者保留未穷尽，但不能推翻已有的全域不可合并证书。"
+  ],
+  "pair_adjudication_table": [
+    {
+      "pair_id": "B3-D03|B3-D10",
+      "pair": [
+        "B3-D03",
+        "B3-D10"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R05_EQUALITY_VS_HALFSPACE"
+      ],
+      "proof_refs": [
+        "ODE:P_B3_Z_P"
+      ],
+      "argument": "共享两实际返回但不可达零等式与正路径数值下界为不同观察/谓词；等式子空间与有内部半空间不可能无损互换。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "shared_execution_distinct_observations",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D03|S2-D01",
+      "pair": [
+        "B3-D03",
+        "S2-D01"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R04_PREDICATE_RANK",
+        "ODE:R03_RAW_DIMENSION"
+      ],
+      "proof_refs": [
+        "ODE:P_B3_2D_SOURCE_AND_OBSERVATION",
+        "ODE:P_B3_DIMENSION"
+      ],
+      "argument": "在共同二维域，D03合法非空真观察子集只有一项等式、rank1，S2-D01为完整向量作用等式、rank2；无损共同坐标保持谓词约束秩。另有跨维raw见证仅作辅助，不以维数作为唯一理由。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D03|S2-D04",
+      "pair": [
+        "B3-D03",
+        "S2-D04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R04_PREDICATE_RANK",
+        "ODE:R03_RAW_DIMENSION"
+      ],
+      "proof_refs": [
+        "ODE:P_B3_2D_SOURCE_AND_OBSERVATION",
+        "ODE:P_B3_DIMENSION"
+      ],
+      "argument": "在共同二维域，D03合法非空真观察子集只有一项等式、rank1，S2-D04为完整向量作用等式、rank2；无损共同坐标保持谓词约束秩。另有跨维raw见证仅作辅助，不以维数作为唯一理由。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D03|S2-D14",
+      "pair": [
+        "B3-D03",
+        "S2-D14"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R04_PREDICATE_RANK",
+        "ODE:R03_RAW_DIMENSION"
+      ],
+      "proof_refs": [
+        "ODE:P_B3_2D_SOURCE_AND_OBSERVATION",
+        "ODE:P_B3_DIMENSION"
+      ],
+      "argument": "在共同二维域，D03合法非空真观察子集只有一项等式、rank1，S2-D14为完整向量作用等式、rank2；无损共同坐标保持谓词约束秩。另有跨维raw见证仅作辅助，不以维数作为唯一理由。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D03|S3-D02",
+      "pair": [
+        "B3-D03",
+        "S3-D02"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "B3-D03规定2次实际求解，S3-D02规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D03|S3-D06",
+      "pair": [
+        "B3-D03",
+        "S3-D06"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R10_ENDPOINT_SOURCE_SIGNATURE",
+        "ODE:R03_RAW_DIMENSION"
+      ],
+      "proof_refs": [
+        "ODE:P_B3_2D_SOURCE_AND_OBSERVATION",
+        "ODE:P_B3_DIMENSION"
+      ],
+      "argument": "共同二维域的D03合法例具有两个非零raw外源端，而S3-D06两端均必须零源。逐端共同可逆坐标/时间反转保持源零签名；相减问题或消去源会改变raw求解端。跨维仅作辅助证据。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D03|S3-D07",
+      "pair": [
+        "B3-D03",
+        "S3-D07"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R10_ENDPOINT_SOURCE_SIGNATURE",
+        "ODE:R03_RAW_DIMENSION"
+      ],
+      "proof_refs": [
+        "ODE:P_B3_2D_SOURCE_AND_OBSERVATION",
+        "ODE:P_B3_DIMENSION"
+      ],
+      "argument": "共同二维域的D03合法例具有两个非零raw外源端，而S3-D07两端均必须零源。逐端共同可逆坐标/时间反转保持源零签名；相减问题或消去源会改变raw求解端。跨维仅作辅助证据。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D03|S3-D08",
+      "pair": [
+        "B3-D03",
+        "S3-D08"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R10_ENDPOINT_SOURCE_SIGNATURE",
+        "ODE:R03_RAW_DIMENSION"
+      ],
+      "proof_refs": [
+        "ODE:P_B3_2D_SOURCE_AND_OBSERVATION",
+        "ODE:P_B3_DIMENSION"
+      ],
+      "argument": "共同二维域的D03合法例具有两个非零raw外源端，而S3-D08至少真实伴随动力端必须零源。逐端共同可逆坐标/时间反转保持源零签名；相减问题或消去源会改变raw求解端。跨维仅作辅助证据。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D03|S3-D16",
+      "pair": [
+        "B3-D03",
+        "S3-D16"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "B3-D03规定2次实际求解，S3-D16规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D03|S3-D18",
+      "pair": [
+        "B3-D03",
+        "S3-D18"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "B3-D03规定2次实际求解，S3-D18规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D03|TR-T01",
+      "pair": [
+        "B3-D03",
+        "TR-T01"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R12",
+        "TR:R3"
+      ],
+      "proof_refs": [],
+      "argument": "D03在固定有限工作矩阵图中仅观察不可达坐标O的差为零；T01主合同比较两端完整输运场的尺度拉回。R3给固定合法输运模型的无限秩完整场响应障碍，R12说明取不可达坐标会删除原全场作用/观察。",
+      "reverse_obstruction": "挑不可达坐标或把场仅压成一个零观察会删除原合同的其他场/配对信息；D03可变有限n并不允许无限维体源或完整场的任意编码。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D03|TR-T02",
+      "pair": [
+        "B3-D03",
+        "TR-T02"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T02有3个实际求解端，B3-D03有2个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D03|TR-T04",
+      "pair": [
+        "B3-D03",
+        "TR-T04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R12",
+        "TR:R8"
+      ],
+      "proof_refs": [],
+      "argument": "D03固定有限图、受支持输入差与不可达O；T04固定合法偶算子时允许任意体函数双激励。其无限秩源响应与有限状态图观察不能保持raw模型、激励角色和观察而全域互换；不是仅因两者同为零残差而合并。",
+      "reverse_obstruction": "挑不可达坐标或把场仅压成一个零观察会删除原合同的其他场/配对信息；D03可变有限n并不允许无限维体源或完整场的任意编码。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D03|TR-T05",
+      "pair": [
+        "B3-D03",
+        "TR-T05"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R12",
+        "TR:R9"
+      ],
+      "proof_refs": [],
+      "argument": "D03是相同前向工作算子上的局部不可达差观察；T05必须保任意体权的真实伴随、零出流和独立入流迹配对。R9/R12给raw端角色及信息障碍；取一个不可达零观察会丢掉T05的原始配对与边界信息。",
+      "reverse_obstruction": "挑不可达坐标或把场仅压成一个零观察会删除原合同的其他场/配对信息；D03可变有限n并不允许无限维体源或完整场的任意编码。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D10|S2-D01",
+      "pair": [
+        "B3-D10",
+        "S2-D01"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R05_EQUALITY_VS_HALFSPACE",
+        "ODE:R03_RAW_DIMENSION"
+      ],
+      "proof_refs": [
+        "ODE:P_B3_DIMENSION"
+      ],
+      "argument": "D10固定合法输入的返回验收为有内部半空间，S2-D01为至少一项独立等式的零集、无环境内部；无损线性/仿射记号适配不能互换。该证据在二维正返回锥内部也成立，跨维仅为辅助。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D10|S2-D04",
+      "pair": [
+        "B3-D10",
+        "S2-D04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R05_EQUALITY_VS_HALFSPACE",
+        "ODE:R03_RAW_DIMENSION"
+      ],
+      "proof_refs": [
+        "ODE:P_B3_DIMENSION"
+      ],
+      "argument": "D10固定合法输入的返回验收为有内部半空间，S2-D04为至少一项独立等式的零集、无环境内部；无损线性/仿射记号适配不能互换。该证据在二维正返回锥内部也成立，跨维仅为辅助。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D10|S2-D14",
+      "pair": [
+        "B3-D10",
+        "S2-D14"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R05_EQUALITY_VS_HALFSPACE",
+        "ODE:R03_RAW_DIMENSION"
+      ],
+      "proof_refs": [
+        "ODE:P_B3_DIMENSION"
+      ],
+      "argument": "D10固定合法输入的返回验收为有内部半空间，S2-D14为至少一项独立等式的零集、无环境内部；无损线性/仿射记号适配不能互换。该证据在二维正返回锥内部也成立，跨维仅为辅助。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D10|S3-D02",
+      "pair": [
+        "B3-D10",
+        "S3-D02"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "B3-D10规定2次实际求解，S3-D02规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D10|S3-D06",
+      "pair": [
+        "B3-D10",
+        "S3-D06"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R05_EQUALITY_VS_HALFSPACE",
+        "ODE:R03_RAW_DIMENSION"
+      ],
+      "proof_refs": [
+        "ODE:P_B3_DIMENSION"
+      ],
+      "argument": "D10固定合法输入的返回验收为有内部半空间，S3-D06为至少一项独立等式的零集、无环境内部；无损线性/仿射记号适配不能互换。该证据在二维正返回锥内部也成立，跨维仅为辅助。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D10|S3-D07",
+      "pair": [
+        "B3-D10",
+        "S3-D07"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R05_EQUALITY_VS_HALFSPACE",
+        "ODE:R03_RAW_DIMENSION"
+      ],
+      "proof_refs": [
+        "ODE:P_B3_DIMENSION"
+      ],
+      "argument": "D10固定合法输入的返回验收为有内部半空间，S3-D07为至少一项独立等式的零集、无环境内部；无损线性/仿射记号适配不能互换。该证据在二维正返回锥内部也成立，跨维仅为辅助。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D10|S3-D08",
+      "pair": [
+        "B3-D10",
+        "S3-D08"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R05_EQUALITY_VS_HALFSPACE",
+        "ODE:R03_RAW_DIMENSION"
+      ],
+      "proof_refs": [
+        "ODE:P_B3_DIMENSION"
+      ],
+      "argument": "D10固定合法输入的返回验收为有内部半空间，S3-D08为至少一项独立等式的零集、无环境内部；无损线性/仿射记号适配不能互换。该证据在二维正返回锥内部也成立，跨维仅为辅助。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D10|S3-D16",
+      "pair": [
+        "B3-D10",
+        "S3-D16"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "B3-D10规定2次实际求解，S3-D16规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D10|S3-D18",
+      "pair": [
+        "B3-D10",
+        "S3-D18"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "B3-D10规定2次实际求解，S3-D18规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D10|TR-T01",
+      "pair": [
+        "B3-D10",
+        "TR-T01"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R10",
+        "TR:R3"
+      ],
+      "proof_refs": [],
+      "argument": "D10检查有先验路径和源贡献下界的一侧不等式；TR-T01检查精确等式，且保留各自体源/边界或场角色。",
+      "reverse_obstruction": "把超阈值整个接受半空间压为零残差需非可逆截断/符号化或添松弛变量；均不保持观察。不能把D10-P换成独立零假设负控。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D10|TR-T02",
+      "pair": [
+        "B3-D10",
+        "TR-T02"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T02有3个实际求解端，B3-D10有2个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D10|TR-T04",
+      "pair": [
+        "B3-D10",
+        "TR-T04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R10",
+        "TR:R8"
+      ],
+      "proof_refs": [],
+      "argument": "D10检查有先验路径和源贡献下界的一侧不等式；TR-T04检查精确等式，且保留各自体源/边界或场角色。",
+      "reverse_obstruction": "把超阈值整个接受半空间压为零残差需非可逆截断/符号化或添松弛变量；均不保持观察。不能把D10-P换成独立零假设负控。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "B3-D10|TR-T05",
+      "pair": [
+        "B3-D10",
+        "TR-T05"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R10",
+        "TR:R9"
+      ],
+      "proof_refs": [],
+      "argument": "D10检查有先验路径和源贡献下界的一侧不等式；TR-T05检查精确等式，且保留各自体源/边界或场角色。",
+      "reverse_obstruction": "把超阈值整个接受半空间压为零残差需非可逆截断/符号化或添松弛变量；均不保持观察。不能把D10-P换成独立零假设负控。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D01|S2-D04",
+      "pair": [
+        "S2-D01",
+        "S2-D04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R06_ACTION_SPECTRUM"
+      ],
+      "proof_refs": [
+        "ODE:P_S2_HOM_SYM"
+      ],
+      "argument": "正标量作用谱{c,c}与swap谱{1,-1}不相似；保变换作用的共同坐标适配不可能覆盖双方全域。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D01|S2-D14",
+      "pair": [
+        "S2-D01",
+        "S2-D14"
+      ],
+      "relation_kind": "strict_specialization",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R09_RESTRICTED_MAP_ONLY",
+        "ODE:R06_ACTION_SPECTRUM"
+      ],
+      "proof_refs": [
+        "ODE:P_S2_HOM_REP"
+      ],
+      "argument": "所引证明给两端/三端逐一、观察及权限保持的子域映射，并给父域合法严格见证；只接受箭头方向，不作全域union。",
+      "specialization_direction": [
+        "S2-D01",
+        "S2-D14"
+      ],
+      "restricted_relation_axis": {
+        "proved_relation": "strict_specialization",
+        "direction": [
+          "S2-D01",
+          "S2-D14"
+        ],
+        "exhaustiveness": "仅声明所引已证特化；不宣称其他所有受限关系已穷尽"
+      }
+    },
+    {
+      "pair_id": "S2-D01|S3-D02",
+      "pair": [
+        "S2-D01",
+        "S3-D02"
+      ],
+      "relation_kind": "projection_or_overlap",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT",
+        "ODE:R09_RESTRICTED_MAP_ONLY"
+      ],
+      "proof_refs": [
+        "ODE:P_HOM_D02_OVERLAP"
+      ],
+      "argument": "共线输入子域上可由两个比例实例、共用三个实际返回推出相加；单个比例合同2节点而D02为3节点，不是全域或执行图同构。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "specified_projection_or_overlap",
+        "proof_refs": [
+          "P_HOM_D02_OVERLAP"
+        ],
+        "exhaustiveness": "仅声明列明的共同域/非逆投影；其他可能受限关系未穷尽"
+      }
+    },
+    {
+      "pair_id": "S2-D01|S3-D06",
+      "pair": [
+        "S2-D01",
+        "S3-D06"
+      ],
+      "relation_kind": "projection_or_overlap",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R04_PREDICATE_RANK",
+        "ODE:R09_RESTRICTED_MAP_ONLY"
+      ],
+      "proof_refs": [
+        "ODE:P_HOM_DUAL_PROJECTION"
+      ],
+      "argument": "给定共同子域上S2-D01向量式推出S3-D06交叉标量式，并有同输入的候选返回非逆见证；全域rank2对rank1不变量排除所有允许的无损适配。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "specified_projection_or_overlap",
+        "proof_refs": [
+          "P_HOM_DUAL_PROJECTION"
+        ],
+        "exhaustiveness": "仅声明列明的共同域/非逆投影；其他可能受限关系未穷尽"
+      }
+    },
+    {
+      "pair_id": "S2-D01|S3-D07",
+      "pair": [
+        "S2-D01",
+        "S3-D07"
+      ],
+      "relation_kind": "projection_or_overlap",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R04_PREDICATE_RANK",
+        "ODE:R09_RESTRICTED_MAP_ONLY"
+      ],
+      "proof_refs": [
+        "ODE:P_HOM_DUAL_PROJECTION"
+      ],
+      "argument": "给定共同子域上S2-D01向量式推出S3-D07交叉标量式，并有同输入的候选返回非逆见证；全域rank2对rank1不变量排除所有允许的无损适配。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "specified_projection_or_overlap",
+        "proof_refs": [
+          "P_HOM_DUAL_PROJECTION"
+        ],
+        "exhaustiveness": "仅声明列明的共同域/非逆投影；其他可能受限关系未穷尽"
+      }
+    },
+    {
+      "pair_id": "S2-D01|S3-D08",
+      "pair": [
+        "S2-D01",
+        "S3-D08"
+      ],
+      "relation_kind": "projection_or_overlap",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R04_PREDICATE_RANK",
+        "ODE:R09_RESTRICTED_MAP_ONLY"
+      ],
+      "proof_refs": [
+        "ODE:P_HOM_DUAL_PROJECTION"
+      ],
+      "argument": "给定共同子域上S2-D01向量式推出S3-D08交叉标量式，并有同输入的候选返回非逆见证；全域rank2对rank1不变量排除所有允许的无损适配。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "specified_projection_or_overlap",
+        "proof_refs": [
+          "P_HOM_DUAL_PROJECTION"
+        ],
+        "exhaustiveness": "仅声明列明的共同域/非逆投影；其他可能受限关系未穷尽"
+      }
+    },
+    {
+      "pair_id": "S2-D01|S3-D16",
+      "pair": [
+        "S2-D01",
+        "S3-D16"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S2-D01规定2次实际求解，S3-D16规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D01|S3-D18",
+      "pair": [
+        "S2-D01",
+        "S3-D18"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S2-D01规定2次实际求解，S3-D18规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D01|TR-T01",
+      "pair": [
+        "S2-D01",
+        "TR-T01"
+      ],
+      "relation_kind": "projection_or_overlap",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R3",
+        "TR:R4",
+        "TR:R5",
+        "TR:R7"
+      ],
+      "proof_refs": [],
+      "argument": "已给共同两群单向纯吸收、常正Σ、K=0、b=q∈L²、β=u且T01限c=1的明确对应。两实际端取出口后有y_f=a y_s。",
+      "reverse_obstruction": "T01全场→出口有R4非单射见证；ODE的L¹源及一般Metzler域、T01的几何尺度/一般角核都未被共同域覆盖。重解轨迹不是逆适配。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "E-TR-CROSS-01：只在共同域和出口投影后对应，不新增出口合同节点。",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D01|TR-T02",
+      "pair": [
+        "S2-D01",
+        "TR-T02"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T02有3个实际求解端，S2-D01有2个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D01|TR-T04",
+      "pair": [
+        "S2-D01",
+        "TR-T04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R6",
+        "TR:R8"
+      ],
+      "proof_refs": [],
+      "argument": "T04固定Ae下有任意偶体源f,g及一个交叉响应配对；S2-D01保留两个完整二维终态和其预定可逆状态作用。",
+      "reverse_obstruction": "任意f,g的无限秩源响应不能改名成有限初态/坐标；单标量配对与完整二维残差的观察约束也不同。禁止用Ae的逆或log改写为有限时间原始A问题。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D01|TR-T05",
+      "pair": [
+        "S2-D01",
+        "TR-T05"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R6",
+        "TR:R9"
+      ],
+      "proof_refs": [],
+      "argument": "T05的第二端受任意体权w驱动并有零出流，比较一个含独立入流迹的Green标量；S2-D01第二端是预定可逆状态作用下的二维前向问题并比较完整终态。",
+      "reverse_obstruction": "把体权/伴随迹换成有限终态作用不保raw角色；单Green配对也不能恢复全部二维终态残差。零出流与源端入流的区分不能凭名称抹去。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D04|S2-D14",
+      "pair": [
+        "S2-D04",
+        "S2-D14"
+      ],
+      "relation_kind": "strict_specialization",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R09_RESTRICTED_MAP_ONLY",
+        "ODE:R06_ACTION_SPECTRUM"
+      ],
+      "proof_refs": [
+        "ODE:P_S2_SYM_REP"
+      ],
+      "argument": "所引证明给两端/三端逐一、观察及权限保持的子域映射，并给父域合法严格见证；只接受箭头方向，不作全域union。",
+      "specialization_direction": [
+        "S2-D04",
+        "S2-D14"
+      ],
+      "restricted_relation_axis": {
+        "proved_relation": "strict_specialization",
+        "direction": [
+          "S2-D04",
+          "S2-D14"
+        ],
+        "exhaustiveness": "仅声明所引已证特化；不宣称其他所有受限关系已穷尽"
+      }
+    },
+    {
+      "pair_id": "S2-D04|S3-D02",
+      "pair": [
+        "S2-D04",
+        "S3-D02"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S2-D04规定2次实际求解，S3-D02规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D04|S3-D06",
+      "pair": [
+        "S2-D04",
+        "S3-D06"
+      ],
+      "relation_kind": "projection_or_overlap",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R04_PREDICATE_RANK",
+        "ODE:R09_RESTRICTED_MAP_ONLY"
+      ],
+      "proof_refs": [
+        "ODE:P_PERM_DUAL_PROJECTION"
+      ],
+      "argument": "给定共同子域上S2-D04向量式推出S3-D06交叉标量式，并有同输入的候选返回非逆见证；全域rank2对rank1不变量排除所有允许的无损适配。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "specified_projection_or_overlap",
+        "proof_refs": [
+          "P_PERM_DUAL_PROJECTION"
+        ],
+        "exhaustiveness": "仅声明列明的共同域/非逆投影；其他可能受限关系未穷尽"
+      }
+    },
+    {
+      "pair_id": "S2-D04|S3-D07",
+      "pair": [
+        "S2-D04",
+        "S3-D07"
+      ],
+      "relation_kind": "projection_or_overlap",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R04_PREDICATE_RANK",
+        "ODE:R09_RESTRICTED_MAP_ONLY"
+      ],
+      "proof_refs": [
+        "ODE:P_PERM_DUAL_PROJECTION"
+      ],
+      "argument": "给定共同子域上S2-D04向量式推出S3-D07交叉标量式，并有同输入的候选返回非逆见证；全域rank2对rank1不变量排除所有允许的无损适配。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "specified_projection_or_overlap",
+        "proof_refs": [
+          "P_PERM_DUAL_PROJECTION"
+        ],
+        "exhaustiveness": "仅声明列明的共同域/非逆投影；其他可能受限关系未穷尽"
+      }
+    },
+    {
+      "pair_id": "S2-D04|S3-D08",
+      "pair": [
+        "S2-D04",
+        "S3-D08"
+      ],
+      "relation_kind": "projection_or_overlap",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R04_PREDICATE_RANK",
+        "ODE:R09_RESTRICTED_MAP_ONLY"
+      ],
+      "proof_refs": [
+        "ODE:P_PERM_DUAL_PROJECTION"
+      ],
+      "argument": "给定共同子域上S2-D04向量式推出S3-D08交叉标量式，并有同输入的候选返回非逆见证；全域rank2对rank1不变量排除所有允许的无损适配。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "specified_projection_or_overlap",
+        "proof_refs": [
+          "P_PERM_DUAL_PROJECTION"
+        ],
+        "exhaustiveness": "仅声明列明的共同域/非逆投影；其他可能受限关系未穷尽"
+      }
+    },
+    {
+      "pair_id": "S2-D04|S3-D16",
+      "pair": [
+        "S2-D04",
+        "S3-D16"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S2-D04规定2次实际求解，S3-D16规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D04|S3-D18",
+      "pair": [
+        "S2-D04",
+        "S3-D18"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S2-D04规定2次实际求解，S3-D18规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D04|TR-T01",
+      "pair": [
+        "S2-D04",
+        "TR-T01"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R3",
+        "TR:R7"
+      ],
+      "proof_refs": [],
+      "argument": "D04作用为非平凡二阶swap；T01任一非恒等正(a,c)在声明非零输入/正有限域上的作用为无限阶，且T01完整场非有限终态。",
+      "reverse_obstruction": "共同坐标共轭不能把无限阶变为二阶；仅取某些偶然对称实例不是覆盖全域。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D04|TR-T02",
+      "pair": [
+        "S2-D04",
+        "TR-T02"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T02有3个实际求解端，S2-D04有2个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D04|TR-T04",
+      "pair": [
+        "S2-D04",
+        "TR-T04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R6",
+        "TR:R8"
+      ],
+      "proof_refs": [],
+      "argument": "T04固定Ae下有任意偶体源f,g及一个交叉响应配对；S2-D04保留两个完整二维终态和其预定可逆状态作用。",
+      "reverse_obstruction": "任意f,g的无限秩源响应不能改名成有限初态/坐标；单标量配对与完整二维残差的观察约束也不同。禁止用Ae的逆或log改写为有限时间原始A问题。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D04|TR-T05",
+      "pair": [
+        "S2-D04",
+        "TR-T05"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R6",
+        "TR:R9"
+      ],
+      "proof_refs": [],
+      "argument": "T05的第二端受任意体权w驱动并有零出流，比较一个含独立入流迹的Green标量；S2-D04第二端是预定可逆状态作用下的二维前向问题并比较完整终态。",
+      "reverse_obstruction": "把体权/伴随迹换成有限终态作用不保raw角色；单Green配对也不能恢复全部二维终态残差。零出流与源端入流的区分不能凭名称抹去。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D14|S3-D02",
+      "pair": [
+        "S2-D14",
+        "S3-D02"
+      ],
+      "relation_kind": "projection_or_overlap",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT",
+        "ODE:R09_RESTRICTED_MAP_ONLY"
+      ],
+      "proof_refs": [
+        "ODE:P_REP_D02_OVERLAP"
+      ],
+      "argument": "共线输入子域上可由两个比例实例、共用三个实际返回推出相加；单个比例合同2节点而D02为3节点，不是全域或执行图同构。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "specified_projection_or_overlap",
+        "proof_refs": [
+          "P_REP_D02_OVERLAP"
+        ],
+        "exhaustiveness": "仅声明列明的共同域/非逆投影；其他可能受限关系未穷尽"
+      }
+    },
+    {
+      "pair_id": "S2-D14|S3-D06",
+      "pair": [
+        "S2-D14",
+        "S3-D06"
+      ],
+      "relation_kind": "projection_or_overlap",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R04_PREDICATE_RANK",
+        "ODE:R09_RESTRICTED_MAP_ONLY"
+      ],
+      "proof_refs": [
+        "ODE:P_REP_D06_PROJECTION"
+      ],
+      "argument": "给定共同子域上S2-D14向量式推出S3-D06交叉标量式，并有同输入的候选返回非逆见证；全域rank2对rank1不变量排除所有允许的无损适配。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "specified_projection_or_overlap",
+        "proof_refs": [
+          "P_REP_D06_PROJECTION"
+        ],
+        "exhaustiveness": "仅声明列明的共同域/非逆投影；其他可能受限关系未穷尽"
+      }
+    },
+    {
+      "pair_id": "S2-D14|S3-D07",
+      "pair": [
+        "S2-D14",
+        "S3-D07"
+      ],
+      "relation_kind": "projection_or_overlap",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R04_PREDICATE_RANK",
+        "ODE:R09_RESTRICTED_MAP_ONLY"
+      ],
+      "proof_refs": [
+        "ODE:P_REP_ADJOINT_PROJECTION"
+      ],
+      "argument": "给定共同子域上S2-D14向量式推出S3-D07交叉标量式，并有同输入的候选返回非逆见证；全域rank2对rank1不变量排除所有允许的无损适配。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "specified_projection_or_overlap",
+        "proof_refs": [
+          "P_REP_ADJOINT_PROJECTION"
+        ],
+        "exhaustiveness": "仅声明列明的共同域/非逆投影；其他可能受限关系未穷尽"
+      }
+    },
+    {
+      "pair_id": "S2-D14|S3-D08",
+      "pair": [
+        "S2-D14",
+        "S3-D08"
+      ],
+      "relation_kind": "projection_or_overlap",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R04_PREDICATE_RANK",
+        "ODE:R09_RESTRICTED_MAP_ONLY"
+      ],
+      "proof_refs": [
+        "ODE:P_REP_ADJOINT_PROJECTION"
+      ],
+      "argument": "给定共同子域上S2-D14向量式推出S3-D08交叉标量式，并有同输入的候选返回非逆见证；全域rank2对rank1不变量排除所有允许的无损适配。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "specified_projection_or_overlap",
+        "proof_refs": [
+          "P_REP_ADJOINT_PROJECTION"
+        ],
+        "exhaustiveness": "仅声明列明的共同域/非逆投影；其他可能受限关系未穷尽"
+      }
+    },
+    {
+      "pair_id": "S2-D14|S3-D16",
+      "pair": [
+        "S2-D14",
+        "S3-D16"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S2-D14规定2次实际求解，S3-D16规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D14|S3-D18",
+      "pair": [
+        "S2-D14",
+        "S3-D18"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S2-D14规定2次实际求解，S3-D18规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D14|TR-T01",
+      "pair": [
+        "S2-D14",
+        "TR-T01"
+      ],
+      "relation_kind": "projection_or_overlap",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R3",
+        "TR:R4",
+        "TR:R5",
+        "TR:R7"
+      ],
+      "proof_refs": [],
+      "argument": "在上述纯吸收出口投影域内再取D14的E=aI，可把E⁻¹y_f=y_s等式改写为y_f=a y_s。",
+      "reverse_obstruction": "出口投影丢场；D14全域含非均匀正对角及swap，T01全域含空间尺度。作用阶及raw类型不匹配；不能沿投影关系传递union。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "E-TR-CROSS-02：c=1、E=aI和共同纯吸收域上的投影对应。",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D14|TR-T02",
+      "pair": [
+        "S2-D14",
+        "TR-T02"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T02有3个实际求解端，S2-D14有2个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D14|TR-T04",
+      "pair": [
+        "S2-D14",
+        "TR-T04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R6",
+        "TR:R8"
+      ],
+      "proof_refs": [],
+      "argument": "T04固定Ae下有任意偶体源f,g及一个交叉响应配对；S2-D14保留两个完整二维终态和其预定可逆状态作用。",
+      "reverse_obstruction": "任意f,g的无限秩源响应不能改名成有限初态/坐标；单标量配对与完整二维残差的观察约束也不同。禁止用Ae的逆或log改写为有限时间原始A问题。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S2-D14|TR-T05",
+      "pair": [
+        "S2-D14",
+        "TR-T05"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R6",
+        "TR:R9"
+      ],
+      "proof_refs": [],
+      "argument": "T05的第二端受任意体权w驱动并有零出流，比较一个含独立入流迹的Green标量；S2-D14第二端是预定可逆状态作用下的二维前向问题并比较完整终态。",
+      "reverse_obstruction": "把体权/伴随迹换成有限终态作用不保raw角色；单Green配对也不能恢复全部二维终态残差。零出流与源端入流的区分不能凭名称抹去。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D02|S3-D06",
+      "pair": [
+        "S3-D02",
+        "S3-D06"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S3-D02规定3次实际求解，S3-D06规定2次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D02|S3-D07",
+      "pair": [
+        "S3-D02",
+        "S3-D07"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S3-D02规定3次实际求解，S3-D07规定2次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D02|S3-D08",
+      "pair": [
+        "S3-D02",
+        "S3-D08"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S3-D02规定3次实际求解，S3-D08规定2次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D02|S3-D16",
+      "pair": [
+        "S3-D02",
+        "S3-D16"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R02_RETURN_DEPENDENCY"
+      ],
+      "proof_refs": [],
+      "argument": "均为3节点，但D02没有返回→输入边，S3-D16有强制实际中间态→后段初态边。该依赖的存在性是保图适配不变量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D02|S3-D18",
+      "pair": [
+        "S3-D02",
+        "S3-D18"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R02_RETURN_DEPENDENCY"
+      ],
+      "proof_refs": [],
+      "argument": "均为3节点，但D02没有返回→输入边，S3-D18有强制实际中间态→后段初态边。该依赖的存在性是保图适配不变量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D02|TR-T01",
+      "pair": [
+        "S3-D02",
+        "TR-T01"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T01有2个实际求解端，S3-D02有3个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D02|TR-T02",
+      "pair": [
+        "S3-D02",
+        "TR-T02"
+      ],
+      "relation_kind": "projection_or_overlap",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R3",
+        "TR:R4",
+        "TR:R5"
+      ],
+      "proof_refs": [],
+      "argument": "在两群单向纯吸收共同域、两体源非零且不同支持时，三个完整场的出口分别对应三个ODE终态，输入/入流完整相加。",
+      "reverse_obstruction": "完整场→出口不可逆；全D02还允许同支持或共线输入，源空间为L¹，而共同域限L²及不同支持。不能由三个终态重建三个实际场。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "E-TR-CROSS-03：三端可加的共同域出口投影对应，不是完整场主合同的全域等价。",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D02|TR-T04",
+      "pair": [
+        "S3-D02",
+        "TR-T04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T04有2个实际求解端，S3-D02有3个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D02|TR-T05",
+      "pair": [
+        "S3-D02",
+        "TR-T05"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T05有2个实际求解端，S3-D02有3个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D06|S3-D07",
+      "pair": [
+        "S3-D06",
+        "S3-D07"
+      ],
+      "relation_kind": "strict_specialization",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R09_RESTRICTED_MAP_ONLY",
+        "ODE:R08_DUAL_DOMAIN",
+        "ODE:R11_JORDAN_STRUCTURE"
+      ],
+      "proof_refs": [
+        "ODE:P_D06_D07"
+      ],
+      "argument": "所引证明给两端/三端逐一、观察及权限保持的子域映射，并给父域合法严格见证；只接受箭头方向，不作全域union。",
+      "specialization_direction": [
+        "S3-D06",
+        "S3-D07"
+      ],
+      "restricted_relation_axis": {
+        "proved_relation": "strict_specialization",
+        "direction": [
+          "S3-D06",
+          "S3-D07"
+        ],
+        "exhaustiveness": "仅声明所引已证特化；不宣称其他所有受限关系已穷尽"
+      }
+    },
+    {
+      "pair_id": "S3-D06|S3-D08",
+      "pair": [
+        "S3-D06",
+        "S3-D08"
+      ],
+      "relation_kind": "strict_specialization",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R09_RESTRICTED_MAP_ONLY",
+        "ODE:R07_ZERO_SOURCE_HISTORY",
+        "ODE:R11_JORDAN_STRUCTURE"
+      ],
+      "proof_refs": [
+        "ODE:P_D06_D08"
+      ],
+      "argument": "所引证明给两端/三端逐一、观察及权限保持的子域映射，并给父域合法严格见证；只接受箭头方向，不作全域union。",
+      "specialization_direction": [
+        "S3-D06",
+        "S3-D08"
+      ],
+      "restricted_relation_axis": {
+        "proved_relation": "strict_specialization",
+        "direction": [
+          "S3-D06",
+          "S3-D08"
+        ],
+        "exhaustiveness": "仅声明所引已证特化；不宣称其他所有受限关系已穷尽"
+      }
+    },
+    {
+      "pair_id": "S3-D06|S3-D16",
+      "pair": [
+        "S3-D06",
+        "S3-D16"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S3-D06规定2次实际求解，S3-D16规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D06|S3-D18",
+      "pair": [
+        "S3-D06",
+        "S3-D18"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S3-D06规定2次实际求解，S3-D18规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D06|TR-T01",
+      "pair": [
+        "S3-D06",
+        "TR-T01"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R3",
+        "TR:R6"
+      ],
+      "proof_refs": [],
+      "argument": "T01是两个尺度关联前向场的完整协变；S3-D06是有限终态对偶的一个交叉标量。",
+      "reverse_obstruction": "完整场零残差不能无损换成单一预定配对；取体/出口投影都丢信息，增加轨迹输出或重解全场又改目标与信息权限。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D06|TR-T02",
+      "pair": [
+        "S3-D06",
+        "TR-T02"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T02有3个实际求解端，S3-D06有2个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D06|TR-T04",
+      "pair": [
+        "S3-D06",
+        "TR-T04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R8",
+        "TR:R13"
+      ],
+      "proof_refs": [],
+      "argument": "D06的自伴响应是二维exp(TA)、零外源、初态u/v；T04是有流Robin域上的Ae⁻¹、任意偶体源f/g。 更强地，固定raw模型并保端角色时，ODE双线性目标族通过二维终态因子化、秩≤2；该输运体源—观察族按R13可构造任意N阶满秩配对矩阵。最小充分积分返回不会抹去此不变量。",
+      "reverse_obstruction": "共同自伴/对偶证明不提供全域无损类型映射。固定模型的任意体激励不能保角色改成二维初/终态；有限模态限制、Ae逆、矩阵log或额外求解均被口径排除。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "只有已登记的结构类比；未把类比升级成具体投影合同，也不通过T04→T05或D06→D07→D08链传递union。",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D06|TR-T05",
+      "pair": [
+        "S3-D06",
+        "TR-T05"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R9",
+        "TR:R13"
+      ],
+      "proof_refs": [],
+      "argument": "即使限制到共同纯吸收微分表达，T05是任意体权w、非齐次伴随、零出流与体积分观察；S3-D06是有限初/终态激励的齐次对偶与终态配对，且还限同向自伴无源域。 更强地，固定raw模型并保端角色时，ODE双线性目标族通过二维终态因子化、秩≤2；该输运体源—观察族按R13可构造任意N阶满秩配对矩阵。最小充分积分返回不会抹去此不变量。",
+      "reverse_obstruction": "T05的χ=1−exp(x−1)、χ(1)=0不能仅改名为p=exp(x−1)v、v≠0。终端delta不属L²；加累积态改变二维目标；解特解以消体源属于新求解。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "E-TR-CROSS-05/06或共同对偶原理仅说明结构联系，不构成允许的全域或出口投影等价。",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D07|S3-D08",
+      "pair": [
+        "S3-D07",
+        "S3-D08"
+      ],
+      "relation_kind": "strict_specialization",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R09_RESTRICTED_MAP_ONLY",
+        "ODE:R07_ZERO_SOURCE_HISTORY"
+      ],
+      "proof_refs": [
+        "ODE:P_D07_D08"
+      ],
+      "argument": "所引证明给两端/三端逐一、观察及权限保持的子域映射，并给父域合法严格见证；只接受箭头方向，不作全域union。",
+      "specialization_direction": [
+        "S3-D07",
+        "S3-D08"
+      ],
+      "restricted_relation_axis": {
+        "proved_relation": "strict_specialization",
+        "direction": [
+          "S3-D07",
+          "S3-D08"
+        ],
+        "exhaustiveness": "仅声明所引已证特化；不宣称其他所有受限关系已穷尽"
+      }
+    },
+    {
+      "pair_id": "S3-D07|S3-D16",
+      "pair": [
+        "S3-D07",
+        "S3-D16"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S3-D07规定2次实际求解，S3-D16规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D07|S3-D18",
+      "pair": [
+        "S3-D07",
+        "S3-D18"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S3-D07规定2次实际求解，S3-D18规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D07|TR-T01",
+      "pair": [
+        "S3-D07",
+        "TR-T01"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R3",
+        "TR:R6"
+      ],
+      "proof_refs": [],
+      "argument": "T01是两个尺度关联前向场的完整协变；S3-D07是有限终态对偶的一个交叉标量。",
+      "reverse_obstruction": "完整场零残差不能无损换成单一预定配对；取体/出口投影都丢信息，增加轨迹输出或重解全场又改目标与信息权限。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D07|TR-T02",
+      "pair": [
+        "S3-D07",
+        "TR-T02"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T02有3个实际求解端，S3-D07有2个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D07|TR-T04",
+      "pair": [
+        "S3-D07",
+        "TR-T04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R8",
+        "TR:R9",
+        "TR:R13"
+      ],
+      "proof_refs": [],
+      "argument": "D07固定A时第二激励是二维v及真实Aᵀ终态；T04固定Ae时第二激励为任意g∈H_e、并且是同向自伴响应。 更强地，固定raw模型并保端角色时，ODE双线性目标族通过二维终态因子化、秩≤2；该输运体源—观察族按R13可构造任意N阶满秩配对矩阵。最小充分积分返回不会抹去此不变量。",
+      "reverse_obstruction": "共同自伴/对偶证明不提供全域无损类型映射。固定模型的任意体激励不能保角色改成二维初/终态；有限模态限制、Ae逆、矩阵log或额外求解均被口径排除。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "只有已登记的结构类比；未把类比升级成具体投影合同，也不通过T04→T05或D06→D07→D08链传递union。",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D07|TR-T05",
+      "pair": [
+        "S3-D07",
+        "TR-T05"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R9",
+        "TR:R13"
+      ],
+      "proof_refs": [],
+      "argument": "即使限制到共同纯吸收微分表达，T05是任意体权w、非齐次伴随、零出流与体积分观察；S3-D07是有限初/终态激励的齐次对偶与终态配对。 更强地，固定raw模型并保端角色时，ODE双线性目标族通过二维终态因子化、秩≤2；该输运体源—观察族按R13可构造任意N阶满秩配对矩阵。最小充分积分返回不会抹去此不变量。",
+      "reverse_obstruction": "T05的χ=1−exp(x−1)、χ(1)=0不能仅改名为p=exp(x−1)v、v≠0。终端delta不属L²；加累积态改变二维目标；解特解以消体源属于新求解。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "E-TR-CROSS-05/06或共同对偶原理仅说明结构联系，不构成允许的全域或出口投影等价。",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D08|S3-D16",
+      "pair": [
+        "S3-D08",
+        "S3-D16"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S3-D08规定2次实际求解，S3-D16规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D08|S3-D18",
+      "pair": [
+        "S3-D08",
+        "S3-D18"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R01_NODE_COUNT"
+      ],
+      "proof_refs": [],
+      "argument": "S3-D08规定2次实际求解，S3-D18规定3次；保节点与端角色的双射不存在。共用base、共同线性证明或增删求解不能补此差别。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "none_asserted_beyond_cited_evidence",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D08|TR-T01",
+      "pair": [
+        "S3-D08",
+        "TR-T01"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R3",
+        "TR:R6"
+      ],
+      "proof_refs": [],
+      "argument": "T01是两个尺度关联前向场的完整协变；S3-D08是有限终态对偶的一个交叉标量，D08另有独立伴随源配对积分。",
+      "reverse_obstruction": "完整场零残差不能无损换成单一预定配对；取体/出口投影都丢信息，增加轨迹输出或重解全场又改目标与信息权限。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D08|TR-T02",
+      "pair": [
+        "S3-D08",
+        "TR-T02"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T02有3个实际求解端，S3-D08有2个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D08|TR-T04",
+      "pair": [
+        "S3-D08",
+        "TR-T04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R8",
+        "TR:R9",
+        "TR:R13"
+      ],
+      "proof_refs": [],
+      "argument": "D08虽有任意正向b，但第二端仅二维终端v、零伴随体源；T04的第二端g是任意偶体源。 更强地，固定raw模型并保端角色时，ODE双线性目标族通过二维终态因子化、秩≤2；该输运体源—观察族按R13可构造任意N阶满秩配对矩阵。最小充分积分返回不会抹去此不变量。",
+      "reverse_obstruction": "共同自伴/对偶证明不提供全域无损类型映射。固定模型的任意体激励不能保角色改成二维初/终态；有限模态限制、Ae逆、矩阵log或额外求解均被口径排除。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "只有已登记的结构类比；未把类比升级成具体投影合同，也不通过T04→T05或D06→D07→D08链传递union。",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D08|TR-T05",
+      "pair": [
+        "S3-D08",
+        "TR-T05"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R9",
+        "TR:R13"
+      ],
+      "proof_refs": [],
+      "argument": "即使限制到共同纯吸收微分表达，T05是任意体权w、非齐次伴随、零出流与体积分观察；S3-D08是有限初/终态激励的齐次对偶与终态配对。 更强地，固定raw模型并保端角色时，ODE双线性目标族通过二维终态因子化、秩≤2；该输运体源—观察族按R13可构造任意N阶满秩配对矩阵。最小充分积分返回不会抹去此不变量。",
+      "reverse_obstruction": "T05的χ=1−exp(x−1)、χ(1)=0不能仅改名为p=exp(x−1)v、v≠0。终端delta不属L²；加累积态改变二维目标；解特解以消体源属于新求解。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": "E-TR-CROSS-05/06或共同对偶原理仅说明结构联系，不构成允许的全域或出口投影等价。",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D16|S3-D18",
+      "pair": [
+        "S3-D16",
+        "S3-D18"
+      ],
+      "relation_kind": "strict_specialization",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "ODE:R09_RESTRICTED_MAP_ONLY",
+        "ODE:R07_ZERO_SOURCE_HISTORY"
+      ],
+      "proof_refs": [
+        "ODE:P_D18_D16"
+      ],
+      "argument": "所引证明给两端/三端逐一、观察及权限保持的子域映射，并给父域合法严格见证；只接受箭头方向，不作全域union。",
+      "specialization_direction": [
+        "S3-D18",
+        "S3-D16"
+      ],
+      "restricted_relation_axis": {
+        "proved_relation": "strict_specialization",
+        "direction": [
+          "S3-D18",
+          "S3-D16"
+        ],
+        "exhaustiveness": "仅声明所引已证特化；不宣称其他所有受限关系已穷尽"
+      }
+    },
+    {
+      "pair_id": "S3-D16|TR-T01",
+      "pair": [
+        "S3-D16",
+        "TR-T01"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T01有2个实际求解端，S3-D16有3个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D16|TR-T02",
+      "pair": [
+        "S3-D16",
+        "TR-T02"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R2",
+        "TR:R3"
+      ],
+      "proof_refs": [],
+      "argument": "两者虽均三端，T02无返回→输入边；S3-D16必须把真实前段返回作为后段初态。",
+      "reverse_obstruction": "T02输入相加只依赖先验源；用输出产生第三输入会换合同。取消重启的强制数据边或改用已知/解析中间态也换合同。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D16|TR-T04",
+      "pair": [
+        "S3-D16",
+        "TR-T04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T04有2个实际求解端，S3-D16有3个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D16|TR-T05",
+      "pair": [
+        "S3-D16",
+        "TR-T05"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T05有2个实际求解端，S3-D16有3个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D18|TR-T01",
+      "pair": [
+        "S3-D18",
+        "TR-T01"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T01有2个实际求解端，S3-D18有3个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D18|TR-T02",
+      "pair": [
+        "S3-D18",
+        "TR-T02"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R2",
+        "TR:R3"
+      ],
+      "proof_refs": [],
+      "argument": "两者虽均三端，T02无返回→输入边；S3-D18必须把真实前段返回作为后段初态。",
+      "reverse_obstruction": "T02输入相加只依赖先验源；用输出产生第三输入会换合同。取消重启的强制数据边或改用已知/解析中间态也换合同。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D18|TR-T04",
+      "pair": [
+        "S3-D18",
+        "TR-T04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T04有2个实际求解端，S3-D18有3个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "S3-D18|TR-T05",
+      "pair": [
+        "S3-D18",
+        "TR-T05"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "TR-T05有2个实际求解端，S3-D18有3个实际求解端；这是无需假定特定数值算法即可检查的保图不变量。",
+      "reverse_obstruction": "不得把返回变换、源积分、边界配对或共用base计成新的求解；也不得删去或复制一个端以配齐数量。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "TR-T01|TR-T02",
+      "pair": [
+        "TR-T01",
+        "TR-T02"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "T01只有源/缩放后两个实际端；T02有A、B、AB三个实际端且不同支持的两个独立源。",
+      "reverse_obstruction": "从线性可加性推齐次性是定理推导，不是保图适配；省掉B端或把AB端设成输出相加均改变图。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "TR-T01|TR-T04",
+      "pair": [
+        "TR-T01",
+        "TR-T04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R6"
+      ],
+      "proof_refs": [],
+      "argument": "T01完整场协变残差属于无限维H；T04同模型两独立偶源只比较一个交叉配对标量。其源关联和输出比较均不同。",
+      "reverse_obstruction": "取非零h⊥f改动T04的g端返回，交叉配对不变；若把它当T01完整场返回误差，则完整场残差改变。把整个场压成此标量不是无损适配。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "TR-T01|TR-T05",
+      "pair": [
+        "TR-T01",
+        "TR-T05"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R6",
+        "TR:R9"
+      ],
+      "proof_refs": [],
+      "argument": "T01两端均为按(a,c)变换的前向问题并检查完整场；T05一端是真正伴随、含独立体权w与入流迹配对，只检查一个Green标量。",
+      "reverse_obstruction": "全场残差不能无损压成单Green配对；一般w与伴随零出流不是一个按正幅度/几何缩放的前向非负源及入流。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "TR-T02|TR-T04",
+      "pair": [
+        "TR-T02",
+        "TR-T04"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "三实际源叠加端与两实际双激励端的图节点数不同。",
+      "reverse_obstruction": "借对称性、线性性共用证明或base不允许增删第三实际端。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "TR-T02|TR-T05",
+      "pair": [
+        "TR-T02",
+        "TR-T05"
+      ],
+      "relation_kind": "distinct",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R1"
+      ],
+      "proof_refs": [],
+      "argument": "三实际前向叠加端与两实际前向/伴随端的图节点数不同。",
+      "reverse_obstruction": "Green配对中的体积分和边界配对不是第三次求解；把其补作端或删去T02联合端均越出允许适配。",
+      "specialization_direction": null,
+      "restricted_relation_axis": {
+        "proved_relation": null,
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    },
+    {
+      "pair_id": "TR-T04|TR-T05",
+      "pair": [
+        "TR-T04",
+        "TR-T05"
+      ],
+      "relation_kind": "strict_specialization",
+      "whole_domain_equivalence": "not_equivalent",
+      "mergeable": false,
+      "rule_refs": [
+        "TR:R0",
+        "TR:R11"
+      ],
+      "proof_refs": [],
+      "argument": "已存在覆盖T04声明域的受限偶响应适配；在该子域中保留两真实端和交叉标量，并有明确回映。",
+      "reverse_obstruction": "T05的非零入流合法例有严格正边界项，无法回到T04真空；一般非偶源/非自伴核也无法回映。",
+      "specialization_direction": [
+        "TR-T04",
+        "TR-T05"
+      ],
+      "restricted_relation_axis": {
+        "proved_relation": "采用E-TR-T04-T05的E/Π/R、图域、配对映射；只在该受限响应子域双向。",
+        "other_possible_restricted_relations": "not_exhaustively_adjudicated"
+      }
+    }
+  ],
+  "proved_specialization_graph": {
+    "direct_edges": [
+      [
+        "S2-D01",
+        "S2-D14"
+      ],
+      [
+        "S2-D04",
+        "S2-D14"
+      ],
+      [
+        "S3-D06",
+        "S3-D07"
+      ],
+      [
+        "S3-D07",
+        "S3-D08"
+      ],
+      [
+        "S3-D18",
+        "S3-D16"
+      ],
+      [
+        "TR-T04",
+        "TR-T05"
+      ]
+    ],
+    "derived_edge": [
+      "S3-D06",
+      "S3-D08"
+    ],
+    "maximal_node_count": 9,
+    "covered_node_count": 15,
+    "groups": [
+      {
+        "maximal_node": "S2-D14",
+        "covered_nodes": [
+          "S2-D01",
+          "S2-D04",
+          "S2-D14"
+        ],
+        "label": "完整表示/幅度/固定模型置换"
+      },
+      {
+        "maximal_node": "B3-D03",
+        "covered_nodes": [
+          "B3-D03"
+        ],
+        "label": "不可达零响应"
+      },
+      {
+        "maximal_node": "B3-D10",
+        "covered_nodes": [
+          "B3-D10"
+        ],
+        "label": "指定正路径下界"
+      },
+      {
+        "maximal_node": "S3-D02",
+        "covered_nodes": [
+          "S3-D02"
+        ],
+        "label": "ODE完整输入三端叠加"
+      },
+      {
+        "maximal_node": "S3-D08",
+        "covered_nodes": [
+          "S3-D06",
+          "S3-D07",
+          "S3-D08"
+        ],
+        "label": "ODE自伴/转置/含源对偶"
+      },
+      {
+        "maximal_node": "S3-D16",
+        "covered_nodes": [
+          "S3-D16",
+          "S3-D18"
+        ],
+        "label": "完整历史重启/自治半时特化"
+      },
+      {
+        "maximal_node": "TR-T01",
+        "covered_nodes": [
+          "TR-T01"
+        ],
+        "label": "输运尺度与幅度"
+      },
+      {
+        "maximal_node": "TR-T02",
+        "covered_nodes": [
+          "TR-T02"
+        ],
+        "label": "输运不同支持源三端叠加"
+      },
+      {
+        "maximal_node": "TR-T05",
+        "covered_nodes": [
+          "TR-T04",
+          "TR-T05"
+        ],
+        "label": "输运偶宇称互易/带入流伴随"
+      }
+    ],
+    "meaning": "9是当前已证严格特化图的极大节点数及其覆盖数；不是任意新父模板下的最小数、独立定理数或工程运行数。投影、共享base及跨域同结构不参与此图的包含闭包。"
+  },
+  "recommended_presentation": "正文按这9个已证模板组组织，把6个非极大严格子合同列为适用条件/覆盖例；附录保留15合同定义和105对证据。不要把15个全域类宣传为15项相互独立的新发现，也不要因共享定理把真实不同的输入变换和执行关系抹掉。",
+  "unknown_and_exclusion_disposition": [
+    {
+      "item": "所选105对的全域等价",
+      "status": "作者侧已闭合，unknown=0；独立签认待完成",
+      "consequence": "可提出有限精确计数15，不冻结为全局总数。"
+    },
+    {
+      "item": "所有潜在特化、投影、共同子域",
+      "status": "列明者已给证据，其余未穷尽",
+      "consequence": "不自动推独立或合并；不为穷举这些可能性无限增节点。当前9只读作已证图覆盖。"
+    },
+    {
+      "item": "原登记册另外27张D/T与18P、10U、5X",
+      "status": "保持第三阶段排除/未决处分",
+      "consequence": "不因本轮有限计数判它们为假或已去重；全局有效数继续null。"
+    },
+    {
+      "item": "工程资格、历史原包身份、完整输入与观察覆盖",
+      "status": "未由数学计数解决",
+      "consequence": "只能使用下列受限历史实证主张，STOP和门控不变。"
+    }
+  ],
+  "empirical_priorities": [
+    {
+      "priority": 1,
+      "name": "Z/P：同一真实配对上的错误可见性与观察盲区",
+      "contracts": [
+        "B3-D03",
+        "B3-D10"
+      ],
+      "historical_batches": [
+        "E1",
+        "C1 fresh-v1"
+      ],
+      "can_support": "在冻结三状态、共同零源、指定初态配对与各自有理目标下，健康Z相容、错路由EZ使Z拒绝、共同时间倍率ET仍保持Z而被独立正确全状态参考W识别；EZ可以同时违反Z并满足较弱P下界，说明观察及判据不同。",
+      "actual_execution_graph": {
+        "nodes_per_pair": 2,
+        "nodes": "同一实际工作A、T下分别求解u_s与u_f=u_s+a e1，取得两个真实返回。Z与P共享这两个返回；W另用后续端及参考，不增加执行。",
+        "batch_accounting": "E1为54调用/27配对/432次移位尝试；C1另54传播/27配对。各为3初态配对×3工作条件×3确定性轮×2端。先前六调用、C1旧EZ/ET四次UNKNOWN均另列，不并入。",
+        "inputs": "S1=(e3,e3+e1)，S2=(e2+2e3,e2+2e3+e1/2)，S3=(e2,e2+2e1)；a=1,1/2,2。",
+        "source_rank": "所谓“三源”是初态配对标签，b始终为0；三个差向量均沿e1，差输入方向秩1（由明示输入直接可见），不是三条独立外源方向。",
+        "working_graph": "声明A_N=[[-1,0,0],[1,0,0],[0,0,0]]；健康1→2、节点3不可达。EZ的A_(1/4)把第一列改为(-1,3/4,1/4)，新增1→3；ET工作A=2A_N。路径、权及beta须来自同一实际工作矩阵，不混声明/工作图。",
+        "observations": "Z=|e3ᵀ(y_f−y_s)|；P=e2ᵀ(y_f−y_s)；W=后续端到各自声明正确有理目标的全状态无穷范数距离。Z/P不是同一健康观察。"
+      },
+      "numerical_evidence": {
+        "target": "E1为冻结PFD r(TA)u；C1为OpenMC 0.15.3 IPF16的顺序因子目标q(TA)u。r与q并非同一精确有理函数。",
+        "common_caps": "每端E≤H=1e-8，Z阈值2H=2e-8。E1最大E约5.220548426268033e-13；C1最大E约2.79496e-15。",
+        "E1_P": "H/EZ预设P≥a b_lower−2H；b_lower绑定冻结T exp(-T)的有理下界，须分别核健康D及EZ的(1−epsilon)D≥b_lower。",
+        "C1_P": "三工作条件预设P≥0.3a−2H，0.3来自C1自身目标预检；不能倒写为E1共同事前规则。",
+        "W_rules": "E1的W与2H比较；C1健康W≤H、故障W>1e-3。两批后来统一P/W复核属于事后分析。",
+        "observed_signature": "按S1/S2/S3，H和ET的Z均0；EZ的Z约(0.125,0.0625,0.25)。EZ的W同量级，ET的W约(0.25,0.125,0.5)。",
+        "active_P_semantics": "一般P相容为d_hat≥L−E_m；L>tau_Z+E_m是排除指定零响应候选，不是P违例。保证负控违反P另需负控上界及分离。"
+      },
+      "identity_and_scope": "E1明确identity_certified=false；C1加强worker/observer/solver绑定但未全面认证共享库、原环境和捕获真实性，追踪透明性只覆盖旧H-u。直接独审接受的是保存字节、目标与条件数值链，不是完整前端认证。",
+      "cannot_claim": [
+        "不能说D03在满足全部前提的工作问题上被反证：EZ改变实际图，违反的是声明规格要求的零响应。",
+        "不能说P检出了EZ；本例EZ的P下界相容。不能把W当成第二条多运行MR或新增故障样本。",
+        "不能报告自然缺陷检出率、总体误报/漏报率、算法优劣、连续指数误差优势、所有路径/源或整个ONIX/OpenMC前端覆盖。"
+      ],
+      "minimum_missing_evidence_without_new_run": [
+        "在论文证据表逐对绑定实际两个返回、Z/P观察、E1/C1各自系数和事前P/W规则，并保留身份条件。",
+        "若需可交付复现材料，补齐独审指出的readonly_comparison_result.json与target_comparison_verified.json准确可读入口及字节身份；其数值已被独立复算，但文件本身未在该审查取得。",
+        "若欲升级运行身份主张，必须补独立捕获/完整加载链；现有材料不能用哈希或数值一致自动补齐。"
+      ],
+      "sources": [
+        "E1_POSTREVIEW",
+        "C1_E1_INTEGRATION_REVIEW",
+        "P12_3",
+        "E1_RUN_REPORT",
+        "C1_RUN_REPORT",
+        "PLAN25"
+      ]
+    },
+    {
+      "priority": 2,
+      "name": "M1 SCALE：共同错误保持与单侧错误拒绝",
+      "contracts": [
+        "TR-T01"
+      ],
+      "historical_batches": [
+        "M1"
+      ],
+      "can_support": "同一纯吸收离散实例上，健康尺度相容；两侧共同源加倍仍通过尺度但W证明错误；只在follow侧加倍形成有误差界的尺度拒绝。形成同一关系的健康、可见错误和保持错误三方对照。",
+      "actual_execution_graph": {
+        "nodes": "H_s/H_f、C_s/C_f、U_s/U_f各为两次真实求解；冻结轮另有A、B，与本轮H_s构成SUP。每轮共8端，不能把SUP的H_s再计一次。",
+        "accounting": "总24已审记录＝原6端先导＋事后A/B＋round1八端＋round2八端；补充18端。仅一个物理输入，先导SUP事后探索，两轮冻结后确认。",
+        "discretization": "四方位角/四极角、两区、单群纯吸收，88轨迹/116段/2 FSR；不是旧八方位/TY6经验六场。",
+        "map_and_observation": "历史SCALE取c=2,a=1：坐标/轨距及含轨距组合权×2，体积×4，截面/源÷2；观察按已核物理区域映射的返回通量。此有限区域观察不认证完整角场。"
+      },
+      "numerical_evidence": {
+        "caps": "每端E≤0.01，关系tau=0.04，错误见证omega=0.011。",
+        "round2_H": "尺度残差约1.1102230246251565e-16。",
+        "round2_C": "尺度残差约2.2204460492503131e-16，但两端W约0.57211837194>0.011。",
+        "round2_U": "尺度残差约0.57211859418333455；扣误差充分下界约0.57211814970613683>0.04。",
+        "floating_geometry": "116段中66段并非binary64精确二倍；实际离散目标尺度缺陷约3.60799e-18已计入。不得称实际实现严格精确离散同构。"
+      },
+      "identity_and_scope": "round2八个不同SUT PID，快照与round1对应快照逐字节一致，属确定性重复。部分二进制/源码实体核验沿用先前证据；getter不是内部实际源缓冲直接读回。round2仍有240次EISDIR，stdout/快照/trace完整支持受限结论。",
+      "cannot_claim": [
+        "不能称三物理输入或三轮全前瞻预注册，不能从共同源错误保持推出所有源/算子错误都不可见。",
+        "不能把旧八角经验六场参数或阈值混入这个四方位/四极角已审M1；不能据此认证散射、多群、连续角/空间误差、自然缺陷。",
+        "不是完整T01二参数全域实测，也不是完整四组件交织的普遍实现证明。"
+      ],
+      "minimum_missing_evidence_without_new_run": [
+        "整理24端账目，明确先导、事后SUP与两轮冻结端及共享H_s。",
+        "将独审最终意见与原包/参考/物理区域映射相互定位；若需更强身份，补先前实体证据入口，不用当前报告假充全包再认证。",
+        "继续保留连续解误差、真实内部源消费及更广输入/角模型缺口，不为增加端数重复同一实例。"
+      ],
+      "sources": [
+        "MRV_M1",
+        "REG3"
+      ]
+    },
+    {
+      "priority": 3,
+      "name": "M2 SCALE：散射反馈漏缩放的定向检出",
+      "contracts": [
+        "TR-T01"
+      ],
+      "historical_batches": [
+        "M2"
+      ],
+      "can_support": "在单群两区散射反馈离散固定点下，健康尺度关系成立；指定只遗漏Sigma_s缩放的合法负控产生尺度残差和独立W错误见证。科学增量是反馈项及输入形状覆盖，不是重复轮增加总体样本。",
+      "actual_execution_graph": {
+        "nodes": "每组H_s、H_f、A_s、B_s、N_f共5真实端。SCALE比较H_f与H_s；负控尺度比较N_f与同组H_s；SUP比较H_s与A_s+B_s，共享H_s不新增执行。",
+        "accounting": "八组全新五端＝40新端，另有q1第一轮历史混合五端（两个健康端历史复用，另外三端当时新执行）。不得写九组全新前瞻。",
+        "source_rank": "q1=(0.5,1)，q2=(1,0.25)，q3=(0.25,0.75)；两两不成比例，但14q3=11q1−2q2，源空间秩2。",
+        "map": "同单群两区算子、四方位/四极角、88轨迹/116段。健康同步缩放几何、源、截面；N_f保持缩放q和Sigma_t，却保留未缩放Sigma_s。负控各区Sigma_s<Sigma_t。",
+        "observation": "按已核物理区域映射的两区通量向量及其尺度/SUP残差；非完整连续角场。"
+      },
+      "numerical_evidence": {
+        "caps": "E≤0.01，参考区间全宽rho≤0.001，tau=0.04，omega=0.011。",
+        "actual": "40端最大E约4.502698e-7；健康尺度实测残差均0，含目标缺陷和端误差的充分界最大约6.088021e-7<0.04。",
+        "negative_control": "三源负控尺度残差约0.5258345085、0.3246407985、0.3667784262；最小扣误差信号下界约0.3246399847>0.04；各负控W下界>0.011。",
+        "reference_caution": "极小rho是离散参考区间宽度，不是SUT精度；120位点计算是交叉检查，不是第二套严格区间证明。"
+      },
+      "identity_and_scope": "原独审核40不同SUT PID/40不同trace/120阶段进程首领，冻结和依赖记录匹配；同源同角色重复快照逐字节相同。getter仍由最终通量重算，2030次EISDIR并未消失。此处直接引用独审，不声称本次重验实体。",
+      "cannot_claim": [
+        "不能称三条线性独立源方向、九组全新实验或统计成功率/置信区间。",
+        "不能把针对工作目标的小E当成程序正确；负控W相对于声明正确目标才是独立错误见证。",
+        "不能外推多群、上散射、全部核/角模型、连续误差或自然缺陷。"
+      ],
+      "minimum_missing_evidence_without_new_run": [
+        "逐组维持40新端与旧混合组账本及H_s复用边，保存事前阈值和后验判据。",
+        "整理源矩阵秩2与A/B分解、工作/声明材料回读和观察映射的可读证据入口。",
+        "如欲称严格源消费或全场保持，需额外内部缓冲/完整交织证据；当前限定论证不需新跑。"
+      ],
+      "sources": [
+        "MRV_M2",
+        "MRV_M2_Q1_R2",
+        "REG3"
+      ]
+    },
+    {
+      "priority": 4,
+      "name": "T02 SUP：真实三端叠加，不由尺度替代",
+      "contracts": [
+        "TR-T02"
+      ],
+      "historical_batches": [
+        "M1",
+        "M2"
+      ],
+      "can_support": "在固定完整离散算子下，空间支持不同的两个非零源分别求解，再实际求解其和，三个返回满足误差包围的源可加；M2包含散射反馈，不能简化成一次运输预设总源。",
+      "actual_execution_graph": {
+        "nodes_required": 3,
+        "nodes": "实际A_s、B_s、H_s，其中H_s为实际求解q_A+q_B的返回，不能用A_s+B_s后处理冒充。可与SCALE共享已合格H_s。",
+        "M1": "报告q_A=(1,0)、q_B=(0,1/4)，和为总源；round1/round2均用各自本轮H_s/A/B。先导总端历史已存在，事后追加A/B只算探索性SUP。",
+        "M2": "每源按A=(q_left,0)、B=(0,q_right)分解；五端组内与SCALE共享H_s。八全新组加一历史混合组，不能另计SUP运行总端。",
+        "source_information": "M1一对非零不同支持源；M2三总源秩2，不是秩3。M3虽三总源秩3，但没有A/B/和三端SUP实验。",
+        "observation": "三个真实返回在同一预定区域线性观察下比较；不能由该投影通过推出完整场全域通过。"
+      },
+      "numerical_evidence": {
+        "M1_round2": "实测残差约8.827251742060671e-10；D_SUP∈[0,1.48e-78]，含三端E充分界约4.63867376803e-7<tau=0.04。",
+        "M2": "三源实测SUP残差约1.803598e-9、1.132894e-9、1.765985e-9；八组充分界最大约6.379993e-7<0.04。",
+        "error_rule": "目标加法缺陷与E_sum+E_A+E_B及比较误差分别计入；健康尺度两端通过不能替代第三端或SUP误差资格。"
+      },
+      "identity_and_scope": "沿M1/M2各端身份、有限迭代、源getter与日志限制。确定性重复以及共享H_s不提供独立统计样本。",
+      "cannot_claim": [
+        "M3没有SUP；不能从M3三端数目或秩3借证为源叠加。",
+        "不能将两端HOM/SCALE、源总量账本或一个正确参考算作三端SUP。",
+        "共同错误线性算子仍可能满足SUP；已通过三端叠加不证明算子正确，也不补齐燃耗D02或MC随机样本版本。"
+      ],
+      "minimum_missing_evidence_without_new_run": [
+        "制作三端关系到原始端ID的唯一映射表，明确H_s既是SCALE base也是SUP总源端，不重复计数。",
+        "把非零不同支持、全部源/入流相加、同算子及同观察前提与实际材料/输入字段并排；保持零入流历史范围，不外推非零入流。",
+        "若提出SUP故障检出贡献，须另有指定故障的作用后信号和阈值分离证据；当前健康相容不自动证明额外检出能力。"
+      ],
+      "sources": [
+        "MRV_M1",
+        "MRV_M2",
+        "MRV_M2_Q1_R2",
+        "STAGE3_REVIEW",
+        "REG3"
+      ]
+    },
+    {
+      "priority": 5,
+      "name": "M3 SCALE：两群定向耦合与秩3输入",
+      "contracts": [
+        "TR-T01"
+      ],
+      "historical_batches": [
+        "M3"
+      ],
+      "can_support": "在两群两区、无裂变、单向1→2下散射的冻结模型中，健康尺度相容；去除1→2后群1目标保持而群2偏离，给出区别于单群自散射的定向耦合丢失见证。三源秩3增加输入方向覆盖。",
+      "actual_execution_graph": {
+        "nodes": "每组H_s/H_f/N_f为3个真实返回，健康尺度用H_s/H_f，负控分群尺度用H_s/N_f，共享H_s。三源×三轮×三端＝27端；不是三端SUP。",
+        "source_rank": "三个合法非负四维源，一个3×3子式87/128≠0，秩3。三轮是新进程确定性重复，不是统计独立。",
+        "map": "按物理区域重排(L1,R1,L2,R2)，不能假定FSR下标即左右，历史实际right=0、left=1。H_f几何/间距×2、所有截面及外源÷2；N_f仅移除两区工作1→2项，保留自散射、总截面、外源。",
+        "target": "h=P(q+Sh)下块三角两群固定点；群1区间完整传到群2。四方位/四极角、两区、无裂变。",
+        "observation": "四分量区域群通量及分群W；群2响应分离。群1固定点保持不要求所有有限迭代输出逐位相同。"
+      },
+      "numerical_evidence": {
+        "caps": "每端E≤0.001，rho≤0.0001，tau=0.01，omega=0.002。",
+        "healthy": "q1/q2/q3健康尺度实测差约1.110223e-16、0、0；充分界约5.668634e-7、2.348257e-7、4.177507e-7，均<0.01。",
+        "negative": "群2实测差约0.09165618、0.05660551、0.07415208；扣端误差下界约0.09165564、0.05660528、0.07415168，均>0.01；群2W下界均>0.002。",
+        "iteration_boundary": "q3负控比健康少一次sweep，群1有限输出差约1.2483e-10受E界覆盖；不能把该差另报新故障，或概称全部群1输出逐位一致。"
+      },
+      "identity_and_scope": "原独审逐组核27不同SUT PID、81不同阶段进程，全部27端后验合格；总体计费27已满。全批1212次EISDIR，getter非内部源缓冲直接观察，外源字段亦非独立缓冲转储。",
+      "cannot_claim": [
+        "无SUP证据；不能移作T02通过。",
+        "不能称一般多群/上散射、裂变、连续角/空间误差或自然缺陷覆盖。",
+        "不能由耦合矩阵非零就保证信号：需要实际源激活、观察及扣误差分离；三源三轮不支持总体率。"
+      ],
+      "minimum_missing_evidence_without_new_run": [
+        "以三源秩3、完整八散射元素和物理区域/群映射记录清楚新增覆盖，不以27端作为贡献替代。",
+        "保留q3迭代终止差及分群误差包围，直接关联整体独审和逐组证据。",
+        "若需更多模型或SUP覆盖，须另有具体合同、离散资格和授权；本摘要不建议用未跑端填现有完成表。"
+      ],
+      "sources": [
+        "MRV_M3",
+        "MRV_M3_Q1_R2",
+        "STAGE3_REVIEW",
+        "REG3"
+      ]
+    }
+  ],
+  "empirical_sources": {
+    "STAGE3_REVIEW": {
+      "library_file_id": "libfile_fde3_f-6e0f20baadc88191ab74e9f7663da984_0494671ff73c819189f74404b3b983a5",
+      "thread_id": "01a1afe9-6ca2-763d-9736-5205a77360cc",
+      "turn_id": "01a1b285-c178-76e1-bce6-f0ab653fb3b9",
+      "message_id": "msg_0703ef8de937838d016aee38d8a4a487d19c611d59d11deb28",
+      "access": "本次直接读取报告决策/相关逐卡段落及完整最终意见；不是重审原SUT包。"
+    },
+    "REG3": {
+      "library_file_id": "libfile_fde3_f-eaae647c89cc8191968aeba09470091d_0494671ff73c819189f74404b3b983a5",
+      "anchors": "D03 L88–103；D10 L207–222；T01 L581–596；T02 L598–613；工程表L818–831；原独审定位L948–955",
+      "access": "相关原卡由给定JSON完整快照读取；本次另直接读取原登记册工程表及原独审定位。"
+    },
+    "P12_3": {
+      "library_file_id": "libfile_fde3_f-ae10c9a0e6288191819b834238826ea2_0494671ff73c819189f74404b3b983a5",
+      "anchors": "§6.1–6.3 L269–383；附录L510–538",
+      "access": "本次直接读取相关完整段落；早期MOC经验段不移作较晚M1/M2/M3的当前状态。"
+    },
+    "PLAN25": {
+      "library_file_id": "libfile_fde3_f-4a34f558d2ac819191d027d02c4afef3_0494671ff73c819189f74404b3b983a5",
+      "access": "本次完整读取64行；D10-P与零响应候选判据分流的较晚有效修正。"
+    },
+    "E1_RUN_REPORT": {
+      "library_file_id": "libfile_fde3_f-2f6ba727047c8191acfb02f12dbfa367_0494671ff73c819189f74404b3b983a5",
+      "raw_package_library_file_id": "libfile_fde3_f-60414a8b48208191ab2f719880194937_0494671ff73c819189f74404b3b983a5",
+      "reported_package_sha256": "acf042869a908f1e26c0c77b4658a06ea754b48fb4d2c3ed871df22a6da12b71",
+      "access": "运行报告33行完整读取；原包未重审，标题待审状态由较晚后验意见替代。"
+    },
+    "C1_RUN_REPORT": {
+      "library_file_id": "libfile_fde3_f-7772b174494081919b792079a83f9132_0494671ff73c819189f74404b3b983a5",
+      "raw_package_library_file_id": "libfile_fde3_f-d322b8bd301881919593f1739acd73d4_0494671ff73c819189f74404b3b983a5",
+      "reported_package_sha256": "44d8099f17321a751da32ca8cece4ea6f99c8386c1a28fa096e110bef4d0e6d9",
+      "access": "运行报告19行完整读取；原包未重审。该报告“独立源输入三个”只按三组不同初态理解，不采作线性独立/随机独立。"
+    },
+    "E1_POSTREVIEW": {
+      "thread_id": "01a19c52-fb45-73d9-a4bd-27cbb715602f",
+      "turn_id": "01a1af4f-810b-713e-9ce4-66f2b529a2db",
+      "message_id": "msg_0f3ed0d2ec9d5763016aed64e53ad087d1988308db31e1c8b6",
+      "persistent_report_library_file_id": null,
+      "access": "本次直接读取完整最终独审；其报告1692项哈希、54证书/27配对精确复算通过。未取得独立审计附件的持久Library ID，不虚构。"
+    },
+    "C1_E1_INTEGRATION_REVIEW": {
+      "thread_id": "01a19c52-fb45-73d9-a4bd-27cbb715602f",
+      "turn_id": "01a1afad-869e-777e-b74f-b58d56d04e65",
+      "message_id": "msg_0f3ed0d2ec9d5763016aed7d8d1c0487d196baaabe7344a3ed",
+      "persistent_report_library_file_id": null,
+      "access": "本次直接读取完整最终独审；该轮实际取C1原包并结合E1原件，重算C1 54端/432因子/27对及目标对照。并非本次原包认证；C1更早首轮完整独审未另定位。"
+    },
+    "MRV_M1": {
+      "thread_id": "01a1afe9-6ca2-763d-9736-5205a77360cc",
+      "turn_id": "01a1b010-b34a-736f-b7d4-a48da202b66b",
+      "message_id": "msg_02368cb445ed3c8f016aed9723e0ec87d19339c15d79a01a43",
+      "raw_package_library_file_id": "libfile_fde3_f-d71489fcd0e48191ae2314a74f797314_0494671ff73c819189f74404b3b983a5",
+      "reported_package_sha256": "d3a39cafa48815bf525b4f7b5bbb2aae411024ef0e3538a54f475778409f733d",
+      "persistent_report_library_file_id": null,
+      "access": "本次直接读取round2完整独审最终意见和24端账目；原包未重审，报告中本地audit路径不当作已取得附件。"
+    },
+    "MRV_M2": {
+      "thread_id": "01a1afe9-6ca2-763d-9736-5205a77360cc",
+      "turn_id": "01a1b092-8590-76fb-bf2d-c57f001e3d6d",
+      "message_id": "msg_072b2ca318af8904016aedb7af01b087d2992d02d57de6cffd",
+      "raw_package_library_file_id": "libfile_fde3_f-f3a2ed44a6b481918e5f5240b87565f4_0494671ff73c819189f74404b3b983a5",
+      "reported_package_sha256": "a3fe374dc239ae671598b03edd614edcc7ba5f8c2c8f697fbec483cb8913d744",
+      "persistent_report_library_file_id": null,
+      "access": "本次直接读取八组40端整体独审完整最终意见；未重审原包。"
+    },
+    "MRV_M2_Q1_R2": {
+      "thread_id": "01a1afe9-6ca2-763d-9736-5205a77360cc",
+      "turn_id": "01a1b08a-795e-720b-9ea7-b5897be25118",
+      "message_id": "msg_0607e5345883adc5016aedb54e5bac87d298cabdc1e0acf540",
+      "access": "本次直接读取完整最终意见，核五端角色及实际误差/观察/源分解；较晚整体报告优先于其当时剩余预算。"
+    },
+    "MRV_M3": {
+      "thread_id": "01a1afe9-6ca2-763d-9736-5205a77360cc",
+      "turn_id": "01a1b0c0-0484-7374-8f62-376772174325",
+      "message_id": "msg_017a1a9930f1be5f016aedc3e3d89c87d1b4af02e231e17fa7",
+      "raw_package_library_file_id": "libfile_fde3_f-cbabaf1181188191b1403a5ac5be7672_0494671ff73c819189f74404b3b983a5",
+      "reported_package_sha256": "2efc9af9c74a475195d87e8bb0028cae029bc926051e0c338ba1eeb6c2a08573",
+      "persistent_report_library_file_id": null,
+      "access": "本次直接读取九组27端整体独审完整最终意见；未重审原包。"
+    },
+    "MRV_M3_Q1_R2": {
+      "thread_id": "01a1afe9-6ca2-763d-9736-5205a77360cc",
+      "turn_id": "01a1b0b9-0767-76cf-9656-74fbe06ea9b4",
+      "message_id": "msg_0e2e4c9e6a2cd99b016aedc11a2c8487d1b49e641c791be4d5",
+      "access": "本次直接读取完整最终意见，核三端角色、物理区域/群映射及rho帽；整体报告优先于其旧预算和q1逐位结论。"
+    }
+  },
+  "empirical_evidence_policy": [
+    "本次直接读取独审会话的完整最终意见；独审曾实际重算/核身份是其报告事实，不冒称本次执行了同样重算。",
+    "单次参考、正确目标错误见证W和误差证书E不增加MR节点。至少两个实际求解返回才组成MR。",
+    "同一返回可被多个谓词使用；共享base只计一次执行。不同进程和确定性重复不等于统计独立。",
+    "已接受数学全场或完整终态合同与历史有限区域/分群观察分开；观察投影不是全域无损等价。",
+    "历史原始包ID以下仅作定位，未下载、解包或重审；未取得独立报告的持久附件ID时给直接读取的thread/turn/message，不猜造ID。"
+  ],
+  "coverage_gaps": [
+    {
+      "gap": "全域数学资格不等于工程覆盖",
+      "detail": "D03/D10/T01/T02仅有特定历史实例/观察映射，不能报4/15的有效率或实验完成率。其余11张所选卡（D01、D04、D14、D02、D06、D07、D08、D16、D18、T04、T05）没有由本轮材料取得对应完整工程多端实测，且不据此断言历史绝无运行。"
+    },
+    {
+      "gap": "未跑/未完成门控",
+      "detail": "E2仅无源HOM/PERM有限G2，0实测，K1/K2/K3维数3/5/4不覆盖二维S2；D04固定A对称也不等于D14同步置换。E3完整G2/G3与真实半步转接未闭合；其约1e-15解析缺陷不是运行结果或所有binary64不可能分离定理。E5粗端受限接受，但fine捕获前hash核验超时、无blind fine，3次计费不等于3次完成SUT，更不是完成的粗细MR。"
+    },
+    {
+      "gap": "输入方向与模型范围",
+      "detail": "E1/C1为共同零源、三组初态配对且差方向秩1；M1一个物理输入；M2总源秩2；M3总源秩3但仅两群下散射。非零燃耗源、时变/历史、不同维数、一般角核、上散射/裂变及更广几何未由这些记录补齐。"
+    },
+    {
+      "gap": "观察与完整状态",
+      "detail": "Z/P不同坐标、输运区域/分群有限观察不能无损替代完整场或其他迹；单个汇合响应不能证明每条路径正确，完整T01/T02全域声明未被有限投影实测穷尽。"
+    },
+    {
+      "gap": "独立身份与实际源消费",
+      "detail": "E1 identity_certified=false；C1绑定增强但未完整加载/捕获认证。M1部分实体沿用；M1/M2/M3 getter为最终通量重算，未直接转储实际内部源缓冲，日志EISDIR仍存在。独审受限接受没有抹除这些条件。"
+    },
+    {
+      "gap": "连续解与真实缺陷",
+      "detail": "E针对各自冻结实际工作离散目标，rho为参考区间宽度，W针对声明正确目标；都不能自动充当连续解总误差。人工适配层/源/散射变异不是自然缺陷发现，也未形成真实缺陷分布或总体率证据。"
+    },
+    {
+      "gap": "三端与伴随/历史覆盖",
+      "detail": "M3未测SUP；M1/M2 SUP不能替代燃耗D02。D16/D18必须保留真实中间态到suffix的数据边与原绝对历史；D08/T05需要独立源积分/迹和真实伴随返回。解析例、参考值、单端证书都不能补第二/第三求解。"
+    },
+    {
+      "gap": "可复现交付链",
+      "detail": "本次原独审结论已直接定位，但未重认证历史包。优先补清晰端ID/共享base/阈值/源秩/观察/工作与声明目标的证据索引，以及C1/E1两个比较结果文件入口；避免用新同质调用掩盖归档或身份缺口。"
+    },
+    {
+      "gap": "有限数学去重不等于科学/工程完备",
+      "detail": "本稿105对全域等价作者侧已裁决；全局清单、全部受限映射和工程覆盖仍未闭合。15类、9个已证模板组、5项实证论证主题及真实端数属于不同层级，不能相互替代。"
+    }
+  ],
+  "empirical_summary": {
+    "priority_claims": 5,
+    "new_MRs_from_this_organization": 0,
+    "historically_supported_card_mappings": [
+      "D03",
+      "D10",
+      "T01",
+      "T02"
+    ],
+    "scope": "四张卡仅有受限历史实例/观察机制映射，不表示其完整声明域已实测，不能报4/15实验完成率。",
+    "source_rank_caution": "E1/C1三组初态差方向秩1；M1仅一个物理输入；M2三总源秩2；M3秩3但无SUP。",
+    "immediate_action": "先用已有真实端和独审做论证证据表，补端ID/共享base/阈值/观察/工作与声明目标的索引，不先追加同质运行。"
+  },
+  "next_independent_review_targets": [
+    "确认本稿没有改动第三阶段15合同的合法域、完整场主谓词、D08最小观察与执行图。",
+    "审105对证据的覆盖与允许适配保持性；特别Jordan块、候选返回约束秩、非零源/边界签名及最小观察双线性族秩。若其中任何对证书不足，将该对退回unknown并给计数界，不以口号补齐。",
+    "裁决有限15类精确数能否签认；9只作为已证严格特化图极大节点覆盖。不得写成15条独立定理、15种独立能力或全局总数。",
+    "核实五项实证论证的历史范围、共享端、秩及身份限制，尤其M3无SUP、E2未实测、E3/E5未完成；不签发GO。"
+  ],
+  "fragment_identity": [
+    {
+      "filename": "ode_pair_adjudication_20261106.json",
+      "bytes": 72201,
+      "sha256": "366cd7b0c61423e40e05f8b05fd00f7305bb9bc85817a61e47e6b239b216c699"
+    },
+    {
+      "filename": "transport_pair_adjudication_20261106.json",
+      "bytes": 63602,
+      "sha256": "2104a76abf6ac4d6971d35c662e6259400d39864c5731aaed81ae2b2a3d76c48"
+    },
+    {
+      "filename": "empirical_mr_priority_20261106.json",
+      "bytes": 28378,
+      "sha256": "114da82e5a024bc56f940ebdc4ebd836f8061a98a04333139a7f53b575aac740"
+    }
+  ]
+}

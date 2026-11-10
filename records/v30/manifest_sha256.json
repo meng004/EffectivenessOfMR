@@ -1,0 +1,256 @@
+{
+  "schema": "v30-delivery-manifest/1.0",
+  "excludes": [
+    "manifest_sha256.json"
+  ],
+  "files": {
+    "README_v30.md": {
+      "sha256": "099cfde08142422f92caad8ce8c3918147ff4b9c844e6947f4f05e9b385b5b55",
+      "bytes": 1852
+    },
+    "baseline_v29/README_v29.md": {
+      "sha256": "b2803a988232cc485cbf4bf749aa9de32612126441ae65c59650fff475daff9a",
+      "bytes": 2506
+    },
+    "baseline_v29/baseline_v28/README_v28.md": {
+      "sha256": "b46a6a694a76ee026cedfd4ae3a903b6e99d51bb4b7315b53f24108476d13e4b",
+      "bytes": 3814
+    },
+    "baseline_v29/baseline_v28/evidence/v25_N1_final_review_package.zip": {
+      "sha256": "45dc02cb2223aa5f5bc9bb2622f289b251a1e190fe9ae145a05464171c3ec15e",
+      "bytes": 19246832
+    },
+    "baseline_v29/baseline_v28/evidence_inventory_v27.json": {
+      "sha256": "659b6e8d097ec071291101793e9d8534162cc9538418297fb924e00a40eea475",
+      "bytes": 32290
+    },
+    "baseline_v29/baseline_v28/manifest_v28.json": {
+      "sha256": "cc686ff399d5e3cb50548af262ac03a56d7d46331108e06a87d084655dc068d0",
+      "bytes": 7103
+    },
+    "baseline_v29/baseline_v28/prior_reports/燃耗MR识别报告A_基于元模式与MR族.md": {
+      "sha256": "b4cdd988686a2864cb5d3d401fcbc6577661eeb00816f1fd2e8b8f3b689f53c8",
+      "bytes": 53368
+    },
+    "baseline_v29/baseline_v28/prior_reports/燃耗MR识别报告B_基于方程与离散算法性质.md": {
+      "sha256": "467a030243e17379e487dce7242e2890a8a9475cec0d1c51ed7fe8cb3971b258",
+      "bytes": 48372
+    },
+    "baseline_v29/baseline_v28/provenance/manifest_v27.json": {
+      "sha256": "06cc5a7153aec66b884ad82e8408d46bc4a33af61751600fd0a49347d799c039",
+      "bytes": 5011
+    },
+    "baseline_v29/baseline_v28/provenance/v27_section_migration.json": {
+      "sha256": "9260e20bb8fa081f6a901a2a4e78ee7421864efa5af5794a63c20f32148910ce",
+      "bytes": 18450
+    },
+    "baseline_v29/baseline_v28/provenance/参考文献元数据核对_v26.json": {
+      "sha256": "6e479a42708daf730726bc325f1010cfc35375ec03dcaf860d20c4e138f5d331",
+      "bytes": 77781
+    },
+    "baseline_v29/baseline_v28/provenance/来源增量核对_v27.json": {
+      "sha256": "e568b3a62602b803a810cd1ed9c6e7e3e0f7f5ee342d177769c517f4f8bf330b",
+      "bytes": 4806
+    },
+    "baseline_v29/baseline_v28/provenance/来源核对_v26.json": {
+      "sha256": "7d67d33a26dd0b1b36e43d0edfc5b32d28ed4866f3caead1080aa1ec8eac3aea",
+      "bytes": 5185
+    },
+    "baseline_v29/baseline_v28/provenance/核验报告_v26_独立定向.md": {
+      "sha256": "6f5756bb3ae0e236ca8186170c4ff39b9109ba74b222c63bce5ad80a2c2386e8",
+      "bytes": 9760
+    },
+    "baseline_v29/baseline_v28/provenance/核验报告_v27_独立定向.md": {
+      "sha256": "bd89880d7badb5264d0afeadf3944fd92273226bbb6a0b3e632378ce4fc8e7ae",
+      "bytes": 13032
+    },
+    "baseline_v29/baseline_v28/provenance/结构MR有效范围与能力边界_修订稿_v26.md": {
+      "sha256": "ce36cacdec5e658aa1290363d65bd4d1e43e9e3080cea1afd4c90c395f53da18",
+      "bytes": 137341
+    },
+    "baseline_v29/baseline_v28/provenance/结构MR离散后有效性预测_重构稿_v27.md": {
+      "sha256": "a2e9a36f5f28f87fe5229ae2fadc1434dbe26818d0c2446c1aeb2f4213f92c39",
+      "bytes": 154704
+    },
+    "baseline_v29/baseline_v28/reviews/v25_ARS全新评审_完整交付包.zip": {
+      "sha256": "f89b58e9fdd48973f49b2c9c06f28841ec736561417fb65697198b61b9c7c3f4",
+      "bytes": 588454
+    },
+    "baseline_v29/baseline_v28/upstream/independent-finite15-dedup-and-evidence-review.json": {
+      "sha256": "1d48cd5ff96a9497f5402717ce8cc51327a6f356b80e48f9f5b009806b16a3ad",
+      "bytes": 64793
+    },
+    "baseline_v29/baseline_v28/upstream/mr_finite15_adjudication_and_evidence_20261106.json": {
+      "sha256": "5f6942e26f3af389708da3d82b3698140849b044c8e437ecb75ea94b1c4d409d",
+      "bytes": 167555
+    },
+    "baseline_v29/baseline_v28/upstream/mr_valid_contract_inventory_stage3_20261106.json": {
+      "sha256": "638828dc8eec441f82434a403efcdf4b03e81450d8dbafe880b11cd1a482b2f9",
+      "bytes": 230730
+    },
+    "baseline_v29/baseline_v28/v26_result_index.json": {
+      "sha256": "6460d91e0f2d025f17db0d3f9b90c16c99ecee297da2c02d7579d2e16df5280c",
+      "bytes": 384290
+    },
+    "baseline_v29/baseline_v28/v27_to_v28.diff": {
+      "sha256": "1da8615198d3de7800c07d11f074fba6d567fb4988ab005a9218b46e6bb62c45",
+      "bytes": 150115
+    },
+    "baseline_v29/baseline_v28/v28_migration.json": {
+      "sha256": "09890c704daa84d8b249d7d50edbc5b779443e1b73fa5e25b414e69fe97ed925",
+      "bytes": 32454
+    },
+    "baseline_v29/baseline_v28/v28_static_verification.json": {
+      "sha256": "756d964e323dcb0bc56e1e7e5ec6a9b125da4e7582fa75cf81f1e90748fde09d",
+      "bytes": 10163
+    },
+    "baseline_v29/baseline_v28/verify_v28_static.py": {
+      "sha256": "7cbb3edb9942ea6aabdae504eb17cb29e618f1220c823372a1d0155631ba32b1",
+      "bytes": 5911
+    },
+    "baseline_v29/baseline_v28/修改说明_v28.md": {
+      "sha256": "bd56a43334b5a33ed4624846e673f76b581bdbca0f4778618c25ea408828b69f",
+      "bytes": 7127
+    },
+    "baseline_v29/baseline_v28/前作来源审读与采用边界_v28.md": {
+      "sha256": "0d48af34ad53648d6785963dc8bd1b5cfde108cc50d1ddffccdaaaff85b06c08",
+      "bytes": 4613
+    },
+    "baseline_v29/baseline_v28/原件身份复核_v28.json": {
+      "sha256": "ef2ecb0460514c3c8f40603c4416b2191a571356a6a25adde8288efbbe54d962",
+      "bytes": 4542
+    },
+    "baseline_v29/baseline_v28/四缺口修复前独立诊断_v28.md": {
+      "sha256": "493e90dfb9668e71caff6735373b4501cf6911836851cb856d60762e55f2dc8b",
+      "bytes": 13531
+    },
+    "baseline_v29/baseline_v28/来源核对与阅读范围_v28.json": {
+      "sha256": "7c33918449de71f9273122906ff5f68985122b301698c9ae41b96d44a3d4d92d",
+      "bytes": 8537
+    },
+    "baseline_v29/baseline_v28/核验报告_v28_独立定向.md": {
+      "sha256": "b34e5eb4c0985b9bcf38265219a8423265370f89e98ae132fb28ba45e5e0e582",
+      "bytes": 11358
+    },
+    "baseline_v29/baseline_v28/独立证据库存增量_v28.json": {
+      "sha256": "00b6a88f07ea081dc52376d70354e463444b5892764e1a2aae1197cba4f60a6a",
+      "bytes": 13939
+    },
+    "baseline_v29/baseline_v28/结构MR离散后有效性预测_修订稿_v28.md": {
+      "sha256": "3b2941c279a8d8945a71be97f9d4679fbdb95c11b0b2096f106e70d46c31ecb1",
+      "bytes": 176844
+    },
+    "baseline_v29/baseline_v28/证据缺口与修复状态_v28.md": {
+      "sha256": "1e1e242a0bf2718874a1b5f2ec9704d486503e73574cecd9151884de8c780658",
+      "bytes": 10002
+    },
+    "baseline_v29/manifest_v29.json": {
+      "sha256": "4d81af461fdc4396e33fea14dd39e12abfc7f4bcb2e6ff0aae11b2568623e293",
+      "bytes": 8994
+    },
+    "baseline_v29/v28_to_v29.diff": {
+      "sha256": "a7d7188b5328016a0d64533124f8fadc70187d6b244127022371f0af0f65f47c",
+      "bytes": 50732
+    },
+    "baseline_v29/v29_migration.json": {
+      "sha256": "1a4f5aa84e08b378438153e5fd1ada3a98000c69d033eb3934b8c9449990039a",
+      "bytes": 43525
+    },
+    "baseline_v29/verify_v29_static.py": {
+      "sha256": "170470af3b7d9d4889fc736ff01da5a80d65904dc20e15b0421aa8f5f49e6dde",
+      "bytes": 5380
+    },
+    "baseline_v29/修复计划与验收标准_v29.md": {
+      "sha256": "ec79de46856b69cc3d33060ce373c7f0be31e3f4b0fb898db0a2dbe9ebe50818",
+      "bytes": 7268
+    },
+    "baseline_v29/修改说明_v29.md": {
+      "sha256": "bb658f66c11bd21576a6865d20ff722ea8fc70f070b66c128bc1891383a47450",
+      "bytes": 6928
+    },
+    "baseline_v29/协调者身份与静态复核_v29.json": {
+      "sha256": "8c067372e25aa80aa2161efac7d4782522c12889b1a0901872ce7aa278efd67f",
+      "bytes": 731
+    },
+    "baseline_v29/可复用成果与操作卡_v29.md": {
+      "sha256": "633cd33a6a95f9a83007e014dbf2335126a93f9fbbb9152e7119ec452920d2f9",
+      "bytes": 9049
+    },
+    "baseline_v29/操作卡E1_S1R1证据索引_v29.json": {
+      "sha256": "d7e45e51447df2388e8e188fb9c707ed85c51a2ead6948d6d0a1a4e7b93ac99b",
+      "bytes": 9665
+    },
+    "baseline_v29/本轮来源与阅读范围_v29.json": {
+      "sha256": "ca466130750b0e57352c872d30b0f545995fac420e2df83da2db96882b8caa10",
+      "bytes": 3189
+    },
+    "baseline_v29/核验报告_v29.md": {
+      "sha256": "7093c70016bc6547b499ea29e7fa724a1602d0774a2174159340d46a0e18185c",
+      "bytes": 3352
+    },
+    "baseline_v29/独立复审报告_v29.md": {
+      "sha256": "28a870c7e95466ffb77be087c3cc50396680ef972986c4683c2898bb5a04f2d6",
+      "bytes": 16221
+    },
+    "baseline_v29/结构MR离散后有效性预测_修订稿_v29.md": {
+      "sha256": "6d45b9a106bfb665939b0269a3f571e513230839ce764fab51d623d684139d70",
+      "bytes": 189035
+    },
+    "baseline_v29/证据缺口与未执行计划_v29.md": {
+      "sha256": "38d82deaf9e93898dd0090b1ed060ba141be4a84789434cf7fe0e6e1a67f71e3",
+      "bytes": 3128
+    },
+    "baseline_v29/静态核验结果_v29.json": {
+      "sha256": "9feb7c8ef7771c810503b0ca9ab4086ea16968421c07f1c3299623c4e1c05843",
+      "bytes": 9999
+    },
+    "v29_to_v30.diff": {
+      "sha256": "b801976ffe379acf15b60d2bf2520d734f86f3538a54e112bd7bbba38c398dd1",
+      "bytes": 157544
+    },
+    "v30_migration.json": {
+      "sha256": "c46fead4e45490e5942355e279d7cd5329e3c35f7039517052dbe4e17fb8bb9a",
+      "bytes": 310616
+    },
+    "verify_v30_static.py": {
+      "sha256": "e1a21c126a2a0bc35826b1913ea6210718b7fa61e9da15244ccde3ad2c5e776b",
+      "bytes": 6022
+    },
+    "书目阅读注迁移_v30.json": {
+      "sha256": "6e489f179f330bd19945c620828098963f93e06ffa61638d0a77232ff5b32386",
+      "bytes": 4375
+    },
+    "修改说明_v30.md": {
+      "sha256": "a6cedb181e929053c9696da85692af1655c9bb399a0ed4ccbdf34bdf750a652e",
+      "bytes": 8844
+    },
+    "公式与数值比对_v30.json": {
+      "sha256": "5c88c400dee9bfb98539d8a41a950771295df96e34ad50c490baf62ac6cea2d7",
+      "bytes": 78556
+    },
+    "命题与证明对应_v30.md": {
+      "sha256": "63cceb2e71d1932b43421c027a44cde6e06c6e232ff021aae0145b6c93eb8617",
+      "bytes": 4321
+    },
+    "根线程交付核验_v30.md": {
+      "sha256": "9985ae80e757d5564a010f02f894173097f9414cf85d2daad2949d266f35c5e4",
+      "bytes": 2589
+    },
+    "根线程核验结果_v30.json": {
+      "sha256": "d666e576e54067ff666c22ff151261db44379667697b56a54ba03b530f8612c6",
+      "bytes": 1164
+    },
+    "独立核验报告_v30.md": {
+      "sha256": "d55d8b3545fb833da5117a50af168c4d7891a10b52db4ad52c8367bc77a56f8b",
+      "bytes": 11723
+    },
+    "结构MR离散后有效性预测_润色稿_v30.md": {
+      "sha256": "451fa78c9a88746db961aadc4ee99f8ee1f32cc13d902e8afe8442dfd283c73d",
+      "bytes": 185765
+    },
+    "静态核验结果_v30.json": {
+      "sha256": "3da2aef044bea1986851c91d419a144f22b9d5aa4b9f10213c4a2f40c79a4bc6",
+      "bytes": 21850
+    }
+  }
+}
