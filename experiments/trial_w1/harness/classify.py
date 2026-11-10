@@ -35,7 +35,8 @@ for db in dbs:
            FROM mutation_specs s JOIN work_results r ON s.job_id = r.job_id"""
     for path, op, line, wo, to, output in sqlite3.connect(db).execute(q):
         fn = func_at(path, line)
-        failed = [ln.split()[1] for ln in (output or "").splitlines() if ln.startswith("MRVERDICT") and ln.endswith("fail")]
+        failed = [ln.split()[1] for ln in (output or "").splitlines()
+                  if ln.startswith("MRVERDICT") and (ln.endswith("fail") or ln.split()[1] == "crash")]
         rows.append({"db": Path(db).name, "file": Path(path).name, "line": line, "function": fn,
                      "layer": layers.get((Path(path).name, fn), "unlabeled"), "operator": op,
                      "covered": covered(path, line), "worker": str(wo).split(".")[-1].lower(),
